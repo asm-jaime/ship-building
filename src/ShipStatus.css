@@ -1,0 +1,4 @@
+.ship-status{
+  grid-area: ship-status;
+  background: deepskyblue;
+}

@@ -1,0 +1,4 @@
+.search-result{
+  grid-area: search-result;
+  background: deepskyblue;
+}
