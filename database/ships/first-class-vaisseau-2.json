@@ -3,6 +3,7 @@
   "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000192",
   "name": "First Class Vaisseau",
   "ship_size": 2,
+  "row": false,
   "improve_times": [4, 0],
   "days": 30,
   "ship_handling_proficiency": 200,

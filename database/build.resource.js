@@ -6,11 +6,13 @@ function get_ships() {
 
   const files = fs.readdirSync(db_ships);
 
-  const res = Object.create(null);
+  //const res = Object.create(null);
+  const res = [];
   for(let i = 0; i < files.length; ++i) {
     if(path.extname(files[i]) === '.json') {
       const rawdata = fs.readFileSync(`${db_ships}/${files[i]}`, 'utf8');
-      res[path.basename(files[i], '.json')] = JSON.parse(rawdata);
+      //res[path.basename(files[i], '.json')] = JSON.parse(rawdata);
+      res.push(JSON.parse(rawdata));
     }
   }
 
@@ -55,10 +57,10 @@ function get_resources() {
   res["skills"] = get_skills();
 
   fs.writeFile(
-    './res.json',
+    '../public/resource.json',
     JSON.stringify(res),
     'utf8',
-    () => { console.log('>>build res.json complete'); }
+    () => { console.log('>>build resource.json complete'); }
   );
 }
 
