@@ -1,4 +1,16 @@
 .search-result{
   grid-area: search-result;
-  background: deepskyblue;
+  background: white;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.result-ship{
+  display: flex;
+  align-items: center;
+  margin: 1px;
+}
+
+.result-ship-name{
+  margin: 5px;
 }

@@ -3,7 +3,8 @@ import {
   LVL_MIN,
   LVL_MAX,
   LVL_ADVENTURE_SET,
-  SEARCH_SET
+  SEARCH_SET,
+  SHIP_SET,
 } from './constants';
 
 export const Store = React.createContext();
@@ -27,7 +28,7 @@ const initialState = {
     nc: true,
     searchStr: '',
   },
-  search_result: [],
+  searchResult: [],
   improvements: [
     {
       _id: '1',
@@ -50,7 +51,9 @@ function shipbuilder(state, action) {
     case LVL_ADVENTURE_SET:
       return Object.assign({}, state, {edit_id: action.payload});
     case SEARCH_SET:
-      return Object.assign({}, state, {search_result: action.payload});
+      return Object.assign({}, state, {searchResult: action.payload});
+    case SHIP_SET:
+      return Object.assign({}, state, {ship: action.payload});
     default:
       return state;
   }

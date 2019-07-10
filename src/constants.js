@@ -3,6 +3,8 @@ export const LVL_MAX = 87;
 
 export const SEARCH_SET = 'SEARCH_SET';
 
+export const SHIP_SET = 'SHIP_SET';
+
 export const LVL_ADVENTURE_SET = 'LVL_ADVENTURE_SET';
 export const LVL_ADVENTURE_INC = 'LVL_ADVENTURE_INC';
 export const LVL_ADVENTURE_DEC = 'LVL_ADVENTURE_DEC';

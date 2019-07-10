@@ -1,3 +1,10 @@
+.horizontal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
 .search{
   grid-area: search;
   background: #efe7a4;
@@ -16,7 +23,7 @@
 }
 
 .lvl-label{
-  width: 80px;
+  width: 60px;
   margin: 5px;
 }
 
@@ -25,7 +32,6 @@
   flex-direction: column;
   justify-content: right;
 }
-
 
 .type-boxes{
   display: flex;
@@ -38,5 +44,26 @@
   display: flex;
 }
 .type-input{
+  margin: 5px;
+}
+
+/*search string*/
+
+.search-str-box{
+  display: flex;
+}
+
+.search-str{
+  margin: 5px;
+  min-width: 10px;
+}
+
+.label-search-str{
+  flex-shrink: 0;
+  flex-grow: 1;
+  margin: 5px;
+}
+
+.search-button{
   margin: 5px;
 }

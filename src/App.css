@@ -6,7 +6,7 @@
   min-height: 100vh;
 
   display: grid;
-  grid-template-rows: 300px 100px minmax(100px, auto) minmax(100px, auto) 200px;
+  grid-template-rows: minmax(100px, auto) 100px minmax(100px, auto) minmax(100px, auto) 200px;
   grid-template-columns: 1fr 1fr 2fr;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
@@ -15,4 +15,8 @@
                        "search-result grade grade"
                        "search-result improve improve"
                        "footer footer footer";
+}
+
+.component-title{
+  text-align: center;
 }

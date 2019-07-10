@@ -53,7 +53,7 @@ const TypeShipBox = (props) => {
 }
 
 const Search = (props) => {
-  const { state, dispatch } = React.useContext(Store);
+  const { dispatch } = React.useContext(Store);
 
   const [lvlAdvent, setLvlAdvent] = React.useState({from: LVL_MIN, to: LVL_MAX});
   const [lvlTrade, setLvlTrade] = React.useState({from: LVL_MIN, to: LVL_MAX});
@@ -131,19 +131,22 @@ const Search = (props) => {
 
   return (
     <div className="search">
-      <LvlBox name="lvl adv:"
-        from={lvlAdvent.from} to={lvlAdvent.to}
-        handleFrom={handleAdvFrom} handleTo={handleAdvTo}
-      ></LvlBox>
-      <LvlBox name="lvl trd:"
-        from={lvlTrade.from} to={lvlTrade.to}
-        handleFrom={handleTrdFrom} handleTo={handleTrdTo}
-      ></LvlBox>
-      <LvlBox name="lvl btl:"
-        from={lvlBattle.from} to={lvlBattle.to}
-        handleFrom={handleBtlFrom} handleTo={handleBtlTo}
-      ></LvlBox>
-      <div className="type-boxes">
+      <div className="component-title">Search a ship</div>
+      <div className="horizontal">
+      <div>
+        <LvlBox name="lvl adv:"
+          from={lvlAdvent.from} to={lvlAdvent.to}
+          handleFrom={handleAdvFrom} handleTo={handleAdvTo}
+        ></LvlBox>
+        <LvlBox name="lvl trd:"
+          from={lvlTrade.from} to={lvlTrade.to}
+          handleFrom={handleTrdFrom} handleTo={handleTrdTo}
+        ></LvlBox>
+        <LvlBox name="lvl btl:"
+          from={lvlBattle.from} to={lvlBattle.to}
+          handleFrom={handleBtlFrom} handleTo={handleBtlTo}
+        ></LvlBox>
+      </div>
       <TypeShipBox
         nameFirst="light:" first={light}
         handleFirst={() => setLight(elem => (!elem))}
@@ -152,6 +155,8 @@ const Search = (props) => {
         nameThird="heavy:" third={heavy}
         handleThird={() => setHeavy(elem => (!elem))}
       ></TypeShipBox>
+      </div>
+      <div className="horizontal">
       <TypeShipBox
         nameFirst="sails:" first={sails}
         handleFirst={() => setSails(elem => (!elem))}
@@ -175,12 +180,14 @@ const Search = (props) => {
           value={nc} onChange={() => setNc(elem => (!elem))}
         ></input>
       </div>
-      <div>
-        <input className="" type="text"
+      <div className="search-str-box">
+        <div className="label-search-str">ship/skill:</div>
+        <div> <input className="search-str" type="text"
           value={searchStr} onChange={handleSearchStr}
         ></input>
+        </div>
       </div>
-      <button onClick={searchShips}>search</button>
+      <button className="search-button" onClick={searchShips}>search</button>
     </div>
   )
 }
