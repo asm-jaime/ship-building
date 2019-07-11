@@ -1,8 +1,8 @@
 {
   "id": "00000192",
   "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000192",
-  "name": "First Class Vaisseau",
-  "ship_size": 2,
+  "name": "First Class Vaisseau 2",
+  "size": "Heavy",
   "row": false,
   "improve_times": [4, 0],
   "days": 30,

@@ -1,4 +1,45 @@
 .ship-status{
   grid-area: ship-status;
-  background: deepskyblue;
+  background: white;
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+}
+
+.ship-status-name{
+  display: flex;
+  align-items: center;
+  margin: 1px;
+}
+
+.ship-status-optional-skills{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.ship-status-levels{
+  display: flex;
+  margin: 5px;
+}
+
+.ship-status-parts{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 5px;
+}
+
+.part-name{
+  white-space: nowrap;
+  text-align: right;
+}
+
+.part-number{
+  text-align: center;
+}
+
+.ship-status-general{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 5px;
 }
