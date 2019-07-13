@@ -24,7 +24,7 @@ const ShipStatus = () => {
       <div className="ship-status-optional-skills">
       {ship.skills.map( skill => (
         <img
-          key={skill.id} src={`./${skill.id}.gif`} alt={`${ship.id}`}
+          key={skill.id} src={`./${skill.id}.png`} alt={`${ship.id}`}
           title={SKILLS_OPTIONAL[skill.id].name}
         ></img>
       ))}

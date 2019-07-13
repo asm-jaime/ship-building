@@ -1,4 +1,17 @@
 .improve-status{
   grid-area: improve-status;
-  background: deepskyblue;
+  background: white;
+}
+
+.improve-status-background{
+  width: 696px;
+}
+
+.improve-status-progress{
+  colorPrimary: white;
+  colorSecondary: black;
+}
+
+barColorSecondary{
+  backgroundColor: black;
 }

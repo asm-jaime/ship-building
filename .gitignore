@@ -12,6 +12,7 @@
 /build
 database/res.json
 public/resource.json
+z_buff
 
 # misc
 .DS_Store

@@ -6,15 +6,14 @@
   min-height: 100vh;
 
   display: grid;
-  grid-template-rows: minmax(100px, auto) 100px minmax(100px, auto) minmax(100px, auto) 200px;
-  grid-template-columns: 1fr 1fr 2fr;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  grid-template-areas: "search ship-status improve-status"
-                       "search-result optional-skill original-skill"
-                       "search-result grade grade"
-                       "search-result improve improve"
-                       "footer footer footer";
+  grid-template-rows: minmax(100px, auto) 50px minmax(100px, auto) minmax(100px, auto) 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  grid-template-areas: "search ship-status improve-info improve-status"
+                       "search-result grade optional-skill original-skill"
+                       "search-result improve improve improve"
+                       "footer footer footer footer";
 }
 
 .component-title{

@@ -8,6 +8,7 @@ import './App.css';
 import Search from './Search';
 import SearchResult from './SearchResult';
 import ShipStatus from './ShipStatus';
+import ImproveInfo from './ImproveInfo';
 import ImproveStatus from './ImproveStatus';
 import OptionalSkill from './OptionalSkill';
 import OriginalSkill from './OriginalSkill';
@@ -28,6 +29,7 @@ const App = () => {
       <Search></Search>
       <SearchResult></SearchResult>
       <ShipStatus></ShipStatus>
+      <ImproveInfo></ImproveInfo>
       <ImproveStatus></ImproveStatus>
       <OptionalSkill></OptionalSkill>
       <OriginalSkill></OriginalSkill>

@@ -17,10 +17,18 @@
   "improvement": { "current": 0, "max": 4, "additional": 2},
   "days": 30,
   "ship_handling_proficiency": 200,
-  "durability": [790, 250, 0],
-  "durability_current": 790,
-  "vertical_sail": [115, 200, 0],
-  "horizontal_sail": [250, 200, 0],
+  "durability": {
+    "base": 790, "base_diff": 0, "base_current": 790,
+    "base_max_improve": 250, "base_max_diff": 0, "base_max_current": 0
+  },
+  "vertical_sail": {
+    "base": 115, "base_diff": 0, "base_current": 115,
+    "base_max_improve": 200, "base_max_diff": 0, "base_max_current": 0
+  },
+  "horizontal_sail": {
+    "base": 115, "base_diff": 0, "base_current": 115,
+    "base_max_improve": 200, "base_max_diff": 0, "base_max_current": 0
+  },
   "row_power": [0, 0, 0],
   "turning_performance": [7, 22, 0],
   "wave_resistance": [7, 21, 0],
