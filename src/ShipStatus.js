@@ -22,7 +22,7 @@ const ShipStatus = () => {
         </a>
       </div>
       <div className="ship-status-optional-skills">
-      {ship.skills.map( skill => (
+      {ship.skills.available.map( skill => (
         <img
           key={skill.id} src={`./${skill.id}.png`} alt={`${ship.id}`}
           title={SKILLS_OPTIONAL[skill.id].name}
@@ -48,10 +48,10 @@ const ShipStatus = () => {
       </div>
       <div className="ship-status-general">
         <span className="part-name">Sailors Required:</span>
-        <span className="part-number">{ship.cabine.required}</span>
+        <span className="part-number">{ship.cabine_capacity.required}</span>
         <span className="part-name">No. of Improvements:</span>
         <span className="part-number">
-          {ship.improvement.max}+{ship.improvement.additional}
+          {ship.improvement.limit.base}+{ship.improvement.limit.add.limit}
         </span>
         <span className="part-name">Req. Building Days:</span>
         <span className="part-number">{ship.days}</span>

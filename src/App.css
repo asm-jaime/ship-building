@@ -19,3 +19,9 @@
 .component-title{
   text-align: center;
 }
+
+.icon{
+  width: 16px;
+  align-self: center;
+  margin: 1px;
+}

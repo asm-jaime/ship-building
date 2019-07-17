@@ -18,6 +18,11 @@ const ImproveStatus = (props) => {
     <div className="improve-status">
     <LinearProgress
     variant="determinate" value={10} />
+    <div className="status-durability-progress"
+      style={{background: "black", heigth: 10, width: 100}}>
+      <div style={{background: "blue", height: 10, width: 50}}></div>
+    </div>
+
     </div>
   )
 }

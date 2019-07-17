@@ -2,3 +2,83 @@
   grid-area: improve-info;
   background: white;
 }
+
+.info-grade-skills{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.info-performance{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 5px;
+}
+
+.info-performance-state{
+  display: flex;
+  align-items: center;
+}
+
+.info-performance-linear{
+  display: flex;
+  flex-direction: row;
+}
+
+.info-durability-progress{
+  width: 80px;
+  height: 3px;
+  background: #CF6868;
+}
+
+.info-ship-handling-progress{
+  width: 80px;
+  height: 3px;
+  background: #F7BA7C;
+}
+
+.info-performance-progress{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.info-skills-set{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  align-items: center;
+}
+
+.original-skill-icon{
+  height: 16px;
+  align-self: center;
+}
+
+.optional-skill-icon{
+  height: 16px;
+  align-self: center;
+}
+
+.info-ranged-state{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-ship-ranged-progress{
+  width: 80px;
+  height: 3px;
+  background: #A3E881;
+  margin-top: 3px;
+
+}
+
+.range-button{
+  width: 30px;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  font-size: x-small;
+  border-radius: 9px;
+}

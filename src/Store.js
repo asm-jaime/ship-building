@@ -5,9 +5,15 @@ import {
   LVL_ADVENTURE_SET,
   SEARCH_SET,
   SHIP_SET,
+  SHIP_CABINE_BASE_RANGE_SET,
+  SHIP_CANNON_BASE_RANGE_SET,
+  SHIP_HOLD_BASE_RANGE_SET,
 } from './constants';
 
+import {resolve, get_cargo} from './Resolver.js';
+
 export const Store = React.createContext();
+
 
 const initialState = {
   ship: {
@@ -25,10 +31,11 @@ const initialState = {
     "extra_armouring": 3,
     "stern_turret": 1
   },
-  "cabine": {"required": 65},
-  "improvement": { "current": 0, "max": 4, "additional": 2},
+  "improvement": { "result": 0,
+    "limit": {"base": 4, "add": {"limit": 2, "current": 0}, "current": 4}
+  },
   "days": 30,
-  "ship_handling_proficiency": {"base": 200, "current": 200},
+  "ship_handling_proficiency": {"base": 200, "grade": 0, "result": 200},
   "durability": {
     "base": 790, "improve": 0,
     "material": 0,
@@ -37,39 +44,90 @@ const initialState = {
     "result": 790,
   },
   "vertical_sail": {
-    "base": 115, "current": 115,
-    "improve": {"base": 250, "current": 250},
-    "base": 115, "base_diff": 0, "base_current": 115,
-    "base_max_improve": 200, "base_max_diff": 0, "base_max_current": 0
+    "base": 115, "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "penalty": 0,
+    "improve_limit": {"base": 110, "grade": 0, "current": 110},
+    "result": 115,
   },
   "horizontal_sail": {
-    "base": 115, "base_diff": 0, "base_current": 115,
-    "base_max_improve": 200, "base_max_diff": 0, "base_max_current": 0
+    "base": 115, "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "penalty": 0,
+    "improve_limit": {"base": 110, "grade": 0, "current": 110},
+    "result": 115,
   },
-  "row_power": [0, 0, 0],
-  "turning_performance": [7, 22, 0],
-  "wave_resistance": [7, 21, 0],
-  "armouring_value": [40, 21, 0],
-  "cabine_capacity": [135, 40, 0],
-  "cabine_capacity_range": [-57, 67],
-  "cabine_capacity_current": 135,
-  "cannon_chambers_capacity": [100, 40, 0],
-  "cannon_chambers_capacity_ranges": [-50, -20, -2, 50],
-  "cannon_chambers_capacity_current": 100,
-  "hold_capacity": [780, 41, 0],
-  "hold_capacity_ranges": [-195, -156, 163, 195],
-  "hold_capacity_current": 545,
-  "skills_max": 2,
-  "skill_inherited": "",
-  "skill_original": "",
-  "skills": [
-    { "id": "00002045", "parts": [ "022000560", "022000622" ] },
-    { "id": "00002063", "parts": [ "022000550", "022000680" ] },
-    { "id": "00002064",  "parts": [ "02200036",  "022000560" ] },
-    { "id": "00002100",  "parts": [ "022000560", "022000561" ] },
-    { "id": "00002101",  "parts": [ "022000560", "022000560" ] }
-  ],
-  "grade": {"rank": 3, "type": "Battle Ship", "skills": []}
+  "row_power": {
+    "base": 0, "improve": 0,
+    "grade": 0,
+    "penalty": 0,
+    "improve_limit": {"base": 0, "grade": 0, "current": 0},
+    "result": 0,
+  },
+  "turning_performance": {
+    "base": 7, "improve": 0,
+    "grade": 0,
+    "penalty": 0,
+    "improve_limit": {"base": 22, "grade": 0, "current": 22},
+    "result": 7,
+  },
+  "wave_resistance": {
+    "base": 7, "improve": 0,
+    "grade": 0,
+    "penalty": 0,
+    "improve_limit": {"base": 21, "grade": 0, "current": 21},
+    "result": 7,
+  },
+  "armouring_value": {
+    "base": 40, "improve": 0,
+    "grade": 0,
+    "improve_limit": {"base": 21, "grade": 0, "current": 21},
+    "result": 40,
+  },
+  "cabine_capacity": {
+    "base": 135, "improve": 0,
+    "grade": 0,
+    "base_ranged": 135,
+    "improve_limit": {"base": 40, "grade": 0, "current": 40},
+    "required": 65,
+    "result": 135,
+  },
+  "cannon_chambers_capacity": {
+    "base": 100, "improve": 0,
+    "grade": 0,
+    "base_ranged": 100,
+    "improve_limit": {"base": 40, "grade": 0, "current": 40},
+    "result": 100
+  },
+  "hold_capacity": {
+    "base": 780, "improve": 0,
+    "base_ranged": 780,
+    "grade": 0,
+    "improve_limit": {"base": 41, "grade": 0, "current": 41},
+    "result": 780
+  },
+  "cargo": {
+    "result": 545
+  },
+  "skills": {
+    "available": [
+      { "id": "00002045", "parts": [ "022000560", "022000622" ] },
+      { "id": "00002063", "parts": [ "022000550", "022000680" ] },
+      { "id": "00002064",  "parts": [ "02200036",  "022000560" ] },
+      { "id": "00002100",  "parts": [ "022000560", "022000561" ] },
+      { "id": "00002101",  "parts": [ "022000560", "022000560" ] }
+    ],
+    "optional": { "base": 2, "grade": 0, "set": [
+      { "id": "00002045", "parts": [ "022000560", "022000622" ] },
+      { "id": "00002063", "parts": [ "022000550", "022000680" ] },
+      { "id": "00002100", "parts": [ "022000560", "022000561" ] }
+    ]},
+    "inherited": "",
+    "original": "00002121",
+  },
+  "grade": {"rank": 3, "type": "Battle Ship", "skills": ["00004013", "00004018"]}
   },
   search_params: {
     lvlAdvent: {from: LVL_MIN, to: LVL_MAX},
@@ -97,24 +155,63 @@ const initialState = {
   ],
   grades: [
     {
-      _id: '1',
+      _id: 'G0G1',
       grade: { rank: 0, ship_type: 1, ship_skill: '', grade_skill: '' }
     },
   ],
 };
 
 
+
+
 function shipbuilder(state, action) {
   console.log(action);
   switch (action.type) {
-    case LVL_ADVENTURE_SET:
-      return Object.assign({}, state, {edit_id: action.payload});
-    case SEARCH_SET:
-      return Object.assign({}, state, {searchResult: action.payload});
-    case SHIP_SET:
-      return Object.assign({}, state, {ship: action.payload});
-    default:
+    case LVL_ADVENTURE_SET: {
+      return {...state, edit_id: action.payload};
+    }
+    case SEARCH_SET: {
+      return {...state, searchResult: action.payload};
+    }
+    case SHIP_SET: {
+      return {...state, ship: action.payload};
+    }
+    case SHIP_CABINE_BASE_RANGE_SET: {
+      const cabine = resolve.cabine_capacity({
+        ...state.ship.cabine_capacity,
+        base_ranged: action.payload
+      });
+      const cargo = get_cargo({ ...state.ship.cargo },
+        state.ship.hold_capacity, cabine, state.ship.cannon_chambers_capacity
+      );
+      const ship = {...state.ship, cabine_capacity: cabine, cargo};
+      return {...state, ship};
+    }
+    case SHIP_CANNON_BASE_RANGE_SET: {
+      const cannon = resolve.cannon_chambers_capacity({
+        ...state.ship.cannon_chambers_capacity,
+        base_ranged: action.payload
+      });
+      const cargo = get_cargo({ ...state.ship.cargo },
+        state.ship.hold_capacity, state.ship.cabine_capacity, cannon
+      );
+      const ship = {...state.ship, cannon_chambers_capacity: cannon, cargo};
+      return {...state, ship};
+    }
+    case SHIP_HOLD_BASE_RANGE_SET: {
+      const hold = resolve.hold_capacity({
+        ...state.ship.hold_capacity,
+        base_ranged: action.payload
+      });
+      const cargo = get_cargo({...state.ship.cargo},
+        hold, state.ship.cabine_capacity, state.ship.cannon_chambers_capacity
+      );
+      const ship = {...state.ship, hold_capacity: hold, cargo};
+      return {...state, ship};
+    }
+    default: {
       return state;
+    }
   }
 }
 

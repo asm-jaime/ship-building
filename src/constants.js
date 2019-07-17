@@ -1,6 +1,11 @@
 export const LVL_MIN = 0;
 export const LVL_MAX = 87;
 
+export const SHIP_BUILDING_RANK = 20;
+export const SHIP_CABINE_BASE_RANGE_SET = 'SHIP_CABINE_BASE_RANGE_SET';
+export const SHIP_CANNON_BASE_RANGE_SET = 'SHIP_CANNON_BASE_RANGE_SET';
+export const SHIP_HOLD_BASE_RANGE_SET   = 'SHIP_HOLD_BASE_RANGE_SET';
+
 export const SEARCH_SET = 'SEARCH_SET';
 
 export const SHIP_SET = 'SHIP_SET';
