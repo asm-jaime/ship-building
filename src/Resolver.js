@@ -1,77 +1,66 @@
-const get_improve = (limit, improve) => {
-  return Math.sign(improve) * Math.min(Math.abs(improve), Math.abs(limit));
-}
+const durability = (durability, improve) => ({
+    ...durability,
+    result: durability.base_ranged + durability.material + durability.grade + improve,
+});
 
-const durability = (durability) => {
-  const improve = get_improve(durability.improve_limit.current, durability.improve);
-  durability.result =
-    durability.base_ranged + durability.material + durability.grade + improve;
-  return durability;
-}
+const vertical = (vertical, improve) => ({
+  ...vertical,
+  result: vertical.base_ranged + vertical.material +
+  vertical.grade + vertical.penalty + improve,
+});
 
-const vertical = (vertical) => {
-  const improve = get_improve(vertical.improve_limit.current, vertical.improve);
-  vertical.result =
-    vertical.base_ranged + vertical.material +
-    vertical.grade + vertical.penalty + improve;
-  return vertical;
-}
+const horizontal = (horizontal, improve) => ({
+  ...horizontal,
+  result: horizontal.base_ranged + horizontal.material +
+  horizontal.grade + horizontal.penalty + improve,
+});
 
-const horizontal = (horizontal) => {
-  const improve = get_improve(horizontal.improve_limit.current, horizontal.improve);
-  horizontal.result =
-    horizontal.base_ranged + horizontal.material +
-    horizontal.grade + horizontal.penalty + improve;
-  return horizontal;
-}
+const row = (row, improve) => ({
+  ...row,
+  result: row.base_ranged + row.grade + row.penalty + improve,
+});
 
-const row = (row) => {
-  const improve = get_improve(row.improve_limit.current, row.improve);
-  row.result = row.base_ranged + row.grade + row.penalty + improve;
-  return row;
-}
+const turning = (turning, improve) => ({
+  ...turning,
+  result: turning.base_ranged + turning.grade + turning.penalty + improve,
+});
 
-const turning = (turning) => {
-  const improve = get_improve(turning.improve_limit.current, turning.improve);
-  turning.result = turning.base_ranged + turning.grade + turning.penalty + improve;
-  return turning;
-}
+const wave = (wave, improve) => ({
+  ...wave,
+  result: wave.base_ranged + wave.grade + wave.penalty + improve,
+});
 
-const wave = (wave) => {
-  const improve = get_improve(wave.improve_limit.current, wave.improve);
-  wave.result = wave.base_ranged + wave.grade + wave.penalty + improve;
-  return wave;
-}
+const armouring = (armouring, improve) => ({
+  ...armouring,
+  result: armouring.base_ranged + armouring.grade + armouring.penalty + improve,
+});
 
-const armouring = (armouring) => {
-  const improve = get_improve(armouring.improve_limit.current, armouring.improve);
-  armouring.result =
-    armouring.base_ranged + armouring.grade + armouring.penalty + improve;
-  return armouring;
-}
+const cabine = (cabine, ranged, improve) => ({
+  ...cabine,
+  base_ranged: ranged,
+  result: ranged + cabine.grade + improve,
+});
 
-const cabine = (cabine) => {
-  const improve = get_improve(cabine.improve_limit.current, cabine.improve);
-  cabine.result = cabine.base_ranged + cabine.grade + improve;
-  return cabine;
-}
+const cannon = (cannon, ranged, improve) => ({
+  ...cannon,
+  base_ranged: ranged,
+  result: cannon.base_ranged + cannon.grade + improve,
+});
 
-const cannon = (cannon) => {
-  const improve = get_improve(cannon.improve_limit.current, cannon.improve);
-  cannon.result = cannon.base_ranged + cannon.grade + improve;
-  return cannon;
-}
+const hold = (hold, ranged, improve) => ({
+  ...hold,
+  base_ranged: ranged,
+  result: hold.base_ranged + hold.grade + improve,
+});
 
-const hold = (hold) => {
-  const improve = get_improve(hold.improve_limit.current, hold.improve);
-  hold.result = hold.base_ranged + hold.grade + improve;
-  return hold;
-}
+export const get_cargo = (cargo, hold, cabine, chambers) => ({
+  ...cargo,
+  result: hold.base_ranged - cabine.base_ranged - chambers.base_ranged,
+});
 
-export const get_cargo = (cargo, hold, cabine, chambers) => {
-  cargo.result = hold.base_ranged - cabine.base_ranged - chambers.base_ranged;
-  return cargo;
-}
+export const get_improve = (limit, improve) => (
+  Math.sign(improve) * Math.min(Math.abs(improve), Math.abs(limit))
+);
 
 export const resolve = {
   "durability": durability,

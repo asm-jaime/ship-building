@@ -10,7 +10,7 @@ import {
   SHIP_HOLD_BASE_RANGE_SET,
 } from './constants';
 
-import {resolve, get_cargo} from './Resolver.js';
+import { resolve, get_cargo, get_improve } from './Resolver.js';
 
 export const Store = React.createContext();
 
@@ -161,9 +161,6 @@ const initialState = {
   ],
 };
 
-
-
-
 function shipbuilder(state, action) {
   console.log(action);
   switch (action.type) {
@@ -177,35 +174,53 @@ function shipbuilder(state, action) {
       return {...state, ship: action.payload};
     }
     case SHIP_CABINE_BASE_RANGE_SET: {
-      const cabine = resolve.cabine_capacity({
-        ...state.ship.cabine_capacity,
-        base_ranged: action.payload
-      });
-      const cargo = get_cargo({ ...state.ship.cargo },
-        state.ship.hold_capacity, cabine, state.ship.cannon_chambers_capacity
+      const improve = get_improve(
+        state.ship.cabine_capacity.improve_limit.current,
+        state.ship.cabine_capacity.improve
       );
+      const cabine = resolve.cabine_capacity(
+        state.ship.cabine_capacity, action.payload, improve
+      );
+
+      const cargo = get_cargo(
+        state.ship.cargo, state.ship.hold_capacity,
+        cabine, state.ship.cannon_chambers_capacity
+      );
+
       const ship = {...state.ship, cabine_capacity: cabine, cargo};
       return {...state, ship};
     }
     case SHIP_CANNON_BASE_RANGE_SET: {
-      const cannon = resolve.cannon_chambers_capacity({
-        ...state.ship.cannon_chambers_capacity,
-        base_ranged: action.payload
-      });
-      const cargo = get_cargo({ ...state.ship.cargo },
-        state.ship.hold_capacity, state.ship.cabine_capacity, cannon
+      const improve = get_improve(
+        state.ship.cannon_chambers_capacity.improve_limit.current,
+        state.ship.cannon_chambers_capacity.improve
       );
+      const cannon = resolve.cannon_chambers_capacity(
+        state.ship.cannon_chambers_capacity, action.payload, improve
+      );
+
+      const cargo = get_cargo(
+        state.ship.cargo, state.ship.hold_capacity,
+        state.ship.cabine_capacity, cannon
+      );
+
       const ship = {...state.ship, cannon_chambers_capacity: cannon, cargo};
       return {...state, ship};
     }
     case SHIP_HOLD_BASE_RANGE_SET: {
-      const hold = resolve.hold_capacity({
-        ...state.ship.hold_capacity,
-        base_ranged: action.payload
-      });
-      const cargo = get_cargo({...state.ship.cargo},
-        hold, state.ship.cabine_capacity, state.ship.cannon_chambers_capacity
+      const improve = get_improve(
+        state.ship.hold_capacity.improve_limit.current,
+        state.ship.hold_capacity.improve
       );
+      const hold = resolve.hold_capacity(
+        state.ship.hold_capacity, action.payload, improve
+      );
+
+      const cargo = get_cargo(
+        state.ship.cargo, hold, state.ship.cabine_capacity,
+        state.ship.cannon_chambers_capacity
+      );
+
       const ship = {...state.ship, hold_capacity: hold, cargo};
       return {...state, ship};
     }
