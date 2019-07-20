@@ -1,0 +1,7 @@
+{
+  "id": "00002121",
+  "name": "Sea Mine Removal",
+  "description": "Activate removal of enemy sea mine, when it is nearby",
+  "optional": true,
+  "original": true
+}

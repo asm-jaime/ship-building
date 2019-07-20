@@ -1,0 +1,20 @@
+{
+  "id": "022000001",
+  "img": "02200000.png",
+  "name": "Medium Flush Deck Style Hull",
+  "nc": false,
+  "ship_sizes": [false, true, false],
+  "stats_ranges": [
+    [20, 40],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

@@ -1,0 +1,21 @@
+{
+  "id": "022000810",
+  "img": "02200081.png",
+  "name": "Elm Paneling",
+  "nc": false,
+  "panel_stats": [1.05, 0.98],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

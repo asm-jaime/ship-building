@@ -1,0 +1,20 @@
+{
+  "id": "022000413",
+  "img": "02200041.png",
+  "name": "Mast Top",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [5, 15],
+    [5, 15],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

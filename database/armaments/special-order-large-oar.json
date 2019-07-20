@@ -1,0 +1,20 @@
+{
+  "id": "022000441",
+  "img": "02200044.png",
+  "name": "Special Order Large Oar",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [3, 5],
+    [-2, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

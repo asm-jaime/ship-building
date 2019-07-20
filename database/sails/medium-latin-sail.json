@@ -1,0 +1,20 @@
+{
+  "id": "022000241",
+  "img": "02200024.png",
+  "name": "Medium Latin Sail",
+  "nc": false,
+  "ship_sizes": [false, true, false],
+  "stats_ranges": [
+    [0, 0],
+    [25, 35],
+    [-10, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

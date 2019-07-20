@@ -1,0 +1,20 @@
+{
+  "id": "022002144",
+  "img": "02200214.png",
+  "name": "General Large Armour Plating",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

@@ -1,0 +1,20 @@
+{
+  "id": "022000690",
+  "img": "02200069.png",
+  "name": "Set of Repair Tools",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

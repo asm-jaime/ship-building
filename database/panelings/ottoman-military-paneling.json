@@ -1,0 +1,21 @@
+{
+  "id": "022000940",
+  "img": "02200094.png",
+  "name": "Ottoman Military Paneling",
+  "nc": false,
+  "panel_stats": [1.41, 0.96],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

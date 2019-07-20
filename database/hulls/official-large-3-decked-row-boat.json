@@ -1,0 +1,20 @@
+{
+  "id": "022000151",
+  "img": "02200015.png",
+  "name": "Official Large 3-decked Row Boat",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [60, 80],
+    [0, 0],
+    [0, 0],
+    [7, 9],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

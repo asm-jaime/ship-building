@@ -1,0 +1,20 @@
+{
+  "id": "022000660",
+  "img": "02200066.png",
+  "name": "Antifouling Paint",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [5, 15],
+    [0, 10],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [-2, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

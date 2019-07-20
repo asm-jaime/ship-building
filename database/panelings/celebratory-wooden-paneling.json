@@ -1,0 +1,21 @@
+{
+  "id": "022001560",
+  "img": "02200156.png",
+  "name": "Celebratory Wooden Paneling",
+  "nc": true,
+  "panel_stats": [1.1, 1.05],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 20],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

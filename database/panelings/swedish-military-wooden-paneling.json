@@ -1,0 +1,21 @@
+{
+  "id": "022001700",
+  "img": "02200170.png",
+  "name": "Swedish Military Wooden Paneling",
+  "nc": false,
+  "panel_stats": [1.11, 1.05],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

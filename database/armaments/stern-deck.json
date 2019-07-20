@@ -1,0 +1,20 @@
+{
+  "id": "022000550",
+  "img": "02200055.png",
+  "name": "Stern Deck",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [-2, 0],
+    [0, 0],
+    [0, 2],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

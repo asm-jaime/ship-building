@@ -1,0 +1,21 @@
+{
+  "id": "022001620",
+  "img": "02200162.png",
+  "name": "Spanish Military Wooden Paneling",
+  "nc": false,
+  "panel_stats": [1.11, 1.05],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

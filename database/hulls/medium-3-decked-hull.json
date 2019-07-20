@@ -1,0 +1,20 @@
+{
+  "id": "022000060",
+  "img": "02200006.png",
+  "name": "Medium 3-decked Hull",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [40, 60],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [-2, 0],
+    [0, 0],
+    [0, 2],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

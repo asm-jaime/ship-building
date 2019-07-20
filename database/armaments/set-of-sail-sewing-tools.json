@@ -1,0 +1,20 @@
+{
+  "id": "022000670",
+  "img": "02200067.png",
+  "name": "Set of Sail Sewing Tools",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [5, 15],
+    [0, 10],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

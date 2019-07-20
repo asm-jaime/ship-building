@@ -1,0 +1,20 @@
+{
+  "id": "022000552",
+  "img": "02200055.png",
+  "name": "General Medium Rudder",
+  "nc": false,
+  "ship_sizes": [false, true, false],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

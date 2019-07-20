@@ -1,0 +1,21 @@
+{
+  "id": "022001600",
+  "img": "02200160.png",
+  "name": "Nocturnal Metal Paneling",
+  "nc": true,
+  "panel_stats": [1.4, 0.95],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 20],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

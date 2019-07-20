@@ -1,0 +1,20 @@
+{
+  "id": "022000361",
+  "img": "02200036.png",
+  "name": "Tangle Net",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

@@ -1,0 +1,20 @@
+{
+  "id": "022000741",
+  "img": "02200074.png",
+  "name": "Improved Rope",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [20, 40],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

@@ -1,0 +1,21 @@
+{
+  "id": "022000790",
+  "img": "02200079.png",
+  "name": "Red Pine Paneling",
+  "nc": false,
+  "panel_stats": [0.97, 1.02],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

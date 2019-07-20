@@ -1,0 +1,20 @@
+{
+  "id": "022000032",
+  "img": "02200003.png",
+  "name": "Official Large 2-decked Hull",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [60, 80],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 2],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

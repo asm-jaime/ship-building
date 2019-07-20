@@ -1,0 +1,7 @@
+{
+  "id": "00002103",
+  "name": "Intensive Repair",
+  "description": "+100% skill repair when sail are being folded, the only for ship user",
+  "optional": true,
+  "original": true
+}

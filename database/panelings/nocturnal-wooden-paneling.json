@@ -1,0 +1,21 @@
+{
+  "id": "022001590",
+  "img": "02200159.png",
+  "name": "Nocturnal Wooden Paneling",
+  "nc": true,
+  "panel_stats": [1.1, 1.05],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 20],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

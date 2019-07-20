@@ -1,0 +1,21 @@
+{
+  "id": "022000780",
+  "img": "02200078.png",
+  "name": "Cedar Paneling",
+  "nc": false,
+  "panel_stats": [0.94, 1.04],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

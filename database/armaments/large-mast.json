@@ -1,0 +1,20 @@
+{
+  "id": "022000412",
+  "img": "02200041.png",
+  "name": "Large Mast",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [0, 0],
+    [15, 25],
+    [15, 25],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

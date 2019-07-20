@@ -1,0 +1,20 @@
+{
+  "id": "022000300",
+  "img": "02200030.png",
+  "name": "Small Square Sail",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [0, 0],
+    [-10, 0],
+    [10, 20],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

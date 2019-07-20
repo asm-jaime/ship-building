@@ -1,0 +1,20 @@
+{
+  "id": "022002141",
+  "img": "02200214.png",
+  "name": "Hull Bulkhead Plating",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [-4, 0]
+  ],
+  "description": ""
+}

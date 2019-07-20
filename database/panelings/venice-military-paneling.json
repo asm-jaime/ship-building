@@ -1,0 +1,21 @@
+{
+  "id": "022000900",
+  "img": "02200090.png",
+  "name": "Venice Military Paneling",
+  "nc": false,
+  "panel_stats": [1.41, 0.96],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

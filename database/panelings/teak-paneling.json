@@ -1,0 +1,21 @@
+{
+  "id": "022000820",
+  "img": "02200082.png",
+  "name": "Teak Paneling",
+  "nc": false,
+  "panel_stats": [1.1, 1.05],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

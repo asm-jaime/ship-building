@@ -1,0 +1,20 @@
+{
+  "id": "022000335",
+  "img": "02200033.png",
+  "name": "Delphin Moon Sail",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [5, 15],
+    [25, 35],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

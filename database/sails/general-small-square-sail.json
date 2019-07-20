@@ -1,0 +1,20 @@
+{
+  "id": "022000303",
+  "img": "02200030.png",
+  "name": "General Small Square Sail",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [5, 15],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

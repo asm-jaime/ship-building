@@ -1,0 +1,20 @@
+{
+  "id": "0220005610",
+  "img": "02200056.png",
+  "name": "General Small Anti-rolling Tank",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

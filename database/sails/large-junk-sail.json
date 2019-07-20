@@ -1,0 +1,20 @@
+{
+  "id": "022002102",
+  "img": "02200210.png",
+  "name": "Large Junk Sail",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [0, 0],
+    [25, 35],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

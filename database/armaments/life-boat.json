@@ -1,0 +1,20 @@
+{
+  "id": "02200019",
+  "img": "02200019.png",
+  "name": "Life Boat",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [20, 40],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": "10xLifeSav+1xProLumber+1xMetWorks(dock manager, national colonies)"
+}

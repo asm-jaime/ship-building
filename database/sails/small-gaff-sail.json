@@ -1,0 +1,20 @@
+{
+  "id": "022000210",
+  "img": "02200021.png",
+  "name": "Small Gaff Sail",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [0, 0],
+    [5, 15],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

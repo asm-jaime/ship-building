@@ -1,0 +1,20 @@
+{
+  "id": "022000122",
+  "img": "02200012.png",
+  "name": "Custom Large 2 decked Row Boat",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [60, 80],
+    [0, 0],
+    [0, 0],
+    [5, 7],
+    [0, 0],
+    [0, 0],
+    [0, 2],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

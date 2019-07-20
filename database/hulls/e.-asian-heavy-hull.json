@@ -1,0 +1,20 @@
+{
+  "id": "022002001",
+  "img": "02200200.png",
+  "name": "E. Asian Heavy Hull",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [60, 80],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 2],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

@@ -1,0 +1,7 @@
+{
+  "id": "00002045",
+  "name": "Intensive Charge",
+  "description": "Increases load speed by 50% when sails are being folded",
+  "optional": true,
+  "original": true
+}

@@ -1,0 +1,20 @@
+{
+  "id": "022020061",
+  "img": "02202006.png",
+  "name": "General Medium Enhanced Plating",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

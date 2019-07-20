@@ -1,0 +1,20 @@
+{
+  "id": "022002000",
+  "img": "02200200.png",
+  "name": "E. Asian Standard Hull",
+  "nc": false,
+  "ship_sizes": [false, true, false],
+  "stats_ranges": [
+    [40, 60],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 2],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

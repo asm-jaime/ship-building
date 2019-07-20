@@ -1,0 +1,20 @@
+{
+  "id": "022000620",
+  "img": "02200062.png",
+  "name": "Warehouse",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [-4, 0],
+    [0, 0],
+    [4, 8]
+  ],
+  "description": ""
+}

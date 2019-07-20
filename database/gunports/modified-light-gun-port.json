@@ -1,0 +1,20 @@
+{
+  "id": "022000510",
+  "img": "02200051.png",
+  "name": "Modified Light Gun Port",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 6],
+    [0, 0]
+  ],
+  "description": ""
+}

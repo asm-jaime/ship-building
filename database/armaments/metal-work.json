@@ -1,0 +1,20 @@
+{
+  "id": "02200073",
+  "img": "02200073.png",
+  "name": "Metal Work",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [-15, -5],
+    [-15, -5],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 4],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

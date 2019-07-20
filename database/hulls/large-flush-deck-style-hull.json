@@ -1,0 +1,20 @@
+{
+  "id": "022000002",
+  "img": "02200000.png",
+  "name": "Large Flush Deck Style Hull",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [40, 60],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

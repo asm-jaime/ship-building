@@ -1,0 +1,7 @@
+{
+  "id": "00002027",
+  "name": "Fireproof Wall",
+  "description": "reduce to 5% burned trade good, when fire happens",
+  "optional": true,
+  "original": true
+}

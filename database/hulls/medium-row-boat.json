@@ -1,0 +1,20 @@
+{
+  "id": "022000091",
+  "img": "02200009.png",
+  "name": "Medium Row Boat",
+  "nc": false,
+  "ship_sizes": [false, true, false],
+  "stats_ranges": [
+    [20, 40],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

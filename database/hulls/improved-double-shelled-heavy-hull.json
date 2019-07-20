@@ -1,0 +1,20 @@
+{
+  "id": "022000034",
+  "img": "02200003.png",
+  "name": "Improved Double-Shelled Heavy Hull",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [60, 80],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

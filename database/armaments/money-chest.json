@@ -1,0 +1,20 @@
+{
+  "id": "022000621",
+  "img": "02200062.png",
+  "name": "Money Chest",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [-4, 0],
+    [0, 0],
+    [4, 8]
+  ],
+  "description": ""
+}

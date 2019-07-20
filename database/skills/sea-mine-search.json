@@ -1,0 +1,7 @@
+{
+  "id": "00002120",
+  "name": "Sea Mine Search",
+  "description": "Automate detection of enemy sea mines during battle",
+  "optional": true,
+  "original": true
+}

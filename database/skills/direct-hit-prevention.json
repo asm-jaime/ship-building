@@ -1,0 +1,7 @@
+{
+  "id": "00002004",
+  "name": "Direct Hit Prevention",
+  "description": "activation preventing crit from the front",
+  "optional": true,
+  "original": true
+}

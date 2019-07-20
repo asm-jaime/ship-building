@@ -1,0 +1,20 @@
+{
+  "id": "022000567",
+  "img": "02200056.png",
+  "name": "Augmented Sailor's Cabin",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 6],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

@@ -1,0 +1,21 @@
+{
+  "id": "022000840",
+  "img": "02200084.png",
+  "name": "Mahogany Paneling",
+  "nc": false,
+  "panel_stats": [1.2, 1.03],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

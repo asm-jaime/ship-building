@@ -1,0 +1,7 @@
+{
+  "id": "00002028",
+  "name": "Earthquake-proof Hold",
+  "description": "reduce to 5% the chance for trade goods to collapse during a storm/broadside wave",
+  "optional": true,
+  "original": true
+}

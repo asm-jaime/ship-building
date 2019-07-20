@@ -1,0 +1,20 @@
+{
+  "id": "022000568",
+  "img": "02200056.png",
+  "name": "Special Expanded Hold",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [6, 10]
+  ],
+  "description": ""
+}

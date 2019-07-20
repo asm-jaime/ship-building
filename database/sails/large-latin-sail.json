@@ -1,0 +1,20 @@
+{
+  "id": "022000242",
+  "img": "02200024.png",
+  "name": "Large Latin Sail",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [0, 0],
+    [40, 50],
+    [-10, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

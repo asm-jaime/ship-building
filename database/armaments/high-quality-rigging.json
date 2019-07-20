@@ -1,0 +1,20 @@
+{
+  "id": "022000700",
+  "img": "02200070.png",
+  "name": "High Quality Rigging",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [5, 15],
+    [5, 15],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

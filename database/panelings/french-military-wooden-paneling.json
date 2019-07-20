@@ -1,0 +1,21 @@
+{
+  "id": "022001650",
+  "img": "02200165.png",
+  "name": "French Military Wooden Paneling",
+  "nc": false,
+  "panel_stats": [1.11, 1.05],
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

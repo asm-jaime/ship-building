@@ -1,0 +1,20 @@
+{
+  "id": "022000331",
+  "img": "02200033.png",
+  "name": "Medium Storm Sail",
+  "nc": false,
+  "ship_sizes": [false, true, false],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [10, 20],
+    [0, 0],
+    [0, 0],
+    [2, 4],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

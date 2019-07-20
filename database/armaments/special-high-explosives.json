@@ -1,0 +1,20 @@
+{
+  "id": "022000460",
+  "img": "02200046.png",
+  "name": "Special High Explosives",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 6],
+    [0, 0]
+  ],
+  "description": ""
+}

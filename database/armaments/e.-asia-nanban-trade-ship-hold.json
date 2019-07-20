@@ -1,0 +1,20 @@
+{
+  "id": "022000624",
+  "img": "02200062.png",
+  "name": "E. Asia Nanban Trade Ship Hold",
+  "nc": false,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 6]
+  ],
+  "description": ""
+}

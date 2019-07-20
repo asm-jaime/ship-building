@@ -1,0 +1,20 @@
+{
+  "id": "022020060",
+  "img": "02202006.png",
+  "name": "General Small Enhanced Plating",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

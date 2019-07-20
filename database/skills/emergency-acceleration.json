@@ -1,0 +1,7 @@
+{
+  "id": "00002001",
+  "name": "Emergency Acceleration",
+  "description": "activation +10% acceleration",
+  "optional": true,
+  "original": true
+}

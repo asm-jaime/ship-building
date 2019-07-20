@@ -1,0 +1,20 @@
+{
+  "id": "022000090",
+  "img": "02200009.png",
+  "name": "Small Row Boat",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}

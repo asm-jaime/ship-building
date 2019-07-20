@@ -1,0 +1,7 @@
+{
+  "id": "00002000",
+  "name": "Enhance Ship Handling",
+  "description": "activation +2 turn speed",
+  "optional": true,
+  "original": true
+}

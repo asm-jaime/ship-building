@@ -1,0 +1,20 @@
+{
+  "id": "022000625",
+  "img": "02200062.png",
+  "name": "General Small Expanded Ship Hold",
+  "nc": false,
+  "ship_sizes": [true, false, false],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 6]
+  ],
+  "description": ""
+}

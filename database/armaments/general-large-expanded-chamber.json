@@ -1,0 +1,20 @@
+{
+  "id": "0220005615",
+  "img": "02200056.png",
+  "name": "General Large Expanded Chamber",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 6],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": ""
+}
