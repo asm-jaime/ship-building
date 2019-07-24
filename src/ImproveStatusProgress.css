@@ -1,11 +1,3 @@
-.improve-status{
-  grid-area: improve-status;
-  background: white;
-  display: flex;
-  flex-direction: column;
-  font-size: small;
-}
-
 .improve-status-data{
   display: flex;
   margin: 1px;
