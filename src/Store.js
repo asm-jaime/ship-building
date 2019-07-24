@@ -10,19 +10,22 @@ import {
   SHIP_HOLD_BASE_RANGE_SET,
 } from './constants';
 
-import { resolve, get_cargo, get_improve } from './Resolver.js';
+import { resolve, get_cargo, get_improve } from './StoreResolve.js';
 
 export const Store = React.createContext();
 
 
 const initialState = {
   ship: {
-  "id": "00000192",
+  "id": "50000192",
+  "img": "00000192.png",
   "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000192",
   "name": "First Class Vaisseau",
   "size": "Heavy",
+  "purpose": "Battle",
   "levels": {"advent": 40, "trade": 26, "battle": 69},
   "row": false,
+  "days": 30,
   "ship_equipment": {
     "studding_sails": 3,
     "broadsides": 5,
@@ -34,7 +37,6 @@ const initialState = {
   "improvement": { "result": 0,
     "limit": {"base": 4, "add": {"limit": 2, "current": 0}, "current": 4}
   },
-  "days": 30,
   "ship_handling_proficiency": {"base": 200, "grade": 0, "result": 200},
   "durability": {
     "base": 790, "improve": 0,
@@ -44,12 +46,12 @@ const initialState = {
     "result": 790,
   },
   "vertical_sail": {
-    "base": 115, "improve": 0,
+    "base": 115, "improve": 100,
     "material": 0,
     "grade": 0,
     "penalty": 0,
     "improve_limit": {"base": 110, "grade": 0, "current": 110},
-    "result": 115,
+    "result": 215,
   },
   "horizontal_sail": {
     "base": 115, "improve": 0,
@@ -102,22 +104,27 @@ const initialState = {
     "result": 100
   },
   "hold_capacity": {
-    "base": 780, "improve": 0,
+    "base": 780, "improve": 10,
     "base_ranged": 780,
     "grade": 0,
     "improve_limit": {"base": 41, "grade": 0, "current": 41},
-    "result": 780
+    "result": 790
   },
   "cargo": {
     "result": 545
+  },
+  "material": {
+    "name": "Beech Paneling",
+    "durability": 1.0,
+    "sail": 1.0
   },
   "skills": {
     "available": [
       { "id": "00002045", "parts": [ "022000560", "022000622" ] },
       { "id": "00002063", "parts": [ "022000550", "022000680" ] },
-      { "id": "00002064",  "parts": [ "02200036",  "022000560" ] },
-      { "id": "00002100",  "parts": [ "022000560", "022000561" ] },
-      { "id": "00002101",  "parts": [ "022000560", "022000560" ] }
+      { "id": "00002064", "parts": [ "02200036",  "022000560" ] },
+      { "id": "00002100", "parts": [ "022000560", "022000561" ] },
+      { "id": "00002101", "parts": [ "022000560", "022000560" ] }
     ],
     "optional": { "base": 2, "grade": 0, "set": [
       { "id": "00002045", "parts": [ "022000560", "022000622" ] },

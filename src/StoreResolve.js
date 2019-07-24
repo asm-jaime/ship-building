@@ -44,13 +44,13 @@ const cabine = (cabine, ranged, improve) => ({
 const cannon = (cannon, ranged, improve) => ({
   ...cannon,
   base_ranged: ranged,
-  result: cannon.base_ranged + cannon.grade + improve,
+  result: ranged + cannon.grade + improve,
 });
 
 const hold = (hold, ranged, improve) => ({
   ...hold,
   base_ranged: ranged,
-  result: hold.base_ranged + hold.grade + improve,
+  result: ranged + hold.grade + improve,
 });
 
 export const get_cargo = (cargo, hold, cabine, chambers) => ({

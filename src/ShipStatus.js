@@ -2,12 +2,19 @@ import React from 'react';
 import './ShipStatus.css';
 import { Store } from './Store';
 
-import { SKILLS_OPTIONAL } from './constants';
+import { getTable } from './IndexedDB';
 
-const ShipStatus = () => {
+const ShipStatus = (props) => {
   const { state } = React.useContext(Store);
   const ship = state.ship;
 
+  const [skills, setSkills] = React.useState(Object.create(null));
+
+  React.useLayoutEffect(() => {
+    getTable('skills').then(setSkills);
+  }, []);
+
+  //console.log(props);
   // show nothing, in case empty data
   if(!ship.id) {
     return (<div className="ship-status"></div>);
@@ -16,16 +23,16 @@ const ShipStatus = () => {
   return (
     <div className="ship-status">
       <div className="ship-status-name">
-        <img src={`./${ship.id}.png`} alt={`${ship.id}`}></img>
+        <img src={ship.img} alt={`${ship.id}`}></img>
         <a target="_blank" rel="noopener noreferrer" href={ship.href}>
           {ship.name}({ship.size})
         </a>
       </div>
       <div className="ship-status-optional-skills">
-      {ship.skills.available.map( skill => (
+      {Object.entries(skills).length && ship.skills.available.map( skill => (
         <img
           key={skill.id} src={`./${skill.id}.png`} alt={`${ship.id}`}
-          title={SKILLS_OPTIONAL[skill.id].name}
+          title={skills[skill.id].name}
         ></img>
       ))}
       </div>

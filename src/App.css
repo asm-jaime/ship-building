@@ -7,13 +7,13 @@
 
   display: grid;
   grid-template-rows: minmax(100px, auto) 50px minmax(100px, auto) minmax(100px, auto) 200px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr minmax(220px, auto);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-areas: "search ship-status improve-info improve-status"
-                       "search-result grade optional-skill original-skill"
-                       "search-result improve improve improve"
-                       "footer footer footer footer";
+                       "search-result material skill improve-status"
+                       "search-result grade grade improve-status"
+                       "search-result improve improve improve-status";
 }
 
 .component-title{

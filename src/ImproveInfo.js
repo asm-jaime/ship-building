@@ -8,6 +8,8 @@ import {
   SHIP_HOLD_BASE_RANGE_SET,
 } from './constants';
 
+import { getTable } from './IndexedDB';
+
 const get_max_safe_hold = (hold) => {
   const percent = (101 + SHIP_BUILDING_RANK) / 100;
   const max_hold = Math.floor(hold * percent);
@@ -110,12 +112,13 @@ const ImproveInfo = (props) => {
   const { state, dispatch } = React.useContext(Store);
   const ship = state.ship;
 
-  // show nothing, in case empty data
-  /*
-  if(!ship.id) {
-    return (<div className="improve-status"></div>);
-  }
-  */
+  const [skills, setSkills] = React.useState(Object.create(null));
+  const [skillsGrade, setSkillsGrade] = React.useState(Object.create(null));
+
+  React.useLayoutEffect(() => {
+    getTable('skills').then(setSkills);
+    getTable('skills_grade').then(setSkillsGrade);
+  }, []);
 
   return (
     <div className="improve-info">
@@ -123,8 +126,10 @@ const ImproveInfo = (props) => {
     <span>Grade: {ship.grade.rank}({ship.grade.type})</span>
     </div>
     <div className="info-grade-skills">
-    {ship.grade.skills.map(elem => (
-      <img key={elem} src={`./${elem}.png`} alt={elem}></img>
+    {Object.entries(skillsGrade).length && ship.grade.skills.map(skill => (
+      <img key={skill} src={`./${skill}.png`}
+        title={skillsGrade[skill].name} alt={skill}
+      ></img>
     ))}
     </div>
     <div className="info-performance">
@@ -163,9 +168,10 @@ const ImproveInfo = (props) => {
       <div>
       {ship.improvement.result}/{ship.improvement.limit.current}
       </div>
-      {ship.skills.optional.set.map(elem => (
-        <img key={elem.id} src={`./${elem.id}.png`} alt={elem.id}></img>
-      ))}
+      {Object.entries(skills).length && ship.skills.optional.set.map(skill => (
+        <img key={skill.id} src={`./${skill.id}.png`} alt={skill.id}
+          title={skills[skill.id].name}
+        ></img>))}
       <img className="original-skill-icon"
         src="./i_skill_original.png" alt="original"
         title="original skills"

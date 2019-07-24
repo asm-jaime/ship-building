@@ -1,7 +1,4 @@
 import React from 'react';
-import { Store } from './Store';
-
-import { dataLoadDefault } from './actions';
 
 import './App.css';
 
@@ -10,19 +7,16 @@ import SearchResult from './SearchResult';
 import ShipStatus from './ShipStatus';
 import ImproveInfo from './ImproveInfo';
 import ImproveStatus from './ImproveStatus';
-import OptionalSkill from './OptionalSkill';
-import OriginalSkill from './OriginalSkill';
+import Skill from './Skill';
+import Material from './Material';
 import Grade from './Grade';
 import Improve from './Improve';
 
 import Footer from './Footer';
 
 const App = () => {
-  const { state, dispatch } = React.useContext(Store);
-  React.useEffect(() => {
-    dataLoadDefault(dispatch);
-    console.log(state);
-  });
+  React.useLayoutEffect(() => {
+  }, []);
 
   return (
     <div className="App">
@@ -31,8 +25,8 @@ const App = () => {
       <ShipStatus></ShipStatus>
       <ImproveInfo></ImproveInfo>
       <ImproveStatus></ImproveStatus>
-      <OptionalSkill></OptionalSkill>
-      <OriginalSkill></OriginalSkill>
+      <Material></Material>
+      <Skill></Skill>
       <Grade></Grade>
       <Improve></Improve>
       <Footer></Footer>

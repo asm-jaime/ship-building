@@ -1,7 +1,7 @@
 import React from 'react';
-import './OptionalSkill.css';
+import './SkillOriginal.css';
 
-const OptionalSkill = (props) => {
+const SkillOriginal = (props) => {
   return (
     <div className="optional-skill">
       optional skill component
@@ -9,4 +9,4 @@ const OptionalSkill = (props) => {
   )
 }
 
-export default OptionalSkill;
+export default SkillOriginal;

@@ -1,7 +1,7 @@
 import React from 'react';
-import './OriginalSkill.css';
+import './SkillOriginal.css';
 
-const OriginalSkill = (props) => {
+const SkillOriginal = (props) => {
   return (
     <div className="original-skill">
       original skill component
@@ -9,4 +9,4 @@ const OriginalSkill = (props) => {
   )
 }
 
-export default OriginalSkill;
+export default SkillOriginal;
