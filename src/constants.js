@@ -1,6 +1,25 @@
 export const LVL_MIN = 0;
 export const LVL_MAX = 87;
 
+export const SSIP = {
+  'Light': [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+  'Standard': [2, 2, 4, 6, 8, 10],
+  'Heavy': [3, 3, 6, 9, 10]
+};
+
+export const NUMBERS = [
+  's0.png',
+  's1.png',
+  's2.png',
+  's3.png',
+  's4.png',
+  's5.png',
+  's6.png',
+  's7.png',
+  's8.png',
+  's9.png'
+]
+
 export const SHIP_BUILDING_RANK = 20;
 export const SHIP_CABINE_BASE_RANGE_SET = 'SHIP_CABINE_BASE_RANGE_SET';
 export const SHIP_CANNON_BASE_RANGE_SET = 'SHIP_CANNON_BASE_RANGE_SET';
@@ -27,6 +46,9 @@ export const DATA_LOAD = 'DATA_LOAD';
 export const IMPROVE_POSITIVE = '#E88181';
 export const IMPROVE_NEGATIVE = '#96D677';
 
+export const IMPROVE_ACTIVE_TOGGLE = 'IMPROVE_ACTIVE_TOGGLE';
+export const IMPROVE_DEL = 'IMPROVE_DEL';
+
 export const IMPROVEABLE_PROPERTIES = [
   "durability",
   "vertical_sail",
@@ -35,9 +57,9 @@ export const IMPROVEABLE_PROPERTIES = [
   "turning_performance",
   "wave_resistance",
   "armouring_value",
-  "cannon_chambers_capacity",
   "cabine_capacity",
-  "hold_capacity",
+  "cannon_chambers_capacity",
+  "hold_capacity"
 ];
 
 export const IDB_NAME = "shipyardDB";

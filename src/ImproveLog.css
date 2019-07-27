@@ -1,0 +1,68 @@
+.improve-log{
+  display: flex;
+  margin: 1px;
+  flex-direction: column;
+  overflow: auto;
+  max-height: 160px;
+}
+
+.improve-step{
+  display: flex;
+}
+
+.icon-ship-part{
+  width: 32px;
+  height: 32px;
+}
+
+.improve-operations{
+  display: flex;
+  flex-direction: column;
+}
+
+.improve-delete-button{
+  height: 32px;
+  width: 32px;
+  padding: 0px;
+  margin: 0px;
+}
+.improve-delete-icon{
+  height: 28px;
+  width: 28px;
+}
+
+.improve-step-number{
+  min-width: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.improve-toggler{
+  display: flex;
+  align-items: center;
+}
+
+.parent{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.icon-ssip{
+  position: relative;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  top: 0;
+  left: 0;
+}
+.icon-ssip-number{
+  position: absolute;
+  top: 16px;
+  left: 19px;
+  min-width: 12px;
+}
+
+.ssip-digit{
+  width: 5px;
+}

@@ -8,9 +8,18 @@ import {
   SHIP_CABINE_BASE_RANGE_SET,
   SHIP_CANNON_BASE_RANGE_SET,
   SHIP_HOLD_BASE_RANGE_SET,
+  IMPROVE_ACTIVE_TOGGLE,
+  IMPROVE_DEL,
 } from './constants';
 
-import { resolve, get_cargo, get_improve } from './StoreResolve.js';
+import {
+  resolve,
+  get_cargo,
+  get_improve,
+  get_iranges,
+  get_iaverages,
+  apply_improves
+} from './StoreResolve.js';
 
 export const Store = React.createContext();
 
@@ -155,14 +164,39 @@ const initialState = {
   searchResult: [],
   improvements: [
     {
-      _id: '1',
-      parts: { sail: '', gunport: '', armament_1: '', armament_2: '' },
-      ssip: 3,
+      active: true,
+      sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
     },
+    {
+      active: true,
+      sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    },
+    {
+      active: true,
+      sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    },
+    {
+      active: true,
+      sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    },
+    {
+      active: true,
+      sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    },
+    {
+      active: true,
+      sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    }
   ],
   grades: [
     {
-      _id: 'G0G1',
+      id: 'G0G1',
       grade: { rank: 0, ship_type: 1, ship_skill: '', grade_skill: '' }
     },
   ],
@@ -186,7 +220,7 @@ function shipbuilder(state, action) {
         state.ship.cabine_capacity.improve
       );
       const cabine = resolve.cabine_capacity(
-        state.ship.cabine_capacity, action.payload, improve
+        state.ship.cabine_capacity, improve, action.payload
       );
 
       const cargo = get_cargo(
@@ -203,8 +237,9 @@ function shipbuilder(state, action) {
         state.ship.cannon_chambers_capacity.improve
       );
       const cannon = resolve.cannon_chambers_capacity(
-        state.ship.cannon_chambers_capacity, action.payload, improve
+        state.ship.cannon_chambers_capacity, improve, action.payload
       );
+      console.log(cannon);
 
       const cargo = get_cargo(
         state.ship.cargo, state.ship.hold_capacity,
@@ -220,7 +255,7 @@ function shipbuilder(state, action) {
         state.ship.hold_capacity.improve
       );
       const hold = resolve.hold_capacity(
-        state.ship.hold_capacity, action.payload, improve
+        state.ship.hold_capacity, improve, action.payload
       );
 
       const cargo = get_cargo(
@@ -230,6 +265,30 @@ function shipbuilder(state, action) {
 
       const ship = {...state.ship, hold_capacity: hold, cargo};
       return {...state, ship};
+    }
+    case IMPROVE_ACTIVE_TOGGLE: {
+      const improvements = state.improvements.map((improve, i) => (
+        (i === action.payload)
+        ? { ...improve, active: !(improve.active) }
+        : improve
+      ));
+      const averages = get_iaverages(get_iranges(improvements));
+      const ship = apply_improves(state.ship, averages);
+      const cargo = get_cargo(
+        ship.cargo, ship.hold_capacity, ship.cabine_capacity,
+        ship.cannon_chambers_capacity
+      );
+      return {...state, ship: {...ship, cargo}, improvements};
+    }
+    case IMPROVE_DEL: {
+      const improvements = state.improvements.filter((improve, i) => (i !== action.payload));
+      const averages = get_iaverages(get_iranges(improvements));
+      const ship = apply_improves(state.ship, averages);
+      const cargo = get_cargo(
+        ship.cargo, ship.hold_capacity, ship.cabine_capacity,
+        ship.cannon_chambers_capacity
+      );
+      return {...state, ship: {...ship, cargo}, improvements};
     }
     default: {
       return state;
