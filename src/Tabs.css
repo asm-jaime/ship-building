@@ -1,0 +1,27 @@
+.tabbed-area {
+}
+
+.tab {
+  display: flex;
+}
+.tab a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black;
+  background: #f7f7f7;
+}
+.tab a:hover,
+.tab a.active {
+  background: #ddd;
+}
+
+.tab-pane {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
