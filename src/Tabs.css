@@ -1,27 +1,33 @@
-.tabbed-area {
+.tabbed-area{
 }
 
-.tab {
+.tab{
   display: flex;
 }
-.tab a {
+.tab a{
   display: block;
   text-align: center;
   text-decoration: none;
   color: black;
-  border-bottom: 2px solid black;
-  background: #f7f7f7;
+  background: aliceblue;
+  padding-top: 15px;
+  border-top: 1px solid;
+  border-right: 1px solid;
 }
 .tab a:hover,
-.tab a.active {
-  background: #ddd;
+.tab a.active{
+  background: white;
 }
 
-.tab-pane {
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+.tab-pane{
+  /*box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);*/
 }
-.clearfix:after {
-  content: "";
+.clearfix:after{
+  content: '';
   display: table;
   clear: both;
+}
+
+.tab-node{
+  min-width: 58px;
 }

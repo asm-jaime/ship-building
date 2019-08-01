@@ -2,66 +2,59 @@ import React from 'react';
 import './ShipStatus.css';
 import { Store } from './Store';
 
-import { getTable } from './IndexedDB';
+import SKILLS from './resSkills';
 
 const ShipStatus = (props) => {
   const { state } = React.useContext(Store);
   const ship = state.ship;
 
-  const [skills, setSkills] = React.useState(Object.create(null));
-
-  React.useLayoutEffect(() => {
-    getTable('skills').then(setSkills);
-  }, []);
-
-  //console.log(props);
   // show nothing, in case empty data
   if(!ship.id) {
-    return (<div className="ship-status"></div>);
+    return (<div className='ship-status'></div>);
   }
 
   return (
-    <div className="ship-status">
-      <div className="ship-status-name">
+    <div className='ship-status'>
+      <div className='ship-status-name'>
         <img src={ship.img} alt={`${ship.id}`}></img>
-        <a target="_blank" rel="noopener noreferrer" href={ship.href}>
+        <a target='_blank' rel='noopener noreferrer' href={ship.href}>
           {ship.name}({ship.size})
         </a>
       </div>
-      <div className="ship-status-optional-skills">
-      {Object.entries(skills).length && ship.skills.available.map( skill => (
+      <div className='ship-status-optional-skills'>
+      {ship.skills.available.map( skill => (
         <img
           key={skill.id} src={`./${skill.id}.png`} alt={`${ship.id}`}
-          title={skills[skill.id].name}
+          title={SKILLS[skill.id].name}
         ></img>
       ))}
       </div>
-      <div className="ship-status-levels">
+      <div className='ship-status-levels'>
         Level: {ship.levels.advent} / {ship.levels.trade} / {ship.levels.battle}
       </div>
-      <div className="ship-status-parts">
-        <span className="part-name">studding sails: </span>
-        <span className="part-number">{ship.ship_equipment.studding_sails}</span>
-        <span className="part-name">broadsides: </span>
-        <span className="part-number">{ship.ship_equipment.broadsides}</span>
-        <span className="part-name">special equip: </span>
-        <span className="part-number">{ship.ship_equipment.special_equipment}</span>
-        <span className="part-name">bow turret: </span>
-        <span className="part-number">{ship.ship_equipment.bow_turret}</span>
-        <span className="part-name">extra armour: </span>
-        <span className="part-number">{ship.ship_equipment.extra_armouring}</span>
-        <span className="part-name">stern turret: </span>
-        <span className="part-number">{ship.ship_equipment.stern_turret}</span>
+      <div className='ship-status-parts'>
+        <span className='part-name'>studding sails: </span>
+        <span className='part-number'>{ship.ship_equipment.studding_sails}</span>
+        <span className='part-name'>broadsides: </span>
+        <span className='part-number'>{ship.ship_equipment.broadsides}</span>
+        <span className='part-name'>special equip: </span>
+        <span className='part-number'>{ship.ship_equipment.special_equipment}</span>
+        <span className='part-name'>bow turret: </span>
+        <span className='part-number'>{ship.ship_equipment.bow_turret}</span>
+        <span className='part-name'>extra armour: </span>
+        <span className='part-number'>{ship.ship_equipment.extra_armouring}</span>
+        <span className='part-name'>stern turret: </span>
+        <span className='part-number'>{ship.ship_equipment.stern_turret}</span>
       </div>
-      <div className="ship-status-general">
-        <span className="part-name">Sailors Required:</span>
-        <span className="part-number">{ship.cabine_capacity.required}</span>
-        <span className="part-name">No. of Improvements:</span>
-        <span className="part-number">
+      <div className='ship-status-general'>
+        <span className='part-name'>Sailors Required:</span>
+        <span className='part-number'>{ship.cabine_capacity.required}</span>
+        <span className='part-name'>No. of Improvements:</span>
+        <span className='part-number'>
           {ship.improvement.limit.base}+{ship.improvement.limit.add.limit}
         </span>
-        <span className="part-name">Req. Building Days:</span>
-        <span className="part-number">{ship.days}</span>
+        <span className='part-name'>Req. Building Days:</span>
+        <span className='part-number'>{ship.days}</span>
       </div>
     </div>
   );

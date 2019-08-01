@@ -10,6 +10,18 @@ import {
   SHIP_HOLD_BASE_RANGE_SET,
   IMPROVE_ACTIVE_TOGGLE,
   IMPROVE_DEL,
+  GRADE_DEL,
+  RECALCULATE_ALL,
+  GRADE_DURABILITY,
+  GRADE_VERTICAL,
+  GRADE_HORIZONTAL,
+  GRADE_ROW,
+  GRADE_TURNING,
+  GRADE_WAVE,
+  GRADE_ARMOURING,
+  GRADE_CABINE,
+  GRADE_CANNON,
+  GRADE_HOLD,
 } from './constants';
 
 import {
@@ -18,7 +30,9 @@ import {
   get_improve,
   get_iranges,
   get_iaverages,
-  apply_improves
+  apply_improves,
+  get_grading,
+  get_grade,
 } from './StoreResolve.js';
 
 export const Store = React.createContext();
@@ -52,15 +66,15 @@ const initialState = {
     "material": 0,
     "grade": 0,
     "improve_limit": {"base": 250, "grade": 0, "current": 250},
-    "result": 790,
+    "result": 0
   },
   "vertical_sail": {
-    "base": 115, "improve": 100,
+    "base": 115, "improve": 0,
     "material": 0,
     "grade": 0,
     "penalty": 0,
     "improve_limit": {"base": 110, "grade": 0, "current": 110},
-    "result": 215,
+    "result": 0
   },
   "horizontal_sail": {
     "base": 115, "improve": 0,
@@ -68,34 +82,34 @@ const initialState = {
     "grade": 0,
     "penalty": 0,
     "improve_limit": {"base": 110, "grade": 0, "current": 110},
-    "result": 115,
+    "result": 0
   },
   "row_power": {
     "base": 0, "improve": 0,
     "grade": 0,
     "penalty": 0,
     "improve_limit": {"base": 0, "grade": 0, "current": 0},
-    "result": 0,
+    "result": 0
   },
   "turning_performance": {
     "base": 7, "improve": 0,
     "grade": 0,
     "penalty": 0,
     "improve_limit": {"base": 22, "grade": 0, "current": 22},
-    "result": 7,
+    "result": 0
   },
   "wave_resistance": {
     "base": 7, "improve": 0,
     "grade": 0,
     "penalty": 0,
     "improve_limit": {"base": 21, "grade": 0, "current": 21},
-    "result": 7,
+    "result": 0
   },
   "armouring_value": {
     "base": 40, "improve": 0,
     "grade": 0,
     "improve_limit": {"base": 21, "grade": 0, "current": 21},
-    "result": 40,
+    "result": 0
   },
   "cabine_capacity": {
     "base": 135, "improve": 0,
@@ -103,21 +117,21 @@ const initialState = {
     "base_ranged": 135,
     "improve_limit": {"base": 40, "grade": 0, "current": 40},
     "required": 65,
-    "result": 135,
+    "result": 0
   },
   "cannon_chambers_capacity": {
     "base": 100, "improve": 0,
     "grade": 0,
     "base_ranged": 100,
     "improve_limit": {"base": 40, "grade": 0, "current": 40},
-    "result": 100
+    "result": 0
   },
   "hold_capacity": {
-    "base": 780, "improve": 10,
+    "base": 780, "improve": 0,
     "base_ranged": 780,
     "grade": 0,
     "improve_limit": {"base": 41, "grade": 0, "current": 41},
-    "result": 790
+    "result": 0
   },
   "cargo": {
     "result": 545
@@ -135,14 +149,16 @@ const initialState = {
       { "id": "00002100", "parts": [ "022000560", "022000561" ] },
       { "id": "00002101", "parts": [ "022000560", "022000560" ] }
     ],
-    "optional": { "base": 2, "grade": 0, "set": [
+    "optional": { "limit": 3, "set": [
       { "id": "00002045", "parts": [ "022000560", "022000622" ] },
       { "id": "00002063", "parts": [ "022000550", "022000680" ] },
       { "id": "00002100", "parts": [ "022000560", "022000561" ] }
     ]},
-    "inherited": "",
-    "original": "00002121",
+    "inherit": "00002128",
+    "original": "00002121"
   },
+  "grade_size": 4,
+  "grade_type_default": 'Battle Ship',
   "grade": {"rank": 3, "type": "Battle Ship", "skills": ["00004013", "00004018"]}
   },
   search_params: {
@@ -159,47 +175,58 @@ const initialState = {
     trade: true,
     battle: true,
     nc: true,
-    searchStr: '',
+    searchStr: ''
   },
   searchResult: [],
   improvements: [
     {
-      active: true,
-      sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: '',
       armament_1: '022000560', armament_2: '022000560'
-    },
-    {
-      active: true,
-      sail: '022000213', gunport: '',
+    }, {
+      active: true, sail: '022000213', gunport: '',
       armament_1: '022000560', armament_2: '022000560'
-    },
-    {
-      active: true,
-      sail: '022000213', gunport: '',
+    }, {
+      active: true, sail: '022000213', gunport: '',
       armament_1: '022000560', armament_2: '022000560'
-    },
-    {
-      active: true,
-      sail: '022000213', gunport: '',
+    }, {
+      active: true, sail: '022000213', gunport: '',
       armament_1: '022000560', armament_2: '022000560'
-    },
-    {
-      active: true,
-      sail: '022000213', gunport: '',
+    }, {
+      active: true, sail: '022000213', gunport: '',
       armament_1: '022000560', armament_2: '022000560'
-    },
-    {
-      active: true,
-      sail: '022000213', gunport: '',
+    }, {
+      active: true, sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    }, {
+      active: true, sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    }, {
+      active: true, sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    }, {
+      active: true, sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    }, {
+      active: true, sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    }, {
+      active: true, sail: '022000213', gunport: '',
+      armament_1: '022000560', armament_2: '022000560'
+    }, {
+      active: true, sail: '022000213', gunport: '',
       armament_1: '022000560', armament_2: '022000560'
     }
   ],
   grades: [
-    {
-      id: 'G0G1',
-      grade: { rank: 0, ship_type: 1, ship_skill: '', grade_skill: '' }
-    },
-  ],
+    { type: 'Battle Ship', skill: {id: '00004021', inherit: '00002128'} },
+    { type: 'High Speed Battle Ship', skill: {id: ''} },
+    { type: 'Expedition Ship', skill: {id: '00004018'} },
+    { type: 'High Speed Cargo Ship', skill: {id: '' } },
+    { type: 'Cargo Ship', skill: {id: '' } },
+    { type: 'Armed Merchant Ship', skill: {id: '00004000'} },
+    { type: 'Generic Ship', skill: {id: ''} },
+    { type: 'High Speed Battle Ship', skill: {id: ''} }
+  ]
 };
 
 function shipbuilder(state, action) {
@@ -215,13 +242,9 @@ function shipbuilder(state, action) {
       return {...state, ship: action.payload};
     }
     case SHIP_CABINE_BASE_RANGE_SET: {
-      const improve = get_improve(
-        state.ship.cabine_capacity.improve_limit.current,
-        state.ship.cabine_capacity.improve
-      );
-      const cabine = resolve.cabine_capacity(
-        state.ship.cabine_capacity, improve, action.payload
-      );
+      const cabine = {
+        ...state.ship.cabine_capacity, base_ranged: action.payload
+      };
 
       const cargo = get_cargo(
         state.ship.cargo, state.ship.hold_capacity,
@@ -232,14 +255,9 @@ function shipbuilder(state, action) {
       return {...state, ship};
     }
     case SHIP_CANNON_BASE_RANGE_SET: {
-      const improve = get_improve(
-        state.ship.cannon_chambers_capacity.improve_limit.current,
-        state.ship.cannon_chambers_capacity.improve
-      );
-      const cannon = resolve.cannon_chambers_capacity(
-        state.ship.cannon_chambers_capacity, improve, action.payload
-      );
-      console.log(cannon);
+      const cannon = {
+        ...state.ship.cannon_chambers_capacity, base_ranged: action.payload
+      };
 
       const cargo = get_cargo(
         state.ship.cargo, state.ship.hold_capacity,
@@ -250,13 +268,9 @@ function shipbuilder(state, action) {
       return {...state, ship};
     }
     case SHIP_HOLD_BASE_RANGE_SET: {
-      const improve = get_improve(
-        state.ship.hold_capacity.improve_limit.current,
-        state.ship.hold_capacity.improve
-      );
-      const hold = resolve.hold_capacity(
-        state.ship.hold_capacity, improve, action.payload
-      );
+      const hold = {
+        ...state.ship.hold_capacity, base_ranged: action.payload
+      };
 
       const cargo = get_cargo(
         state.ship.cargo, hold, state.ship.cabine_capacity,
@@ -289,6 +303,25 @@ function shipbuilder(state, action) {
         ship.cannon_chambers_capacity
       );
       return {...state, ship: {...ship, cargo}, improvements};
+    }
+    case GRADE_DEL: {
+      const grades = state.grades.splice(0, action.payload);
+      const ship_temp = get_grade(state.ship, grades);
+      const ship = get_grading(ship_temp, grades);
+      return {...state, ship, grades};
+    }
+    case RECALCULATE_ALL: {
+      const improvements = state.improvements;
+      const averages = get_iaverages(get_iranges(improvements));
+      const ship_improved = apply_improves(state.ship, averages);
+
+      {
+        const grades = state.grades;
+        const ship_temp = get_grade(ship_improved, grades);
+        const ship = get_grading(ship_temp, grades);
+        return {...state, ship};
+      }
+
     }
     default: {
       return state;

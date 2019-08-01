@@ -7,7 +7,7 @@
 
   display: grid;
   grid-template-rows: minmax(100px, auto) 50px minmax(100px, auto) minmax(100px, auto) 200px;
-  grid-template-columns: 1fr 1fr 1fr minmax(220px, auto);
+  grid-template-columns: 1fr 1fr 1fr minmax(245px, auto);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-areas: "search ship-status improve-info improve-status"

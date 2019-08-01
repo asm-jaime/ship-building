@@ -1,13 +1,13 @@
 .improve-log{
   display: flex;
-  margin: 1px;
   flex-direction: column;
   overflow: auto;
-  max-height: 160px;
+  max-height: 260px;
 }
 
 .improve-step{
   display: flex;
+  background: aliceblue;
 }
 
 .icon-ship-part{
@@ -41,28 +41,4 @@
 .improve-toggler{
   display: flex;
   align-items: center;
-}
-
-.parent{
-  position: relative;
-  top: 0;
-  left: 0;
-}
-.icon-ssip{
-  position: relative;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  top: 0;
-  left: 0;
-}
-.icon-ssip-number{
-  position: absolute;
-  top: 16px;
-  left: 19px;
-  min-width: 12px;
-}
-
-.ssip-digit{
-  width: 5px;
 }

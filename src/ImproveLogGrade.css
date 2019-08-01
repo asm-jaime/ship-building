@@ -1,0 +1,31 @@
+.improve-log-grade{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grade-step{
+  display: flex;
+  align-items: center;
+  height: 28px;
+  background: aliceblue;
+}
+
+.grade-step-num{
+}
+
+.grade-step-type{
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 90px;
+}
+
+.grade-del-icon{
+}
+
+.grade-del-button{
+  height: 28px;
+  width: 28px;
+  padding: 0px;
+  margin: 0px;
+}

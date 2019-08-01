@@ -8,7 +8,8 @@ import {
   SHIP_HOLD_BASE_RANGE_SET,
 } from './constants';
 
-import { getTable } from './IndexedDB';
+import SKILLS_GRADE from './resSkillsGrade';
+import SKILLS from './resSkills';
 
 const get_max_safe_hold = (hold) => {
   const percent = (101 + SHIP_BUILDING_RANK) / 100;
@@ -89,131 +90,130 @@ const getHoldRanges = (hold) => {
 
 const InfoPerform = (props) => {
   return (
-    <div className="info-performance-state" title={props.name}>
+    <div className='info-performance-state' title={props.name}>
     <img src={`./i_${props.performance}.png`} alt={props.name}
-    className="icon"></img> <span>{props.result}</span>
+    className='icon'></img> <span>{props.result}</span>
     </div>
   )
 }
 
 const InfoRanged = (props) => {
   return (
-    <div className="info-performance-progress" title={props.name}>
-      <div className="info-performance-state">
+    <div className='info-performance-progress' title={props.name}>
+      <div className='info-performance-state'>
       <img src={`./i_${props.performance}.png`} alt={props.name}
-      className="icon"></img> <span>{props.result}</span>
+      className='icon'></img> <span>{props.result}</span>
       {props.children}
-      </div> <div className="info-ship-ranged-progress"></div>
+      </div> <div className='info-ship-ranged-progress'></div>
     </div>
   )
-}
+};
 
 const ImproveInfo = (props) => {
   const { state, dispatch } = React.useContext(Store);
   const ship = state.ship;
 
-  const [skills, setSkills] = React.useState(Object.create(null));
-  const [skillsGrade, setSkillsGrade] = React.useState(Object.create(null));
-
-  React.useLayoutEffect(() => {
-    getTable('skills').then(setSkills);
-    getTable('skills_grade').then(setSkillsGrade);
-  }, []);
-
   return (
-    <div className="improve-info">
-    <div className="info-grade">
+    <div className='improve-info'>
+    <div className='info-grade'>
     <span>Grade: {ship.grade.rank}({ship.grade.type})</span>
     </div>
-    <div className="info-grade-skills">
-    {Object.entries(skillsGrade).length && ship.grade.skills.map(skill => (
+    <div className='info-grade-skills'>
+    {ship.grade.skills.map(skill => (
       <img key={skill} src={`./${skill}.png`}
-        title={skillsGrade[skill].name} alt={skill}
+        title={SKILLS_GRADE[skill].name} alt={skill}
       ></img>
     ))}
     </div>
-    <div className="info-performance">
-      <InfoPerform name="vertical sail" performance="vertical_sail"
-        result={ship.vertical_sail.result} />
-      <InfoPerform name="horizontal sail" performance="horizontal_sail"
-        result={ship.horizontal_sail.result} />
-      <InfoPerform name="row power" performance="row_power"
-        result={ship.row_power.result} />
-      <InfoPerform name="turning performance" performance="turning_performance"
-        result={ship.turning_performance.result} />
-      <InfoPerform name="wave resistance" performance="wave_resistance"
-        result={ship.wave_resistance.result} />
-      <InfoPerform name="armouring value" performance="armouring_value"
-        result={ship.armouring_value.result} />
+    <div className='info-performance'>
+      <InfoPerform name='vertical sail' performance='vertical_sail'
+        result={ship.vertical_sail.base + ship.vertical_sail.result} />
+      <InfoPerform name='horizontal sail' performance='horizontal_sail'
+        result={ship.horizontal_sail.base + ship.horizontal_sail.result} />
+      <InfoPerform name='row power' performance='row_power'
+        result={ship.row_power.base + ship.row_power.result} />
+      <InfoPerform name='turning performance' performance='turning_performance'
+        result={ship.turning_performance.base + ship.turning_performance.result} />
+      <InfoPerform name='wave resistance' performance='wave_resistance'
+        result={ship.wave_resistance.base + ship.wave_resistance.result} />
+      <InfoPerform name='armouring value' performance='armouring_value'
+        result={ship.armouring_value.base + ship.armouring_value.result} />
     </div>
-    <div className="info-performance-linear">
-      <div className="info-performance-progress" title="durability">
-      <div className="info-performance-state">
-        <img src="./i_durability.png" alt="durability"
-        ></img> <span>{ship.durability.result}</span>
-      </div> <div className="info-durability-progress"></div>
+    <div className='info-performance-linear'>
+      <div className='info-performance-progress' title='durability'>
+      <div className='info-performance-state'>
+        <img src='./i_durability.png' alt='durability'
+        ></img> <span>{ship.durability.base + ship.durability.result}</span>
+      </div> <div className='info-durability-progress'></div>
       </div>
-      <div className="info-performance-progress" title="ship handling">
-      <div className="info-performance-state">
-      <img src="./i_ship_handling_proficiency.png" alt="ship handling"
-      ></img> <span>{ship.ship_handling_proficiency.result}</span>
-      </div> <div className="info-ship-handling-progress"></div>
+      <div className='info-performance-progress' title='ship handling'>
+      <div className='info-performance-state'>
+      <img src='./i_ship_handling_proficiency.png' alt='ship handling'
+      ></img>
+      <span>
+        { ship.ship_handling_proficiency.result }
+      </span>
+      </div> <div className='info-ship-handling-progress'></div>
       </div>
     </div>
-    <div className="info-skills-set">
-      <img className="optional-skill-icon"
-        src="./i_skill_optional.png" alt="optional"
-        title="optional skills"
+    <div className='info-skills-set'>
+      <img className='optional-skill-icon'
+        src='./i_skill_optional.png' alt='optional'
+        title='optional skills'
       ></img>
       <div>
       {ship.improvement.result}/{ship.improvement.limit.current}
       </div>
-      {Object.entries(skills).length && ship.skills.optional.set.map(skill => (
+      {ship.skills.optional.set.map(skill => (
         <img key={skill.id} src={`./${skill.id}.png`} alt={skill.id}
-          title={skills[skill.id].name}
+          title={SKILLS[skill.id].name}
         ></img>))}
-      <img className="original-skill-icon"
-        src="./i_skill_original.png" alt="original"
-        title="original skills"
+      {
+        ship.skills.inherit === '' ||
+        <img src={`./${ship.skills.inherit}.png`} alt={ship.skills.inherit}></img>
+      }
+      <img className='original-skill-icon'
+        src='./i_skill_original.png' alt='original'
+        title='original skills'
       ></img>
       {(ship.skills.original)?
-        <img src={`./${ship.skills.original}.png`} alt="nothing"></img>:<div></div>
+        <img src={`./${ship.skills.original}.png`} alt='nothing'></img>:<div></div>
       }
     </div>
-    <div className="info-ranged-state">
-      <InfoRanged name="cabin capacity" performance="cabine_capacity"
-      result={ship.cabine_capacity.result}>
+    <div className='info-ranged-state'>
+      <InfoRanged name='cabin capacity' performance='cabine_capacity'
+      result={ship.cabine_capacity.base_ranged + ship.cabine_capacity.result}>
         { getCabinRanges(
             ship.cabine_capacity.base, ship.cabine_capacity.required
           ).map((elem, i) => (<button key={i} onClick={() => dispatch({
             type: SHIP_CABINE_BASE_RANGE_SET,
             payload: elem,
-          })} className="range-button">{elem}</button>))
+          })} className='range-button'>{elem}</button>))
         }
       </InfoRanged>
-      <InfoRanged name="cannon capacity" performance="cannon_chambers_capacity"
-      result={ship.cannon_chambers_capacity.result}>
+      <InfoRanged name='cannon capacity' performance='cannon_chambers_capacity'
+      result={ship.cannon_chambers_capacity.base_ranged + ship.cannon_chambers_capacity.result}>
         { getCannonRanges(
             ship.cannon_chambers_capacity.base
           ).map((elem, i) => (<button key={i} onClick={() => dispatch({
             type: SHIP_CANNON_BASE_RANGE_SET,
             payload: elem,
-          })} className="range-button">{elem}</button>))
+          })} className='range-button'>{elem}</button>))
         }
       </InfoRanged>
-      <InfoRanged name="hold capacity" performance="hold_capacity"
+      <InfoRanged name='hold capacity' performance='hold_capacity'
       result={ship.cargo.result}>
         { getHoldRanges(
             ship.hold_capacity.base
           ).map((elem, i) => (<button key={i} onClick={() => dispatch({
             type: SHIP_HOLD_BASE_RANGE_SET,
             payload: elem,
-          })} className="range-button">{elem}</button>))
+          })} className='range-button'>{elem}</button>))
         }
       </InfoRanged>
     </div>
     </div>
   )
-}
+};
 
 export default ImproveInfo;

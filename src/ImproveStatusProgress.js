@@ -1,26 +1,16 @@
 import React from 'react';
 import './ImproveStatusProgress.css';
 
-import { get_improve } from './StoreResolve.js';
-
 import { IMPROVE_POSITIVE, IMPROVE_NEGATIVE } from './constants'
 
 const ImproveProgress = (props) => {
-  const getImprove = () => (
-    Math.abs(get_improve(props.res.improve, props.res.improve_limit.current))
-  );
-
   const getSignum = (num) => (['', '+', '-'][
     0*~~(num === 0) + 1*~~(num > 0) + 2*~~(num < 0)
   ]);
 
   const getProgress = () => {
-    const res = props.res;
-    const improve = getImprove();
-    const scale = ({
-      true: 1,
-      false: res.improve_limit.current
-    })[res.improve_limit.current === 0];
+    const improve = Math.abs(props.res.result);
+    const scale = props.res.improve_limit.current || 1;
 
     return `${parseInt(100*improve/scale)}%`;
   };
@@ -46,10 +36,10 @@ const ImproveProgress = (props) => {
       </div>
       <div className='improve-number-place'>
       <div className='improve-status-number'>
-        {props.res.result - getImprove()}
+        {props.res.result}
       </div>
       (<div className='improve-number'>
-        {getSignum(props.res.improve)}{getImprove()}
+        {getSignum(props.res.result)}{Math.abs(props.res.result)}
       </div>)
       </div>
     </div>

@@ -14,12 +14,16 @@ import Improve from './Improve';
 
 import Footer from './Footer';
 
+import { Store } from './Store';
+import { RECALCULATE_ALL } from './constants';
+
 const App = () => {
-  React.useLayoutEffect(() => {
-  }, []);
+  const { dispatch } = React.useContext(Store);
+
+  React.useEffect(() => (dispatch({type: RECALCULATE_ALL})), []);
 
   return (
-    <div className="App">
+    <div className='App'>
       <Search></Search>
       <SearchResult></SearchResult>
       <ShipStatus></ShipStatus>

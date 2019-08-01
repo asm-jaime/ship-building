@@ -1,75 +1,120 @@
-import { IMPROVEABLE_PROPERTIES } from './constants';
+import {
+  IMPROVEABLE_PROPERTIES,
+  GRADE_LIMITS,
+  GRADE_BONUS,
+  GRADE_IMPROVE,
+  GRADE_IMPROVES,
+  GRADE_INHERIT,
+} from './constants';
 
 import Sails from './resSails';
 import Gunports from './resGunports';
 import Armaments from './resArmaments';
 
-const durability = (durability, improve) => ({
-    ...durability,
-    result: durability.base + durability.material + durability.grade + improve,
+
+// resolver section
+
+const durability = (durability) => ({
+  ...durability,
+  result:  get_improve(
+    durability['improve_limit']['current'],
+    durability.material + durability.grade + durability.improve
+  )
 });
 
-const vertical = (vertical, improve) => ({
+const vertical = (vertical) => ({
   ...vertical,
-  result:  vertical.base + vertical.material +
-  vertical.grade + vertical.penalty + improve,
+  result: get_improve(
+    vertical['improve_limit']['current'],
+    vertical.material + vertical.grade + vertical.penalty + vertical.improve
+  )
 });
 
-const horizontal = (horizontal, improve) => ({
+const horizontal = (horizontal) => ({
   ...horizontal,
-  result: horizontal.material +
-  horizontal.grade + horizontal.penalty + improve,
+  result: get_improve(
+    horizontal['improve_limit']['current'],
+    horizontal.material + horizontal.grade + horizontal.penalty + horizontal.improve
+  ),
 });
 
-const row = (row, improve) => ({
+const row = (row) => ({
   ...row,
-  result: row.grade + row.penalty + improve,
+  result: get_improve(
+    row['improve_limit']['current'],
+    row.grade + row.penalty + row.improve
+  )
 });
 
-const turning = (turning, improve) => ({
+const turning = (turning) => ({
   ...turning,
-  result: turning.grade + turning.penalty + improve,
+  result: get_improve(
+    turning['improve_limit']['current'],
+    turning.grade + turning.penalty + turning.improve
+  )
 });
 
-const wave = (wave, improve) => ({
+const wave = (wave) => ({
   ...wave,
-  result: wave.grade + wave.penalty + improve,
+  result: get_improve(
+    wave['improve_limit']['current'],
+    wave.grade + wave.penalty + wave.improve
+  )
 });
 
-const armouring = (armouring, improve) => ({
+const armouring = (armouring) => ({
   ...armouring,
-  result: armouring.grade + armouring.penalty
-    + (improve || armouring.improve),
+  result: get_improve(
+    armouring['improve_limit']['current'],
+    armouring.grade + armouring.improve
+  )
 });
 
-const cabine = (cabine, improve, ranged) => ({
+const cabine = (cabine) => ({
   ...cabine,
-  base_ranged: ranged || cabine.base_ranged,
-  result: cabine.grade +
-  (improve || cabine.improve) +
-  (ranged  || cabine.base_ranged),
+  result: get_improve(
+    cabine['improve_limit']['current'],
+    cabine.grade + cabine.improve
+  )
 });
 
-const cannon = (cannon, improve, ranged) => ({
+const cannon = (cannon) => ({
   ...cannon,
-  base_ranged: ranged || cannon.base_ranged,
-  result: cannon.grade +
-  (improve || cannon.improve) +
-  (ranged  || cannon.base_ranged),
+  result: get_improve(
+    cannon['improve_limit']['current'],
+    cannon.grade + cannon.improve
+  )
 });
 
-const hold = (hold, improve, ranged) => ({
+const hold = (hold) => ({
   ...hold,
-  base_ranged: ranged || hold.base_ranged,
-  result: hold.grade +
-  (improve || hold.improve) +
-  (ranged  || hold.base_ranged),
+  result: get_improve(
+    hold['improve_limit']['current'],
+    hold.grade + hold.improve
+  )
 });
 
 export const get_cargo = (cargo, hold, cabine, chambers) => ({
   ...cargo,
-  result: hold.result - cabine.base_ranged - chambers.base_ranged,
+  result: hold.base_ranged + hold.result -
+          cabine.base_ranged - cabine.result -
+          chambers.base_ranged - chambers.result,
 });
+
+export const resolve = {
+  "durability": durability,
+  "vertical_sail": vertical,
+  "horizontal_sail": horizontal,
+  "row_power": row,
+  "turning_performance": turning,
+  "wave_resistance": wave,
+  "armouring_value": armouring,
+  "cabine_capacity": cabine,
+  "cannon_chambers_capacity": cannon,
+  "hold_capacity": hold,
+}
+
+// improvement section
 
 export const get_improve = (limit, improve) => (
   Math.sign(improve) * Math.min(Math.abs(improve), Math.abs(limit))
@@ -122,22 +167,99 @@ export const apply_improves = (ship, iaverages) => {
   const result = Object.create(null);
   for(let i = 0; i < IMPROVEABLE_PROPERTIES.length; ++i) {
     const property = IMPROVEABLE_PROPERTIES[i];
-    const improve = iaverages[i];
-    const limited = get_improve(ship[property]['improve_limit']['current'], improve);
-    result[property] = resolve[property]({ ...ship[property], improve }, limited);
+    result[property] = resolve[property](
+      {...ship[property], improve: iaverages[i]}
+    );
   }
   return {...ship, ...result};
 }
 
-export const resolve = {
-  "durability": durability,
-  "vertical_sail": vertical,
-  "horizontal_sail": horizontal,
-  "row_power": row,
-  "turning_performance": turning,
-  "wave_resistance": wave,
-  "armouring_value": armouring,
-  "cabine_capacity": cabine,
-  "cannon_chambers_capacity": cannon,
-  "hold_capacity": hold,
+// grade section
+
+const recalculate = (ship) => {
+  const result = Object.create(null);
+  for(let i = 0; i < IMPROVEABLE_PROPERTIES.length; ++i) {
+    const property = IMPROVEABLE_PROPERTIES[i];
+    result[property] = resolve[property](ship[property]);
+  }
+  const cargo = get_cargo(
+    ship.cargo,
+    result['hold_capacity'],
+    result['cabine_capacity'],
+    result['cannon_chambers_capacity']
+  );
+  return {...ship, ...result, cargo};
+}
+
+export const get_grade = (ship, grades) => {
+  const result = [];
+  let inherit = '';
+  for(let i = 0; i < grades.length; ++i) {
+    if(grades[i]['skill']['id']) {
+      result.push(grades[i]['skill']['id']);
+    }
+    if(grades[i]['skill']['id'] === GRADE_INHERIT) {
+      inherit = grades[i]['inherit'];
+    }
+  }
+
+  const grade = {
+    ...ship.grade,
+    skills: result,
+    rank: grades.length,
+    type: grades.length ? grades[grades.length - 1]['type'] : 'Generic Ship',
+  };
+
+  return {
+    ...ship,
+    skills: {
+      ...ship.skills,
+      inherited: inherit,
+    },
+    grade,
+  };
+}
+
+export const get_grading = (ship, grade) => {
+  const ship_handling = {
+    ...ship.ship_handling_proficiency,
+    grade: 5 * grade.length,
+    result: ship.ship_handling_proficiency.base + 5 * grade.length,
+  };
+
+  const grading = (property, name, pos) => {
+    const skill_improve = ship.grade.skills.filter(
+      e => (e === GRADE_IMPROVES[name])
+    );
+    const property_grade = skill_improve.length
+      ? GRADE_IMPROVE[skill_improve[0]][ship.grade_size]
+      : 0
+      + ship.grade.rank
+      ? GRADE_BONUS[ship.grade.type][ship.grade.rank - 1][pos]
+      : 0;
+
+    const grade_limit = ship.grade.rank
+        ? GRADE_LIMITS[name](ship.grade.rank)
+        : ship[name].improve_limit.grade;
+
+    const result = {
+      ...ship[name],
+      grade: property_grade,
+      improve_limit: {
+        ...ship[name].improve_limit,
+        grade: grade_limit,
+        current: ship[name].improve_limit.base + grade_limit,
+      },
+    };
+
+    return result;
+  }
+
+  const graded = Object.create(null);
+  const keys = Object.keys(GRADE_IMPROVES);
+  for(let i = 0; i < keys.length; ++i) {
+    graded[keys[i]] = grading(ship[keys[i]], keys[i], i);
+  }
+
+  return recalculate({...ship, ship_handling, ...graded});
 }

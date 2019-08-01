@@ -7,7 +7,7 @@ export const TabbedArea = (props) => {
 
   const tabNodes = props.children.map((child, index) => {
     return (
-      <div key={index} onClick={() => setActiveIndex(index)}>
+      <div className='tab-node' key={index} onClick={() => setActiveIndex(index)}>
         <a stype={{active: activeIndex === index }} href='#/'>
           {child.props.display}
         </a>
@@ -18,7 +18,7 @@ export const TabbedArea = (props) => {
   const contentNodes = props.children.map((child, index) => {
     if(activeIndex === index) {
       return (
-        <div key={index} className="tab-pane">
+        <div key={index} className='tab-pane'>
           {child.props.children}
         </div>
       );
@@ -27,8 +27,8 @@ export const TabbedArea = (props) => {
   });
 
   return (
-    <div className="tabbed-area">
-      <div className="tab clearfix">
+    <div className='tabbed-area'>
+      <div className='tab clearfix'>
         {tabNodes}
       </div>
       {contentNodes}
