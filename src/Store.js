@@ -22,6 +22,9 @@ import {
   GRADE_CABINE,
   GRADE_CANNON,
   GRADE_HOLD,
+  SKILL_ORIGINAL_SET,
+  SKILL_OPTIONAL_SET,
+  SKILL_EMPTY,
 } from './constants';
 
 import {
@@ -149,10 +152,8 @@ const initialState = {
       { "id": "00002100", "parts": [ "022000560", "022000561" ] },
       { "id": "00002101", "parts": [ "022000560", "022000560" ] }
     ],
-    "optional": { "limit": 3, "set": [
+    "optional": { "limit": 2, "grade": 1, "set": [
       { "id": "00002045", "parts": [ "022000560", "022000622" ] },
-      { "id": "00002063", "parts": [ "022000550", "022000680" ] },
-      { "id": "00002100", "parts": [ "022000560", "022000561" ] }
     ]},
     "inherit": "00002128",
     "original": "00002121"
@@ -177,6 +178,7 @@ const initialState = {
     nc: true,
     searchStr: ''
   },
+  message: 'nothing to report',
   searchResult: [],
   improvements: [
     {
@@ -220,7 +222,7 @@ const initialState = {
   grades: [
     { type: 'Battle Ship', skill: {id: '00004021', inherit: '00002128'} },
     { type: 'High Speed Battle Ship', skill: {id: ''} },
-    { type: 'Expedition Ship', skill: {id: '00004018'} },
+    { type: 'Expedition Ship', skill: {id: '00004012'} },
     { type: 'High Speed Cargo Ship', skill: {id: '' } },
     { type: 'Cargo Ship', skill: {id: '' } },
     { type: 'Armed Merchant Ship', skill: {id: '00004000'} },
@@ -322,6 +324,49 @@ function shipbuilder(state, action) {
         return {...state, ship};
       }
 
+    }
+    case SKILL_OPTIONAL_SET: {
+      const skills = state.ship.skills.optional.set;
+      if(action.payload === SKILL_EMPTY) {
+        return {...state, message: 'can not set the empty optional skill'};
+      }
+      if(state.ship.skills.optional.set.find(e => e['id'] === action.payload)){
+        return {...state, message: 'can not set the same optional skill'};
+      }
+      if(skills.length + 1 >
+          state.ship.skills.optional.limit + state.ship.skills.optional.grade) {
+        return {...state, message: 'can not add more optional skill'};
+      }
+      const skill = state.ship.skills.available.find(e => e['id'] === action.payload);
+
+      return {
+        ...state,
+        ship: {
+          ...state.ship,
+          skills: {
+            ...state.ship.skills,
+            optional: {
+            ...state.ship.skills.optional,
+              set: [
+              ...state.ship.skills.optional.set,
+              skill
+              ]
+            },
+          }
+        }
+      };
+    }
+    case SKILL_ORIGINAL_SET: {
+      return {
+        ...state,
+        ship: {
+          ...state.ship,
+          skills: {
+            ...state.ship.skills,
+            original: action.payload,
+          }
+        }
+      };
     }
     default: {
       return state;

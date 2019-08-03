@@ -60,8 +60,8 @@ const ImproveLog = (props) => {
         <div className='improve-step' key={num}>
           <div className='improve-step-number'>{num + 1}.</div>
           <div className='improve-toggler'>
-          <input type='checkbox' value={improve.active} defaultChecked
-            onClick={() => dispatch({type: IMPROVE_ACTIVE_TOGGLE, payload: num})}
+          <input type='checkbox' value={improve.active} checked={improve.active}
+            onChange={() => dispatch({type: IMPROVE_ACTIVE_TOGGLE, payload: num})}
           ></input>
           </div>
           {sail}

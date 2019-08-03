@@ -204,6 +204,10 @@ export const GRADE_DEL = 'GRADE_DEL';
 
 export const RECALCULATE_ALL  = 'RECALCULATE_ALL';
 
+export const SKILL_ORIGINAL_SET = 'SKILL_ORIGINAL_SET';
+export const SKILL_OPTIONAL_SET = 'SKILL_OPTIONAL_SET';
+
+export const SKILL_EMPTY = 'skill_epmty';
 export const IMPROVEABLE_PROPERTIES = [
   'durability',
   'vertical_sail',

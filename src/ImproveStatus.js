@@ -9,7 +9,7 @@ import ImproveMaterial from './ImproveStatusMaterial.js';
 import ImproveLog from './ImproveLog.js';
 import ImproveLogGrade from './ImproveLogGrade.js';
 
-import { TabPane, TabbedArea } from './Tabs';
+import Tabs from './Tabs';
 
 const ImproveStatus = (props) => {
   const { state } = React.useContext(Store);
@@ -21,14 +21,10 @@ const ImproveStatus = (props) => {
       <ImproveProgress key={elem} res={ship[elem]} name={elem}/>
     ))}
     <ImproveMaterial material={ship.material}/>
-    <TabbedArea>
-    <TabPane display='improve'>
-      <ImproveLog size={ship.size} improvements={state.improvements}/>
-    </TabPane>
-    <TabPane display='grade'>
-      <ImproveLogGrade size={ship.grade_size} grades={state.grades}/>
-    </TabPane>
-    </TabbedArea>
+    <Tabs>
+    <ImproveLog name='improve' size={ship.size} improvements={state.improvements}/>
+    <ImproveLogGrade name='grade' size={ship.grade_size} grades={state.grades}/>
+    </Tabs>
     </div>
   )
 }

@@ -7,7 +7,7 @@ import SearchResult from './SearchResult';
 import ShipStatus from './ShipStatus';
 import ImproveInfo from './ImproveInfo';
 import ImproveStatus from './ImproveStatus';
-import Skill from './Skill';
+import Skills from './Skills';
 import Material from './Material';
 import Grade from './Grade';
 import Improve from './Improve';
@@ -30,7 +30,7 @@ const App = () => {
       <ImproveInfo></ImproveInfo>
       <ImproveStatus></ImproveStatus>
       <Material></Material>
-      <Skill></Skill>
+      <Skills></Skills>
       <Grade></Grade>
       <Improve></Improve>
       <Footer></Footer>

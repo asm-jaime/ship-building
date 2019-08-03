@@ -1,4 +1,45 @@
-.skill{
-  grid-area: skill;
-  background: deepskyblue;
+.original{
+  background: repeating-linear-gradient(45deg, gray, transparent 100px);
+  display: flex;
+  flex-direction: column;
+}
+.optional{
+  background: repeating-linear-gradient(135deg, gray, transparent 100px);
+  display: flex;
+  flex-direction: column;
+}
+
+.select{
+  position: absolute;
+  min-width: 150px;
+  grid-gap: 1px;
+  grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+}
+
+.panel{
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-show-button{
+  height: 100%;
+  min-width: 50px;
+}
+
+.skill-name{
+  display: flex;
+  align-items: center;
+}
+.skill-frame{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-left{
+  display: flex;
+  align-items: center;
+}
+.panel-right{
+  display: flex;
 }
