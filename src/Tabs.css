@@ -1,33 +1,12 @@
-.tabbed-area{
-}
-
-.tab{
+.tab-buttons{
   display: flex;
 }
-.tab a{
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  color: black;
-  background: aliceblue;
-  padding-top: 15px;
-  border-top: 1px solid;
-  border-right: 1px solid;
+.tab-buttons button:hover,
+.tab-buttons button.active{
 }
-.tab a:hover,
-.tab a.active{
-  background: white;
+.tab-button{
+  min-width: 60px;
 }
 
-.tab-pane{
-  /*box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);*/
-}
-.clearfix:after{
-  content: '';
-  display: table;
-  clear: both;
-}
-
-.tab-node{
-  min-width: 58px;
+.tab-area{
 }

@@ -1,46 +1,44 @@
 import React from 'react';
 import './Tabs.css';
 
-
-export const TabbedArea = (props) => {
-  const [activeIndex, setActiveIndex] = React.useState(0);
-
-  const tabNodes = props.children.map((child, index) => {
-    return (
-      <div className='tab-node' key={index} onClick={() => setActiveIndex(index)}>
-        <a stype={{active: activeIndex === index }} href='#/'>
-          {child.props.display}
-        </a>
-      </div>
-    );
-  });
-
-  const contentNodes = props.children.map((child, index) => {
-    if(activeIndex === index) {
-      return (
-        <div key={index} className='tab-pane'>
-          {child.props.children}
-        </div>
-      );
+const Tabs = (props) => {
+  const [tabs, setTabs] = React.useState(
+    () => {
+      const res = Array
+        .apply(null, {length: props.children.length})
+        .map(e => 0);
+      res[0] = 1;
+      return res;
     }
-    return child;
-  });
+  );
+  const displays = ['none', 'block'];
+  const current = ['normal', 'bold'];
 
   return (
-    <div className='tabbed-area'>
-      <div className='tab clearfix'>
-        {tabNodes}
+    <div>
+    <div className='tab-buttons'>
+    {props.children.map((child, i) => {
+      const name = child.props.name;
+      return (<button
+        className='tab-button' style={{fontWeight: current[tabs[i]]}}
+        onClick={() => {
+          setTabs(tabs.map((e, ti) => {
+            if(ti === i) {
+              return 1;
+            } else {
+              return 0;
+            }
+        }));
+      }}>{name}</button>)
+    })}
+    </div>
+    {props.children.map((child, i) =>
+      <div className='tab-area' style={{display: displays[tabs[i]]}}>
+        {child}
       </div>
-      {contentNodes}
+    )}
     </div>
   );
-};
+}
 
-export const TabPane = (props) => {
-  const active = props.active || false;
-  if (active) {
-    return this.props.children;
-  } else {
-    return null;
-  }
-};
+export default Tabs;
