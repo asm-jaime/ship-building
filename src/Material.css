@@ -1,4 +1,49 @@
 .material{
   grid-area: material;
-  background: deepskyblue;
+  background: white;
+  font-size: small;
+}
+
+.panel-select{
+  position: absolute;
+  min-width: 150px;
+  grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+}
+
+.panel{
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.panel-show-button{
+  height: 100%;
+  min-width: 50px;
+}
+
+.panel-name{
+  display: flex;
+  align-items: center;
+}
+.panel-frame{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-left{
+  display: flex;
+  align-items: center;
+}
+.panel-right{
+  display: flex;
+}
+
+.icon-panel{
+  display: flex;
+}
+
+.icon-select-panel{
+  width: 24px;
+  height: 24px;
 }

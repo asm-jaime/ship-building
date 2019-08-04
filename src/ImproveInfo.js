@@ -127,9 +127,13 @@ const ImproveInfo = (props) => {
     </div>
     <div className='info-performance'>
       <InfoPerform name='vertical sail' performance='vertical_sail'
-        result={ship.vertical_sail.base + ship.vertical_sail.result} />
+        result={ ship.vertical_sail.base +
+          ship.vertical_sail.material +
+          ship.vertical_sail.result } />
       <InfoPerform name='horizontal sail' performance='horizontal_sail'
-        result={ship.horizontal_sail.base + ship.horizontal_sail.result} />
+        result={ship.horizontal_sail.base +
+          ship.horizontal_sail.material +
+          ship.horizontal_sail.result } />
       <InfoPerform name='row power' performance='row_power'
         result={ship.row_power.base + ship.row_power.result} />
       <InfoPerform name='turning performance' performance='turning_performance'
@@ -143,7 +147,9 @@ const ImproveInfo = (props) => {
       <div className='info-performance-progress' title='durability'>
       <div className='info-performance-state'>
         <img src='./i_durability.png' alt='durability'
-        ></img> <span>{ship.durability.base + ship.durability.result}</span>
+        ></img> <span>{ ship.durability.base +
+          ship.durability.material +
+          ship.durability.result }</span>
       </div> <div className='info-durability-progress'></div>
       </div>
       <div className='info-performance-progress' title='ship handling'>

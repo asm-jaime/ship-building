@@ -263,3 +263,31 @@ export const get_grading = (ship, grade) => {
 
   return recalculate({...ship, ship_handling, ...graded});
 }
+
+// ========== material/panel
+
+export const get_paneling = (ship, panel) => {
+  const dura = {
+    ...ship.durability,
+    material: -ship.durability.base +
+      parseInt(panel.panel_stats[0] * ship.durability.base),
+  };
+  const vertical = {
+    ...ship.vertical_sail,
+    material: -ship.vertical_sail.base +
+      parseInt(panel.panel_stats[1] * ship.vertical_sail.base),
+  };
+  const horizontal = {
+    ...ship.horizontal_sail,
+    material: -ship.horizontal_sail.base +
+      parseInt(panel.panel_stats[1] * ship.horizontal_sail.base),
+  };
+
+  return {
+    ...ship,
+    durability: dura,
+    vertical_sail: vertical,
+    horizontal_sail: horizontal,
+    material: panel
+  };
+}

@@ -12,6 +12,7 @@ import {
   IMPROVE_DEL,
   GRADE_DEL,
   RECALCULATE_ALL,
+  PANEL_SET,
   GRADE_DURABILITY,
   GRADE_VERTICAL,
   GRADE_HORIZONTAL,
@@ -36,6 +37,7 @@ import {
   apply_improves,
   get_grading,
   get_grade,
+  get_paneling,
 } from './StoreResolve.js';
 
 export const Store = React.createContext();
@@ -141,8 +143,6 @@ const initialState = {
   },
   "material": {
     "name": "Beech Paneling",
-    "durability": 1.0,
-    "sail": 1.0
   },
   "skills": {
     "available": [
@@ -330,14 +330,20 @@ function shipbuilder(state, action) {
       if(action.payload === SKILL_EMPTY) {
         return {...state, message: 'can not set the empty optional skill'};
       }
-      if(state.ship.skills.optional.set.find(e => e['id'] === action.payload)){
+      if(state.ship.skills.optional.set.find(
+        e => e['id'] === action.payload
+      )) {
         return {...state, message: 'can not set the same optional skill'};
       }
       if(skills.length + 1 >
-          state.ship.skills.optional.limit + state.ship.skills.optional.grade) {
+          state.ship.skills.optional.limit +
+          state.ship.skills.optional.grade
+      ) {
         return {...state, message: 'can not add more optional skill'};
       }
-      const skill = state.ship.skills.available.find(e => e['id'] === action.payload);
+      const skill = state.ship.skills.available.find(
+        e => e['id'] === action.payload
+      );
 
       return {
         ...state,
@@ -346,10 +352,10 @@ function shipbuilder(state, action) {
           skills: {
             ...state.ship.skills,
             optional: {
-            ...state.ship.skills.optional,
+              ...state.ship.skills.optional,
               set: [
-              ...state.ship.skills.optional.set,
-              skill
+                ...state.ship.skills.optional.set,
+                skill
               ]
             },
           }
@@ -366,6 +372,14 @@ function shipbuilder(state, action) {
             original: action.payload,
           }
         }
+      };
+    }
+    case PANEL_SET: {
+      const ship = get_paneling(state.ship, action.payload);
+      console.log(ship);
+      return {
+        ...state,
+        ship,
       };
     }
     default: {
