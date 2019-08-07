@@ -1,0 +1,11 @@
+.improve-stats{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  max-height: 65px;
+}
+
+.stat{
+  display: flex;
+  justify-content: center;
+}
