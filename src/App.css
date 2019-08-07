@@ -6,14 +6,14 @@
   min-height: 100vh;
 
   display: grid;
-  grid-template-rows: minmax(100px, auto) minmax(50px, auto) minmax(100px, auto) minmax(100px, auto) 200px;
+  grid-template-rows: minmax(100px, auto) minmax(24px, auto) minmax(24px, auto) minmax(50px, auto) 50px;
   grid-template-columns: 1fr 1fr 1fr minmax(245px, auto);
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-areas: "search ship-status improve-info improve-status"
                        "search-result material skills improve-status"
-                       "search-result grade grade improve-status"
-                       "search-result improve improve improve-status";
+                       "search-result footer improve improve-status"
+                       "search-result footer grade improve-status";
 }
 
 .component-title{

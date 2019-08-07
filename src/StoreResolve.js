@@ -5,12 +5,13 @@ import {
   GRADE_IMPROVE,
   GRADE_IMPROVES,
   GRADE_INHERIT,
+  SHIP_PART_EMPTY,
 } from './constants';
 
 import Sails from './resSails';
 import Gunports from './resGunports';
 import Armaments from './resArmaments';
-
+import Panels from './resPanels';
 
 // resolver section
 
@@ -122,6 +123,7 @@ export const get_improve = (limit, improve) => (
 
 export const get_iranges = (improve_steps) => {
   const result = IMPROVEABLE_PROPERTIES.map(improve => [0, 0]);
+  const AllArmaments = {...Armaments, ...Panels};
 
   // add to the iranges the only exist improve material
   const iranges = [];
@@ -131,17 +133,17 @@ export const get_iranges = (improve_steps) => {
     }
 
     const step = improve_steps[i];
-    if(step['sail']) {
+    if(step['sail'] && step['sail'] !== SHIP_PART_EMPTY) {
       iranges.push(Sails[step['sail']]['stats_ranges']);
     }
-    if(step['gunport']) {
+    if(step['gunport'] && step['gunport'] !== SHIP_PART_EMPTY) {
       iranges.push(Gunports[step['gunport']]['stats_ranges']);
     }
-    if(step['armament_1']) {
-      iranges.push(Armaments[step['armament_1']]['stats_ranges']);
+    if(step['armament_1'] && step['armament_1'] !== SHIP_PART_EMPTY) {
+      iranges.push(AllArmaments[step['armament_1']]['stats_ranges']);
     }
-    if(step['armament_2']) {
-      iranges.push(Armaments[step['armament_2']]['stats_ranges']);
+    if(step['armament_2'] && step['armament_2'] !== SHIP_PART_EMPTY) {
+      iranges.push(AllArmaments[step['armament_2']]['stats_ranges']);
     }
   }
 

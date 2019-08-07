@@ -22,7 +22,6 @@ const Material = (props) => {
       return panels[panel]['name'];
     }
   };
-  console.log(Object.keys(panels));
 
   return (
     <div className='material'>

@@ -199,6 +199,7 @@ export const IMPROVE_NEGATIVE = '#96D677';
 
 export const IMPROVE_ACTIVE_TOGGLE = 'IMPROVE_ACTIVE_TOGGLE';
 export const IMPROVE_DEL = 'IMPROVE_DEL';
+export const IMPROVE_ADD = 'IMPROVE_ADD';
 
 export const GRADE_DEL = 'GRADE_DEL';
 
@@ -213,6 +214,9 @@ export const PANEL_SET = 'PANEL_SET';
 
 export const SKILL_EMPTY = 'skill_epmty';
 export const PANEL_EMPTY = 'ship_part_empty';
+export const SHIP_PART_EMPTY = 'ship_part_empty.png';
+
+export const STATUS_SHOW = ['none', 'grid'];
 
 export const IMPROVEABLE_PROPERTIES = [
   'durability',
@@ -226,5 +230,18 @@ export const IMPROVEABLE_PROPERTIES = [
   'cannon_chambers_capacity',
   'hold_capacity'
 ];
+
+export const SHIP_STAT_NAMES = {
+  'durability': 'dura',
+  'vertical_sail': 'vertical',
+  'horizontal_sail': 'horizontal',
+  'row_power': 'row',
+  'turning_performance': 'turning',
+  'wave_resistance': 'wave',
+  'armouring_value': 'armour',
+  'cabine_capacity': 'cabine',
+  'cannon_chambers_capacity': 'cannon',
+  'hold_capacity': 'hold'
+};
 
 export const DATA_RESOURCE = './resource.json';

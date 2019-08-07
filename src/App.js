@@ -20,7 +20,7 @@ import { RECALCULATE_ALL } from './constants';
 const App = () => {
   const { dispatch } = React.useContext(Store);
 
-  React.useEffect(() => (dispatch({type: RECALCULATE_ALL})), []);
+  React.useEffect(() => dispatch({type: RECALCULATE_ALL}), [dispatch]);
 
   return (
     <div className='App'>

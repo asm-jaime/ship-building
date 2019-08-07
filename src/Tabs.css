@@ -1,11 +1,14 @@
 .tab-buttons{
   display: flex;
+  width: 180px;
+  flex-wrap: wrap;
 }
 .tab-buttons button:hover,
 .tab-buttons button.active{
 }
 .tab-button{
-  min-width: 60px;
+  display: flex;
+  align-item: center;
 }
 
 .tab-area{

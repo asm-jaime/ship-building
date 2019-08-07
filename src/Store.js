@@ -10,28 +10,17 @@ import {
   SHIP_HOLD_BASE_RANGE_SET,
   IMPROVE_ACTIVE_TOGGLE,
   IMPROVE_DEL,
+  IMPROVE_ADD,
   GRADE_DEL,
   RECALCULATE_ALL,
   PANEL_SET,
-  GRADE_DURABILITY,
-  GRADE_VERTICAL,
-  GRADE_HORIZONTAL,
-  GRADE_ROW,
-  GRADE_TURNING,
-  GRADE_WAVE,
-  GRADE_ARMOURING,
-  GRADE_CABINE,
-  GRADE_CANNON,
-  GRADE_HOLD,
   SKILL_ORIGINAL_SET,
   SKILL_OPTIONAL_SET,
   SKILL_EMPTY,
 } from './constants';
 
 import {
-  resolve,
   get_cargo,
-  get_improve,
   get_iranges,
   get_iaverages,
   apply_improves,
@@ -232,7 +221,6 @@ const initialState = {
 };
 
 function shipbuilder(state, action) {
-  console.log(action);
   switch (action.type) {
     case LVL_ADVENTURE_SET: {
       return {...state, edit_id: action.payload};
@@ -288,6 +276,16 @@ function shipbuilder(state, action) {
         ? { ...improve, active: !(improve.active) }
         : improve
       ));
+      const averages = get_iaverages(get_iranges(improvements));
+      const ship = apply_improves(state.ship, averages);
+      const cargo = get_cargo(
+        ship.cargo, ship.hold_capacity, ship.cabine_capacity,
+        ship.cannon_chambers_capacity
+      );
+      return {...state, ship: {...ship, cargo}, improvements};
+    }
+    case IMPROVE_ADD: {
+      const improvements = [...state.improvements, action.payload];
       const averages = get_iaverages(get_iranges(improvements));
       const ship = apply_improves(state.ship, averages);
       const cargo = get_cargo(
@@ -376,7 +374,6 @@ function shipbuilder(state, action) {
     }
     case PANEL_SET: {
       const ship = get_paneling(state.ship, action.payload);
-      console.log(ship);
       return {
         ...state,
         ship,
