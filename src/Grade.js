@@ -23,12 +23,16 @@ import {
   GRADE_SKILL_SLOT_I,
   GRADE_SKILL_SLOT_II,
   GRADE_ROW_IMPROVE,
+  GRADE_MELEE_BATTLE_SHIP_REFIT,
+  GRADE_ARMOURED_SHIP_REFIT,
   SKILL_ROWING_ASSISTANCE,
   SKILL_IMPROVED_RAM,
   SKILL_SPECIAL_RAM,
   SKILL_RAMMING_TACTICS,
   SKILL_IMPROVED_SEA_MINE,
   SKILL_EVADE_MELEE_BATTLE,
+  SKILL_MELEE_BATTLE_SHIP_REFIT,
+  SKILL_ARMOURED_SHIP_REFIT,
 } from './constants';
 
 const SkillsShow = (props) => {
@@ -47,7 +51,6 @@ const SkillsShow = (props) => {
     />
     }
   };
-  console.log('status click: ', STATUS_CLICK[props.status]);
   return <div className='skills-show'
          style={{pointerEvents: STATUS_CLICK[props.status]}}>
     {getSkillImg()}
@@ -101,7 +104,13 @@ const getShipSkills = (ship, set) => {
   const result = [];
 
   for(let i = 0; i < set.length; ++i) {
-    if(ship.skills.optional.set.find(e => e['id'] === set[i])) {
+    if(ship.skills.optional.set.find(e => set[i] === e['id'])) {
+      continue;
+    }
+    if(ship.skills.inherit.find(e => set[i] === e['id'])) {
+      continue;
+    }
+    if(set[i] === ship.skills.original) {
       continue;
     }
     if(ship.row_power.row === false && (
@@ -161,7 +170,15 @@ const Grade = (props) => {
         <SkillsShow skill={skills.grade}
         data={skillsGradeData} resource={resSkillsGrade}
         status={GRADE_STAGES[state.grades.length]}
-        set={id => setSkills(ids => ({grade: id, inherit: SKILL_EMPTY}))}/>
+        set={id => setSkills(ids => {
+          if(id === GRADE_MELEE_BATTLE_SHIP_REFIT) {
+            return {grade: id, inherit: SKILL_MELEE_BATTLE_SHIP_REFIT};
+          }
+          if(id === GRADE_ARMOURED_SHIP_REFIT) {
+            return {grade: id, inherit: SKILL_ARMOURED_SHIP_REFIT};
+          }
+          return {grade: id, inherit: SKILL_EMPTY};
+        })}/>
         <SkillsShow skill={skills.inherit}
         data={skillsData} resource={resSkills}
         status={skills.grade === GRADE_INHERIT? 1 : 0}

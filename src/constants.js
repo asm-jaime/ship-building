@@ -27,6 +27,9 @@ export const SKILL_RAMMING_TACTICS    = '00002082';
 export const SKILL_IMPROVED_SEA_MINE  = '00002125';
 export const SKILL_EVADE_MELEE_BATTLE = '00002127';
 
+export const SKILL_ARMOURED_SHIP_REFIT     = '00002901';
+export const SKILL_MELEE_BATTLE_SHIP_REFIT = '00002902';
+
 export const GRADE_DURABILITY = '00004000';
 export const GRADE_VERTICAL   = '00004001';
 export const GRADE_HORIZONTAL = '00004002';
@@ -48,6 +51,9 @@ export const GRADE_SKILL_SLOT_I  = '00004012';
 export const GRADE_SKILL_SLOT_II = '00004013';
 
 export const GRADE_ROW_IMPROVE   = '00004003';
+
+export const GRADE_ARMOURED_SHIP_REFIT      = '00004015';
+export const GRADE_MELEE_BATTLE_SHIP_REFIT  = '00004016';
 
 export const GRADE_IMPROVES = {
   'durability': '00004000',
