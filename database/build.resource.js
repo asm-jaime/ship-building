@@ -75,7 +75,7 @@ make_index_resources([
   'Armaments',
   'Gunports',
   'Hulls',
-  'Panelings',
+  'Panels',
   'Sails',
   'Skills',
   'SkillsGrade'
