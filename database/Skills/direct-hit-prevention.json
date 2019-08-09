@@ -1,5 +1,6 @@
 {
   "id": "00002004",
+  "img": "00002004.png",
   "name": "Direct Hit Prevention",
   "description": "activation preventing crit from the front",
   "optional": true,

@@ -1,5 +1,6 @@
 {
   "id": "00002044",
+  "img": "00002044.png",
   "name": "Special Smoke Bomb",
   "description": "smoke bombs shot will stops to use enemy evasion/shot-defense",
   "optional": true,

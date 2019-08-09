@@ -1,4 +1,31 @@
 .grade{
   grid-area: grade;
-  background: deepskyblue;
+  background: white;
+  display: flex;
+  font-size: small;
+}
+
+.select-skills{
+  position: absolute;
+  min-width: 150px;
+  grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+}
+
+.select-grade-type{
+  height: 28px;
+  font-size: 13px;
+}
+
+.skills-frame{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grade-chose-group{
+  display: flex;
+  flex-direction: column;
+}
+.grade-first-group{
+  display: flex;
+  align-items: center;
 }

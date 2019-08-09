@@ -1,5 +1,6 @@
 {
   "id": "00002900",
+  "img": "00002900.png",
   "name": "Gunboat Refit",
   "description": "+5% damage increase in cannon shots, -5% melee/cannon shot defence",
   "optional": true,

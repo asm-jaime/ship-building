@@ -1,5 +1,6 @@
 {
   "id": "00002080",
+  "img": "00002080.png",
   "name": "Improved Ram",
   "description": "increase ram attack power, can be increased with sail on Tailwind and Huge ram",
   "optional": true,

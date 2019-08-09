@@ -1,5 +1,6 @@
 {
   "id": "00002000",
+  "img": "00002000.png",
   "name": "Enhance Ship Handling",
   "description": "activation +2 turn speed",
   "optional": true,

@@ -1,5 +1,8 @@
 import React from 'react';
 import {
+  MESSAGE_GRADE_SKILL_EMPTY,
+  MESSAGE_INHERIT_SKILL_EMPTY,
+  GRADE_STAGES,
   LVL_MIN,
   LVL_MAX,
   LVL_ADVENTURE_SET,
@@ -12,11 +15,13 @@ import {
   IMPROVE_DEL,
   IMPROVE_ADD,
   GRADE_DEL,
+  GRADE_ADD,
   RECALCULATE_ALL,
   PANEL_SET,
   SKILL_ORIGINAL_SET,
   SKILL_OPTIONAL_SET,
   SKILL_EMPTY,
+  GRADE_INHERIT,
 } from './constants';
 
 import {
@@ -41,7 +46,6 @@ const initialState = {
   "size": "Heavy",
   "purpose": "Battle",
   "levels": {"advent": 40, "trade": 26, "battle": 69},
-  "row": false,
   "days": 30,
   "ship_equipment": {
     "studding_sails": 3,
@@ -79,6 +83,7 @@ const initialState = {
     "result": 0
   },
   "row_power": {
+    "row": false,
     "base": 0, "improve": 0,
     "grade": 0,
     "penalty": 0,
@@ -144,7 +149,7 @@ const initialState = {
     "optional": { "limit": 2, "grade": 1, "set": [
       { "id": "00002045", "parts": [ "022000560", "022000622" ] },
     ]},
-    "inherit": "00002128",
+    "inherit": ["00002128"],
     "original": "00002121"
   },
   "grade_size": 4,
@@ -209,14 +214,13 @@ const initialState = {
     }
   ],
   grades: [
-    { type: 'Battle Ship', skill: {id: '00004021', inherit: '00002128'} },
-    { type: 'High Speed Battle Ship', skill: {id: ''} },
-    { type: 'Expedition Ship', skill: {id: '00004012'} },
-    { type: 'High Speed Cargo Ship', skill: {id: '' } },
-    { type: 'Cargo Ship', skill: {id: '' } },
-    { type: 'Armed Merchant Ship', skill: {id: '00004000'} },
-    { type: 'Generic Ship', skill: {id: ''} },
-    { type: 'High Speed Battle Ship', skill: {id: ''} }
+    { type: 'Battle Ship', skill: {grade: '00004021', inherit: '00002128'} },
+    { type: 'High Speed Battle Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
+    { type: 'Expedition Ship', skill: {grade: '00004012', inherit: SKILL_EMPTY} },
+    { type: 'High Speed Cargo Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
+    { type: 'Cargo Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
+    { type: 'Armed Merchant Ship', skill: {grade: '00004000', inherit: SKILL_EMPTY} },
+    { type: 'Generic Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
   ]
 };
 
@@ -306,6 +310,20 @@ function shipbuilder(state, action) {
     }
     case GRADE_DEL: {
       const grades = state.grades.splice(0, action.payload);
+      const ship_temp = get_grade(state.ship, grades);
+      const ship = get_grading(ship_temp, grades);
+      return {...state, ship, grades};
+    }
+    case GRADE_ADD: {
+      if(action.payload.skill.grade === SKILL_EMPTY &&
+         GRADE_STAGES[state.grades.length]) {
+        return {...state, message: MESSAGE_GRADE_SKILL_EMPTY};
+      }
+      if(action.payload.skill.grade === GRADE_INHERIT &&
+         action.payload.skill.inherit === SKILL_EMPTY) {
+        return {...state, message: MESSAGE_INHERIT_SKILL_EMPTY};
+      }
+      const grades = [...state.grades, action.payload];
       const ship_temp = get_grade(state.ship, grades);
       const ship = get_grading(ship_temp, grades);
       return {...state, ship, grades};

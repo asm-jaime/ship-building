@@ -174,10 +174,10 @@ const ImproveInfo = (props) => {
         <img key={skill.id} src={`./${skill.id}.png`} alt={skill.id}
           title={SKILLS[skill.id].name}
         ></img>))}
-      {
-        ship.skills.inherit === '' ||
-        <img src={`./${ship.skills.inherit}.png`} alt={ship.skills.inherit}></img>
-      }
+      {ship.skills.inherit.map(skill => {
+        return <img key={skill} src={SKILLS[skill]['img']} alt={skill}
+          title={SKILLS[skill]['name']}
+        ></img>})}
       <img className='original-skill-icon'
         src='./i_skill_original.png' alt='original'
         title='original skills'

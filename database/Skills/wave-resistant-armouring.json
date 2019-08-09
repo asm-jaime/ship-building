@@ -1,5 +1,6 @@
 {
   "id": "00002026",
+  "img": "00002026.png",
   "name": "Wave-Resistant Armouring",
   "description": "90% effective precautions broadside wave, when WR ship less than current wave on sea",
   "optional": true,

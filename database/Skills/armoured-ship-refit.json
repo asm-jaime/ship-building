@@ -1,5 +1,6 @@
 {
   "id": "00002901",
+  "img": "00002901.png",
   "name": "Armoured Ship Refit",
   "description": "5% damage decrease in cannon shots, -5% base sails",
   "optional": true,

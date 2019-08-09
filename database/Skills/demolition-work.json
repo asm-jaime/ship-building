@@ -1,5 +1,6 @@
 {
   "id": "00002060",
+  "img": "00002060.png",
   "name": "Demolition Work",
   "description": "cause flood=>sail damage=>rudden damage=>destroy during melee battle",
   "optional": true,

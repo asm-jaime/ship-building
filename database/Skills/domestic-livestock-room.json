@@ -1,5 +1,6 @@
 {
   "id": "00002029",
+  "img": "00002029.png",
   "name": "Domestic Livestock Room",
   "description": "Cattle/Chickens/Ducks/Sheep/Pigs/Goats randomly reproduce when sail at sea",
   "optional": true,

@@ -1,5 +1,6 @@
 {
   "id": "00002125",
+  "img": "00002125.png",
   "name": "Improved Sea Mine",
   "description": "+50 sea mine damage, up to 300, for max",
   "optional": true,

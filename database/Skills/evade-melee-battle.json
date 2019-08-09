@@ -1,5 +1,6 @@
 {
   "id": "00002127",
+  "img": "00002127.png",
   "name": "Evade Melee Battle",
   "description": "70% chance avoid melee battle",
   "optional": true,

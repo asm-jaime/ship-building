@@ -1,5 +1,6 @@
 {
   "id": "00002001",
+  "img": "00002001.png",
   "name": "Emergency Acceleration",
   "description": "activation +10% acceleration",
   "optional": true,

@@ -1,5 +1,6 @@
 {
   "id": "00002104",
+  "img": "00002104.png",
   "name": "Medical Support",
   "description": "+50% skill surgeon effect, for all fleet",
   "optional": true,

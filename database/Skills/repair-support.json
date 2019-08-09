@@ -1,5 +1,6 @@
 {
   "id": "00002102",
+  "img": "00002102.png",
   "name": "Repair Support",
   "description": "+50% skill repair effect, for all fleet",
   "optional": true,

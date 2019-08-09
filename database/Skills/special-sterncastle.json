@@ -1,5 +1,6 @@
 {
   "id": "00002063",
+  "img": "00002063.png",
   "name": "Special Sterncastle",
   "description": "2x reduce enemy castles effects, protect your stencastle against same enemy effect",
   "optional": true,

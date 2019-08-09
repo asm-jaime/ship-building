@@ -1,5 +1,6 @@
 {
   "id": "00002011",
+  "img": "00002011.png",
   "name": "Hauling Assistance",
   "description": "haul a shipwreck, +20% speed with hauling skill",
   "optional": true,

@@ -1,5 +1,6 @@
 {
   "id": "00002010",
+  "img": "00002010.png",
   "name": "High Lookout",
   "description": "skill caution autoeffect on sea",
   "optional": true,

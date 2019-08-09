@@ -7,6 +7,9 @@ export const SSIP = {
   'Heavy': [3, 3, 6, 9, 10]
 };
 
+export const GRADE_LIMIT = 8;
+export const GRADE_STAGES = [1, 0, 1, 0, 0, 1, 0, 0];
+
 export const GRADE_TYPES = [
   'Generic Ship',
   'Expedition Ship',
@@ -16,6 +19,13 @@ export const GRADE_TYPES = [
   'Battle Ship',
   'High Speed Battle Ship'
 ];
+
+export const SKILL_ROWING_ASSISTANCE  = '00002002';
+export const SKILL_IMPROVED_RAM       = '00002080';
+export const SKILL_SPECIAL_RAM        = '00002081';
+export const SKILL_RAMMING_TACTICS    = '00002082';
+export const SKILL_IMPROVED_SEA_MINE  = '00002125';
+export const SKILL_EVADE_MELEE_BATTLE = '00002127';
 
 export const GRADE_DURABILITY = '00004000';
 export const GRADE_VERTICAL   = '00004001';
@@ -30,6 +40,14 @@ export const GRADE_HOLD       = '00004009';
 
 export const GRADE_INHERIT    = '00004021';
 
+export const GRADE_SPEEDUP_I   = '00004018';
+export const GRADE_SPEEDUP_II  = '00004019';
+export const GRADE_SPEEDUP_III = '00004020';
+
+export const GRADE_SKILL_SLOT_I  = '00004012';
+export const GRADE_SKILL_SLOT_II = '00004013';
+
+export const GRADE_ROW_IMPROVE   = '00004003';
 
 export const GRADE_IMPROVES = {
   'durability': '00004000',
@@ -202,6 +220,7 @@ export const IMPROVE_DEL = 'IMPROVE_DEL';
 export const IMPROVE_ADD = 'IMPROVE_ADD';
 
 export const GRADE_DEL = 'GRADE_DEL';
+export const GRADE_ADD = 'GRADE_ADD';
 
 
 export const RECALCULATE_ALL  = 'RECALCULATE_ALL';
@@ -212,11 +231,13 @@ export const SKILL_OPTIONAL_SET = 'SKILL_OPTIONAL_SET';
 
 export const PANEL_SET = 'PANEL_SET';
 
-export const SKILL_EMPTY = 'skill_epmty';
+export const SKILL_EMPTY = 'skill_epmty.png';
 export const PANEL_EMPTY = 'ship_part_empty';
 export const SHIP_PART_EMPTY = 'ship_part_empty.png';
 
 export const STATUS_SHOW = ['none', 'grid'];
+
+export const STATUS_CLICK = ['none', 'all'];
 
 export const IMPROVEABLE_PROPERTIES = [
   'durability',
@@ -245,3 +266,10 @@ export const SHIP_STAT_NAMES = {
 };
 
 export const DATA_RESOURCE = './resource.json';
+
+// ========== MESSAGES
+
+export const MESSAGE_GRADE_LIMIT = 'this ship already got the grade limit';
+export const MESSAGE_GRADE_SKILL_EMPTY = 'please, set a grade skill on this stage';
+export const MESSAGE_INHERIT_SKILL_EMPTY = 'please, set a inherit skill on this grade skill';
+

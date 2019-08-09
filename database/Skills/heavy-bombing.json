@@ -1,5 +1,6 @@
 {
   "id": "00002040",
+  "img": "00002040.png",
   "name": "Heavy Bombing",
   "description": "normal shot cannons -20% the speed of the enemy ship",
   "optional": true,

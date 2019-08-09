@@ -1,5 +1,6 @@
 {
   "id": "00002120",
+  "img": "00002120.png",
   "name": "Sea Mine Search",
   "description": "Automate detection of enemy sea mines during battle",
   "optional": true,

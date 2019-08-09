@@ -3,19 +3,19 @@ import './ImproveLogGrade.css';
 
 import { Store } from './Store';
 
-import { GRADE_DEL } from './constants';
+import { GRADE_DEL, SKILL_EMPTY } from './constants';
 
 const ImproveLogGrade = (props) => {
   const { dispatch } = React.useContext(Store);
   return (
     <div className='improve-log-grade'>
     { props.grades.map((step, num) => {
-      const inherited = Object.hasOwnProperty.call(step.skill, 'inherit')
+      const inherited = step.skill.inherit !== SKILL_EMPTY
         ? <img src={`./${step.skill['inherit']}.png`} alt={step.skill['inherit']}/>
-        : <img src='./skill_epmty.png' alt='empty'/>
-      const skill = (step.skill['id'])
-        ? <img src={`./${step.skill['id']}.png`} alt={step.skill['id']}/>
-        : <img src='./skill_epmty.png' alt='empty'/>
+        : <img src={SKILL_EMPTY} alt='empty'/>
+      const skill = step.skill['grade'] !== SKILL_EMPTY
+        ? <img src={`./${step.skill['grade']}.png`} alt={step.skill['grade']}/>
+        : <img src={SKILL_EMPTY} alt='empty'/>
 
       return (
         <div className='grade-step' key={num}>

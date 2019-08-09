@@ -6,6 +6,7 @@ import {
   GRADE_IMPROVES,
   GRADE_INHERIT,
   SHIP_PART_EMPTY,
+  SKILL_EMPTY,
 } from './constants';
 
 import Sails from './resSails';
@@ -195,13 +196,17 @@ const recalculate = (ship) => {
 
 export const get_grade = (ship, grades) => {
   const result = [];
-  let inherit = '';
+  const inherit = [];
   for(let i = 0; i < grades.length; ++i) {
-    if(grades[i]['skill']['id']) {
-      result.push(grades[i]['skill']['id']);
+    if(grades[i]['skill']['grade'] &&
+       grades[i]['skill']['grade'] !== SKILL_EMPTY
+      ) {
+      result.push(grades[i]['skill']['grade']);
     }
-    if(grades[i]['skill']['id'] === GRADE_INHERIT) {
-      inherit = grades[i]['inherit'];
+    if(grades[i]['skill'].hasOwnProperty('inherit') &&
+       grades[i]['skill']['inherit'] !== SKILL_EMPTY
+    ) {
+      inherit.push(grades[i]['skill']['inherit']);
     }
   }
 
@@ -216,7 +221,7 @@ export const get_grade = (ship, grades) => {
     ...ship,
     skills: {
       ...ship.skills,
-      inherited: inherit,
+      inherit,
     },
     grade,
   };

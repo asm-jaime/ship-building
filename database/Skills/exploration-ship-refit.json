@@ -1,5 +1,6 @@
 {
   "id": "00002904",
+  "img": "00002904.png",
   "name": "Exploration Ship Refit",
   "description": "10% more adventure EXP while doing discovery in sea, +10 the rate of rise in salvage",
   "optional": true,

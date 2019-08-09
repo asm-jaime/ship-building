@@ -1,5 +1,6 @@
 {
   "id": "00002100",
+  "img": "00002100.png",
   "name": "Cooperation Enhancement",
   "description": "+20% cannon damage applies, when both shooters on one side of enemy ship",
   "optional": true,

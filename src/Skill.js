@@ -31,7 +31,7 @@ const Skill = (props) => {
         </div>
         <div className='panel-right'>
           <div className='skill-frame'>
-            <img className='icon-skill' src={`./${skill}.png`} alt={skill}/>
+            <img className='icon-skill' src={skill} alt={skill}/>
           </div>
           <button onClick={() => props.set(skill)}>set</button>
         </div>

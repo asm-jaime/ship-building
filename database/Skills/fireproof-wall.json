@@ -1,5 +1,6 @@
 {
   "id": "00002027",
+  "img": "00002027.png",
   "name": "Fireproof Wall",
   "description": "reduce to 5% burned trade good, when fire happens",
   "optional": true,

@@ -1,5 +1,6 @@
 {
   "id": "00002061",
+  "img": "00002061.png",
   "name": "Training Bomb",
   "description": "10% chance blow enemy ammunition, and damage 3x(amount ammunition)",
   "optional": true,

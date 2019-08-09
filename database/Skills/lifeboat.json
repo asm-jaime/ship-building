@@ -1,5 +1,6 @@
 {
   "id": "00002012",
+  "img": "00002012.png",
   "name": "Lifeboat",
   "description": "once on sea, prevent losses shipwrecks/sirens/storms",
   "optional": true,

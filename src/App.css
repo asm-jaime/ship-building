@@ -6,8 +6,8 @@
   min-height: 100vh;
 
   display: grid;
-  grid-template-rows: minmax(100px, auto) minmax(24px, auto) minmax(24px, auto) minmax(50px, auto) 50px;
-  grid-template-columns: 1fr 1fr 1fr minmax(245px, auto);
+  grid-template-rows: minmax(100px, auto) minmax(24px, auto) minmax(24px, aouto) minmax(50px, auto) 50px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-areas: "search ship-status improve-info improve-status"

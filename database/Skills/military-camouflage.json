@@ -1,5 +1,6 @@
 {
   "id": "00002015",
+  "img": "00002015.png",
   "name": "Military Camouflage",
   "description": "Prevents 90% from visible NPC attack",
   "optional": true,
