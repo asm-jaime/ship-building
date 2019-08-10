@@ -40,13 +40,19 @@ const horizontal = (horizontal) => ({
   ),
 });
 
-const row = (row) => ({
-  ...row,
-  result: get_improve(
-    row['improve_limit']['current'],
-    row.grade + row.penalty + row.improve
-  )
-});
+const row = (row) => {
+  if(row.row === false) {
+    return row;
+  } else {
+    return {
+      ...row,
+      result: get_improve(
+        row['improve_limit']['current'],
+        row.grade + row.penalty + row.improve
+      )
+    };
+  }
+};
 
 const turning = (turning) => ({
   ...turning,
