@@ -11,9 +11,9 @@
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-areas: "search ship-status improve-info improve-status"
-                       "search-result material skills improve-status"
-                       "search-result footer improve improve-status"
-                       "search-result footer grade improve-status";
+                       "search-result panel skills improve-status"
+                       "search-result info improve improve-status"
+                       "search-result info grade improve-status";
 }
 
 .component-title{
@@ -28,4 +28,22 @@
 
 .icon-skill{
   display: flex;
+}
+
+.button-agree{
+  background: url("icon_agree.png") no-repeat;
+  background-size: cover;
+}
+.button-agree:hover{
+  background: url("icon_agree.gif") no-repeat;
+  background-size: cover;
+}
+
+.button-disagree{
+  background: url("icon_disagree.png") no-repeat;
+  background-size: cover;
+}
+.button-disagree:hover{
+  background: url("icon_disagree.gif") no-repeat;
+  background-size: cover;
 }
