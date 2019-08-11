@@ -5,6 +5,7 @@
 }
 
 .improve-status-title{
+  white-space: nowrap;
   display: flex;
 }
 
@@ -27,5 +28,5 @@
 
 .improve-number{
   text-align: right;
-  min-width: 35px;
+  min-width: 30px;
 }

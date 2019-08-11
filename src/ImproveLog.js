@@ -11,7 +11,10 @@ import Armaments from './resArmaments';
 
 import {
   IMPROVE_ACTIVE_TOGGLE,
-  IMPROVE_DEL
+  IMPROVE_DEL,
+  SHIP_PART_EMPTY,
+  DISAGREE_SOUND,
+  SOUND_HOVER,
 } from './constants';
 
 const ImproveLog = (props) => {
@@ -19,7 +22,7 @@ const ImproveLog = (props) => {
 
   const empty = (name) => (
     <img className='icon-ship-part'
-      src='ship_part_empty.png' alt='empty'
+      src={SHIP_PART_EMPTY} alt='empty'
       title={name}
     ></img>
   );
@@ -27,41 +30,42 @@ const ImproveLog = (props) => {
   return (
     <div className='improve-log'>
     {props.improvements.map((improve, num) => {
-      const sail = (improve.sail)
-      ? (<img
+      const sail = improve.sail !== SHIP_PART_EMPTY
+      ? <img
           className='icon-ship-part' alt={improve.sail}
           src={Sails[improve.sail]['img']}
           title={Sails[improve.sail]['name']}
-        />)
-      : (empty('Sail'));
-      const gunport = (improve.gunport)
-      ? (<img
+        />
+      : empty('Sail');
+      const gunport = improve.gunport !== SHIP_PART_EMPTY
+      ? <img
           className='icon-ship-part' alt={improve.gunport}
           src={Gunports[improve.gunport]['img']}
           title={Gunports[improve.gunport]['name']}
-        />)
-      : (empty('Gunport'));
-      const armament_1 = (improve.armament_1)
-      ? (<img
+        />
+      : empty('Gunport');
+      const armament_1 = improve.armament_1 !== SHIP_PART_EMPTY
+      ? <img
           className='icon-ship-part' alt={improve.armament_1}
           src={Armaments[improve.armament_1]['img']}
           title={Armaments[improve.armament_1]['name']}
-        />)
-      : (empty('Armament 1'));
-      const armament_2 = (improve.armament_2)
-      ? (<img
+        />
+      : empty('Armament 1');
+      const armament_2 = improve.armament_2 !== SHIP_PART_EMPTY
+      ? <img
           className='icon-ship-part' alt={improve.armament_2}
           src={Armaments[improve.armament_2]['img']}
           title={Armaments[improve.armament_2]['name']}
-        />)
-      : (empty('Armament 2'));
+        />
+      : empty('Armament 2');
 
       return (
         <div className='improve-step' key={num}>
-          <div className='improve-step-number'>{num + 1}.</div>
+          <div className='improve-step-number'>{num + 1}</div>
           <div className='improve-toggler'>
-          <input type='checkbox' value={improve.active} checked={improve.active}
-            onChange={() => dispatch({type: IMPROVE_ACTIVE_TOGGLE, payload: num})}
+          <input className='improve-check' type='checkbox'
+          value={improve.active} checked={improve.active}
+          onChange={() => dispatch({type: IMPROVE_ACTIVE_TOGGLE, payload: num})}
           ></input>
           </div>
           {sail}
@@ -69,10 +73,13 @@ const ImproveLog = (props) => {
           {armament_1}
           {armament_2}
           <Ssip size={props.size} number={num}/>
-          <button className='improve-delete-button'
-            onClick={() => dispatch({type: IMPROVE_DEL, payload: num})}
+          <button className='improve-delete-button button-disagree'
+            onMouseEnter={() => SOUND_HOVER.play()}
+            onClick={() => {
+              dispatch({type: IMPROVE_DEL, payload: num});
+              DISAGREE_SOUND.play();
+            }}
             title='remove improvement'>
-            <img className='improve-delete-icon' src='./delete_improve_step.png' alt='del'/>
           </button>
         </div>
       );
@@ -80,5 +87,6 @@ const ImproveLog = (props) => {
     </div>
   );
 }
+// <img className='improve-delete-icon' src={buttonImg} alt='del'/>
 
 export default ImproveLog;

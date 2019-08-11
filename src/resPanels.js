@@ -817,5 +817,26 @@ export default {
       [0, 0]
     ],
     "description": ""
+  },
+  "ship_part_empty.png": {
+    "id": "ship_part_empty.png",
+    "img": "ship_part_empty.png",
+    "name": "Empty Paneling",
+    "nc": false,
+    "panel_stats": [1.0, 1.0],
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": "no panel here"
   }
 };

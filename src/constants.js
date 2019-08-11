@@ -1,6 +1,12 @@
 export const LVL_MIN = 0;
 export const LVL_MAX = 87;
 
+export const SHIP_SIZE_POS = {
+  'Light' : 0,
+  'Standard' : 1,
+  'Heavy' : 2,
+};
+
 export const SSIP = {
   'Light': [1, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
   'Standard': [2, 2, 4, 6, 8, 10],
@@ -54,6 +60,9 @@ export const GRADE_ROW_IMPROVE   = '00004003';
 
 export const GRADE_ARMOURED_SHIP_REFIT      = '00004015';
 export const GRADE_MELEE_BATTLE_SHIP_REFIT  = '00004016';
+
+// ========== PANELS
+export const BEECH_PANELING = '022000800';
 
 export const GRADE_IMPROVES = {
   'durability': '00004000',
@@ -238,8 +247,19 @@ export const SKILL_OPTIONAL_SET = 'SKILL_OPTIONAL_SET';
 export const PANEL_SET = 'PANEL_SET';
 
 export const SKILL_EMPTY = 'skill_epmty.png';
-export const PANEL_EMPTY = 'ship_part_empty';
 export const SHIP_PART_EMPTY = 'ship_part_empty.png';
+
+export const DISAGREE_ICON  = 'icon_disagree.png';
+export const DISAGREE_GIF   = 'icon_disagree.gif';
+export const DISAGREE_SOUND = new Audio('sound_disagree.mp3');
+export const AGREE_ICON     = 'icon_agree.png';
+export const AGREE_GIF      = 'icon_agree.gif';
+export const AGREE_SOUND    = new Audio('sound_agree.mp3');
+
+export const SOUND_HOVER    = new Audio('sound_hover.mp3');
+
+
+export const SHIP_PART_EMPTY_NOTE = 'Empty Ship Part';
 
 export const STATUS_SHOW = ['none', 'grid'];
 
@@ -271,6 +291,32 @@ export const SHIP_STAT_NAMES = {
   'hold_capacity': 'hold'
 };
 
+export const SHIP_STAT_ICONS_UW2 = {
+  'durability': 'i_durability.png',
+  'vertical_sail': 'i_vertical_sail.png',
+  'horizontal_sail': 'i_horizontal_sail.png',
+  'row_power': 'i_row_power.png',
+  'turning_performance': 'uw2_turning_performance.png',
+  'wave_resistance': 'i_wave_resistance.png',
+  'armouring_value': 'i_armouring_value.png',
+  'cabine_capacity': 'uw2_cabine_capacity.png',
+  'cannon_chambers_capacity': 'uw2_cannon_chambers_capacity.png',
+  'hold_capacity': 'uw2_hold_capacity.png'
+};
+
+export const SHIP_STAT_ICONS_IMP = {
+  'durability': 'i_durability.png',
+  'vertical_sail': 'i_vertical_sail.png',
+  'horizontal_sail': 'i_horizontal_sail.png',
+  'row_power': 'i_row_power.png',
+  'turning_performance': 'uw2_turning_performance.png',
+  'wave_resistance': 'i_wave_resistance.png',
+  'armouring_value': 'i_armouring_value.png',
+  'cabine_capacity': 'i_cabine_capacity.png',
+  'cannon_chambers_capacity': 'i_cannon_chambers_capacity.png',
+  'hold_capacity': 'i_hold_capacity.png'
+};
+
 export const DATA_RESOURCE = './resource.json';
 
 // ========== MESSAGES
@@ -278,4 +324,16 @@ export const DATA_RESOURCE = './resource.json';
 export const MESSAGE_GRADE_LIMIT = 'this ship already got the grade limit';
 export const MESSAGE_GRADE_SKILL_EMPTY = 'please, set a grade skill on this stage';
 export const MESSAGE_INHERIT_SKILL_EMPTY = 'please, set a inherit skill on this grade skill';
+
+// =========== INFO
+
+export const IMPROVEMENTS_INFO = 'size of approved improvements';
+
+// ========== SHIP PARTS
+
+export const GENERAL_LARGE_OAR        = '022000444';
+export const GENERAL_MEDIUM_OAR       = '022000443';
+export const GENERAL_SMALL_OAR        = '022000442';
+export const SPECIAL_ORDER_LARGE_OAR  = '022000441';
+export const SPECIAL_ORDER_LIGHT_OAR  = '02200044';
 

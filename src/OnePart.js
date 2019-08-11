@@ -10,15 +10,14 @@ import {
 } from './constants';
 
 // get the only tabs for resources what's contain non-zero stats
-const getTabs = (resource) => {
+const getTabs = (resource, data) => {
   const tabs = [];
-  const keys = Object.keys(resource);
   for(let i = 0; i < IMPROVEABLE_PROPERTIES.length; ++i) {
     const tab = [];
-    for(let k = 0; k < keys.length; ++k) {
-      if( resource[keys[k]]['stats_ranges'][i][0] !== 0 ||
-          resource[keys[k]]['stats_ranges'][i][1] !== 0 ) {
-        tab.push(keys[k]);
+    for(let k = 0; k < data.length; ++k) {
+      if( resource[data[k]]['stats_ranges'][i][0] !== 0 ||
+          resource[data[k]]['stats_ranges'][i][1] !== 0 ) {
+        tab.push(data[k]);
       }
     }
     if(tab.length > 0) {
@@ -43,7 +42,7 @@ const SelectPart = (props) => {
 };
 
 const OnePart = (props) => {
-  const tabs = getTabs(props.resource).map((tab, i) =>
+  const tabs = getTabs(props.resource, props.data).map((tab, i) =>
     <SelectPart key={i}
       name={<img src={`./i_${tab['name']}.png`} alt={tab['name']}/>}
       description={'kek'}
@@ -75,7 +74,7 @@ const OnePart = (props) => {
         <Tabs>
           <SelectPart name={props.name}
             resource={props.resource}
-            data={Object.keys(props.resource)}
+            data={props.data}
             click={(key) => {
               props.set(key);
               props.show();

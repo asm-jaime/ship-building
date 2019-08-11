@@ -1,0 +1,17 @@
+.panel{
+  grid-area: panel;
+  background: white;
+  font-size: small;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.panel-right-block{
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.panel-set-button{
+  height: 48px;
+  width: 48px;
+}

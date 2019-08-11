@@ -26,10 +26,6 @@
   padding: 0px;
   margin: 0px;
 }
-.improve-delete-icon{
-  height: 28px;
-  width: 28px;
-}
 
 .improve-step-number{
   min-width: 18px;
@@ -41,4 +37,8 @@
 .improve-toggler{
   display: flex;
   align-items: center;
+}
+.improve-check{
+  padding: 0px;
+  margin: -1px;
 }

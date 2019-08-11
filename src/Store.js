@@ -21,6 +21,7 @@ import {
   SKILL_ORIGINAL_SET,
   SKILL_OPTIONAL_SET,
   SKILL_EMPTY,
+  SHIP_PART_EMPTY,
   GRADE_INHERIT,
 } from './constants';
 
@@ -176,40 +177,40 @@ const initialState = {
   searchResult: [],
   improvements: [
     {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }, {
-      active: true, sail: '022000213', gunport: '',
+      active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
       armament_1: '022000560', armament_2: '022000560'
     }
   ],
@@ -225,6 +226,9 @@ const initialState = {
 };
 
 function shipbuilder(state, action) {
+
+  console.log('action: ', action);
+
   switch (action.type) {
     case LVL_ADVENTURE_SET: {
       return {...state, edit_id: action.payload};

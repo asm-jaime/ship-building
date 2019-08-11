@@ -3,7 +3,12 @@ import './ImproveLogGrade.css';
 
 import { Store } from './Store';
 
-import { GRADE_DEL, SKILL_EMPTY } from './constants';
+import {
+  GRADE_DEL,
+  SKILL_EMPTY,
+  DISAGREE_SOUND,
+  SOUND_HOVER,
+} from './constants';
 
 const ImproveLogGrade = (props) => {
   const { dispatch } = React.useContext(Store);
@@ -23,10 +28,13 @@ const ImproveLogGrade = (props) => {
           <div className='grade-step-type'>{step.type}</div>
           {skill}
           {inherited}
-          <button className='grade-del-button'
-            onClick={() => dispatch({type: GRADE_DEL, payload: num})}
+          <button className='grade-del-button button-disagree'
+            onMouseEnter={() => SOUND_HOVER.play()}
+            onClick={() => {
+              dispatch({type: GRADE_DEL, payload: num});
+              DISAGREE_SOUND.play();
+            }}
             title='remove grade'>
-            <img className='grade-del-icon' src='./delete_grade_step.png' alt='del'/>
           </button>
         </div>
       );

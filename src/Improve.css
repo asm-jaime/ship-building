@@ -42,3 +42,8 @@
   display: flex;
   justify-content: center;
 }
+
+.improve-add-button{
+  width: 48px;
+  height: 48px;
+}

@@ -1,0 +1,8 @@
+{
+  "id": "skill_epmty.png",
+  "img": "skill_epmty.png",
+  "name": "empty skill",
+  "description": "this skill does not exist",
+  "optional": true,
+  "original": true
+}

@@ -17,7 +17,7 @@
 
 .info-performance-state{
   display: flex;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .info-performance-linear{
@@ -72,6 +72,11 @@
   background: #A3E881;
   margin-top: 3px;
 
+}
+
+.info-ship-number{
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .range-button{

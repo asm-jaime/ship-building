@@ -1,7 +1,13 @@
 import React from 'react';
 import './ImproveStatusProgress.css';
 
-import { IMPROVE_POSITIVE, IMPROVE_NEGATIVE } from './constants'
+import {
+  IMPROVE_POSITIVE,
+  IMPROVE_NEGATIVE,
+  SHIP_STAT_ICONS_IMP,
+} from './constants'
+
+import { get_base_ship_stat } from './StoreResolve';
 
 const ImproveProgress = (props) => {
   const getSignum = (num) => (['', '+', '-'][
@@ -31,12 +37,14 @@ const ImproveProgress = (props) => {
     <div className='improve-status-progress'>
     <div className='improve-status-data'>
       <div className='improve-status-title'>
-        <img className='icon' src={`./i_${props.name}.png`} alt={props.name}></img>
+        <img className='icon-stat' alt={props.name}
+          src={SHIP_STAT_ICONS_IMP[props.name]}
+        />
         <div>{getTitleName(props.name)}</div>
       </div>
       <div className='improve-number-place'>
       <div className='improve-status-number'>
-        {props.res.result}
+        {get_base_ship_stat[props.name](props.res)}
       </div>
       (<div className='improve-number'>
         {getSignum(props.res.result)}{Math.abs(props.res.result)}

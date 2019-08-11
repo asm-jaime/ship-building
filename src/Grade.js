@@ -3,6 +3,7 @@ import './Grade.css';
 
 import { Store } from './Store';
 
+import SkillsShow from './SkillsShow';
 
 import resSkills from './resSkills';
 import resSkillsGrade from './resSkillsGrade';
@@ -14,8 +15,6 @@ import {
   GRADE_TYPES,
   GRADE_STAGES,
   MESSAGE_GRADE_LIMIT,
-  STATUS_SHOW,
-  STATUS_CLICK,
   GRADE_INHERIT,
   GRADE_SPEEDUP_I,
   GRADE_SPEEDUP_II,
@@ -33,45 +32,11 @@ import {
   SKILL_EVADE_MELEE_BATTLE,
   SKILL_MELEE_BATTLE_SHIP_REFIT,
   SKILL_ARMOURED_SHIP_REFIT,
+  AGREE_SOUND,
+  SOUND_HOVER,
 } from './constants';
 
-const SkillsShow = (props) => {
-  const [show, setShow] = React.useState(0);
-
-  const getSkillImg = () => {
-    if(props.skill === SKILL_EMPTY) {
-      return <img className='icon-skill'
-        src={SKILL_EMPTY} alt={SKILL_EMPTY}
-        onClick={() => setShow(show => show? 0 : 1)}
-      />
-    } else {
-      return <img className='icon-skill'
-      src={props.resource[props.skill]['img']} alt={props.skill}
-      onClick={() => setShow(show => show? 0 : 1)}
-    />
-    }
-  };
-  return <div className='skills-show'
-         style={{pointerEvents: STATUS_CLICK[props.status]}}>
-    {getSkillImg()}
-    <div className='select-skills'style={{display: STATUS_SHOW[show]}}>{
-    props.data.map((id, i) => (
-      <img
-        className='select-skill'
-        key={i}
-        src={props.resource[id]['img']}
-        title={props.resource[id]['name']} alt={id}
-        onClick={() => {
-          setShow(0);
-          props.set(id);
-        }}
-      ></img>)
-    )
-  }</div>
-  </div>
-}
-
-const getGradeSkills = (ship, set) => {
+const getAvailableGradeSkills = (ship, set) => {
   const result = [];
 
   for(let i = 0; i < set.length; ++i) {
@@ -100,7 +65,7 @@ const getGradeSkills = (ship, set) => {
   return result;
 }
 
-const getShipSkills = (ship, set) => {
+const getAvailableShipSkills = (ship, set) => {
   const result = [];
 
   for(let i = 0; i < set.length; ++i) {
@@ -141,12 +106,12 @@ const Grade = (props) => {
     {grade: SKILL_EMPTY, inherit: SKILL_EMPTY}
   );
 
-  const skillsData = getShipSkills(
+  const skillsData = getAvailableShipSkills(
     state.ship,
     Object.keys(resSkills)
     .filter(key => resSkills[key]['optional']).map(key => key)
   );
-  const skillsGradeData = getGradeSkills(
+  const skillsGradeData = getAvailableGradeSkills(
     state.ship, Object.keys(resSkillsGrade).map(key => key)
   );
 
@@ -158,7 +123,6 @@ const Grade = (props) => {
     <div className='grade'>
     <div className='grade-chose-group'>
       <div className='grade-first-group'>
-        <div>G{state.grades.length}=>G{state.grades.length + 1}</div>
         <select className='select-grade-type'
         value={gradeType}
         onChange={event => setGradeType(event.target.value)}>
@@ -166,6 +130,8 @@ const Grade = (props) => {
             <option className='select-grade-type' key={i} value={e}>{e}</option>)}
         </select>
       </div>
+      <div className='grade-bottom-group'>
+      <div>G{state.grades.length}=>G{state.grades.length + 1}</div>
       <div className='skills-frame'>
         <SkillsShow skill={skills.grade}
         data={skillsGradeData} resource={resSkillsGrade}
@@ -184,11 +150,15 @@ const Grade = (props) => {
         status={skills.grade === GRADE_INHERIT? 1 : 0}
         set={id => setSkills(ids => ({...ids, inherit: id}))}/>
       </div>
+      </div>
     </div>
-    <button onClick={() => {
+    <button className='grade-add-button button-agree'
+    onMouseEnter={() => SOUND_HOVER.play()}
+    onClick={() => {
       dispatch({type: GRADE_ADD, payload: {type: gradeType, skill: skills}});
       setSkills({grade: SKILL_EMPTY, inherit: SKILL_EMPTY});
-    }}>set</button>
+      AGREE_SOUND.play();
+    }}></button>
     </div>
   )
 }

@@ -11,7 +11,7 @@
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-areas: "search ship-status improve-info improve-status"
-                       "search-result panel skills improve-status"
+                       "search-result info skills improve-status"
                        "search-result info improve improve-status"
                        "search-result info grade improve-status";
 }
@@ -24,6 +24,18 @@
   width: 16px;
   align-self: center;
   margin: 1px;
+}
+
+.icon-stat{
+  width: 16px;
+  align-self: center;
+  margin: 1px;
+}
+
+.icon-range{
+  width: 32px;
+  align-self: center;
+  margin: 0px;
 }
 
 .icon-skill{

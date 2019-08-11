@@ -8,11 +8,9 @@ import ShipStatus from './ShipStatus';
 import ImproveInfo from './ImproveInfo';
 import ImproveStatus from './ImproveStatus';
 import Skills from './Skills';
-import Material from './Material';
 import Grade from './Grade';
 import Improve from './Improve';
-
-import Footer from './Footer';
+import Info from './Info';
 
 import { Store } from './Store';
 import { RECALCULATE_ALL } from './constants';
@@ -29,11 +27,10 @@ const App = () => {
       <ShipStatus></ShipStatus>
       <ImproveInfo></ImproveInfo>
       <ImproveStatus></ImproveStatus>
-      <Material></Material>
       <Skills></Skills>
       <Grade></Grade>
       <Improve></Improve>
-      <Footer></Footer>
+      <Info></Info>
     </div>
   );
 }

@@ -130,5 +130,13 @@ export default {
     "img": "00004005.png",
     "name": "Wave Resistance Improvement",
     "description": "Improves ship is wave resist stats"
+  },
+  "skill_epmty.png": {
+    "id": "skill_epmty.png",
+    "img": "skill_epmty.png",
+    "name": "empty skill",
+    "description": "this skill does not exist",
+    "optional": true,
+    "original": true
   }
 };

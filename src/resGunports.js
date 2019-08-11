@@ -138,5 +138,25 @@ export default {
       [0, 0]
     ],
     "description": ""
+  },
+  "ship_part_empty.png": {
+    "id": "ship_part_empty.png",
+    "img": "ship_part_empty.png",
+    "name": "Empty Part",
+    "nc": false,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": "no gunport part here"
   }
 };

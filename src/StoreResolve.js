@@ -4,9 +4,15 @@ import {
   GRADE_BONUS,
   GRADE_IMPROVE,
   GRADE_IMPROVES,
-  GRADE_INHERIT,
   SHIP_PART_EMPTY,
   SKILL_EMPTY,
+  SHIP_BUILDING_RANK,
+  SHIP_SIZE_POS,
+  GENERAL_LARGE_OAR,
+  GENERAL_MEDIUM_OAR,
+  GENERAL_SMALL_OAR,
+  SPECIAL_ORDER_LARGE_OAR,
+  SPECIAL_ORDER_LIGHT_OAR,
 } from './constants';
 
 import Sails from './resSails';
@@ -14,7 +20,22 @@ import Gunports from './resGunports';
 import Armaments from './resArmaments';
 import Panels from './resPanels';
 
-// resolver section
+// ========== get information from stats
+
+export const get_base_ship_stat = {
+  "durability": e => e.base + e.material,
+  "vertical_sail": e => e.base + e.material,
+  "horizontal_sail": e => e.base + e.material,
+  "row_power": e => e.base,
+  "turning_performance": e => e.base,
+  "wave_resistance": e => e.base,
+  "armouring_value": e => e.base,
+  "cabine_capacity": e => e.base_ranged,
+  "cannon_chambers_capacity": e => e.base_ranged,
+  "hold_capacity": e => e.base_ranged,
+}
+
+// ========== resolver section
 
 const durability = (durability) => ({
   ...durability,
@@ -122,7 +143,86 @@ export const resolve = {
   "hold_capacity": hold,
 }
 
-// improvement section
+// ========== ranges calculation section
+
+const get_max_safe_hold = (hold) => {
+  const percent = (101 + SHIP_BUILDING_RANK) / 100;
+  const max_hold = Math.floor(hold * percent);
+
+  let tmp1 = 0;
+  let tmp2 = 0;
+  let tmp3 = max_hold + 5;
+
+  for(let i = -5; i < 6; ++i) {
+    tmp1 = max_hold + i;
+
+    if(hold === 0) {
+      tmp2 = 0;
+    } else {
+      tmp2 = tmp1 / hold;
+    }
+
+    if (tmp2 >= percent) {
+      break;
+    }
+    tmp3 = tmp1;
+  }
+  return tmp3;
+}
+
+const get_min_safe_hold = (hold) => {
+  const percent = (100 - SHIP_BUILDING_RANK) / 100;
+  const min_hold = Math.floor(hold * percent);
+
+  let tmp1 = 0;
+  let tmp2 = 0;
+  let tmp3 = min_hold + 5;
+
+  for (let i = 5; i > -6; --i) {
+    tmp1 = min_hold + i;
+
+    if(hold === 0) {
+      tmp2 = 0;
+    } else {
+      tmp2 = tmp1 / hold;
+    }
+
+    if (tmp2 < percent) {
+      break;
+    }
+    tmp3 = tmp1;
+  }
+
+  return tmp3;
+}
+
+export const get_hold_ranges = (hold) => {
+  const smax = SHIP_BUILDING_RANK + 5;
+  const smin = - (SHIP_BUILDING_RANK + 5);
+  const max_hold = parseInt(hold * (1 + smax / 100));
+  const min_hold = parseInt(hold * (1 + smin / 100));
+
+  const max_safe = get_max_safe_hold(hold);
+  const min_safe = get_min_safe_hold(hold);
+
+  return [min_hold, min_safe, max_safe, max_hold];
+}
+
+export const get_cabin_ranges = (cabin, required) => {
+  const req = parseInt(required * 1.2);
+  const cab = parseInt(cabin * 0.5);
+
+  const min = (req < cab) ? cab : req;
+  const max = parseInt(cabin * 1.5);
+
+  return [min, max];
+}
+
+export const get_cannon_ranges = (cannons) => {
+  return [parseInt(cannons * 0.5), parseInt(cannons * 1.5)];
+}
+
+// ========== improvement section
 
 export const get_improve = (limit, improve) => (
   Math.sign(improve) * Math.min(Math.abs(improve), Math.abs(limit))
@@ -183,7 +283,7 @@ export const apply_improves = (ship, iaverages) => {
   return {...ship, ...result};
 }
 
-// grade section
+// ========== grade section
 
 const recalculate = (ship) => {
   const result = Object.create(null);
@@ -304,3 +404,86 @@ export const get_paneling = (ship, panel) => {
     material: panel
   };
 }
+
+// ========== custom filters
+
+export const get_available_gunports = (ship, resource) => {
+  const result = [];
+
+  const set = Object.keys(resource);
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SHIP_PART_EMPTY) {
+      continue;
+    }
+    if(resource[set[i]]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false) {
+      continue;
+    }
+
+    result.push(set[i]);
+  }
+
+  return result;
+};
+
+export const get_available_sails = (ship, resource) => {
+  const result = [];
+
+  const set = Object.keys(resource);
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SHIP_PART_EMPTY) {
+      continue;
+    }
+    if(resource[set[i]]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false) {
+      continue;
+    }
+
+    result.push(set[i]);
+  }
+
+  return result;
+};
+
+export const get_available_armaments = (ship, resource) => {
+  const result = [];
+
+  const set = Object.keys(resource);
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SHIP_PART_EMPTY) {
+      continue;
+    }
+    if(ship.row_power.row === false && (
+       set[i] === GENERAL_LARGE_OAR ||
+       set[i] === GENERAL_MEDIUM_OAR ||
+       set[i] === GENERAL_SMALL_OAR ||
+       set[i] === SPECIAL_ORDER_LARGE_OAR ||
+       set[i] === SPECIAL_ORDER_LIGHT_OAR)
+    ) {
+      continue;
+    }
+    if(resource[set[i]]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false) {
+      continue;
+    }
+
+    result.push(set[i]);
+  }
+
+  return result;
+};
+
+export const get_available_panels = (ship, resource) => {
+  const result = [];
+
+  const set = Object.keys(resource);
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SHIP_PART_EMPTY) {
+      continue;
+    }
+    if(resource[set[i]]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false) {
+      continue;
+    }
+
+    result.push(set[i]);
+  }
+
+  return result;
+};
