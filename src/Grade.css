@@ -3,6 +3,7 @@
   background: white;
   display: flex;
   font-size: small;
+  justify-content: space-between;
 }
 
 .select-skills{

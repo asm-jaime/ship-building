@@ -6,14 +6,55 @@
   min-height: 100vh;
 
   display: grid;
-  grid-template-rows: minmax(100px, auto) minmax(24px, auto) minmax(24px, aouto) minmax(50px, auto) 50px;
+  grid-template-rows: minmax(100px, auto) minmax(48px, auto) minmax(48px, aouto) minmax(50px, auto) 50px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
   grid-template-areas: "search ship-status improve-info improve-status"
-                       "search-result info skills improve-status"
-                       "search-result info improve improve-status"
-                       "search-result info grade improve-status";
+                       "search-result info improve      improve-status"
+                       "search-result info grade        improve-status"
+                       "search-result info skills       improve-status";
+}
+
+@media screen and (max-width: 960px){
+  .App{
+  grid-template-rows: minmax(100px, auto) minmax(48px, auto) minmax(48px, aouto) minmax(50px, auto) 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "search        ship-status  improve-info"
+                         "search-result improve      improve-status"
+                         "search-result grade        improve-status"
+                         "info          skills       improve-status";
+  }
+}
+
+@media screen and (max-width: 768px){
+  .App{
+  grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(48px, auto) minmax(48px, aouto) minmax(48px, auto) 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "search        improve-info"
+                         "search-result ship-status"
+                         "improve       improve-status"
+                         "grade         improve-status"
+                         "skills        improve-status"
+                         "info          improve-status";
+  }
+}
+
+@media screen and (max-width: 560px){
+  .App{
+  max-width: 260px;
+  grid-template-rows: minmax(100px, auto) minmax(100px, auto) minmax(48px, auto) minmax(48px, aouto) minmax(48px, auto) 50px;
+    grid-template-columns: 1fr;
+    grid-template-areas: "search        "
+                         "search-result "
+                         "ship-status   "
+                         "improve-info  "
+                         "improve-status"
+                         "improve       "
+                         "grade         "
+                         "skills        "
+                         "info          ";
+  }
 }
 
 .component-title{
