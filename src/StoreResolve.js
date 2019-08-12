@@ -17,6 +17,14 @@ import {
   SKILL_IMPROVED_RAM,
   SKILL_SPECIAL_RAM,
   SKILL_RAMMING_TACTICS,
+  SKILL_IMPROVED_SEA_MINE,
+  SKILL_EVADE_MELEE_BATTLE,
+  GRADE_SPEEDUP_I,
+  GRADE_SPEEDUP_II,
+  GRADE_SPEEDUP_III,
+  GRADE_SKILL_SLOT_I,
+  GRADE_SKILL_SLOT_II,
+  GRADE_ROW_IMPROVE,
 } from './constants';
 
 import Sails from './resSails';
@@ -37,7 +45,7 @@ export const get_base_ship_stat = {
   "cabine_capacity": e => e.base_ranged,
   "cannon_chambers_capacity": e => e.base_ranged,
   "hold_capacity": e => e.base_ranged,
-}
+};
 
 // ========== resolver section
 
@@ -145,7 +153,7 @@ export const resolve = {
   "cabine_capacity": cabine,
   "cannon_chambers_capacity": cannon,
   "hold_capacity": hold,
-}
+};
 
 // ========== ranges calculation section
 
@@ -172,7 +180,7 @@ const get_max_safe_hold = (hold) => {
     tmp3 = tmp1;
   }
   return tmp3;
-}
+};
 
 const get_min_safe_hold = (hold) => {
   const percent = (100 - SHIP_BUILDING_RANK) / 100;
@@ -198,7 +206,7 @@ const get_min_safe_hold = (hold) => {
   }
 
   return tmp3;
-}
+};
 
 export const get_hold_ranges = (hold) => {
   const smax = SHIP_BUILDING_RANK + 5;
@@ -210,7 +218,7 @@ export const get_hold_ranges = (hold) => {
   const min_safe = get_min_safe_hold(hold);
 
   return [min_hold, min_safe, max_safe, max_hold];
-}
+};
 
 export const get_cabin_ranges = (cabin, required) => {
   const req = parseInt(required * 1.2);
@@ -220,11 +228,11 @@ export const get_cabin_ranges = (cabin, required) => {
   const max = parseInt(cabin * 1.5);
 
   return [min, max];
-}
+};
 
 export const get_cannon_ranges = (cannons) => {
   return [parseInt(cannons * 0.5), parseInt(cannons * 1.5)];
-}
+};
 
 // ========== improvement section
 
@@ -266,7 +274,7 @@ export const get_iranges = (improve_steps) => {
   }
 
   return result;
-}
+};
 
 export const get_iaverages = (iranges) => {
   const res = Array.apply(0, {length: iranges.length})
@@ -274,7 +282,7 @@ export const get_iaverages = (iranges) => {
       parseInt(Math.ceil((iranges[num][0] + iranges[num][1])/2))
     ));
   return res;
-}
+};
 
 export const apply_improves = (ship, iaverages) => {
   const result = Object.create(null);
@@ -285,7 +293,7 @@ export const apply_improves = (ship, iaverages) => {
     );
   }
   return {...ship, ...result};
-}
+};
 
 // ========== grade section
 
@@ -302,7 +310,7 @@ const recalculate = (ship) => {
     result['cannon_chambers_capacity']
   );
   return {...ship, ...result, cargo};
-}
+};
 
 export const get_grade = (ship, grades) => {
   const result = [];
@@ -335,7 +343,7 @@ export const get_grade = (ship, grades) => {
     },
     grade,
   };
-}
+};
 
 export const get_grading = (ship, grade) => {
   const ship_handling = {
@@ -379,7 +387,7 @@ export const get_grading = (ship, grade) => {
   }
 
   return recalculate({...ship, ship_handling, ...graded});
-}
+};
 
 // ========== material/panel
 
@@ -407,7 +415,7 @@ export const get_paneling = (ship, panel) => {
     horizontal_sail: horizontal,
     material: panel
   };
-}
+};
 
 // ========== custom filters
 
@@ -513,7 +521,7 @@ export const get_available_optional_skills = (ship) => {
   }
 
   return result;
-}
+};
 
 export const get_available_original_skills = (ship, resource) => {
   const result = [];
@@ -545,5 +553,81 @@ export const get_available_original_skills = (ship, resource) => {
     }
     result.push(set[i]);
   }
+
   return result;
-}
+};
+
+export const get_available_grade_skills = (ship, resource) => {
+  const result = [];
+
+  const set = Object.keys(resource);
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SKILL_EMPTY) {
+      continue;
+    }
+    if(ship.grade.skills.find(e => e === set[i])) {
+      continue;
+    }
+    if(set[i] === GRADE_SPEEDUP_II &&
+       !ship.grade.skills.find(e => e === GRADE_SPEEDUP_I)) {
+      continue;
+    }
+    if(set[i] === GRADE_SPEEDUP_III &&
+       !ship.grade.skills.find(e => e === GRADE_SPEEDUP_II)) {
+      continue;
+    }
+    if(set[i] === GRADE_SKILL_SLOT_II &&
+      !ship.grade.skills.find(e => e === GRADE_SKILL_SLOT_I)) {
+      continue;
+    }
+    if(ship.row_power.row === false &&
+      set[i] === GRADE_ROW_IMPROVE) {
+      continue;
+    }
+
+    result.push(set[i]);
+  }
+
+  return result;
+};
+
+export const get_inheritable_skills = (ship, resource) => {
+  const result = [];
+
+  const set = Object.keys(resource);
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SKILL_EMPTY) {
+      continue;
+    }
+    if(resource[set[i]]['original'] === false) {
+      continue;
+    }
+    if(ship.skills.optional.set.find(e => set[i] === e['id'])) {
+      continue;
+    }
+    if(ship.skills.inherit.find(e => set[i] === e['id'])) {
+      continue;
+    }
+    if(set[i] === ship.skills.original) {
+      continue;
+    }
+    if(ship.row_power.row === false && (
+      set[i] === SKILL_ROWING_ASSISTANCE ||
+      set[i] === SKILL_IMPROVED_RAM ||
+      set[i] === SKILL_SPECIAL_RAM ||
+      set[i] === SKILL_RAMMING_TACTICS )
+    ) {
+      continue;
+    }
+    if(set[i] === SKILL_IMPROVED_SEA_MINE) {
+      continue;
+    }
+    if(set[i] === SKILL_EVADE_MELEE_BATTLE) {
+      continue;
+    }
+
+    result.push(set[i]);
+  }
+
+  return result;
+};
