@@ -13,6 +13,10 @@ import {
   GENERAL_SMALL_OAR,
   SPECIAL_ORDER_LARGE_OAR,
   SPECIAL_ORDER_LIGHT_OAR,
+  SKILL_ROWING_ASSISTANCE,
+  SKILL_IMPROVED_RAM,
+  SKILL_SPECIAL_RAM,
+  SKILL_RAMMING_TACTICS,
 } from './constants';
 
 import Sails from './resSails';
@@ -487,3 +491,59 @@ export const get_available_panels = (ship, resource) => {
 
   return result;
 };
+
+export const get_available_optional_skills = (ship) => {
+  const result = [];
+
+  const set = ship.skills.available;
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SKILL_EMPTY) {
+      continue;
+    }
+    if(ship.skills.optional.set.find(e => set[i]['id'] === e['id'])) {
+      continue;
+    }
+    if(ship.skills.inherit.find(e => set[i]['id'] === e)) {
+      continue;
+    }
+    if(set[i]['id'] === ship.skills.original) {
+      continue;
+    }
+    result.push(set[i]['id']);
+  }
+
+  return result;
+}
+
+export const get_available_original_skills = (ship, resource) => {
+  const result = [];
+
+  const set = Object.keys(resource);
+  for(let i = 0; i < set.length; ++i) {
+    if(set[i] === SKILL_EMPTY) {
+      continue;
+    }
+    if(ship.row_power.row === false && (
+      set[i] === SKILL_ROWING_ASSISTANCE ||
+      set[i] === SKILL_IMPROVED_RAM ||
+      set[i] === SKILL_SPECIAL_RAM ||
+      set[i] === SKILL_RAMMING_TACTICS )
+    ) {
+      continue;
+    }
+    if(resource[set[i]]['original'] === false) {
+      continue;
+    }
+    if(ship.skills.optional.set.find(e => set[i] === e['id'])) {
+      continue;
+    }
+    if(ship.skills.inherit.find(e => set[i] === e['id'])) {
+      continue;
+    }
+    if(set[i] === ship.skills.original) {
+      continue;
+    }
+    result.push(set[i]);
+  }
+  return result;
+}

@@ -27,20 +27,19 @@ const SkillsShow = (props) => {
          style={{pointerEvents: STATUS_CLICK[props.status]}}>
     {getSkillImg()}
     <div className='select-skills' style={{display: STATUS_SHOW[show]}}>{
-    props.data.map((id, i) => (
-      <img
-        className='select-skill'
-        key={i}
-        src={props.resource[id]['img']}
-        title={props.resource[id]['name']} alt={id}
-        onClick={() => {
-          setShow(0);
-          props.set(id);
-        }}
-      ></img>)
+    props.data.map((id, i) => <img
+      className='select-skill'
+      key={i}
+      src={props.resource[id]['img']}
+      title={props.resource[id]['name']} alt={id}
+      onClick={() => {
+        setShow(0);
+        props.set(id);
+      }}
+      />
     )
   }</div>
-  </div>
+  </div>;
 }
 
 export default SkillsShow;
