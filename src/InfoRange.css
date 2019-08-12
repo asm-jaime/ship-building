@@ -1,0 +1,28 @@
+.info-performance-progress{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+
+.info-range-state{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-ship-range-progress{
+  width: 80px;
+  height: 3px;
+  background: #A3E881;
+  margin-top: 3px;
+
+}
+
+.range-button{
+  width: 30px;
+  margin: 1px;
+  display: flex;
+  justify-content: center;
+  font-size: x-small;
+  border-radius: 9px;
+}

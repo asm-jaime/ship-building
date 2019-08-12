@@ -6,7 +6,8 @@ import Tabs from './Tabs';
 import {
   SHIP_PART_EMPTY,
   IMPROVEABLE_PROPERTIES,
-  STATUS_SHOW
+  STATUS_SHOW,
+  SOUND_CLICK,
 } from './constants';
 
 // get the only tabs for resources what's contain non-zero stats
@@ -50,20 +51,27 @@ const OnePart = (props) => {
       click={(key) => {
         props.set(key);
         props.show();
+        SOUND_CLICK.play();
       }}
     />
   );
+  const click = () => {
+    props.show();
+    SOUND_CLICK.play();
+  };
   const getIconPart = () => {
     if(props.part === SHIP_PART_EMPTY) {
       return <img className='icon-part'
-      src={SHIP_PART_EMPTY}
-      onClick={() => props.show()}
-      alt={props.part} title={props.name}/>;
+        src={SHIP_PART_EMPTY}
+        onClick={click}
+        alt={props.part} title={props.name}
+      />;
     } else {
       return <img className='icon-part'
-      src={props.resource[props.part]['img']}
-      onClick={() => props.show()}
-      alt={props.part} title={props.resource[props.part]['name']}></img>;
+        src={props.resource[props.part]['img']}
+        onClick={click}
+        alt={props.part} title={props.resource[props.part]['name']}
+      />;
     }
   };
 
@@ -78,6 +86,7 @@ const OnePart = (props) => {
             click={(key) => {
               props.set(key);
               props.show();
+              SOUND_CLICK.play();
             }}
           />
         {tabs}

@@ -257,6 +257,7 @@ export const AGREE_GIF      = 'icon_agree.gif';
 export const AGREE_SOUND    = new Audio('sound_agree.mp3');
 
 export const SOUND_HOVER    = new Audio('sound_hover.mp3');
+export const SOUND_CLICK    = new Audio('sound_click.mp3');
 
 
 export const SHIP_PART_EMPTY_NOTE = 'Empty Ship Part';

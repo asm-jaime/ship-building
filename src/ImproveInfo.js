@@ -5,39 +5,18 @@ import {
   get_hold_ranges, get_cabin_ranges, get_cannon_ranges
 } from './StoreResolve';
 
+import InfoRange from './InfoRange';
+import InfoPerform from './InfoPerform';
+
 import {
   SHIP_CABINE_BASE_RANGE_SET,
   SHIP_CANNON_BASE_RANGE_SET,
   SHIP_HOLD_BASE_RANGE_SET,
-  SHIP_STAT_ICONS_UW2,
   IMPROVEMENTS_INFO,
 } from './constants';
 
 import resSkillsGrade from './resSkillsGrade';
 import resSkills from './resSkills';
-
-const InfoPerform = (props) => {
-  return (
-    <div className='info-performance-state' title={props.name}>
-      <img className='icon-stat' alt={props.name}
-      src={SHIP_STAT_ICONS_UW2[props.performance]}
-      ></img> <span className='info-ship-number'>{props.result}</span>
-    </div>
-  );
-}
-
-const InfoRanged = (props) => {
-  return (
-    <div className='info-performance-progress' title={props.name}>
-      <div className='info-performance-state'>
-      <img className='icon-range' alt={props.name}
-      src={SHIP_STAT_ICONS_UW2[props.performance]}
-      ></img> <span className='info-ship-number'>{props.result}</span>
-      {props.children}
-      </div> <div className='info-ship-ranged-progress'></div>
-    </div>
-  );
-};
 
 const ImproveInfo = (props) => {
   const { state, dispatch } = React.useContext(Store);
@@ -118,34 +97,24 @@ const ImproveInfo = (props) => {
       />
     </div>
     <div className='info-ranged-state'>
-      <InfoRanged name='cabin capacity' performance='cabine_capacity'
-      result={ship.cabine_capacity.base_ranged + ship.cabine_capacity.result}>
-        { get_cabin_ranges(
-            ship.cabine_capacity.base, ship.cabine_capacity.required
-          ).map((elem, i) => (<button key={i} onClick={() => dispatch({
-            type: SHIP_CABINE_BASE_RANGE_SET,
-            payload: elem,
-          })} className='range-button'>{elem}</button>))
-        }
-      </InfoRanged>
-      <InfoRanged name='cannon capacity' performance='cannon_chambers_capacity'
-      result={ ship.cannon_chambers_capacity.base_ranged +
-               ship.cannon_chambers_capacity.result}
-      >
-        {get_cannon_ranges(ship.cannon_chambers_capacity.base)
-          .map((elem, i) => <button key={i} onClick={() => dispatch({
-            type: SHIP_CANNON_BASE_RANGE_SET,
-            payload: elem,
-          })} className='range-button'>{elem}</button>)}
-      </InfoRanged>
-      <InfoRanged name='hold capacity' performance='hold_capacity'
-      result={ship.cargo.result}>
-        {get_hold_ranges(ship.hold_capacity.base)
-          .map((elem, i) => <button key={i} onClick={() => dispatch({
-            type: SHIP_HOLD_BASE_RANGE_SET,
-            payload: elem,
-          })} className='range-button'>{elem}</button>)}
-      </InfoRanged>
+      <InfoRange name='cabin capacity' performance='cabine_capacity'
+      result={ship.cabine_capacity.base_ranged + ship.cabine_capacity.result}
+      ranges={
+        get_cabin_ranges(ship.cabine_capacity.base, ship.cabine_capacity.required)
+      }
+       set={num => dispatch({ type: SHIP_CABINE_BASE_RANGE_SET, payload: num})}
+      />
+      <InfoRange name='cannon capacity' performance='cannon_chambers_capacity'
+        result={ship.cannon_chambers_capacity.base_ranged +
+                ship.cannon_chambers_capacity.result}
+        ranges={get_cannon_ranges(ship.cannon_chambers_capacity.base)}
+        set={num => dispatch({type: SHIP_CANNON_BASE_RANGE_SET, payload: num})}
+      />
+      <InfoRange name='hold capacity' performance='hold_capacity'
+        ranges={get_hold_ranges(ship.hold_capacity.base)}
+        result={ship.cargo.result}
+        set={num => dispatch({type: SHIP_HOLD_BASE_RANGE_SET, payload: num })}
+      />
     </div>
     </div>
   )

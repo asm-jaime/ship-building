@@ -15,11 +15,6 @@
   margin: 5px;
 }
 
-.info-performance-state{
-  display: flex;
-  align-items: flex-end;
-}
-
 .info-performance-linear{
   display: flex;
   flex-direction: row;
@@ -60,30 +55,7 @@
   align-self: center;
 }
 
-.info-ranged-state{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.info-ship-ranged-progress{
-  width: 80px;
-  height: 3px;
-  background: #A3E881;
-  margin-top: 3px;
-
-}
-
 .info-ship-number{
   margin-left: 2px;
   margin-right: 2px;
-}
-
-.range-button{
-  width: 30px;
-  margin: 1px;
-  display: flex;
-  justify-content: center;
-  font-size: x-small;
-  border-radius: 9px;
 }

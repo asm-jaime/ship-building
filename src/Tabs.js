@@ -1,6 +1,8 @@
 import React from 'react';
 import './Tabs.css';
 
+import { SOUND_CLICK } from './constants';
+
 const Tabs = (props) => {
   const getNormalChilds = (children) => {
     // just one or empty child
@@ -43,6 +45,7 @@ const Tabs = (props) => {
           className='tab-button' style={{fontWeight: current[tabs[i]]}}
           onClick={() => {
             setTabs(tabs.map((e, ti) => {
+              SOUND_CLICK.play();
               if(ti === i) {
                 return 1;
               } else {
