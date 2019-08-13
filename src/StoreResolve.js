@@ -47,6 +47,19 @@ export const get_base_ship_stat = {
   "hold_capacity": e => e.base_ranged,
 };
 
+export const get_max_ship_bonus = {
+  "durability": e => e.improve + e.grade + e.custom,
+  "vertical_sail": e => e.improve + e.grade + e.custom + e.penalty,
+  "horizontal_sail": e => e.improve + e.grade + e.custom + e.penalty,
+  "row_power": e => e.improve + e.grade + e.custom + e.penalty,
+  "turning_performance": e => e.improve + e.grade + e.custom + e.penalty,
+  "wave_resistance": e => e.improve + e.grade + e.custom + e.penalty,
+  "armouring_value": e => e.improve + e.grade + e.custom,
+  "cabine_capacity": e => e.improve + e.grade + e.custom,
+  "cannon_chambers_capacity": e => e.improve + e.grade + e.custom,
+  "hold_capacity": e => e.improve + e.grade + e.custom,
+};
+
 // ========== resolver section
 
 const durability = (durability) => ({

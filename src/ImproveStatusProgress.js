@@ -8,7 +8,7 @@ import {
   SHIP_STAT_TITLES,
 } from './constants'
 
-import { get_base_ship_stat } from './StoreResolve';
+import { get_base_ship_stat, get_max_ship_bonus } from './StoreResolve';
 
 const ImproveProgress = (props) => {
 
@@ -31,8 +31,11 @@ const ImproveProgress = (props) => {
   };
 
   return (
-    <div className='improve-status-progress'
-      title={`improve: ${props.res.improve}/${props.res.improve_limit.current}`}>
+    <div className='improve-status-progress' title={`${
+        get_max_ship_bonus[props.name](props.res)
+      }/${
+        props.res.improve_limit.current
+      }`}>
     <div className='improve-status-data'>
       <div className='improve-status-title'>
         <img className='icon-stat' alt={props.name}
