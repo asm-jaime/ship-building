@@ -63,7 +63,7 @@ const ImproveInfo = (props) => {
       </div>
       <div className='info-performance-progress' title='ship handling'>
       <div className='info-performance-state'>
-      <img src='./i_ship_handling_proficiency.png' alt='ship handling'
+      <img className='info-linear-icon' src='./uw2_ship_handling_proficiency.png' alt='ship handling'
       ></img>
       <span className='info-ship-number'>
         { ship.ship_handling_proficiency.result }
@@ -110,7 +110,7 @@ const ImproveInfo = (props) => {
         ranges={get_cannon_ranges(ship.cannon_chambers_capacity.base)}
         set={num => dispatch({type: SHIP_CANNON_BASE_RANGE_SET, payload: num})}
       />
-      <InfoRange name='hold capacity' performance='hold_capacity'
+      <InfoRange name='cargo' performance='cargo'
         ranges={get_hold_ranges(ship.hold_capacity.base)}
         result={ship.cargo.result}
         set={num => dispatch({type: SHIP_HOLD_BASE_RANGE_SET, payload: num })}

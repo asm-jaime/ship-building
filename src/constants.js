@@ -227,12 +227,13 @@ export const LVL_BATTLE_DEC = 'LVL_BATTLE_DEC';
 
 export const DATA_LOAD = 'DATA_LOAD';
 
-export const IMPROVE_POSITIVE = '#E88181';
-export const IMPROVE_NEGATIVE = '#96D677';
+export const IMPROVE_POSITIVE = '#96D677';
+export const IMPROVE_NEGATIVE = '#E88181';
 
 export const IMPROVE_ACTIVE_TOGGLE = 'IMPROVE_ACTIVE_TOGGLE';
 export const IMPROVE_DEL = 'IMPROVE_DEL';
 export const IMPROVE_ADD = 'IMPROVE_ADD';
+export const IMPROVE_CUSTOM_SET = 'IMPROVE_CUSTOM_SET';
 
 export const GRADE_DEL = 'GRADE_DEL';
 export const GRADE_ADD = 'GRADE_ADD';
@@ -280,7 +281,7 @@ export const IMPROVEABLE_PROPERTIES = [
 ];
 
 export const SHIP_STAT_NAMES = {
-  'durability': 'dura',
+  'durability': 'durability',
   'vertical_sail': 'vertical',
   'horizontal_sail': 'horizontal',
   'row_power': 'row',
@@ -292,6 +293,19 @@ export const SHIP_STAT_NAMES = {
   'hold_capacity': 'hold'
 };
 
+export const SHIP_STAT_TITLES = {
+  'durability': 'durability',
+  'vertical_sail': 'vertical sail',
+  'horizontal_sail': 'horizontal sail',
+  'row_power': 'row power',
+  'turning_performance': 'turning performance',
+  'wave_resistance': 'wave resistance',
+  'armouring_value': 'armouring value',
+  'cabine_capacity': 'cabine capacity',
+  'cannon_chambers_capacity': 'cannon chambers',
+  'hold_capacity': 'hold capacity'
+};
+
 export const SHIP_STAT_ICONS_UW2 = {
   'durability': 'i_durability.png',
   'vertical_sail': 'i_vertical_sail.png',
@@ -301,8 +315,9 @@ export const SHIP_STAT_ICONS_UW2 = {
   'wave_resistance': 'i_wave_resistance.png',
   'armouring_value': 'i_armouring_value.png',
   'cabine_capacity': 'uw2_cabine_capacity.png',
-  'cannon_chambers_capacity': 'uw2_cannon_chambers_capacity.png',
-  'hold_capacity': 'uw2_hold_capacity.png'
+  'cannon_chambers_capacity': 'uw2_cannon.png',
+  'hold_capacity': 'uw2_hold_capacity.png',
+  'cargo': 'uw2_cargo.png'
 };
 
 export const SHIP_STAT_ICONS_IMP = {
@@ -314,8 +329,9 @@ export const SHIP_STAT_ICONS_IMP = {
   'wave_resistance': 'i_wave_resistance.png',
   'armouring_value': 'i_armouring_value.png',
   'cabine_capacity': 'i_cabine_capacity.png',
-  'cannon_chambers_capacity': 'i_cannon_chambers_capacity.png',
-  'hold_capacity': 'i_hold_capacity.png'
+  'cannon_chambers_capacity': 'uw2_cannon.png',
+  'hold_capacity': 'uw2_hold_capacity.png',
+  'cargo': 'uw2_cargo.png'
 };
 
 export const DATA_RESOURCE = './resource.json';
@@ -337,4 +353,3 @@ export const GENERAL_MEDIUM_OAR       = '022000443';
 export const GENERAL_SMALL_OAR        = '022000442';
 export const SPECIAL_ORDER_LARGE_OAR  = '022000441';
 export const SPECIAL_ORDER_LIGHT_OAR  = '02200044';
-

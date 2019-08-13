@@ -2,7 +2,6 @@
   grid-area: grade;
   background: white;
   display: flex;
-  font-size: small;
   justify-content: space-between;
 }
 

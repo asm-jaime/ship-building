@@ -4,10 +4,11 @@ import { Store } from './Store';
 
 import { IMPROVEABLE_PROPERTIES } from './constants.js';
 
-import ImproveProgress from './ImproveStatusProgress.js';
-import ImproveMaterial from './ImproveStatusMaterial.js';
-import ImproveLog from './ImproveLog.js';
-import ImproveLogGrade from './ImproveLogGrade.js';
+import ImproveProgress from './ImproveStatusProgress';
+import ImproveMaterial from './ImproveStatusMaterial';
+import ImproveLog from './ImproveLog';
+import ImproveLogGrade from './ImproveLogGrade';
+import ImproveCustom from './ImproveCustom';
 
 import Tabs from './Tabs';
 
@@ -22,8 +23,9 @@ const ImproveStatus = (props) => {
     ))}
     <ImproveMaterial material={ship.material}/>
     <Tabs>
-    <ImproveLog name='improve' size={ship.size} improvements={state.improvements}/>
-    <ImproveLogGrade name='grade' size={ship.grade_size} grades={state.grades}/>
+      <ImproveLog name='improve' size={ship.size} improvements={state.improvements}/>
+      <ImproveLogGrade name='grade' size={ship.grade_size} grades={state.grades}/>
+      <ImproveCustom name='custom'/>
     </Tabs>
     </div>
   )

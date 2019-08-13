@@ -14,6 +14,7 @@ import {
   IMPROVE_ACTIVE_TOGGLE,
   IMPROVE_DEL,
   IMPROVE_ADD,
+  IMPROVE_CUSTOM_SET,
   GRADE_DEL,
   GRADE_ADD,
   RECALCULATE_ALL,
@@ -64,6 +65,7 @@ const initialState = {
     "base": 790, "improve": 0,
     "material": 0,
     "grade": 0,
+    "custom": 0,
     "improve_limit": {"base": 250, "grade": 0, "current": 250},
     "result": 0
   },
@@ -71,6 +73,7 @@ const initialState = {
     "base": 115, "improve": 0,
     "material": 0,
     "grade": 0,
+    "custom": 0,
     "penalty": 0,
     "improve_limit": {"base": 110, "grade": 0, "current": 110},
     "result": 0
@@ -79,6 +82,7 @@ const initialState = {
     "base": 115, "improve": 0,
     "material": 0,
     "grade": 0,
+    "custom": 0,
     "penalty": 0,
     "improve_limit": {"base": 110, "grade": 0, "current": 110},
     "result": 0
@@ -87,6 +91,7 @@ const initialState = {
     "row": false,
     "base": 0, "improve": 0,
     "grade": 0,
+    "custom": 0,
     "penalty": 0,
     "improve_limit": {"base": 0, "grade": 0, "current": 0},
     "result": 0
@@ -94,6 +99,7 @@ const initialState = {
   "turning_performance": {
     "base": 7, "improve": 0,
     "grade": 0,
+    "custom": 0,
     "penalty": 0,
     "improve_limit": {"base": 22, "grade": 0, "current": 22},
     "result": 0
@@ -101,6 +107,7 @@ const initialState = {
   "wave_resistance": {
     "base": 7, "improve": 0,
     "grade": 0,
+    "custom": 0,
     "penalty": 0,
     "improve_limit": {"base": 21, "grade": 0, "current": 21},
     "result": 0
@@ -108,12 +115,14 @@ const initialState = {
   "armouring_value": {
     "base": 40, "improve": 0,
     "grade": 0,
+    "custom": 0,
     "improve_limit": {"base": 21, "grade": 0, "current": 21},
     "result": 0
   },
   "cabine_capacity": {
     "base": 135, "improve": 0,
     "grade": 0,
+    "custom": 0,
     "base_ranged": 135,
     "improve_limit": {"base": 40, "grade": 0, "current": 40},
     "required": 65,
@@ -122,6 +131,7 @@ const initialState = {
   "cannon_chambers_capacity": {
     "base": 100, "improve": 0,
     "grade": 0,
+    "custom": 0,
     "base_ranged": 100,
     "improve_limit": {"base": 40, "grade": 0, "current": 40},
     "result": 0
@@ -130,6 +140,7 @@ const initialState = {
     "base": 780, "improve": 0,
     "base_ranged": 780,
     "grade": 0,
+    "custom": 0,
     "improve_limit": {"base": 41, "grade": 0, "current": 41},
     "result": 0
   },
@@ -306,6 +317,21 @@ function shipbuilder(state, action) {
       const improvements = state.improvements.filter((improve, i) => (i !== action.payload));
       const averages = get_iaverages(get_iranges(improvements));
       const ship = apply_improves(state.ship, averages);
+      const cargo = get_cargo(
+        ship.cargo, ship.hold_capacity, ship.cabine_capacity,
+        ship.cannon_chambers_capacity
+      );
+      return {...state, ship: {...ship, cargo}, improvements};
+    }
+    case IMPROVE_CUSTOM_SET: {
+      const improvements = state.improvements;
+      const averages = get_iaverages(get_iranges(improvements));
+      const property = Object.create(null);
+      property[action.payload.name] = {
+        ...state.ship[action.payload.name],
+        custom: action.payload.value
+      };
+      const ship = apply_improves({...state.ship, ...property}, averages);
       const cargo = get_cargo(
         ship.cargo, ship.hold_capacity, ship.cabine_capacity,
         ship.cannon_chambers_capacity

@@ -2,11 +2,13 @@
   display: flex;
   margin: 1px;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .improve-status-title{
   white-space: nowrap;
   display: flex;
+  align-items: flex-end;
 }
 
 .progress-ground{

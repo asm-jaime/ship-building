@@ -53,7 +53,8 @@ const durability = (durability) => ({
   ...durability,
   result:  get_improve(
     durability['improve_limit']['current'],
-    durability.material + durability.grade + durability.improve
+    durability.material + durability.grade +
+    durability.improve + durability.custom
   )
 });
 
@@ -61,7 +62,8 @@ const vertical = (vertical) => ({
   ...vertical,
   result: get_improve(
     vertical['improve_limit']['current'],
-    vertical.material + vertical.grade + vertical.penalty + vertical.improve
+    vertical.material + vertical.grade +
+    vertical.penalty + vertical.improve + vertical.custom
   )
 });
 
@@ -69,7 +71,8 @@ const horizontal = (horizontal) => ({
   ...horizontal,
   result: get_improve(
     horizontal['improve_limit']['current'],
-    horizontal.material + horizontal.grade + horizontal.penalty + horizontal.improve
+    horizontal.material + horizontal.grade +
+    horizontal.penalty + horizontal.improve + horizontal.custom
   ),
 });
 
@@ -81,7 +84,7 @@ const row = (row) => {
       ...row,
       result: get_improve(
         row['improve_limit']['current'],
-        row.grade + row.penalty + row.improve
+        row.grade + row.penalty + row.improve + row.custom
       )
     };
   }
@@ -91,7 +94,7 @@ const turning = (turning) => ({
   ...turning,
   result: get_improve(
     turning['improve_limit']['current'],
-    turning.grade + turning.penalty + turning.improve
+    turning.grade + turning.penalty + turning.improve + turning.custom
   )
 });
 
@@ -99,7 +102,7 @@ const wave = (wave) => ({
   ...wave,
   result: get_improve(
     wave['improve_limit']['current'],
-    wave.grade + wave.penalty + wave.improve
+    wave.grade + wave.penalty + wave.improve + wave.custom
   )
 });
 
@@ -107,7 +110,7 @@ const armouring = (armouring) => ({
   ...armouring,
   result: get_improve(
     armouring['improve_limit']['current'],
-    armouring.grade + armouring.improve
+    armouring.grade + armouring.improve + armouring.custom
   )
 });
 
@@ -115,7 +118,7 @@ const cabine = (cabine) => ({
   ...cabine,
   result: get_improve(
     cabine['improve_limit']['current'],
-    cabine.grade + cabine.improve
+    cabine.grade + cabine.improve + cabine.custom
   )
 });
 
@@ -123,7 +126,7 @@ const cannon = (cannon) => ({
   ...cannon,
   result: get_improve(
     cannon['improve_limit']['current'],
-    cannon.grade + cannon.improve
+    cannon.grade + cannon.improve + cannon.custom
   )
 });
 
@@ -131,7 +134,7 @@ const hold = (hold) => ({
   ...hold,
   result: get_improve(
     hold['improve_limit']['current'],
-    hold.grade + hold.improve
+    hold.grade + hold.improve + hold.custom
   )
 });
 

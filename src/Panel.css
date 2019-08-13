@@ -1,7 +1,6 @@
 .panel{
   grid-area: panel;
   background: white;
-  font-size: small;
   display: flex;
   align-items: center;
   justify-content: space-between;

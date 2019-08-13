@@ -1,0 +1,7 @@
+.improve-custom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2px;
+  margin-right: 2px;
+}
