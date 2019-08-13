@@ -26,6 +26,9 @@ import {
   SKILL_ARMOURED_SHIP_REFIT,
   AGREE_SOUND,
   SOUND_HOVER,
+  SOUND_CLICK,
+  GRADE_SELECT_INFO,
+  GRADE_ADD_BUTTON_INFO,
 } from './constants';
 
 const Grade = (props) => {
@@ -51,9 +54,14 @@ const Grade = (props) => {
     <div className='grade'>
     <div className='grade-chose-group'>
       <div className='grade-first-group'>
-        <select className='select-grade-type'
-        value={gradeType}
-        onChange={event => setGradeType(event.target.value)}>
+        <select className='select-grade-type' title={GRADE_SELECT_INFO}
+          value={gradeType}
+          onMouseDown={() => SOUND_CLICK.play()}
+          onMouseUp={() => SOUND_CLICK.play()}
+          onChange={event => {
+            setGradeType(event.target.value);
+            SOUND_CLICK.play();
+          }}>
           {GRADE_TYPES.map((e, i) =>
             <option className='select-grade-type' key={i} value={e}>{e}</option>)}
         </select>
@@ -80,7 +88,7 @@ const Grade = (props) => {
       </div>
       </div>
     </div>
-    <button className='grade-add-button button-agree'
+    <button className='grade-add-button button-agree' title={GRADE_ADD_BUTTON_INFO}
       onMouseEnter={() => SOUND_HOVER.play()}
       onClick={() => {
         dispatch({type: GRADE_ADD, payload: {type: gradeType, skill: skills}});
