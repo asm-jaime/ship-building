@@ -5,6 +5,7 @@ import { get_iranges } from './StoreResolve';
 
 import {
   IMPROVEABLE_PROPERTIES,
+  SHIP_STAT_ICONS_IMP,
   SHIP_STAT_NAMES
 } from './constants';
 
@@ -14,7 +15,7 @@ const ImproveStats = (props) => {
     IMPROVEABLE_PROPERTIES.map((p, i) => {
       if(stats[i][0] !== 0 || stats[i][1] !== 0) {
         return <div key={i} className='stat'>
-          <img src={`i_${p}.png`} alt={i}/>
+          <img className='icon-stat' src={SHIP_STAT_ICONS_IMP[p]} alt={i}/>
           {stats[i][0]}~{stats[i][1]}, {SHIP_STAT_NAMES[p]}
         </div>;
       } else {

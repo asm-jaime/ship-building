@@ -8,6 +8,7 @@ import {
   SKILL_EMPTY,
   SHIP_BUILDING_RANK,
   SHIP_SIZE_POS,
+  SHIP_STAT_NAMES,
   GENERAL_LARGE_OAR,
   GENERAL_MEDIUM_OAR,
   GENERAL_SMALL_OAR,
@@ -309,6 +310,19 @@ export const apply_improves = (ship, iaverages) => {
     );
   }
   return {...ship, ...result};
+};
+
+export const get_stat_string = (stats) => {
+  const result = [];
+  for(let i = 0; i < IMPROVEABLE_PROPERTIES.length; ++i) {
+    if(stats[i][0] !== 0 || stats[i][1] !== 0) {
+      result.push(`${SHIP_STAT_NAMES[IMPROVEABLE_PROPERTIES[i]]}: ${
+        stats[i][0]}~${stats[i][1]
+      }`);
+    }
+  }
+
+  return result.join(', ');
 };
 
 // ========== grade section
