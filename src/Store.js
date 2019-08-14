@@ -34,6 +34,7 @@ import {
   get_grading,
   get_grade,
   get_paneling,
+  calculate_penalty,
 } from './StoreResolve.js';
 
 export const Store = React.createContext();
@@ -280,13 +281,7 @@ function shipbuilder(state, action) {
       const hold = {
         ...state.ship.hold_capacity, base_ranged: action.payload
       };
-
-      const cargo = get_cargo(
-        state.ship.cargo, hold, state.ship.cabine_capacity,
-        state.ship.cannon_chambers_capacity
-      );
-
-      const ship = {...state.ship, hold_capacity: hold, cargo};
+      const ship = calculate_penalty({...state.ship, hold_capacity: hold});
       return {...state, ship};
     }
     case IMPROVE_ACTIVE_TOGGLE: {

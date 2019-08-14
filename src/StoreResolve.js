@@ -327,7 +327,7 @@ export const get_stat_string = (stats) => {
 
 // ========== grade section
 
-const recalculate = (ship) => {
+export const recalculate = (ship) => {
   const result = Object.create(null);
   for(let i = 0; i < IMPROVEABLE_PROPERTIES.length; ++i) {
     const property = IMPROVEABLE_PROPERTIES[i];
@@ -660,4 +660,146 @@ export const get_inheritable_skills = (ship, resource) => {
   }
 
   return result;
+};
+
+// ========== penalty calculation section
+
+const get_sail_penalty = (rank, diffpercent) => (
+  get_penalty(rank, diffpercent, 1)
+);
+const get_wave_resistance_penalty = (rank, diffpercent) => (
+  get_penalty(rank, diffpercent, 5)
+);
+const get_row_power_penalty = (rank, diffpercent) => (
+  get_penalty(rank, diffpercent, 5)
+);
+
+const get_penalty = (rank, diffpercent, k) => {
+  const d = Math.abs(diffpercent);
+  let tmp1 = 0;
+  let tmp2 = 0;
+  if (diffpercent < 0) {
+    tmp2 = parseInt(Math.floor(d));
+    if (d > rank) {
+      tmp1 = ((tmp2 - rank) * -5) / k;
+    }
+    return tmp1;
+  }
+  tmp2 = parseInt(Math.ceil(d));
+  if ((d + 1) > rank) {
+    tmp1 = ((tmp2 - rank) * -5) / k;
+  }
+  return tmp1;
+}
+
+export const calculate_penalty = (ship) => {
+  const hold_base = ship.hold_capacity.base;
+  const hold_range = ship.hold_capacity.base_ranged;
+
+  const diffpercent = (1-(hold_range / hold_base)) * 100;
+  const sail = get_sail_penalty(SHIP_BUILDING_RANK, diffpercent);
+  const wave = get_wave_resistance_penalty(SHIP_BUILDING_RANK, diffpercent);
+  const row  = get_row_power_penalty(SHIP_BUILDING_RANK, diffpercent);
+
+  const hold_76  = parseInt(hold_base * 0.76);
+  const hold_78  = parseInt(hold_base * 0.78);
+  const hold_82  = parseInt(hold_base * 0.82);
+  const hold_84  = parseInt(hold_base * 0.84);
+  const hold_86  = parseInt(hold_base * 0.86);
+  const hold_88  = parseInt(hold_base * 0.88);
+  const hold_102 = parseInt(hold_base * 1.02);
+  const hold_116 = parseInt(hold_base * 1.16);
+  const hold_118 = parseInt(hold_base * 1.18);
+  const hold_120 = parseInt(hold_base * 1.20);
+  const hold_122 = parseInt(hold_base * 1.22);
+  const hold_124 = parseInt(hold_base * 1.24);
+
+  let turn = 0;
+  switch (ship.turning_performance.base) {
+    case 5:
+      if(hold_range > hold_102) turn = -1;
+    break;
+    case 6:
+      if(hold_range > hold_102) turn = -1;
+    break;
+    case 7:
+      if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_76) turn = 0;
+      else turn = 1;
+    break;
+    case 8:
+      if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_78) turn = 0;
+      else turn = 1;
+    break;
+    case 9:
+      if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_82) turn = 0;
+      else turn = 1;
+    break;
+    case 10:
+      if(hold_range > hold_124) turn = -2;
+      else if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_82) turn = 0;
+      else turn = 1;
+    break;
+    case 11:
+      if(hold_range > hold_122) turn = -2;
+      else if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_84) turn = 0;
+      else turn = 1;
+    break;
+    case 12:
+      if(hold_range > hold_120) turn = -2;
+      else if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_86) turn = 0;
+      else turn = 1;
+    break;
+    case 13:
+      if(hold_range > hold_118) turn = -2;
+      else if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_86) turn = 0;
+      else turn = 1;
+    break;
+    case 14:
+      if(hold_range > hold_116) turn = -2;
+      else if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_88) turn = 0;
+      else if(hold_range > hold_76) turn = 1;
+      else turn = 2;
+    break;
+    case 15:
+      if(hold_range > hold_116) turn = -2;
+      else if(hold_range > hold_102) turn = -1;
+      else if(hold_range > hold_88) turn = 0;
+      else if(hold_range > hold_78) turn = 1;
+      else turn = 2;
+    break;
+    default:
+      turn = 0;
+    break;
+  }
+
+  return recalculate({...ship,
+    vertical_sail: {
+      ...ship.vertical_sail,
+      penalty: sail,
+    },
+    horizontal_sail: {
+      ...ship.horizontal_sail,
+      penalty: sail,
+    },
+    row_power: {
+      ...ship.row_power,
+      penalty: row,
+    },
+    turning_performance: {
+      ...ship.turning_performance,
+      penalty: turn,
+    },
+    wave_resistance: {
+      ...ship.wave_resistance,
+      penalty: wave,
+    },
+  });
 };

@@ -328,7 +328,7 @@ export const SHIP_STAT_ICONS_IMP = {
   'turning_performance': 'uw2_turning_performance.png',
   'wave_resistance': 'i_wave_resistance.png',
   'armouring_value': 'i_armouring_value.png',
-  'cabine_capacity': 'i_cabine_capacity.png',
+  'cabine_capacity': 'uw2_cabine.png',
   'cannon_chambers_capacity': 'uw2_cannon.png',
   'hold_capacity': 'uw2_hold_capacity.png',
   'cargo': 'uw2_cargo.png'
