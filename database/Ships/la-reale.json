@@ -1,0 +1,205 @@
+{
+  "id": "50000079",
+  "img": "00000042.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000079",
+  "name": "La Reale",
+  "size": "Heavy",
+  "purpose": "Battle",
+  "is_nc": false,
+  "levels": {
+    "advent": 10,
+    "trade": 10,
+    "battle": 32
+  },
+  "days": 23,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002002",
+      "parts": ["02200044", "022000700"]
+    }, {
+      "id": "00002081",
+      "parts": ["02200050"]
+    }, {
+      "id": "00002083",
+      "parts": ["02200054", "022000622"]
+    }, {
+      "id": "00002062",
+      "parts": ["02200040", "022000413"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 4,
+    "special_equipment": 2,
+    "bow_turret": 1,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 2,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 160,
+    "grade": 0,
+    "result": 160
+  },
+  "durability": {
+    "base": 460,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 210,
+      "grade": 0,
+      "current": 210
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 175,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 65,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": true,
+    "base": 100,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 7,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 18,
+      "grade": 0,
+      "current": 18
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 1,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 18,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 130,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 130,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "required": 80,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 80,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 80,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 430,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 430,
+    "improve_limit": {
+      "base": 33,
+      "grade": 0,
+      "current": 33
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 4,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

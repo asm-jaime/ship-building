@@ -1,0 +1,211 @@
+{
+  "id": "50000557",
+  "img": "00000320.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000557",
+  "name": "Assault Neapolitan Galleass",
+  "size": "Heavy",
+  "purpose": "Battle",
+  "is_nc": true,
+  "levels": {
+    "advent": 19,
+    "trade": 22,
+    "battle": 30
+  },
+  "days": 36,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002040",
+      "parts": ["022000461", "02200073"]
+    }, {
+      "id": "00002004",
+      "parts": ["02200054", "022000413"]
+    }, {
+      "id": "00002002",
+      "parts": ["02200044", "022000700"]
+    }, {
+      "id": "00002020",
+      "parts": ["022000361", "022000470"]
+    }, {
+      "id": "00002062",
+      "parts": ["02200040", "022000413"]
+    }, {
+      "id": "00002064",
+      "parts": ["02200036", "022000560"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 5,
+    "special_equipment": 2,
+    "bow_turret": 1,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 6,
+      "add": {
+        "limit": 2,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 1134,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 213,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 95,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": true,
+    "base": 100,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 11,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 5,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 28,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 190,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 190,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 96,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 70,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 70,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 590,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 590,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 5,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

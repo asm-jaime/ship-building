@@ -1,0 +1,208 @@
+{
+  "id": "50000169",
+  "img": "00000169.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000169",
+  "name": "Royal Frigate",
+  "size": "Heavy",
+  "purpose": "Battle",
+  "is_nc": false,
+  "levels": {
+    "advent": 36,
+    "trade": 18,
+    "battle": 56
+  },
+  "days": 16,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002046",
+      "parts": ["022000622"]
+    }, {
+      "id": "00002121",
+      "parts": ["02200020", "02200036"]
+    }, {
+      "id": "00002040",
+      "parts": ["022000461", "02200073"]
+    }, {
+      "id": "00002100",
+      "parts": ["022000560", "022000561"]
+    }, {
+      "id": "00002101",
+      "parts": ["02200054", "022000560"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 5,
+    "special_equipment": 2,
+    "bow_turret": 0,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 1,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 660,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 150,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 265,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 11,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 9,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 26,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 75,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 75,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 40,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 44,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 44,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 481,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 481,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 5,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "id": "50000156",
+  "img": "00000100.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000156",
+  "name": "Cruise Sloop",
+  "size": "Light",
+  "purpose": "Adventure",
+  "is_nc": false,
+  "levels": {
+    "advent": 17,
+    "trade": 10,
+    "battle": 0
+  },
+  "days": 4,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "parts": ["022000561", "022000690"]
+    }, {
+      "id": "00002000",
+      "parts": ["022000700", "02200072"]
+    }, {
+      "id": "00002104",
+      "parts": [null, "022000565"]
+    }, {
+      "id": "00002006",
+      "parts": ["022000562"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 2,
+    "broadsides": 1,
+    "special_equipment": 1,
+    "bow_turret": 0,
+    "extra_armouring": 2,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 1,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 80,
+    "grade": 0,
+    "result": 80
+  },
+  "durability": {
+    "base": 210,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 130,
+      "grade": 0,
+      "current": 130
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 270,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 30,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 10,
+      "grade": 0,
+      "current": 10
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 8,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 10,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 26,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 26,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "required": 12,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 8,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 8,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 201,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 201,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 2,
+  "grade_type_default": "Expedition Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Expedition Ship",
+    "skills": []
+  }
+}

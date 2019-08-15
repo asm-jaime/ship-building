@@ -1,0 +1,207 @@
+{
+  "id": "50000203",
+  "img": "00000191.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000203",
+  "name": "Cruising Higaki-Kaisen",
+  "size": "Heavy",
+  "purpose": "Adventure",
+  "is_nc": false,
+  "levels": {
+    "advent": 47,
+    "trade": 26,
+    "battle": 12
+  },
+  "days": 24,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "parts": ["022000561", "022000690"]
+    }, {
+      "id": "00002131",
+      "parts": ["022000620", "022000624"]
+    }, {
+      "id": "00002000",
+      "parts": ["022000700", "02200072"]
+    }, {
+      "id": "00002104",
+      "parts": [null, "022000565"]
+    }, {
+      "id": "00002012",
+      "parts": ["02200019", "02200040"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 1,
+    "broadsides": 3,
+    "special_equipment": 2,
+    "bow_turret": 1,
+    "extra_armouring": 3,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 2,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 160,
+    "grade": 0,
+    "result": 160
+  },
+  "durability": {
+    "base": 610,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 210,
+      "grade": 0,
+      "current": 210
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 80,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 180,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 18,
+      "grade": 0,
+      "current": 18
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 6,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 24,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 52,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 52,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "required": 28,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 32,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 32,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 626,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 626,
+    "improve_limit": {
+      "base": 33,
+      "grade": 0,
+      "current": 33
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 4,
+  "grade_type_default": "Expedition Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Expedition Ship",
+    "skills": []
+  }
+}

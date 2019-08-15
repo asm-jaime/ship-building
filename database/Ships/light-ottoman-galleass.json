@@ -1,0 +1,217 @@
+{
+  "id": "50000571",
+  "img": "00000329.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000571",
+  "name": "Light Ottoman Galleass",
+  "size": "Heavy",
+  "purpose": "Battle",
+  "is_nc": true,
+  "levels": {
+    "advent": 24,
+    "trade": 17,
+    "battle": 45
+  },
+  "days": 43,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
+    }, {
+      "id": "00002121",
+      "parts": ["02200020", "02200036"]
+    }, {
+      "id": "00002061",
+      "parts": ["022000622", "022000623"]
+    }, {
+      "id": "00002046",
+      "parts": ["022000560", "022000622"]
+    }, {
+      "id": "00002044",
+      "parts": ["022000460", "02200073"]
+    }, {
+      "id": "00002004",
+      "parts": ["02200054", "022000413"]
+    }, {
+      "id": "00002002",
+      "parts": ["02200044", "022000700"]
+    }, {
+      "id": "00002123",
+      "parts": ["022000471", "022000622"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 4,
+    "broadsides": 5,
+    "special_equipment": 2,
+    "bow_turret": 1,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 6,
+      "add": {
+        "limit": 2,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 715,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 120,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 252,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": true,
+    "base": 90,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 8,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 5,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 25,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 170,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 170,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 78,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 72,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 72,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 420,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 420,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 5,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

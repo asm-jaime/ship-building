@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "00002007": {
     "id": "00002007",
     "img": "00002007.png",
@@ -503,6 +503,14 @@ export default {
     "optional": true,
     "original": true
   },
+  "skill_epmty.png": {
+    "id": "skill_epmty.png",
+    "img": "skill_epmty.png",
+    "name": "empty skill",
+    "description": "this skill does not exist",
+    "optional": true,
+    "original": true
+  },
   "00002081": {
     "id": "00002081",
     "img": "00002081.png",
@@ -580,14 +588,6 @@ export default {
     "img": "00002024.png",
     "name": "Workshop",
     "description": "+10% casting/sewing/handicraft great success at sea",
-    "optional": true,
-    "original": true
-  },
-  "skill_epmty.png": {
-    "id": "skill_epmty.png",
-    "img": "skill_epmty.png",
-    "name": "empty skill",
-    "description": "this skill does not exist",
     "optional": true,
     "original": true
   }

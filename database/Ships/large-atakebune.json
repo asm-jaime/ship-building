@@ -1,0 +1,208 @@
+{
+  "id": "50000221",
+  "img": "00000221.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000221",
+  "name": "Large Atakebune",
+  "size": "Heavy",
+  "purpose": "Battle",
+  "is_nc": true,
+  "levels": {
+    "advent": 21,
+    "trade": 16,
+    "battle": 61
+  },
+  "days": 28,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002004",
+      "parts": ["02200054", "022000413"]
+    }, {
+      "id": "00002101",
+      "parts": ["02200054", "022000560"]
+    }, {
+      "id": "00002061",
+      "parts": ["022000622", "022000623"]
+    }, {
+      "id": "00002045",
+      "parts": ["022000560", "022000622"]
+    }, {
+      "id": "00002126",
+      "parts": ["02200040", "022000569"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 1,
+    "broadsides": 5,
+    "special_equipment": 2,
+    "bow_turret": 0,
+    "extra_armouring": 3,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 937,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 89,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 123,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": true,
+    "base": 100,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 7,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 1,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 29,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 220,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 220,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 125,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 84,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 84,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 456,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 456,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 5,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

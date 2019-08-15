@@ -1,0 +1,211 @@
+{
+  "id": "50000580",
+  "img": "00000325.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000580",
+  "name": "Modified San Gabriel",
+  "size": "Heavy",
+  "purpose": "Adventure",
+  "is_nc": true,
+  "levels": {
+    "advent": 17,
+    "trade": 4,
+    "battle": 8
+  },
+  "days": 19,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
+    }, {
+      "id": "00002005",
+      "parts": ["02200036", "022000620"]
+    }, {
+      "id": "00002011",
+      "parts": ["02200037", "02200040"]
+    }, {
+      "id": "00002017",
+      "parts": ["022000561", "022000565"]
+    }, {
+      "id": "00002035",
+      "parts": ["022000562", "022000623"]
+    }, {
+      "id": "00002036",
+      "parts": ["022000563", "022000621"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 3,
+    "special_equipment": 2,
+    "bow_turret": 0,
+    "extra_armouring": 3,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 8,
+      "add": {
+        "limit": 2,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 160,
+    "grade": 0,
+    "result": 160
+  },
+  "durability": {
+    "base": 495,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 210,
+      "grade": 0,
+      "current": 210
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 141,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 282,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 18,
+      "grade": 0,
+      "current": 18
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 10,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 19,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 74,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 74,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "required": 28,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 32,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 32,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 514,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 514,
+    "improve_limit": {
+      "base": 33,
+      "grade": 0,
+      "current": 33
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 4,
+  "grade_type_default": "Expedition Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Expedition Ship",
+    "skills": []
+  }
+}

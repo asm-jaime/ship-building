@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "022000513": {
     "id": "022000513",
     "img": "02200051.png",

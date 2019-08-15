@@ -1,0 +1,202 @@
+{
+  "id": "50000104",
+  "img": "00000103.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000104",
+  "name": "Assault Felucca",
+  "size": "Light",
+  "purpose": "Battle",
+  "is_nc": false,
+  "levels": {
+    "advent": 0,
+    "trade": 10,
+    "battle": 17
+  },
+  "days": 4,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002004",
+      "parts": ["022000413"]
+    }, {
+      "id": "00002081",
+      "parts": ["02200050"]
+    }, {
+      "id": "00002061",
+      "parts": ["022000622", "022000623"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 2,
+    "broadsides": 1,
+    "special_equipment": 1,
+    "bow_turret": 1,
+    "extra_armouring": 2,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 1,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 80,
+    "grade": 0,
+    "result": 80
+  },
+  "durability": {
+    "base": 230,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 130,
+      "grade": 0,
+      "current": 130
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 245,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 25,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 13,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 10,
+      "grade": 0,
+      "current": 10
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 5,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 13,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 30,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 30,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "required": 16,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 12,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 183,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 183,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 2,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

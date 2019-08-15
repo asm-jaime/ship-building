@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "00004006": {
     "id": "00004006",
     "img": "00004006.png",
@@ -95,6 +95,14 @@ export default {
     "name": "Ship Speed Up III",
     "description": "15% increase both acceleration and battle"
   },
+  "skill_epmty.png": {
+    "id": "skill_epmty.png",
+    "img": "skill_epmty.png",
+    "name": "empty skill",
+    "description": "this skill does not exist",
+    "optional": true,
+    "original": true
+  },
   "00004021": {
     "id": "00004021",
     "img": "00004021.png",
@@ -130,13 +138,5 @@ export default {
     "img": "00004005.png",
     "name": "Wave Resistance Improvement",
     "description": "Improves ship is wave resist stats"
-  },
-  "skill_epmty.png": {
-    "id": "skill_epmty.png",
-    "img": "skill_epmty.png",
-    "name": "empty skill",
-    "description": "this skill does not exist",
-    "optional": true,
-    "original": true
   }
 };

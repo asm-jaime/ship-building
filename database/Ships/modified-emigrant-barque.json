@@ -1,0 +1,231 @@
+{
+  "id": "50000278",
+  "img": "00000258.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000278",
+  "name": "Modified Emigrant Barque",
+  "size": "Standard",
+  "purpose": "Trade",
+  "is_nc": true,
+  "levels": {
+    "advent": 14,
+    "trade": 21,
+    "battle": 0
+  },
+  "days": 12,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002013",
+      "parts": ["022000690", "022000565"]
+    }, {
+      "id": "00002010",
+      "parts": ["022000700", "022000413"]
+    }, {
+      "id": "00002009",
+      "parts": ["022000515", "02200036", "022000413"]
+    }, {
+      "id": "00002005",
+      "parts": ["02200036"]
+    }, {
+      "parts": ["022000561"]
+    }, {
+      "id": "00002012",
+      "parts": ["02200019"]
+    }, {
+      "id": "00002006",
+      "parts": ["022000562"]
+    }, {
+      "id": "00002028",
+      "parts": ["022000623", "022000680"]
+    }, {
+      "id": "00002021",
+      "parts": ["022000515", "022000621", "022000623"]
+    }, {
+      "id": "00002022",
+      "parts": ["022000621"]
+    }, {
+      "id": "00002023",
+      "parts": ["022000563"]
+    }, {
+      "id": "00002024",
+      "parts": ["022000564"]
+    }, {
+      "id": "00002029",
+      "parts": ["022000620", "022000623"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 2,
+    "special_equipment": 1,
+    "bow_turret": 0,
+    "extra_armouring": 2,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 7,
+      "add": {
+        "limit": 2,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 120,
+    "grade": 0,
+    "result": 120
+  },
+  "durability": {
+    "base": 310,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 170,
+      "grade": 0,
+      "current": 170
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 80,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 70,
+      "grade": 0,
+      "current": 70
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 205,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 70,
+      "grade": 0,
+      "current": 70
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 13,
+      "grade": 0,
+      "current": 13
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 10,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 14,
+      "grade": 0,
+      "current": 14
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 7,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 13,
+      "grade": 0,
+      "current": 13
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 10,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 13,
+      "grade": 0,
+      "current": 13
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 71,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 71,
+    "improve_limit": {
+      "base": 24,
+      "grade": 0,
+      "current": 24
+    },
+    "required": 20,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 16,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 16,
+    "improve_limit": {
+      "base": 24,
+      "grade": 0,
+      "current": 24
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 533,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 533,
+    "improve_limit": {
+      "base": 25,
+      "grade": 0,
+      "current": 25
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 3,
+  "grade_type_default": "Cargo Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Cargo Ship",
+    "skills": []
+  }
+}

@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "022000800": {
     "id": "022000800",
     "img": "02200080.png",
@@ -358,7 +358,7 @@ export default {
   },
   "022001580": {
     "id": "022001580",
-    "img": "02200099.png",
+    "img": "02200158.png",
     "name": "Holy Roman Imperial Paneling",
     "nc": true,
     "panel_stats": [1.41, 0.96],
@@ -671,6 +671,27 @@ export default {
     ],
     "description": ""
   },
+  "ship_part_empty.png": {
+    "id": "ship_part_empty.png",
+    "img": "ship_part_empty.png",
+    "name": "Empty Paneling",
+    "nc": false,
+    "panel_stats": [1, 1],
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": "no panel here"
+  },
   "022000880": {
     "id": "022000880",
     "img": "02200088.png",
@@ -817,26 +838,5 @@ export default {
       [0, 0]
     ],
     "description": ""
-  },
-  "ship_part_empty.png": {
-    "id": "ship_part_empty.png",
-    "img": "ship_part_empty.png",
-    "name": "Empty Paneling",
-    "nc": false,
-    "panel_stats": [1.0, 1.0],
-    "ship_sizes": [true, true, true],
-    "stats_ranges": [
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": "no panel here"
   }
 };

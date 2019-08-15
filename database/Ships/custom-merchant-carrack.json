@@ -1,0 +1,208 @@
+{
+  "id": "50000237",
+  "img": "00000037.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000237",
+  "name": "Custom Merchant Carrack",
+  "size": "Standard",
+  "purpose": "Trade",
+  "is_nc": true,
+  "levels": {
+    "advent": 2,
+    "trade": 7,
+    "battle": 0
+  },
+  "days": 16,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002025",
+      "parts": ["022000412", "022000690"]
+    }, {
+      "id": "00002000",
+      "parts": ["022000700"]
+    }, {
+      "id": "00002021",
+      "parts": ["022000621", "022000623"]
+    }, {
+      "id": "00002023",
+      "parts": ["022000563", "022000620"]
+    }, {
+      "id": "00002024",
+      "parts": ["022000564"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 3,
+    "special_equipment": 2,
+    "bow_turret": 0,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 160,
+    "grade": 0,
+    "result": 160
+  },
+  "durability": {
+    "base": 528,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 170,
+      "grade": 0,
+      "current": 170
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 184,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 70,
+      "grade": 0,
+      "current": 70
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 97,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 70,
+      "grade": 0,
+      "current": 70
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 13,
+      "grade": 0,
+      "current": 13
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 11,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 14,
+      "grade": 0,
+      "current": 14
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 6,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 13,
+      "grade": 0,
+      "current": 13
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 18,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 13,
+      "grade": 0,
+      "current": 13
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 60,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 60,
+    "improve_limit": {
+      "base": 24,
+      "grade": 0,
+      "current": 24
+    },
+    "required": 30,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 32,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 32,
+    "improve_limit": {
+      "base": 24,
+      "grade": 0,
+      "current": 24
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 508,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 508,
+    "improve_limit": {
+      "base": 25,
+      "grade": 0,
+      "current": 25
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 3,
+  "grade_type_default": "Cargo Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Cargo Ship",
+    "skills": []
+  }
+}

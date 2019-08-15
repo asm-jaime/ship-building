@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   "022000560": {
     "id": "022000560",
     "img": "02200056.png",
@@ -1099,6 +1099,26 @@ export default {
     ],
     "description": ""
   },
+  "ship_part_empty.png": {
+    "id": "ship_part_empty.png",
+    "img": "ship_part_empty.png",
+    "name": "Empty Part",
+    "nc": false,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": "no part here"
+  },
   "022000566": {
     "id": "022000566",
     "img": "02200056.png",
@@ -1418,25 +1438,5 @@ export default {
       [4, 8]
     ],
     "description": ""
-  },
-  "ship_part_empty.png": {
-    "id": "ship_part_empty.png",
-    "img": "ship_part_empty.png",
-    "name": "Empty Part",
-    "nc": false,
-    "ship_sizes": [true, true, true],
-    "stats_ranges": [
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": "no part here"
   }
 };

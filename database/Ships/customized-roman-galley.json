@@ -1,0 +1,208 @@
+{
+  "id": "50000289",
+  "img": "00000283.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000289",
+  "name": "Customized Roman Galley",
+  "size": "Light",
+  "purpose": "Battle",
+  "is_nc": true,
+  "levels": {
+    "advent": 0,
+    "trade": 0,
+    "battle": 28
+  },
+  "days": 8,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002104",
+      "parts": [null, "022000565"]
+    }, {
+      "id": "00002002",
+      "parts": ["02200044", "022000700"]
+    }, {
+      "id": "00002080",
+      "parts": ["02200040", "02200050"]
+    }, {
+      "id": "00002060",
+      "parts": ["02200054", "022000680"]
+    }, {
+      "id": "00002083",
+      "parts": ["02200054", "022000622"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 0,
+    "broadsides": 0,
+    "special_equipment": 0,
+    "bow_turret": 0,
+    "extra_armouring": 0,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 0,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 80,
+    "grade": 0,
+    "result": 80
+  },
+  "durability": {
+    "base": 188,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 130,
+      "grade": 0,
+      "current": 130
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 36,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 134,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": true,
+    "base": 98,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 10,
+      "grade": 0,
+      "current": 10
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 1,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 11,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 0,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "required": 0,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 22,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 22,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 186,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 186,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 2,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

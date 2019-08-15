@@ -1,0 +1,205 @@
+{
+  "id": "50000504",
+  "img": "00000100.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000504",
+  "name": "Modified Transport Sloop",
+  "size": "Light",
+  "purpose": "Trade",
+  "is_nc": true,
+  "levels": {
+    "advent": 0,
+    "trade": 7,
+    "battle": 0
+  },
+  "days": 4,
+  "skills": {
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": "",
+    "available": [{
+      "id": "00002000",
+      "parts": ["022000700", "02200072"]
+    }, {
+      "id": "00002021",
+      "parts": ["022000621"]
+    }, {
+      "id": "00002029",
+      "parts": ["022000620", "022000623"]
+    }, {
+      "id": "00002103",
+      "parts": ["02200054", "022000690"]
+    }]
+  },
+  "ship_equipment": {
+    "studding_sails": 2,
+    "broadsides": 2,
+    "special_equipment": 1,
+    "bow_turret": 0,
+    "extra_armouring": 2,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 7,
+      "add": {
+        "limit": 2,
+        "current": 0
+      },
+      "current": 0
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 80,
+    "grade": 0,
+    "result": 80
+  },
+  "durability": {
+    "base": 252,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 130,
+      "grade": 0,
+      "current": 130
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 298,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 46,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 50,
+      "grade": 0,
+      "current": 50
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 16,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 10,
+      "grade": 0,
+      "current": 10
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 8,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 8,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 9,
+      "grade": 0,
+      "current": 9
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 26,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 26,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "required": 12,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 8,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 8,
+    "improve_limit": {
+      "base": 16,
+      "grade": 0,
+      "current": 16
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 230,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 230,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "grade_size": 2,
+  "grade_type_default": "Cargo Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Cargo Ship",
+    "skills": []
+  }
+}

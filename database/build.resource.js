@@ -57,7 +57,7 @@ const make_index_resources = (resources) => {
   for(let i = 0; i < result.length; ++i) {
     fs.writeFile(
       `../src/res${resources[i]}.js`,
-      `export default ${JSON.stringify(result[i][resources[i]])};`,
+      `module.exports = ${JSON.stringify(result[i][resources[i]])};`,
       'utf8',
       () => {
         spawn('js-beautify', [ '-r', `../src/res${resources[i]}.js` ]);
@@ -67,9 +67,10 @@ const make_index_resources = (resources) => {
   }
 };
 
+/*
 make_json_resources([
-  'Ships'
 ]);
+*/
 
 make_index_resources([
   'Armaments',
@@ -78,5 +79,6 @@ make_index_resources([
   'Panels',
   'Sails',
   'Skills',
-  'SkillsGrade'
+  'SkillsGrade',
+  'Ships'
 ]);
