@@ -1,5 +1,5 @@
 This project is a tool (extended version and based on [the uwotool](http://www.uwotool.com)), what will help you plan to build your ship in [uncharted waters](https://uwo.papayaplay.com/uwo.do).
-I wrote this tool not to support the game, just for muself, but anyone can use it.
+I wrote this tool not to support the game, just for myself and company mates.
 
 ## Available Scripts
 
