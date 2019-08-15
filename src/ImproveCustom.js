@@ -15,8 +15,8 @@ const ImproveCustom = (props) => {
 
   return (
     <div className='improve-custom'>
-      {IMPROVEABLE_PROPERTIES.map(name =>
-        <Custom name={name} resource={state.ship[name]}
+      {IMPROVEABLE_PROPERTIES.map((name, key) =>
+        <Custom name={name} key={key} resource={state.ship[name]}
           set={event => {
             const value = parseInt(event.target.value);
             dispatch({ type: IMPROVE_CUSTOM_SET, payload: {name, value}});
