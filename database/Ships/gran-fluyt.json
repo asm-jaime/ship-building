@@ -5,6 +5,7 @@
   "name": "Gran Fluyt",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 27,
@@ -41,6 +42,13 @@
     }, {
       "id": "00002010",
       "parts": ["022000700", "022000413"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000035",
+      "name": "Special Large 2-decked Hull"
     }]
   },
   "ship_equipment": {
@@ -198,6 +206,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

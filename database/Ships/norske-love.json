@@ -5,6 +5,7 @@
   "name": "Norske Love",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 44,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002128",
       "parts": ["022000550", "022000560"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000061",
+      "name": "Large 3-decked Hull"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

@@ -5,6 +5,7 @@
   "name": "Galleass",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 16,
@@ -38,6 +39,13 @@
     }, {
       "id": "00002083",
       "parts": ["02200054", "022000622"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000151",
+      "name": "Official Large 3-decked Row Boat"
     }]
   },
   "ship_equipment": {
@@ -195,6 +203,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

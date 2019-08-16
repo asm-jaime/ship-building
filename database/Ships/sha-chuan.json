@@ -5,6 +5,7 @@
   "name": "Sha-chuan",
   "size": "Standard",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 38,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002023",
       "parts": ["022000563", "022000620"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022002000",
+      "name": "E. Asian Standard Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

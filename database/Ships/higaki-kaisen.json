@@ -5,6 +5,7 @@
   "name": "Higaki-Kaisen",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 22,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002029",
       "parts": ["022000620", "022000623"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022002001",
+      "name": "E. Asian Heavy Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

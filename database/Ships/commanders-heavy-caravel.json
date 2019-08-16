@@ -5,6 +5,7 @@
   "name": "Commander's Heavy Caravel",
   "size": "Standard",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 16,
@@ -41,6 +42,13 @@
     }, {
       "id": "00002105",
       "parts": ["022000690", "02200073"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000003",
+      "name": "Commander's Medium Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -198,6 +206,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

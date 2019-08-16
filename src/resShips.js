@@ -6,6 +6,7 @@ module.exports = {
     "name": "2-mast Cog",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 2,
@@ -28,6 +29,10 @@ module.exports = {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -186,6 +191,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -205,6 +213,7 @@ module.exports = {
     "name": "Warwick Cog",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -227,6 +236,10 @@ module.exports = {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -385,6 +398,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -404,6 +420,7 @@ module.exports = {
     "name": "Small Caravel",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 4,
@@ -425,6 +442,13 @@ module.exports = {
       }, {
         "id": "00002012",
         "parts": ["02200019", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -584,6 +608,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -603,6 +630,7 @@ module.exports = {
     "name": "Caravel",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 9,
@@ -627,6 +655,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -786,6 +821,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -805,6 +843,7 @@ module.exports = {
     "name": "Large Caravel",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 19,
@@ -829,6 +868,13 @@ module.exports = {
       }, {
         "id": "00002120",
         "parts": ["02200020", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -988,6 +1034,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -1007,6 +1056,7 @@ module.exports = {
     "name": "Nao",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -1032,6 +1082,10 @@ module.exports = {
         "id": "00002028",
         "parts": ["022000623", "022000680"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -1190,6 +1244,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -1209,6 +1266,7 @@ module.exports = {
     "name": "Carrack",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -1230,6 +1288,13 @@ module.exports = {
       }, {
         "id": "00002025",
         "parts": ["022000411", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -1389,6 +1454,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -1408,6 +1476,7 @@ module.exports = {
     "name": "Large Carrack",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -1435,6 +1504,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000006",
+        "name": "General Large Hull"
       }]
     },
     "ship_equipment": {
@@ -1594,6 +1670,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -1613,6 +1692,7 @@ module.exports = {
     "name": "Heavy Carrack",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -1640,6 +1720,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000006",
+        "name": "General Large Hull"
       }]
     },
     "ship_equipment": {
@@ -1799,6 +1886,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -1818,6 +1908,7 @@ module.exports = {
     "name": "Flute",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 11,
@@ -1843,6 +1934,10 @@ module.exports = {
         "id": "00002083",
         "parts": ["022000622"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -2001,6 +2096,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -2020,6 +2118,7 @@ module.exports = {
     "name": "Pinnace",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -2036,6 +2135,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002000",
@@ -2044,6 +2144,10 @@ module.exports = {
         "id": "00002014",
         "parts": ["022000564", "022000670"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -2202,6 +2306,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -2221,6 +2328,7 @@ module.exports = {
     "name": "Light Galleon",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 9,
@@ -2245,6 +2353,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -2404,6 +2519,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -2423,6 +2541,7 @@ module.exports = {
     "name": "Galleon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -2439,6 +2558,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000516", "022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -2449,6 +2569,13 @@ module.exports = {
       }, {
         "id": "00002100",
         "parts": ["022000560", "022000561"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000006",
+        "name": "General Large Hull"
       }]
     },
     "ship_equipment": {
@@ -2608,6 +2735,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -2627,6 +2757,7 @@ module.exports = {
     "name": "Heavy Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -2643,6 +2774,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -2654,6 +2786,10 @@ module.exports = {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 4,
@@ -2812,6 +2948,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -2831,6 +2970,7 @@ module.exports = {
     "name": "Frigate",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -2859,6 +2999,10 @@ module.exports = {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -3017,6 +3161,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -3036,6 +3183,7 @@ module.exports = {
     "name": "Commander's Galley",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -3072,6 +3220,13 @@ module.exports = {
       }, {
         "id": "00002041",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000094",
+        "name": "Commander's Medium Row Boat"
       }]
     },
     "ship_equipment": {
@@ -3231,6 +3386,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -3250,6 +3408,7 @@ module.exports = {
     "name": "Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -3280,6 +3439,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -3439,6 +3605,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -3458,6 +3627,7 @@ module.exports = {
     "name": "Commander's Corvette",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 23,
@@ -3494,6 +3664,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000033",
+        "name": "Commander's Medium 2-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -3653,6 +3830,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -3672,6 +3852,7 @@ module.exports = {
     "name": "Commander's Heavy Caravel",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -3708,6 +3889,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000003",
+        "name": "Commander's Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -3867,6 +4055,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -3886,6 +4077,7 @@ module.exports = {
     "name": "Commander's Sambuk",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -3919,6 +4111,13 @@ module.exports = {
       }, {
         "id": "00002020",
         "parts": ["022000361", "022000470"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000003",
+        "name": "Commander's Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -4078,6 +4277,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -4097,6 +4299,7 @@ module.exports = {
     "name": "Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 52,
@@ -4122,6 +4325,7 @@ module.exports = {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -4130,6 +4334,10 @@ module.exports = {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 4,
@@ -4288,6 +4496,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -4307,6 +4518,7 @@ module.exports = {
     "name": "Large Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 64,
@@ -4337,6 +4549,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -4496,6 +4715,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -4515,6 +4737,7 @@ module.exports = {
     "name": "Dhow",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -4540,6 +4763,10 @@ module.exports = {
         "id": "00002008",
         "parts": ["02200054", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -4698,6 +4925,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -4717,6 +4947,7 @@ module.exports = {
     "name": "Sambuk",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -4736,6 +4967,7 @@ module.exports = {
         "id": "00002001",
         "parts": ["022000211", "022000660"]
       }, {
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002000",
@@ -4744,6 +4976,10 @@ module.exports = {
         "id": "00002006",
         "parts": ["022000562"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -4902,6 +5138,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -4921,6 +5160,7 @@ module.exports = {
     "name": "Xebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -4940,6 +5180,7 @@ module.exports = {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -4948,6 +5189,10 @@ module.exports = {
         "id": "00002008",
         "parts": ["02200054", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -5106,6 +5351,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -5125,6 +5373,7 @@ module.exports = {
     "name": "Light Galley",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -5146,6 +5395,13 @@ module.exports = {
       }, {
         "id": "00002080",
         "parts": ["02200040", "02200050"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000095",
+        "name": "General Small Row Boat"
       }]
     },
     "ship_equipment": {
@@ -5305,6 +5561,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -5324,6 +5583,7 @@ module.exports = {
     "name": "Galley",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -5340,6 +5600,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002002",
@@ -5347,6 +5608,13 @@ module.exports = {
       }, {
         "id": "00002080",
         "parts": ["02200040", "02200050"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000096",
+        "name": "General Medium Row Boat"
       }]
     },
     "ship_equipment": {
@@ -5506,6 +5774,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -5525,6 +5796,7 @@ module.exports = {
     "name": "Large Galley",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -5552,6 +5824,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000097",
+        "name": "General Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -5711,6 +5990,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -5730,6 +6012,7 @@ module.exports = {
     "name": "Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -5763,6 +6046,13 @@ module.exports = {
       }, {
         "id": "00002083",
         "parts": ["02200054", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000151",
+        "name": "Official Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -5922,6 +6212,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -5941,6 +6234,7 @@ module.exports = {
     "name": "Trading Caravel",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -5968,6 +6262,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -6127,6 +6428,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -6146,6 +6450,7 @@ module.exports = {
     "name": "Battle Caravel",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -6173,6 +6478,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -6332,6 +6644,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -6351,6 +6666,7 @@ module.exports = {
     "name": "Heavy Caravel",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -6375,6 +6691,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -6534,6 +6857,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -6553,6 +6879,7 @@ module.exports = {
     "name": "Trading Carrack",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -6577,6 +6904,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -6736,6 +7070,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -6755,6 +7092,7 @@ module.exports = {
     "name": "Battle Carrack",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -6776,6 +7114,13 @@ module.exports = {
       }, {
         "id": "00002025",
         "parts": ["022000411", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -6935,6 +7280,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -6954,6 +7302,7 @@ module.exports = {
     "name": "Big Trading Carrack",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 8,
@@ -6984,6 +7333,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000006",
+        "name": "General Large Hull"
       }]
     },
     "ship_equipment": {
@@ -7143,6 +7499,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -7162,6 +7521,7 @@ module.exports = {
     "name": "Battle Pinnace",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -7187,6 +7547,10 @@ module.exports = {
         "id": "00002014",
         "parts": ["022000564", "022000670"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -7345,6 +7709,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -7364,6 +7731,7 @@ module.exports = {
     "name": "Small Galleon",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -7388,6 +7756,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -7547,6 +7922,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -7566,6 +7944,7 @@ module.exports = {
     "name": "Trading Galleon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -7582,6 +7961,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -7592,6 +7972,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000006",
+        "name": "General Large Hull"
       }]
     },
     "ship_equipment": {
@@ -7751,6 +8138,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -7770,6 +8160,7 @@ module.exports = {
     "name": "Battle Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -7786,6 +8177,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -7796,6 +8188,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000006",
+        "name": "General Large Hull"
       }]
     },
     "ship_equipment": {
@@ -7955,6 +8354,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -7974,6 +8376,7 @@ module.exports = {
     "name": "Heavy Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -8001,6 +8404,13 @@ module.exports = {
       }, {
         "id": "00002060",
         "parts": ["022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000097",
+        "name": "General Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -8160,6 +8570,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -8179,6 +8592,7 @@ module.exports = {
     "name": "Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -8210,6 +8624,10 @@ module.exports = {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 4,
@@ -8368,6 +8786,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -8387,6 +8808,7 @@ module.exports = {
     "name": "Big Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -8414,6 +8836,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -8573,6 +9002,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -8592,6 +9024,7 @@ module.exports = {
     "name": "Trading Barca",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -8610,6 +9043,13 @@ module.exports = {
       "available": [{
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -8769,6 +9209,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -8788,6 +9231,7 @@ module.exports = {
     "name": "Battle Barca",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -8806,6 +9250,13 @@ module.exports = {
       "available": [{
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -8965,6 +9416,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -8984,6 +9438,7 @@ module.exports = {
     "name": "Explorer Barca",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 1,
@@ -9005,6 +9460,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -9164,6 +9626,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -9183,6 +9648,7 @@ module.exports = {
     "name": "Armed Cog",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -9205,6 +9671,10 @@ module.exports = {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 1,
@@ -9363,6 +9833,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -9382,6 +9855,7 @@ module.exports = {
     "name": "Light Caravel",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 2,
@@ -9403,6 +9877,13 @@ module.exports = {
       }, {
         "id": "00002025",
         "parts": ["02200041", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -9562,6 +10043,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -9581,6 +10065,7 @@ module.exports = {
     "name": "Galliot",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -9602,6 +10087,13 @@ module.exports = {
       }, {
         "id": "00002002",
         "parts": ["02200044", "022000700"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000095",
+        "name": "General Small Row Boat"
       }]
     },
     "ship_equipment": {
@@ -9761,6 +10253,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -9780,6 +10275,7 @@ module.exports = {
     "name": "Transport Galley",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -9804,6 +10300,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000095",
+        "name": "General Small Row Boat"
       }]
     },
     "ship_equipment": {
@@ -9963,6 +10466,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -9982,6 +10488,7 @@ module.exports = {
     "name": "Hooker",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -10004,6 +10511,10 @@ module.exports = {
         "id": "00002014",
         "parts": ["022000564", "022000670"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -10162,6 +10673,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -10181,6 +10695,7 @@ module.exports = {
     "name": "Trading Dhow",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -10206,6 +10721,10 @@ module.exports = {
         "id": "00002021",
         "parts": ["022000621", "022000623"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -10364,6 +10883,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -10383,6 +10905,7 @@ module.exports = {
     "name": "Assault Dhow",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -10408,6 +10931,10 @@ module.exports = {
         "id": "00002082",
         "parts": ["02200050", "02200054"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -10566,6 +11093,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -10585,6 +11115,7 @@ module.exports = {
     "name": "Trading Flute",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 6,
@@ -10610,6 +11141,10 @@ module.exports = {
         "id": "00002024",
         "parts": ["022000564"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -10768,6 +11303,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -10787,6 +11325,7 @@ module.exports = {
     "name": "Battle Flute",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -10812,6 +11351,10 @@ module.exports = {
         "id": "00002060",
         "parts": ["022000680"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -10970,6 +11513,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -10989,6 +11535,7 @@ module.exports = {
     "name": "Small Carrack",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -11013,6 +11560,13 @@ module.exports = {
       }, {
         "id": "00002012",
         "parts": ["02200019", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -11172,6 +11726,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -11191,6 +11748,7 @@ module.exports = {
     "name": "Transport Carrack",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 6,
@@ -11215,6 +11773,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -11374,6 +11939,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -11393,6 +11961,7 @@ module.exports = {
     "name": "Light Carrack",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 6,
@@ -11417,6 +11986,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000004",
+        "name": "General Small Hull"
       }]
     },
     "ship_equipment": {
@@ -11576,6 +12152,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -11595,6 +12174,7 @@ module.exports = {
     "name": "Trading Galley",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -11619,6 +12199,13 @@ module.exports = {
       }, {
         "id": "00002002",
         "parts": ["02200044", "022000700"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000096",
+        "name": "General Medium Row Boat"
       }]
     },
     "ship_equipment": {
@@ -11778,6 +12365,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -11797,6 +12387,7 @@ module.exports = {
     "name": "Battle Galley",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -11821,6 +12412,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000096",
+        "name": "General Medium Row Boat"
       }]
     },
     "ship_equipment": {
@@ -11980,6 +12578,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -11999,6 +12600,7 @@ module.exports = {
     "name": "Transport Galleon",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -12023,6 +12625,13 @@ module.exports = {
       }, {
         "id": "00002103",
         "parts": ["022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -12182,6 +12791,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -12201,6 +12813,7 @@ module.exports = {
     "name": "Trading Pinnace",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -12226,6 +12839,10 @@ module.exports = {
         "id": "00002014",
         "parts": ["022000564", "022000670"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -12384,6 +13001,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -12403,6 +13023,7 @@ module.exports = {
     "name": "Trading Sambuk",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -12431,6 +13052,10 @@ module.exports = {
         "id": "00002023",
         "parts": ["022000563"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -12589,6 +13214,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -12608,6 +13236,7 @@ module.exports = {
     "name": "Armed Sambuk",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -12639,6 +13268,10 @@ module.exports = {
         "id": "00002060",
         "parts": ["022000680"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -12797,6 +13430,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -12816,6 +13452,7 @@ module.exports = {
     "name": "Transport Large Galley",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -12843,6 +13480,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000097",
+        "name": "General Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -13002,6 +13646,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -13021,6 +13668,7 @@ module.exports = {
     "name": "Trading Xebec",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -13049,6 +13697,10 @@ module.exports = {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -13207,6 +13859,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -13226,6 +13881,7 @@ module.exports = {
     "name": "Armed Xebec",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -13257,6 +13913,10 @@ module.exports = {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -13415,6 +14075,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -13434,6 +14097,7 @@ module.exports = {
     "name": "Large Galleon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -13456,13 +14120,19 @@ module.exports = {
         "id": "00002013",
         "parts": ["022000690", "022000565"]
       }, {
+        "id": "00002007",
         "parts": ["022000560", "022000561"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 4,
@@ -13621,6 +14291,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -13640,6 +14313,7 @@ module.exports = {
     "name": "Trading Large Galleon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -13656,6 +14330,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -13673,6 +14348,10 @@ module.exports = {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 4,
@@ -13831,6 +14510,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -13850,6 +14532,7 @@ module.exports = {
     "name": "Bergantin",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -13872,6 +14555,10 @@ module.exports = {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -14030,6 +14717,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -14049,6 +14739,7 @@ module.exports = {
     "name": "Buss",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -14074,6 +14765,10 @@ module.exports = {
         "id": "00002023",
         "parts": ["022000563"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -14232,6 +14927,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -14251,6 +14949,7 @@ module.exports = {
     "name": "Barbarian Galley",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -14276,6 +14975,10 @@ module.exports = {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -14434,6 +15137,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -14453,6 +15159,7 @@ module.exports = {
     "name": "Flanders Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -14478,6 +15185,10 @@ module.exports = {
         "id": "00002080",
         "parts": ["02200040", "02200050"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -14636,6 +15347,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -14655,6 +15369,7 @@ module.exports = {
     "name": "Arabian Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -14680,6 +15395,10 @@ module.exports = {
         "id": "00002062",
         "parts": ["02200040"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -14838,6 +15557,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -14857,6 +15579,7 @@ module.exports = {
     "name": "La Reale",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -14885,6 +15608,10 @@ module.exports = {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -15043,6 +15770,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -15062,6 +15792,7 @@ module.exports = {
     "name": "Venetian Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -15095,6 +15826,13 @@ module.exports = {
       }, {
         "id": "00002080",
         "parts": ["02200040", "02200050"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000151",
+        "name": "Official Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -15254,6 +15992,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -15273,6 +16014,7 @@ module.exports = {
     "name": "British Cog",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 4,
@@ -15295,6 +16037,10 @@ module.exports = {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -15453,6 +16199,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -15472,6 +16221,7 @@ module.exports = {
     "name": "Reconnaissance Nao",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -15500,6 +16250,10 @@ module.exports = {
         "id": "00002004",
         "parts": ["022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -15658,6 +16412,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -15677,6 +16434,7 @@ module.exports = {
     "name": "Heavy Trading Caravel",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -15701,6 +16459,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000005",
+        "name": "General Medium Hull"
       }]
     },
     "ship_equipment": {
@@ -15860,6 +16625,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -15879,6 +16647,7 @@ module.exports = {
     "name": "Battle Heavy Caravel",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 11,
@@ -15907,6 +16676,10 @@ module.exports = {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -16065,6 +16838,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -16084,6 +16860,7 @@ module.exports = {
     "name": "Heavy Explorer Carrack",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -16109,11 +16886,16 @@ module.exports = {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
       }, {
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -16272,6 +17054,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -16291,6 +17076,7 @@ module.exports = {
     "name": "Armed Trade Carrack",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -16322,6 +17108,10 @@ module.exports = {
         "id": "00002020",
         "parts": ["022000361", "022000470"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -16480,6 +17270,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -16499,6 +17292,7 @@ module.exports = {
     "name": "Refitted Heavy Carrack",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -16530,6 +17324,10 @@ module.exports = {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 4,
@@ -16688,6 +17486,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -16707,6 +17508,7 @@ module.exports = {
     "name": "Explorer Xebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 39,
@@ -16738,6 +17540,10 @@ module.exports = {
         "id": "00002008",
         "parts": ["02200054", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -16896,6 +17702,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -16915,6 +17724,7 @@ module.exports = {
     "name": "Armed Trading Xebec",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -16946,6 +17756,10 @@ module.exports = {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -17104,6 +17918,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -17123,6 +17940,7 @@ module.exports = {
     "name": "Naval Xebec",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -17151,6 +17969,10 @@ module.exports = {
         "id": "00002103",
         "parts": ["02200054", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -17309,6 +18131,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -17328,6 +18153,7 @@ module.exports = {
     "name": "Ambush Siam",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -17356,6 +18182,10 @@ module.exports = {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -17514,6 +18344,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -17533,6 +18366,7 @@ module.exports = {
     "name": "Survey Wide Ship",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 43,
@@ -17561,6 +18395,10 @@ module.exports = {
         "id": "00002130",
         "parts": ["02200038", "022002141"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -17719,6 +18557,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -17738,6 +18579,7 @@ module.exports = {
     "name": "Stacked Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -17766,6 +18608,10 @@ module.exports = {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -17924,6 +18770,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -17943,6 +18792,7 @@ module.exports = {
     "name": "Korean Warship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -17971,6 +18821,10 @@ module.exports = {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -18129,6 +18983,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -18148,6 +19005,7 @@ module.exports = {
     "name": "Caoyun Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -18176,6 +19034,10 @@ module.exports = {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -18334,6 +19196,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -18353,6 +19218,7 @@ module.exports = {
     "name": "Transport Wide Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 34,
@@ -18380,6 +19246,13 @@ module.exports = {
       }, {
         "id": "00002021",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -18539,6 +19412,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -18558,6 +19434,7 @@ module.exports = {
     "name": "Cruising Wide Ship",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 42,
@@ -18574,6 +19451,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -18585,6 +19463,10 @@ module.exports = {
         "id": "00002130",
         "parts": ["02200038", "022002141"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -18743,6 +19625,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -18762,6 +19647,7 @@ module.exports = {
     "name": "Ningbo Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 21,
@@ -18790,6 +19676,10 @@ module.exports = {
         "id": "00002100",
         "parts": ["022000560", "022000561"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -18948,6 +19838,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -18967,6 +19860,7 @@ module.exports = {
     "name": "Armed Sha-chuan",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 8,
@@ -18995,6 +19889,10 @@ module.exports = {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 5,
@@ -19153,6 +20051,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -19172,6 +20073,7 @@ module.exports = {
     "name": "Sloop",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -19196,6 +20098,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -19355,6 +20264,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -19374,6 +20286,7 @@ module.exports = {
     "name": "Naval Sloop",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -19398,6 +20311,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -19557,6 +20477,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -19576,6 +20499,7 @@ module.exports = {
     "name": "Ketch",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -19600,6 +20524,13 @@ module.exports = {
       }, {
         "id": "00002060",
         "parts": ["022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -19759,6 +20690,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -19778,6 +20712,7 @@ module.exports = {
     "name": "Felucca",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -19802,6 +20737,13 @@ module.exports = {
       }, {
         "id": "00002083",
         "parts": ["022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -19961,6 +20903,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -19980,6 +20925,7 @@ module.exports = {
     "name": "Assault Felucca",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -20004,6 +20950,13 @@ module.exports = {
       }, {
         "id": "00002061",
         "parts": ["022000622", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -20163,6 +21116,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -20182,6 +21138,7 @@ module.exports = {
     "name": "Bomb Ketch",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -20209,6 +21166,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -20368,6 +21332,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -20387,6 +21354,7 @@ module.exports = {
     "name": "Bombarda",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -20414,6 +21382,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -20573,6 +21548,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -20592,6 +21570,7 @@ module.exports = {
     "name": "Gunboat",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -20619,6 +21598,13 @@ module.exports = {
       }, {
         "id": "00002061",
         "parts": ["022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -20778,6 +21764,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -20797,6 +21786,7 @@ module.exports = {
     "name": "Schooner",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -20821,6 +21811,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -20980,6 +21977,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -20999,6 +21999,7 @@ module.exports = {
     "name": "Trading Schooner",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -21023,6 +22024,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -21182,6 +22190,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -21201,6 +22212,7 @@ module.exports = {
     "name": "Corvette",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -21225,6 +22237,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -21384,6 +22403,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -21403,6 +22425,7 @@ module.exports = {
     "name": "Escort Corvette",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -21430,6 +22453,13 @@ module.exports = {
       }, {
         "id": "00002041",
         "parts": ["022000460"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -21589,6 +22619,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -21608,6 +22641,7 @@ module.exports = {
     "name": "Light Clipper",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -21635,6 +22669,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -21794,6 +22835,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -21813,6 +22857,7 @@ module.exports = {
     "name": "Boot Ship",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -21837,6 +22882,13 @@ module.exports = {
       }, {
         "id": "00002005",
         "parts": ["02200036"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -21996,6 +23048,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -22015,6 +23070,7 @@ module.exports = {
     "name": "Polacca",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -22039,6 +23095,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -22198,6 +23261,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -22217,6 +23283,7 @@ module.exports = {
     "name": "Large Frigate",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -22244,6 +23311,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -22403,6 +23477,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -22422,6 +23499,7 @@ module.exports = {
     "name": "Heavy Frigate",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -22449,6 +23527,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -22608,6 +23693,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -22627,6 +23715,7 @@ module.exports = {
     "name": "Large Schooner",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 45,
@@ -22654,6 +23743,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -22813,6 +23909,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -22832,6 +23931,7 @@ module.exports = {
     "name": "Big Transport Schooner",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -22856,6 +23956,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -23015,6 +24122,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -23034,6 +24144,7 @@ module.exports = {
     "name": "Big Trading Schooner",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -23058,6 +24169,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -23217,6 +24335,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -23236,6 +24357,7 @@ module.exports = {
     "name": "Iberian Galleon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 45,
@@ -23252,6 +24374,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002000",
@@ -23262,6 +24385,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -23421,6 +24551,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -23440,6 +24573,7 @@ module.exports = {
     "name": "Spanish Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -23456,6 +24590,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -23466,6 +24601,16 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -23625,6 +24770,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -23644,6 +24792,7 @@ module.exports = {
     "name": "Tri-Deck Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -23660,6 +24809,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002125",
@@ -23673,6 +24823,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -23832,6 +24989,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -23851,6 +25011,7 @@ module.exports = {
     "name": "Iberian Xebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -23878,6 +25039,13 @@ module.exports = {
       }, {
         "id": "00002120",
         "parts": ["02200020"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -24037,6 +25205,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -24056,6 +25227,7 @@ module.exports = {
     "name": "Xebec Tug",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -24083,6 +25255,13 @@ module.exports = {
       }, {
         "id": "00002008",
         "parts": ["02200054", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -24242,6 +25421,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -24261,6 +25443,7 @@ module.exports = {
     "name": "Quebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -24285,6 +25468,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -24444,6 +25634,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -24463,6 +25656,7 @@ module.exports = {
     "name": "Transport Quebec",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -24496,6 +25690,13 @@ module.exports = {
       }, {
         "id": "00002103",
         "parts": ["02200054", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -24655,6 +25856,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -24674,6 +25878,7 @@ module.exports = {
     "name": "Medical Quebec",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -24701,6 +25906,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -24860,6 +26072,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -24879,6 +26094,7 @@ module.exports = {
     "name": "Polacca-Xebec",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -24906,6 +26122,13 @@ module.exports = {
       }, {
         "id": "00002021",
         "parts": ["022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -25065,6 +26288,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -25084,6 +26310,7 @@ module.exports = {
     "name": "Special Transport Xebec",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -25114,6 +26341,13 @@ module.exports = {
       }, {
         "id": "00002020",
         "parts": ["022000361", "022000470"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -25273,6 +26507,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -25292,6 +26529,7 @@ module.exports = {
     "name": "Scandinavian Heavy Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -25319,6 +26557,13 @@ module.exports = {
       }, {
         "id": "00002082",
         "parts": ["022000516", "02200050", "02200054"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000150",
+        "name": "Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -25478,6 +26723,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -25497,6 +26745,7 @@ module.exports = {
     "name": "Baltic Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -25524,6 +26773,13 @@ module.exports = {
       }, {
         "id": "00002082",
         "parts": ["02200050"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000150",
+        "name": "Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -25683,6 +26939,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -25702,6 +26961,7 @@ module.exports = {
     "name": "Baltic Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -25718,6 +26978,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -25731,6 +26992,13 @@ module.exports = {
       }, {
         "id": "00002041",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -25890,6 +27158,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -25909,6 +27180,7 @@ module.exports = {
     "name": "Battle Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -25939,6 +27211,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000150",
+        "name": "Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -26098,6 +27377,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -26117,6 +27399,7 @@ module.exports = {
     "name": "La Royale",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -26147,6 +27430,16 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000150",
+        "name": "Large 3-decked Row Boat"
+      }, {
+        "id": "022000151",
+        "name": "Official Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -26306,6 +27599,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -26325,6 +27621,7 @@ module.exports = {
     "name": "Heavy Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -26355,6 +27652,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000150",
+        "name": "Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -26514,6 +27818,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -26533,6 +27840,7 @@ module.exports = {
     "name": "Armoured Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -26563,6 +27871,16 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -26722,6 +28040,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -26741,6 +28062,7 @@ module.exports = {
     "name": "Transport Sloop",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -26768,6 +28090,13 @@ module.exports = {
       }, {
         "id": "00002103",
         "parts": ["02200054", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -26927,6 +28256,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -26946,6 +28278,7 @@ module.exports = {
     "name": "Rearguard Sloop",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -26973,6 +28306,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -27132,6 +28472,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -27151,6 +28494,7 @@ module.exports = {
     "name": "Swift Ketch",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -27175,6 +28519,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -27334,6 +28685,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -27353,6 +28707,7 @@ module.exports = {
     "name": "Rearguard Felucca",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -27380,6 +28735,13 @@ module.exports = {
       }, {
         "id": "00002103",
         "parts": ["022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -27539,6 +28901,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -27558,6 +28923,7 @@ module.exports = {
     "name": "Transport Felucca",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -27588,6 +28954,13 @@ module.exports = {
       }, {
         "id": "00002103",
         "parts": ["02200054", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -27747,6 +29120,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -27766,6 +29142,7 @@ module.exports = {
     "name": "Agile Gunboat",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -27793,6 +29170,13 @@ module.exports = {
       }, {
         "id": "00002061",
         "parts": ["022000622", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -27952,6 +29336,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -27971,6 +29358,7 @@ module.exports = {
     "name": "Agile Schooner",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -27998,6 +29386,13 @@ module.exports = {
       }, {
         "id": "00002100",
         "parts": ["022000560", "022000561"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -28157,6 +29552,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -28176,6 +29574,7 @@ module.exports = {
     "name": "Armed Schooner",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -28203,6 +29602,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -28362,6 +29768,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -28381,6 +29790,7 @@ module.exports = {
     "name": "Tactical Corvette",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -28405,6 +29815,13 @@ module.exports = {
       }, {
         "id": "00002061",
         "parts": ["022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -28564,6 +29981,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -28583,6 +30003,7 @@ module.exports = {
     "name": "Cruise Light Clipper",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -28602,6 +30023,7 @@ module.exports = {
         "id": "00002001",
         "parts": ["022000211", "022000660"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -28612,6 +30034,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -28771,6 +30200,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -28790,6 +30222,7 @@ module.exports = {
     "name": "Survey Boot Ship",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -28817,6 +30250,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -28976,6 +30416,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -28995,6 +30438,7 @@ module.exports = {
     "name": "Armed Large Schooner",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -29025,6 +30469,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -29184,6 +30635,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -29203,6 +30657,7 @@ module.exports = {
     "name": "Survey Large Schooner",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -29230,6 +30685,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -29389,6 +30851,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -29408,6 +30873,7 @@ module.exports = {
     "name": "Bombardment Special Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -29424,6 +30890,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -29434,6 +30901,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -29593,6 +31067,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -29612,6 +31089,7 @@ module.exports = {
     "name": "Swift Quebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -29639,6 +31117,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -29798,6 +31283,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -29817,6 +31305,7 @@ module.exports = {
     "name": "Tactical Quebec",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -29844,6 +31333,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -30003,6 +31499,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -30022,6 +31521,7 @@ module.exports = {
     "name": "Cruise Quebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -30041,6 +31541,7 @@ module.exports = {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
       }, {
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002000",
@@ -30051,6 +31552,13 @@ module.exports = {
       }, {
         "id": "00002014",
         "parts": ["022000564", "022000670"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -30210,6 +31718,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -30229,6 +31740,7 @@ module.exports = {
     "name": "Agile Xebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -30256,6 +31768,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -30415,6 +31934,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -30434,6 +31956,7 @@ module.exports = {
     "name": "Tactical Polacca",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -30461,6 +31984,13 @@ module.exports = {
       }, {
         "id": "00002083",
         "parts": ["022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -30620,6 +32150,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -30639,6 +32172,7 @@ module.exports = {
     "name": "Cruise Sloop",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -30655,6 +32189,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -30665,6 +32200,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -30824,6 +32366,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -30843,6 +32388,7 @@ module.exports = {
     "name": "Special Corvette",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -30867,6 +32413,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000060",
+        "name": "Medium 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -31026,6 +32579,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -31045,6 +32601,7 @@ module.exports = {
     "name": "Agile Bomb Ketch",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -31072,6 +32629,13 @@ module.exports = {
       }, {
         "id": "00002060",
         "parts": ["02200054", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -31231,6 +32795,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -31250,6 +32817,7 @@ module.exports = {
     "name": "Rearguard Bombarda",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -31277,6 +32845,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -31436,6 +33011,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -31455,6 +33033,7 @@ module.exports = {
     "name": "Tactical Heavy Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -31482,6 +33061,13 @@ module.exports = {
       }, {
         "id": "00002060",
         "parts": ["02200054", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000092",
+        "name": "Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -31641,6 +33227,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -31660,6 +33249,7 @@ module.exports = {
     "name": "Survey Large Galley",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -31687,6 +33277,13 @@ module.exports = {
       }, {
         "id": "00002002",
         "parts": ["02200044", "022000700"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000092",
+        "name": "Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -31846,6 +33443,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -31865,6 +33465,7 @@ module.exports = {
     "name": "Transport Swift Schooner",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -31892,6 +33493,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -32051,6 +33659,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -32070,6 +33681,7 @@ module.exports = {
     "name": "Cruise Refitted Xebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -32086,6 +33698,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002000",
@@ -32099,6 +33712,13 @@ module.exports = {
       }, {
         "id": "00002120",
         "parts": ["02200020", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -32258,6 +33878,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -32277,6 +33900,7 @@ module.exports = {
     "name": "Agile Battle Galley",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -32301,6 +33925,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["022000515", "02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000091",
+        "name": "Medium Row Boat"
       }]
     },
     "ship_equipment": {
@@ -32460,6 +34091,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -32479,6 +34113,7 @@ module.exports = {
     "name": "Agile Sambuk",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -32506,6 +34141,13 @@ module.exports = {
       }, {
         "id": "00002100",
         "parts": ["022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -32665,6 +34307,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -32684,6 +34329,7 @@ module.exports = {
     "name": "Survey Trading Sambuk",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -32711,6 +34357,13 @@ module.exports = {
       }, {
         "id": "00002021",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -32870,6 +34523,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -32889,6 +34545,7 @@ module.exports = {
     "name": "Tactical Armed Sambuk",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -32922,6 +34579,13 @@ module.exports = {
       }, {
         "id": "00002083",
         "parts": ["022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000001",
+        "name": "Medium Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -33081,6 +34745,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -33100,6 +34767,7 @@ module.exports = {
     "name": "Super Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 48,
@@ -33130,6 +34798,16 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -33289,6 +34967,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -33308,6 +34989,7 @@ module.exports = {
     "name": "Royal Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -33338,6 +35020,16 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -33497,6 +35189,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -33516,6 +35211,7 @@ module.exports = {
     "name": "Turkish Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -33543,6 +35239,16 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000092",
+        "name": "Large Row Boat"
+      }, {
+        "id": "022000093",
+        "name": "Official Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -33702,6 +35408,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -33721,6 +35430,7 @@ module.exports = {
     "name": "Cutter",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 21,
@@ -33746,6 +35456,10 @@ module.exports = {
         "id": "00002008",
         "parts": ["02200054", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -33904,6 +35618,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -33923,6 +35640,7 @@ module.exports = {
     "name": "Assault Ottoman Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -33950,6 +35668,16 @@ module.exports = {
       }, {
         "id": "00002082",
         "parts": ["02200050"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000092",
+        "name": "Large Row Boat"
+      }, {
+        "id": "022000093",
+        "name": "Official Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -34109,6 +35837,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -34128,6 +35859,7 @@ module.exports = {
     "name": "Transport Ottoman Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -34155,6 +35887,16 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000092",
+        "name": "Large Row Boat"
+      }, {
+        "id": "022000093",
+        "name": "Official Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -34314,6 +36056,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -34333,6 +36078,7 @@ module.exports = {
     "name": "Baghlah",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -34358,6 +36104,10 @@ module.exports = {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -34516,6 +36266,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -34535,6 +36288,7 @@ module.exports = {
     "name": "Wide Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -34562,6 +36316,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -34721,6 +36482,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -34740,6 +36504,7 @@ module.exports = {
     "name": "Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -34767,6 +36532,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002030",
+        "name": "E. Asian Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -34926,6 +36698,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -34945,6 +36720,7 @@ module.exports = {
     "name": "Atakebune",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -34972,6 +36748,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002030",
+        "name": "E. Asian Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -35131,6 +36914,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -35150,6 +36936,7 @@ module.exports = {
     "name": "Sha-chuan",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 38,
@@ -35177,6 +36964,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002000",
+        "name": "E. Asian Standard Hull"
       }]
     },
     "ship_equipment": {
@@ -35336,6 +37130,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -35355,6 +37152,7 @@ module.exports = {
     "name": "Higaki-Kaisen",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -35382,6 +37180,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -35541,6 +37346,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -35560,6 +37368,7 @@ module.exports = {
     "name": "First Class Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 40,
@@ -35590,6 +37399,16 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -35749,6 +37568,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -35768,6 +37590,7 @@ module.exports = {
     "name": "Tea Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 53,
@@ -35798,6 +37621,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -35957,6 +37787,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -35976,6 +37809,7 @@ module.exports = {
     "name": "Sagyeonseon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -35998,10 +37832,18 @@ module.exports = {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002131",
         "parts": ["022000620", "022000624"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -36161,6 +38003,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -36180,6 +38025,7 @@ module.exports = {
     "name": "Ambush Wide Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -36207,6 +38053,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -36366,6 +38219,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -36385,6 +38241,7 @@ module.exports = {
     "name": "Siam",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 19,
@@ -36401,6 +38258,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002131",
@@ -36411,6 +38269,13 @@ module.exports = {
       }, {
         "id": "00002044",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -36570,6 +38435,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -36589,6 +38457,7 @@ module.exports = {
     "name": "Transport Sha-chuan",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -36616,6 +38485,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002000",
+        "name": "E. Asian Standard Hull"
       }]
     },
     "ship_equipment": {
@@ -36775,6 +38651,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -36794,6 +38673,7 @@ module.exports = {
     "name": "Tarukaisen",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -36824,6 +38704,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -36983,6 +38870,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -37002,6 +38892,7 @@ module.exports = {
     "name": "Nippon-Mae",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -37032,6 +38923,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -37191,6 +39089,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -37210,6 +39111,7 @@ module.exports = {
     "name": "Ambush Atakebune",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -37240,6 +39142,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002030",
+        "name": "E. Asian Large Row Boat"
       }]
     },
     "ship_equipment": {
@@ -37399,6 +39308,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -37418,6 +39330,7 @@ module.exports = {
     "name": "Escort Cutter",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -37445,6 +39358,13 @@ module.exports = {
       }, {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -37604,6 +39524,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -37623,6 +39546,7 @@ module.exports = {
     "name": "Tow Cutter",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 23,
@@ -37647,6 +39571,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000000",
+        "name": "Small Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -37806,6 +39737,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -37825,6 +39759,7 @@ module.exports = {
     "name": "Cruising Higaki-Kaisen",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -37841,6 +39776,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002131",
@@ -37854,6 +39790,13 @@ module.exports = {
       }, {
         "id": "00002012",
         "parts": ["02200019", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -38013,6 +39956,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -38032,6 +39978,7 @@ module.exports = {
     "name": "Merchant Sagyeonseon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -38059,6 +40006,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -38218,6 +40172,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -38237,6 +40194,7 @@ module.exports = {
     "name": "Reconnaissance Sagyeonseon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -38264,6 +40222,13 @@ module.exports = {
       }, {
         "id": "00002012",
         "parts": ["02200019", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -38423,6 +40388,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -38442,6 +40410,7 @@ module.exports = {
     "name": "Survey Siam",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -38469,6 +40438,13 @@ module.exports = {
       }, {
         "id": "00002044",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -38628,6 +40604,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -38647,6 +40626,7 @@ module.exports = {
     "name": "Cruising Nippon-Mae",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 59,
@@ -38663,6 +40643,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002131",
@@ -38679,6 +40660,13 @@ module.exports = {
       }, {
         "id": "00002130",
         "parts": ["02200038", "022002141"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002001",
+        "name": "E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -38838,6 +40826,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -38857,6 +40848,7 @@ module.exports = {
     "name": "Cruising Tea Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 67,
@@ -38879,6 +40871,7 @@ module.exports = {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -38886,6 +40879,13 @@ module.exports = {
       }, {
         "id": "00002104",
         "parts": [null, "022000565"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -39045,6 +41045,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -39064,6 +41067,7 @@ module.exports = {
     "name": "Escort Wide Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -39092,6 +41096,10 @@ module.exports = {
         "id": "00002102",
         "parts": ["022000564", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -39250,6 +41258,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -39269,6 +41280,7 @@ module.exports = {
     "name": "Transport Small Caravel",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 2,
@@ -39291,6 +41303,10 @@ module.exports = {
         "id": "00002021",
         "parts": ["022000621", "022000623"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 1,
@@ -39449,6 +41465,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -39468,6 +41487,7 @@ module.exports = {
     "name": "Custom Stacked Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -39495,6 +41515,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -39654,6 +41681,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -39673,6 +41703,7 @@ module.exports = {
     "name": "Modified Stacked Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -39700,6 +41731,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -39859,6 +41897,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -39878,6 +41919,7 @@ module.exports = {
     "name": "Custom Korean Warship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -39905,6 +41947,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -40064,6 +42113,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -40083,6 +42135,7 @@ module.exports = {
     "name": "Modified Armoured Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -40113,6 +42166,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -40272,6 +42332,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -40291,6 +42354,7 @@ module.exports = {
     "name": "Custom Turkish Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -40318,6 +42382,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -40477,6 +42548,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -40496,6 +42570,7 @@ module.exports = {
     "name": "Modified Tarukaisen",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -40526,6 +42601,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -40685,6 +42767,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -40704,6 +42789,7 @@ module.exports = {
     "name": "Modified Nippon-mae",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -40734,6 +42820,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -40893,6 +42986,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -40912,6 +43008,7 @@ module.exports = {
     "name": "Custom Siam",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -40928,6 +43025,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002131",
@@ -40938,6 +43036,13 @@ module.exports = {
       }, {
         "id": "00002044",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -41097,6 +43202,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -41116,6 +43224,7 @@ module.exports = {
     "name": "Modified First Class Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -41146,6 +43255,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -41305,6 +43421,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -41324,6 +43443,7 @@ module.exports = {
     "name": "Large Atakebune",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -41354,6 +43474,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -41513,6 +43640,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -41532,6 +43662,7 @@ module.exports = {
     "name": "Armoured Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -41562,6 +43693,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -41721,6 +43859,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -41740,6 +43881,7 @@ module.exports = {
     "name": "Large Fu Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 38,
@@ -41773,6 +43915,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -41932,6 +44081,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -41951,6 +44103,7 @@ module.exports = {
     "name": "Taiwanese Ship",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 43,
@@ -41973,6 +44126,7 @@ module.exports = {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002027",
@@ -41983,6 +44137,13 @@ module.exports = {
       }, {
         "id": "00002131",
         "parts": ["022000620", "022000624"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -42142,6 +44303,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -42161,6 +44325,7 @@ module.exports = {
     "name": "Modified Higaki-Kaisen",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -42188,6 +44353,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -42347,6 +44519,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -42366,6 +44541,7 @@ module.exports = {
     "name": "Modified Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -42396,6 +44572,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -42555,6 +44738,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -42574,6 +44760,7 @@ module.exports = {
     "name": "Custom La Royale",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -42604,6 +44791,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -42763,6 +44957,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -42782,6 +44979,7 @@ module.exports = {
     "name": "Modified Caoyun Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -42809,6 +45007,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -42968,6 +45173,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -42987,6 +45195,7 @@ module.exports = {
     "name": "Custom Schooner",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -43011,6 +45220,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -43170,6 +45386,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -43189,6 +45408,7 @@ module.exports = {
     "name": "Custom Ambush Siam",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -43205,6 +45425,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002131",
@@ -43215,6 +45436,13 @@ module.exports = {
       }, {
         "id": "00002044",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -43374,6 +45602,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -43393,6 +45624,7 @@ module.exports = {
     "name": "Modified Tea Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -43423,6 +45655,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -43582,6 +45821,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -43601,6 +45843,7 @@ module.exports = {
     "name": "Custom Ambush Atakebune",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 4,
@@ -43631,6 +45874,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -43790,6 +46040,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -43809,6 +46062,7 @@ module.exports = {
     "name": "Custom Merchant Carrack",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 2,
@@ -43839,6 +46093,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -43998,6 +46259,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -44017,6 +46281,7 @@ module.exports = {
     "name": "Modified Arabian Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -44041,6 +46306,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -44200,6 +46472,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -44219,6 +46494,7 @@ module.exports = {
     "name": "Custom Frigate",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -44246,6 +46522,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -44405,6 +46688,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -44424,6 +46710,7 @@ module.exports = {
     "name": "Modified Light Clipper",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -44451,6 +46738,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -44610,6 +46904,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -44629,6 +46926,7 @@ module.exports = {
     "name": "Custom Atakebune",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -44656,6 +46954,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -44815,6 +47120,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -44834,6 +47142,7 @@ module.exports = {
     "name": "Modified Battle Galley",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -44858,6 +47167,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -45017,6 +47333,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -45036,6 +47355,7 @@ module.exports = {
     "name": "Ironsides",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 69,
@@ -45066,6 +47386,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000034",
+        "name": "Improved Double-Shelled Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -45225,6 +47552,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -45244,6 +47574,7 @@ module.exports = {
     "name": "Large Survey Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 58,
@@ -45274,6 +47605,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -45433,6 +47771,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -45452,6 +47793,7 @@ module.exports = {
     "name": "Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -45482,6 +47824,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000034",
+        "name": "Improved Double-Shelled Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -45641,6 +47990,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -45660,6 +48012,7 @@ module.exports = {
     "name": "Cruise Galleon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 41,
@@ -45685,10 +48038,18 @@ module.exports = {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -45848,6 +48209,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -45867,6 +48231,7 @@ module.exports = {
     "name": "Super Corvette",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -45897,6 +48262,13 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -46056,6 +48428,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -46075,6 +48450,7 @@ module.exports = {
     "name": "Large Transport Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -46105,6 +48481,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -46264,6 +48647,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -46283,6 +48669,7 @@ module.exports = {
     "name": "Assault Large Atakebune",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -46310,6 +48697,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["022000516", "02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -46469,6 +48863,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -46488,6 +48885,7 @@ module.exports = {
     "name": "Assault Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -46515,6 +48913,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -46674,6 +49079,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -46693,6 +49101,7 @@ module.exports = {
     "name": "Large Expedition Fu Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 45,
@@ -46720,6 +49129,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -46879,6 +49295,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -46898,6 +49317,7 @@ module.exports = {
     "name": "Expedition Taiwan Ship",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 45,
@@ -46925,6 +49345,13 @@ module.exports = {
       }, {
         "id": "00002027",
         "parts": ["022000680", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -47084,6 +49511,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -47103,6 +49533,7 @@ module.exports = {
     "name": "Modified Battle Flute",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -47127,6 +49558,13 @@ module.exports = {
       }, {
         "id": "00002060",
         "parts": ["022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -47286,6 +49724,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -47305,6 +49746,7 @@ module.exports = {
     "name": "Custom Trading Large Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -47332,6 +49774,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -47491,6 +49940,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -47510,6 +49962,7 @@ module.exports = {
     "name": "Custom Armoured Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 42,
@@ -47540,6 +49993,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -47699,6 +50159,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -47718,6 +50181,7 @@ module.exports = {
     "name": "Tactical Galley",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -47745,6 +50209,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000091",
+        "name": "Medium Row Boat"
       }]
     },
     "ship_equipment": {
@@ -47904,6 +50375,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -47923,6 +50397,7 @@ module.exports = {
     "name": "Research Galley",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -47950,6 +50425,13 @@ module.exports = {
       }, {
         "id": "00002002",
         "parts": ["02200044", "022000700"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000091",
+        "name": "Medium Row Boat"
       }]
     },
     "ship_equipment": {
@@ -48109,6 +50591,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -48128,6 +50613,7 @@ module.exports = {
     "name": "Emigrant Barque",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -48156,6 +50642,7 @@ module.exports = {
         "id": "00002005",
         "parts": ["02200036"]
       }, {
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002012",
@@ -48182,6 +50669,10 @@ module.exports = {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -48340,6 +50831,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -48359,6 +50853,7 @@ module.exports = {
     "name": "Nordic Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 37,
@@ -48389,6 +50884,13 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -48548,6 +51050,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -48567,6 +51072,7 @@ module.exports = {
     "name": "Long Schooner",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 65,
@@ -48597,6 +51103,13 @@ module.exports = {
       }, {
         "id": "00002012",
         "parts": ["02200019", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -48756,6 +51269,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -48775,6 +51291,7 @@ module.exports = {
     "name": "Long Merchant Schooner",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -48794,6 +51311,7 @@ module.exports = {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002027",
@@ -48804,6 +51322,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -48963,6 +51488,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -48982,6 +51510,7 @@ module.exports = {
     "name": "Modified Ironsides",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 34,
@@ -49012,6 +51541,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -49171,6 +51707,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -49190,6 +51729,7 @@ module.exports = {
     "name": "Modified Survey Large Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -49220,6 +51760,13 @@ module.exports = {
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -49379,6 +51926,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -49398,6 +51948,7 @@ module.exports = {
     "name": "Modified Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -49428,6 +51979,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -49587,6 +52145,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -49606,6 +52167,7 @@ module.exports = {
     "name": "Modified Cruise Galleon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -49631,10 +52193,18 @@ module.exports = {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -49794,6 +52364,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -49813,6 +52386,7 @@ module.exports = {
     "name": "Modified Special Corvette",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -49843,6 +52417,13 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -50002,6 +52583,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -50021,6 +52605,7 @@ module.exports = {
     "name": "Modified Transport Large Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 11,
@@ -50051,6 +52636,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -50210,6 +52802,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -50229,6 +52824,7 @@ module.exports = {
     "name": "Improved Large Fu Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 23,
@@ -50262,6 +52858,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -50421,6 +53024,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -50440,6 +53046,7 @@ module.exports = {
     "name": "Ambushed Armoured Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -50470,6 +53077,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -50629,6 +53243,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -50648,6 +53265,7 @@ module.exports = {
     "name": "Expedition Tea Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -50678,6 +53296,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -50837,6 +53462,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -50856,6 +53484,7 @@ module.exports = {
     "name": "Custom Cruise Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 35,
@@ -50878,6 +53507,7 @@ module.exports = {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -50885,6 +53515,13 @@ module.exports = {
       }, {
         "id": "00002104",
         "parts": [null, "022000565"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -51044,6 +53681,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -51063,6 +53703,7 @@ module.exports = {
     "name": "Custom Commander's Galley",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -51099,6 +53740,13 @@ module.exports = {
       }, {
         "id": "00002041",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -51258,6 +53906,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -51277,6 +53928,7 @@ module.exports = {
     "name": "Custom Commander's Corvette",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 23,
@@ -51313,6 +53965,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -51472,6 +54131,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -51491,6 +54153,7 @@ module.exports = {
     "name": "Custom Commander's Caravel",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -51527,6 +54190,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -51686,6 +54356,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -51705,6 +54378,7 @@ module.exports = {
     "name": "Custom Commander's Sambuk",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -51738,6 +54412,13 @@ module.exports = {
       }, {
         "id": "00002020",
         "parts": ["022000361", "022000470"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -51897,6 +54578,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -51916,6 +54600,7 @@ module.exports = {
     "name": "Custom Large Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 32,
@@ -51946,6 +54631,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -52105,6 +54797,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -52124,6 +54819,7 @@ module.exports = {
     "name": "Modified Special Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -52154,6 +54850,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -52313,6 +55016,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -52332,6 +55038,7 @@ module.exports = {
     "name": "Modified Emigrant Barque",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 14,
@@ -52360,6 +55067,7 @@ module.exports = {
         "id": "00002005",
         "parts": ["02200036"]
       }, {
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002012",
@@ -52385,6 +55093,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -52544,6 +55259,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -52563,6 +55281,7 @@ module.exports = {
     "name": "Modified Nordic Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -52593,6 +55312,13 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -52752,6 +55478,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -52771,6 +55500,7 @@ module.exports = {
     "name": "Custom Long Schooner",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 67,
@@ -52801,6 +55531,13 @@ module.exports = {
       }, {
         "id": "00002012",
         "parts": ["02200019", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -52960,6 +55697,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -52979,6 +55719,7 @@ module.exports = {
     "name": "Custom Long Merchant Schooner",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 37,
@@ -52998,6 +55739,7 @@ module.exports = {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002027",
@@ -53008,6 +55750,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -53167,6 +55916,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -53186,6 +55938,7 @@ module.exports = {
     "name": "Xebec Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -53216,6 +55969,13 @@ module.exports = {
       }, {
         "id": "00002020",
         "parts": ["022000361", "022000470"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -53375,6 +56135,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -53394,6 +56157,7 @@ module.exports = {
     "name": "Roman Galley",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -53424,6 +56188,13 @@ module.exports = {
       }, {
         "id": "00002083",
         "parts": ["02200054", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000090",
+        "name": "Small Row Boat"
       }]
     },
     "ship_equipment": {
@@ -53583,6 +56354,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -53602,6 +56376,7 @@ module.exports = {
     "name": "Xebec Cruiser",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 48,
@@ -53624,6 +56399,7 @@ module.exports = {
         "id": "00002005",
         "parts": ["02200036", "022000620"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002008",
@@ -53631,6 +56407,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -53790,6 +56573,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -53809,6 +56595,7 @@ module.exports = {
     "name": "Manila Galleon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 39,
@@ -53825,6 +56612,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002027",
@@ -53838,6 +56626,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -53997,6 +56792,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -54016,6 +56814,7 @@ module.exports = {
     "name": "Modified Long Schooner",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -54046,6 +56845,13 @@ module.exports = {
       }, {
         "id": "00002012",
         "parts": ["02200019", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -54205,6 +57011,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -54224,6 +57033,7 @@ module.exports = {
     "name": "Modified Large Trading Schooner",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -54243,6 +57053,7 @@ module.exports = {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002027",
@@ -54253,6 +57064,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -54412,6 +57230,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -54431,6 +57252,7 @@ module.exports = {
     "name": "Modified Square Sail Xebec",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -54458,6 +57280,13 @@ module.exports = {
       }, {
         "id": "00002021",
         "parts": ["022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -54617,6 +57446,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -54636,6 +57468,7 @@ module.exports = {
     "name": "Customized Roman Galley",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -54666,6 +57499,13 @@ module.exports = {
       }, {
         "id": "00002083",
         "parts": ["02200054", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -54825,6 +57665,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -54844,6 +57687,7 @@ module.exports = {
     "name": "Modified Highly Agile Xebec",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -54866,6 +57710,7 @@ module.exports = {
         "id": "00002005",
         "parts": ["02200036", "022000620"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002008",
@@ -54873,6 +57718,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -55032,6 +57884,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -55051,6 +57906,7 @@ module.exports = {
     "name": "Modified Manila Galleon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -55067,6 +57923,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002027",
@@ -55080,6 +57937,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -55239,6 +58103,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -55258,6 +58125,7 @@ module.exports = {
     "name": "Festive Armoured Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -55288,6 +58156,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -55447,6 +58322,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -55466,6 +58344,7 @@ module.exports = {
     "name": "Festive Ironsides",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 40,
@@ -55496,6 +58375,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -55655,6 +58541,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -55674,6 +58563,7 @@ module.exports = {
     "name": "Festive Large Fu Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -55707,6 +58597,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -55866,6 +58763,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -55885,6 +58785,7 @@ module.exports = {
     "name": "Festive First Class Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -55915,6 +58816,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -56074,6 +58982,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -56093,6 +59004,7 @@ module.exports = {
     "name": "Festive La Royale",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -56123,6 +59035,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -56282,6 +59201,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -56301,6 +59223,7 @@ module.exports = {
     "name": "Festive Large Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 32,
@@ -56331,6 +59254,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -56490,6 +59420,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -56509,6 +59442,7 @@ module.exports = {
     "name": "Festive Big Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -56536,6 +59470,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -56695,6 +59636,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -56714,6 +59658,7 @@ module.exports = {
     "name": "Festive Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -56744,6 +59689,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -56903,6 +59855,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -56922,6 +59877,7 @@ module.exports = {
     "name": "Ambush First Class Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -56955,6 +59911,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -57114,6 +60077,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -57133,6 +60099,7 @@ module.exports = {
     "name": "Memorial Cruise Caravel",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -57158,6 +60125,10 @@ module.exports = {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -57316,6 +60287,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -57335,6 +60309,7 @@ module.exports = {
     "name": "Memorial Trade Caravel",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -57363,6 +60338,10 @@ module.exports = {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -57521,6 +60500,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -57540,6 +60522,7 @@ module.exports = {
     "name": "Memorial Battle Caravel",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -57565,6 +60548,10 @@ module.exports = {
         "id": "00002103",
         "parts": ["02200054", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -57723,6 +60710,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -57742,6 +60732,7 @@ module.exports = {
     "name": "Memorial Cruise Sloop",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -57767,6 +60758,10 @@ module.exports = {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -57925,6 +60920,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -57944,6 +60942,7 @@ module.exports = {
     "name": "Memorial Trade Sloop",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -57972,6 +60971,10 @@ module.exports = {
         "id": "00002103",
         "parts": ["02200054", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 2,
@@ -58130,6 +61133,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -58149,6 +61155,7 @@ module.exports = {
     "name": "Memorial Battle Sloop",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -58173,6 +61180,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["02200054", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -58332,6 +61346,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -58351,6 +61368,7 @@ module.exports = {
     "name": "Graduation Sambuk",
     "size": "Standard",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 23,
@@ -58370,6 +61388,7 @@ module.exports = {
         "id": "00002001",
         "parts": ["022000211", "022000660"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -58378,6 +61397,10 @@ module.exports = {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -58536,6 +61559,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -58555,6 +61581,7 @@ module.exports = {
     "name": "Graduation Polacca",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -58580,6 +61607,10 @@ module.exports = {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -58738,6 +61769,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -58757,6 +61791,7 @@ module.exports = {
     "name": "Graduation Frigate",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -58785,6 +61820,10 @@ module.exports = {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -58943,6 +61982,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -58962,6 +62004,7 @@ module.exports = {
     "name": "Patrol Corvette",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 72,
@@ -58995,6 +62038,13 @@ module.exports = {
       }, {
         "id": "00002005",
         "parts": ["02200036", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -59154,6 +62204,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -59173,6 +62226,7 @@ module.exports = {
     "name": "Armed Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 50,
@@ -59203,6 +62257,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000034",
+        "name": "Improved Double-Shelled Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -59362,6 +62423,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -59381,6 +62445,7 @@ module.exports = {
     "name": "La Mort",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -59414,6 +62479,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000150",
+        "name": "Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -59573,6 +62645,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -59592,6 +62667,7 @@ module.exports = {
     "name": "Survey Frigate",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 73,
@@ -59625,6 +62701,16 @@ module.exports = {
       }, {
         "id": "00002127",
         "parts": ["022000550", "022002140"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -59784,6 +62870,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -59803,6 +62892,7 @@ module.exports = {
     "name": "Cargo Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 66,
@@ -59833,6 +62923,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -59992,6 +63089,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -60011,6 +63111,7 @@ module.exports = {
     "name": "Norske Love",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -60041,6 +63142,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -60200,6 +63308,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -60219,6 +63330,7 @@ module.exports = {
     "name": "Sovereign of the Seas",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -60249,6 +63361,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -60408,6 +63527,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -60427,6 +63549,7 @@ module.exports = {
     "name": "Golden Hind",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 74,
@@ -60463,6 +63586,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000035",
+        "name": "Special Large 2-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -60622,6 +63752,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -60641,6 +63774,7 @@ module.exports = {
     "name": "Neapolitan Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 39,
@@ -60674,6 +63808,16 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000150",
+        "name": "Large 3-decked Row Boat"
+      }, {
+        "id": "022000151",
+        "name": "Official Large 3-decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -60833,6 +63977,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -60852,6 +63999,7 @@ module.exports = {
     "name": "Seeadler",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -60882,6 +64030,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -61041,6 +64196,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -61060,6 +64218,7 @@ module.exports = {
     "name": "Applet",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 48,
@@ -61090,6 +64249,13 @@ module.exports = {
       }, {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000035",
+        "name": "Special Large 2-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -61249,6 +64415,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -61268,6 +64437,7 @@ module.exports = {
     "name": "La Couronne",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -61298,6 +64468,16 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -61457,6 +64637,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -61476,6 +64659,7 @@ module.exports = {
     "name": "Santa Maria",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -61513,11 +64697,16 @@ module.exports = {
         "id": "00002030",
         "parts": [null, "022000660"]
       }, {
+        "id": "00002016",
         "parts": ["022000560", "022000620"]
       }, {
         "id": "00002017",
         "parts": ["022000561", "022000565"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -61676,6 +64865,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -61695,6 +64887,7 @@ module.exports = {
     "name": "San Gabriel",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 34,
@@ -61728,6 +64921,13 @@ module.exports = {
       }, {
         "id": "00002036",
         "parts": ["022000563", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -61887,6 +65087,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -61906,6 +65109,7 @@ module.exports = {
     "name": "High Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 66,
@@ -61936,6 +65140,13 @@ module.exports = {
       }, {
         "id": "00002035",
         "parts": ["022000562", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -62095,6 +65306,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -62114,6 +65328,7 @@ module.exports = {
     "name": "Flemish Galleon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -62144,6 +65359,13 @@ module.exports = {
       }, {
         "id": "00002033",
         "parts": ["022000561", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -62303,6 +65525,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -62322,6 +65547,7 @@ module.exports = {
     "name": "Cruise High Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 75,
@@ -62352,6 +65578,13 @@ module.exports = {
       }, {
         "id": "00002036",
         "parts": ["022000563", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -62511,6 +65744,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -62530,6 +65766,7 @@ module.exports = {
     "name": "Ottoman Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 34,
@@ -62563,6 +65800,13 @@ module.exports = {
       }, {
         "id": "00002121",
         "parts": ["02200020", "02200036"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000122",
+        "name": "Custom Large 2 decked Row Boat"
       }]
     },
     "ship_equipment": {
@@ -62722,6 +65966,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -62741,6 +65988,7 @@ module.exports = {
     "name": "San Felipe",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 42,
@@ -62774,6 +66022,16 @@ module.exports = {
       }, {
         "id": "00002106",
         "parts": ["022000623", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -62933,6 +66191,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -62952,6 +66213,7 @@ module.exports = {
     "name": "Santa Catalina",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 49,
@@ -62982,6 +66244,16 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -63141,6 +66413,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -63160,6 +66435,7 @@ module.exports = {
     "name": "De Zeven",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -63190,6 +66466,16 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
+      }, {
+        "id": "022000062",
+        "name": "Official Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -63349,6 +66635,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -63368,6 +66657,7 @@ module.exports = {
     "name": "Dutch Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -63390,6 +66680,7 @@ module.exports = {
         "id": "00002036",
         "parts": ["022000563", "022000621"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002034",
@@ -63397,6 +66688,13 @@ module.exports = {
       }, {
         "id": "00002032",
         "parts": ["022000564", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -63556,6 +66854,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -63575,6 +66876,7 @@ module.exports = {
     "name": "Vasa",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -63602,6 +66904,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -63761,6 +67070,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -63780,6 +67092,7 @@ module.exports = {
     "name": "Dragonhead ship",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 61,
@@ -63810,6 +67123,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022002002",
+        "name": "Modified E. Asian Heavy Hull"
       }]
     },
     "ship_equipment": {
@@ -63969,6 +67289,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -63988,6 +67311,7 @@ module.exports = {
     "name": "Ingermanland",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 42,
@@ -64018,6 +67342,13 @@ module.exports = {
       }, {
         "id": "00002120",
         "parts": ["02200020", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000035",
+        "name": "Special Large 2-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -64177,6 +67508,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -64196,6 +67530,7 @@ module.exports = {
     "name": "Razee Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 52,
@@ -64229,6 +67564,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000035",
+        "name": "Special Large 2-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -64388,6 +67730,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -64407,6 +67752,7 @@ module.exports = {
     "name": "Gran Fluyt",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -64443,6 +67789,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000035",
+        "name": "Special Large 2-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -64602,6 +67955,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -64621,6 +67977,7 @@ module.exports = {
     "name": "Half Moon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 73,
@@ -64654,6 +68011,13 @@ module.exports = {
       }, {
         "id": "00002005",
         "parts": ["02200036", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -64813,6 +68177,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -64832,6 +68199,7 @@ module.exports = {
     "name": "Flying Cloud",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 68,
@@ -64862,6 +68230,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -65021,6 +68396,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -65040,6 +68418,7 @@ module.exports = {
     "name": "Bermuda Sloop",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 50,
@@ -65073,6 +68452,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -65232,6 +68618,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -65251,6 +68640,7 @@ module.exports = {
     "name": "Ghanjah Dhow",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -65279,10 +68669,18 @@ module.exports = {
         "id": "00002034",
         "parts": ["022000560", "022000621"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000002",
+        "name": "Large Flush Deck Style Hull"
       }]
     },
     "ship_equipment": {
@@ -65442,6 +68840,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -65461,6 +68862,7 @@ module.exports = {
     "name": "Victory",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -65494,6 +68896,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -65653,6 +69062,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -65672,6 +69084,7 @@ module.exports = {
     "name": "xxx50000346",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 70,
@@ -65702,6 +69115,13 @@ module.exports = {
       }, {
         "id": "00002011",
         "parts": ["02200037", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -65861,6 +69281,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -65880,6 +69303,7 @@ module.exports = {
     "name": "xxx50000347",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -65899,6 +69323,7 @@ module.exports = {
         "id": "00002064",
         "parts": ["02200036", "022000560"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002123",
@@ -65909,6 +69334,13 @@ module.exports = {
       }, {
         "id": "00002033",
         "parts": ["022000561", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -66068,6 +69500,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -66087,6 +69522,7 @@ module.exports = {
     "name": "xxx50000348",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -66120,6 +69556,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "022000061",
+        "name": "Large 3-decked Hull"
       }]
     },
     "ship_equipment": {
@@ -66279,6 +69722,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -66298,6 +69744,7 @@ module.exports = {
     "name": "Modified Refitted Heavy Carrack",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -66328,6 +69775,13 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -66487,6 +69941,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -66506,6 +69963,7 @@ module.exports = {
     "name": "Custom Refitted Heavy Carrack",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -66537,6 +69995,10 @@ module.exports = {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 4,
@@ -66695,6 +70157,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -66714,6 +70179,7 @@ module.exports = {
     "name": "Modified La Reale",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -66741,6 +70207,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -66900,6 +70373,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -66919,6 +70395,7 @@ module.exports = {
     "name": "Modified Sloop",
     "size": "Light",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -66943,6 +70420,13 @@ module.exports = {
       }, {
         "id": "00002004",
         "parts": ["022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -67102,6 +70586,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -67121,6 +70608,7 @@ module.exports = {
     "name": "Modified Transport Sloop",
     "size": "Light",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -67148,6 +70636,13 @@ module.exports = {
       }, {
         "id": "00002103",
         "parts": ["02200054", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -67307,6 +70802,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -67326,6 +70824,7 @@ module.exports = {
     "name": "Modified Venetian Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -67359,6 +70858,13 @@ module.exports = {
       }, {
         "id": "00002080",
         "parts": ["02200040", "02200050"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -67518,6 +71024,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -67537,6 +71046,7 @@ module.exports = {
     "name": "Modified Tri-Deck Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -67553,6 +71063,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002125",
@@ -67566,6 +71077,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -67725,6 +71243,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -67744,6 +71265,7 @@ module.exports = {
     "name": "Modified Trading Large Galleon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -67760,6 +71282,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -67776,6 +71299,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -67935,6 +71465,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -67954,6 +71487,7 @@ module.exports = {
     "name": "Modified Heavy Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -67984,6 +71518,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -68143,6 +71684,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -68162,6 +71706,7 @@ module.exports = {
     "name": "Custom Heavy Explorer Carrack",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -68187,11 +71732,16 @@ module.exports = {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
       }, {
+        "id": "00002007",
         "parts": ["022000561"]
       }, {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
       }]
+    },
+    "hulls": {
+      "current": "",
+      "available": []
     },
     "ship_equipment": {
       "studding_sails": 3,
@@ -68350,6 +71900,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -68369,6 +71922,7 @@ module.exports = {
     "name": "Custom Heavy Frigate",
     "size": "Standard",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -68396,6 +71950,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -68555,6 +72116,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -68574,6 +72138,7 @@ module.exports = {
     "name": "First Class Flagship Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -68604,6 +72169,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -68763,6 +72335,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -68782,6 +72357,7 @@ module.exports = {
     "name": "High-Speed First Class Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 40,
@@ -68815,6 +72391,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -68974,6 +72557,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -68993,6 +72579,7 @@ module.exports = {
     "name": "Custom Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -69018,6 +72605,7 @@ module.exports = {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -69025,6 +72613,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -69184,6 +72779,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -69203,6 +72801,7 @@ module.exports = {
     "name": "Modified Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -69228,6 +72827,7 @@ module.exports = {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -69235,6 +72835,13 @@ module.exports = {
       }, {
         "id": "00002006",
         "parts": ["022000562", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -69394,6 +73001,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -69413,6 +73023,7 @@ module.exports = {
     "name": "Modified Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -69443,6 +73054,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -69602,6 +73220,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -69621,6 +73242,7 @@ module.exports = {
     "name": "Custom Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -69651,6 +73273,13 @@ module.exports = {
       }, {
         "id": "00002028",
         "parts": ["022000623", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -69810,6 +73439,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -69829,6 +73461,7 @@ module.exports = {
     "name": "Expedition Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 4,
@@ -69859,6 +73492,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -70018,6 +73658,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -70037,6 +73680,7 @@ module.exports = {
     "name": "Modified Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -70067,6 +73711,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -70226,6 +73877,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -70245,6 +73899,7 @@ module.exports = {
     "name": "Custom Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -70275,6 +73930,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -70434,6 +74096,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -70453,6 +74118,7 @@ module.exports = {
     "name": "Festive Tarukaisen",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 11,
@@ -70486,6 +74152,13 @@ module.exports = {
       }, {
         "id": "00002027",
         "parts": ["022000680", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -70645,6 +74318,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -70664,6 +74340,7 @@ module.exports = {
     "name": "Festive Caoyun Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -70694,6 +74371,13 @@ module.exports = {
       }, {
         "id": "00002028",
         "parts": ["022000623", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -70853,6 +74537,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -70872,6 +74559,7 @@ module.exports = {
     "name": "Festive Higaki-Kaisen",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 11,
@@ -70905,6 +74593,13 @@ module.exports = {
       }, {
         "id": "00002028",
         "parts": ["022000623", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -71064,6 +74759,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -71083,6 +74781,7 @@ module.exports = {
     "name": "Modified Big Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -71113,6 +74812,13 @@ module.exports = {
       }, {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -71272,6 +74978,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -71291,6 +75000,7 @@ module.exports = {
     "name": "Modified Transport Sha-chuan",
     "size": "Standard",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -71318,6 +75028,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -71477,6 +75194,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -71496,6 +75216,7 @@ module.exports = {
     "name": "Modified Large Atakebune",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -71526,6 +75247,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -71685,6 +75413,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -71704,6 +75435,7 @@ module.exports = {
     "name": "Custom Sagyeonseon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -71726,10 +75458,18 @@ module.exports = {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002131",
         "parts": ["022000620", "022000624"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -71889,6 +75629,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -71908,6 +75651,7 @@ module.exports = {
     "name": "Ambush Roman Galley",
     "size": "Light",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -71941,6 +75685,13 @@ module.exports = {
       }, {
         "id": "00002083",
         "parts": ["02200054", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -72100,6 +75851,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -72119,6 +75873,7 @@ module.exports = {
     "name": "Custom Ironsides",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -72149,6 +75904,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -72308,6 +76070,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -72327,6 +76092,7 @@ module.exports = {
     "name": "Modified Korean Warship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -72357,6 +76123,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -72516,6 +76289,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -72535,6 +76311,7 @@ module.exports = {
     "name": "Ambush Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -72568,6 +76345,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -72727,6 +76511,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -72746,6 +76533,7 @@ module.exports = {
     "name": "Modified Super Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -72776,6 +76564,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -72935,6 +76730,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -72954,6 +76752,7 @@ module.exports = {
     "name": "Refitted Big Trading Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -72981,6 +76780,13 @@ module.exports = {
       }, {
         "id": "00002024",
         "parts": ["022000564"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -73140,6 +76946,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -73159,6 +76968,7 @@ module.exports = {
     "name": "Refitted Venetian Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -73192,6 +77002,13 @@ module.exports = {
       }, {
         "id": "00002080",
         "parts": ["02200040", "02200050"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -73351,6 +77168,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -73370,6 +77190,7 @@ module.exports = {
     "name": "Refitted Heavy Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -73400,6 +77221,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -73559,6 +77387,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -73578,6 +77409,7 @@ module.exports = {
     "name": "Refitted Large Galleon",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -73600,12 +77432,21 @@ module.exports = {
         "id": "00002013",
         "parts": ["022000690", "022000565"]
       }, {
+        "id": "00002007",
         "parts": ["022000560", "022000561"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
         "parts": ["022000700", "02200072"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -73765,6 +77606,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -73784,6 +77628,7 @@ module.exports = {
     "name": "Dragon Ship C1",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 55,
@@ -73811,6 +77656,13 @@ module.exports = {
       }, {
         "id": "00002017",
         "parts": ["022000561", "022000565"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -73970,6 +77822,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -73989,6 +77844,7 @@ module.exports = {
     "name": "Dragon Ship C2",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -74016,6 +77872,13 @@ module.exports = {
       }, {
         "id": "00002034",
         "parts": ["022000560", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -74175,6 +78038,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -74194,6 +78060,7 @@ module.exports = {
     "name": "Dragon Ship C3",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -74224,6 +78091,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -74383,6 +78257,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -74402,6 +78279,7 @@ module.exports = {
     "name": "Augmented Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -74432,6 +78310,13 @@ module.exports = {
       }, {
         "id": "00002022",
         "parts": ["022000621", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -74591,6 +78476,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -74610,6 +78498,7 @@ module.exports = {
     "name": "Augmented La Mort",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -74643,6 +78532,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -74802,6 +78698,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -74821,6 +78720,7 @@ module.exports = {
     "name": "Augmented Research Frigate",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 37,
@@ -74854,6 +78754,13 @@ module.exports = {
       }, {
         "id": "00002127",
         "parts": ["022000550", "022002140"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -75013,6 +78920,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -75032,6 +78942,7 @@ module.exports = {
     "name": "Augmented Cargo Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -75065,6 +78976,13 @@ module.exports = {
       }, {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -75224,6 +79142,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -75243,6 +79164,7 @@ module.exports = {
     "name": "Augmented Norske Love",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -75273,6 +79195,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -75432,6 +79361,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -75451,6 +79383,7 @@ module.exports = {
     "name": "Custom Sovereign of the Seas",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -75484,6 +79417,13 @@ module.exports = {
       }, {
         "id": "00002046",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -75643,6 +79583,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -75662,6 +79605,7 @@ module.exports = {
     "name": "Modified Sovereign of the Seas",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -75695,6 +79639,13 @@ module.exports = {
       }, {
         "id": "00002046",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -75854,6 +79805,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -75873,6 +79827,7 @@ module.exports = {
     "name": "Festive Sovereign of the Seas",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -75909,6 +79864,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -76068,6 +80030,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -76087,6 +80052,7 @@ module.exports = {
     "name": "Custom Seeadler",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -76117,6 +80083,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -76276,6 +80249,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -76295,6 +80271,7 @@ module.exports = {
     "name": "Modified Seeadler",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -76325,6 +80302,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -76484,6 +80468,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -76503,6 +80490,7 @@ module.exports = {
     "name": "Festive Seeadler",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -76539,6 +80527,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -76698,6 +80693,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -76717,6 +80715,7 @@ module.exports = {
     "name": "Custom La Couronne",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 27,
@@ -76747,6 +80746,13 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -76906,6 +80912,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -76925,6 +80934,7 @@ module.exports = {
     "name": "Modified La Couronne",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -76955,6 +80965,13 @@ module.exports = {
       }, {
         "id": "00002043",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -77114,6 +81131,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -77133,6 +81153,7 @@ module.exports = {
     "name": "Festive La Couronne",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -77166,6 +81187,13 @@ module.exports = {
       }, {
         "id": "00002046",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -77325,6 +81353,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -77344,6 +81375,7 @@ module.exports = {
     "name": "Custom Santa Maria",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -77381,10 +81413,18 @@ module.exports = {
         "id": "00002030",
         "parts": [null, "022000660"]
       }, {
+        "id": "00002016",
         "parts": ["022000560", "022000620"]
       }, {
         "id": "00002017",
         "parts": ["022000561", "022000565"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -77544,6 +81584,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -77563,6 +81606,7 @@ module.exports = {
     "name": "Assault Neapolitan Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -77596,6 +81640,13 @@ module.exports = {
       }, {
         "id": "00002064",
         "parts": ["02200036", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -77755,6 +81806,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -77774,6 +81828,7 @@ module.exports = {
     "name": "Custom Hind",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -77810,6 +81865,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -77969,6 +82031,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -77988,6 +82053,7 @@ module.exports = {
     "name": "Shadow Hind",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -78024,6 +82090,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -78183,6 +82256,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -78202,6 +82278,7 @@ module.exports = {
     "name": "Ceremonial Santa Maria",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -78239,10 +82316,18 @@ module.exports = {
         "id": "00002030",
         "parts": [null, "022000660"]
       }, {
+        "id": "00002016",
         "parts": ["022000560", "022000620"]
       }, {
         "id": "00002017",
         "parts": ["022000561", "022000565"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -78402,6 +82487,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -78421,6 +82509,7 @@ module.exports = {
     "name": "Festival Korean Warship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -78454,6 +82543,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -78613,6 +82709,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -78632,6 +82731,7 @@ module.exports = {
     "name": "Modified Baltic Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -78648,6 +82748,7 @@ module.exports = {
       "inherit": [],
       "original": "",
       "available": [{
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002000",
@@ -78661,6 +82762,13 @@ module.exports = {
       }, {
         "id": "00002041",
         "parts": ["022000460", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -78820,6 +82928,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -78839,6 +82950,7 @@ module.exports = {
     "name": "Light La Mort",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -78875,6 +82987,13 @@ module.exports = {
       }, {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -79034,6 +83153,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -79053,6 +83175,7 @@ module.exports = {
     "name": "Festive Baltic Galleon",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -79083,6 +83206,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -79242,6 +83372,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -79261,6 +83394,7 @@ module.exports = {
     "name": "Improved Norske Love",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -79291,6 +83425,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -79450,6 +83591,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -79469,6 +83613,7 @@ module.exports = {
     "name": "Festival Norske Love",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -79499,6 +83644,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -79658,6 +83810,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -79677,6 +83832,7 @@ module.exports = {
     "name": "Special Patrol Corvette",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 31,
@@ -79710,6 +83866,13 @@ module.exports = {
       }, {
         "id": "00002011",
         "parts": ["02200037", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -79869,6 +84032,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -79888,6 +84054,7 @@ module.exports = {
     "name": "Assault La Mort",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -79921,6 +84088,13 @@ module.exports = {
       }, {
         "id": "00002062",
         "parts": ["02200040", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -80080,6 +84254,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -80099,6 +84276,7 @@ module.exports = {
     "name": "Modified Cargo Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -80132,6 +84310,13 @@ module.exports = {
       }, {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -80291,6 +84476,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -80310,6 +84498,7 @@ module.exports = {
     "name": "Custom Ottoman Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 14,
@@ -80343,6 +84532,13 @@ module.exports = {
       }, {
         "id": "00002121",
         "parts": ["02200020", "02200036"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -80502,6 +84698,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -80521,6 +84720,7 @@ module.exports = {
     "name": "Light Ottoman Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -80560,6 +84760,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -80719,6 +84926,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -80738,6 +84948,7 @@ module.exports = {
     "name": "Refitted Ottoman Galleass",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -80777,6 +84988,13 @@ module.exports = {
       }, {
         "id": "00002126",
         "parts": ["02200040", "022000569"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -80936,6 +85154,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -80955,6 +85176,7 @@ module.exports = {
     "name": "Agile La Royale",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -80997,6 +85219,13 @@ module.exports = {
       }, {
         "id": "00002129",
         "parts": ["022000690", "022002140"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -81156,6 +85385,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -81175,6 +85407,7 @@ module.exports = {
     "name": "Custom Transport Taiwanese Ship",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -81197,6 +85430,7 @@ module.exports = {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002027",
@@ -81213,6 +85447,13 @@ module.exports = {
       }, {
         "id": "00002033",
         "parts": ["022000561", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -81372,6 +85613,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -81391,6 +85635,7 @@ module.exports = {
     "name": "Assault Arabian Galley",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -81418,6 +85663,13 @@ module.exports = {
       }, {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -81577,6 +85829,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -81596,6 +85851,7 @@ module.exports = {
     "name": "Refitted Long Schooner",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -81632,6 +85888,13 @@ module.exports = {
       }, {
         "id": "00002009",
         "parts": ["02200036", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -81791,6 +86054,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -81810,6 +86076,7 @@ module.exports = {
     "name": "Improved Armoured Turtle Ship",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -81843,6 +86110,13 @@ module.exports = {
       }, {
         "id": "00002130",
         "parts": ["02200038", "022002141"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -82002,6 +86276,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -82021,6 +86298,7 @@ module.exports = {
     "name": "Celebratory High Clipper",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -82057,6 +86335,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -82216,6 +86501,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -82235,6 +86523,7 @@ module.exports = {
     "name": "Modified Applet",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -82265,6 +86554,13 @@ module.exports = {
       }, {
         "id": "00002025",
         "parts": ["022000412", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -82424,6 +86720,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -82443,6 +86742,7 @@ module.exports = {
     "name": "Modified San Gabriel",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -82476,6 +86776,13 @@ module.exports = {
       }, {
         "id": "00002036",
         "parts": ["022000563", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -82635,6 +86942,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -82654,6 +86964,7 @@ module.exports = {
     "name": "Modified High Clipper",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -82684,6 +86995,13 @@ module.exports = {
       }, {
         "id": "00002035",
         "parts": ["022000562", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -82843,6 +87161,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -82862,6 +87183,7 @@ module.exports = {
     "name": "Custom Flemish Galleon",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -82892,6 +87214,13 @@ module.exports = {
       }, {
         "id": "00002033",
         "parts": ["022000561", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -83051,6 +87380,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -83070,6 +87402,7 @@ module.exports = {
     "name": "Improved San Felipe",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -83103,6 +87436,13 @@ module.exports = {
       }, {
         "id": "00002106",
         "parts": ["022000623", "022000690"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -83262,6 +87602,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -83281,6 +87624,7 @@ module.exports = {
     "name": "Custom Santa Catalina",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -83311,6 +87655,13 @@ module.exports = {
       }, {
         "id": "00002063",
         "parts": ["022000550", "022000680"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -83470,6 +87821,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -83489,6 +87843,7 @@ module.exports = {
     "name": "Ambush De Zeven",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -83519,6 +87874,13 @@ module.exports = {
       }, {
         "id": "00002128",
         "parts": ["022000550", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -83678,6 +88040,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -83697,6 +88062,7 @@ module.exports = {
     "name": "Custom Dutch Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -83719,6 +88085,7 @@ module.exports = {
         "id": "00002036",
         "parts": ["022000563", "022000621"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002034",
@@ -83726,6 +88093,13 @@ module.exports = {
       }, {
         "id": "00002032",
         "parts": ["022000564", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -83885,6 +88259,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -83904,6 +88281,7 @@ module.exports = {
     "name": "Custom Ingermanland",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -83934,6 +88312,13 @@ module.exports = {
       }, {
         "id": "00002120",
         "parts": ["02200020", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -84093,6 +88478,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -84112,6 +88500,7 @@ module.exports = {
     "name": "Modified Ingermanland",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -84142,6 +88531,13 @@ module.exports = {
       }, {
         "id": "00002120",
         "parts": ["02200020", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -84301,6 +88697,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -84320,6 +88719,7 @@ module.exports = {
     "name": "Custom Razee Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -84353,6 +88753,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -84512,6 +88919,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -84531,6 +88941,7 @@ module.exports = {
     "name": "Modified Razee Frigate",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 31,
@@ -84564,6 +88975,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -84723,6 +89141,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -84742,6 +89163,7 @@ module.exports = {
     "name": "Custom Gran Fluyt",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -84778,6 +89200,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -84937,6 +89366,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -84956,6 +89388,7 @@ module.exports = {
     "name": "Modified Gran Fluyt",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -84992,6 +89425,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -85151,6 +89591,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -85170,6 +89613,7 @@ module.exports = {
     "name": "Festive Applet",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 27,
@@ -85200,6 +89644,13 @@ module.exports = {
       }, {
         "id": "00002064",
         "parts": ["02200036", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -85359,6 +89810,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -85378,6 +89832,7 @@ module.exports = {
     "name": "Shadow San Filipe",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -85411,6 +89866,13 @@ module.exports = {
       }, {
         "id": "00002101",
         "parts": ["02200054", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -85570,6 +90032,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -85589,6 +90054,7 @@ module.exports = {
     "name": "Celebratory Santa Catalina",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 27,
@@ -85619,6 +90085,13 @@ module.exports = {
       }, {
         "id": "00002061",
         "parts": ["022000622", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -85778,6 +90251,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -85797,6 +90273,7 @@ module.exports = {
     "name": "Ceremonial De Zeven",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -85827,6 +90304,13 @@ module.exports = {
       }, {
         "id": "00002121",
         "parts": ["02200020", "02200036"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -85986,6 +90470,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -86005,6 +90492,7 @@ module.exports = {
     "name": "xxx50000597",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 31,
@@ -86035,6 +90523,13 @@ module.exports = {
       }, {
         "id": "00002120",
         "parts": ["02200020", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -86194,6 +90689,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -86213,6 +90711,7 @@ module.exports = {
     "name": "xxx50000598",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -86246,6 +90745,13 @@ module.exports = {
       }, {
         "id": "00002040",
         "parts": ["022000461", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -86405,6 +90911,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -86424,6 +90933,7 @@ module.exports = {
     "name": "xxx50000599",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -86460,6 +90970,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -86619,6 +91136,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -86638,6 +91158,7 @@ module.exports = {
     "name": "xxx50000600",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -86671,6 +91192,13 @@ module.exports = {
       }, {
         "id": "00002001",
         "parts": ["022000212", "022000660"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -86830,6 +91358,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -86849,6 +91380,7 @@ module.exports = {
     "name": "xxx50000601",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -86871,6 +91403,7 @@ module.exports = {
         "id": "00002036",
         "parts": ["022000563", "022000621"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002034",
@@ -86878,6 +91411,13 @@ module.exports = {
       }, {
         "id": "00002032",
         "parts": ["022000564", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -87037,6 +91577,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -87056,6 +91599,7 @@ module.exports = {
     "name": "xxx50000602",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -87098,6 +91642,13 @@ module.exports = {
       }, {
         "id": "00002129",
         "parts": ["022000690", "022002140"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -87257,6 +91808,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -87276,6 +91830,7 @@ module.exports = {
     "name": "xxx50000603",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -87318,6 +91873,13 @@ module.exports = {
       }, {
         "id": "00002064",
         "parts": ["02200036", "022000560"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -87477,6 +92039,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -87496,6 +92061,7 @@ module.exports = {
     "name": "Augmented Golden Hind",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 35,
@@ -87532,6 +92098,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -87691,6 +92264,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -87710,6 +92286,7 @@ module.exports = {
     "name": "xxx50000605",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -87743,6 +92320,13 @@ module.exports = {
       }, {
         "id": "00002011",
         "parts": ["02200037", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -87902,6 +92486,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -87921,6 +92508,7 @@ module.exports = {
     "name": "xxx50000606",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -87954,6 +92542,13 @@ module.exports = {
       }, {
         "id": "00002127",
         "parts": ["022000550", "022002140"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -88113,6 +92708,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -88132,6 +92730,7 @@ module.exports = {
     "name": "Modified Dragon Ship C1",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 28,
@@ -88162,6 +92761,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -88321,6 +92927,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -88340,6 +92949,7 @@ module.exports = {
     "name": "Modified Dragon Ship C2",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -88370,6 +92980,13 @@ module.exports = {
       }, {
         "id": "00002033",
         "parts": ["022000561", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -88529,6 +93146,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -88548,6 +93168,7 @@ module.exports = {
     "name": "Modified Dragon Ship C3",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -88578,6 +93199,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -88737,6 +93365,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -88756,6 +93387,7 @@ module.exports = {
     "name": "xxx50000610",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 32,
@@ -88786,6 +93418,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -88945,6 +93584,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -88964,6 +93606,7 @@ module.exports = {
     "name": "xxx50000611",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -88994,6 +93637,13 @@ module.exports = {
       }, {
         "id": "00002033",
         "parts": ["022000561", "022000621"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -89153,6 +93803,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -89172,6 +93825,7 @@ module.exports = {
     "name": "xxx50000612",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -89202,6 +93856,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -89361,6 +94022,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -89380,6 +94044,7 @@ module.exports = {
     "name": "xxx50000613",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -89410,6 +94075,13 @@ module.exports = {
       }, {
         "id": "00002045",
         "parts": ["022000560", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -89569,6 +94241,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -89588,6 +94263,7 @@ module.exports = {
     "name": "xxx50000614",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -89621,6 +94297,13 @@ module.exports = {
       }, {
         "id": "00002011",
         "parts": ["02200037", "02200040"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -89780,6 +94463,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -89799,6 +94485,7 @@ module.exports = {
     "name": "xxx50000615",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -89832,6 +94519,13 @@ module.exports = {
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -89991,6 +94685,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -90010,6 +94707,7 @@ module.exports = {
     "name": "xxx50000616",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 34,
@@ -90040,6 +94738,13 @@ module.exports = {
       }, {
         "id": "00002023",
         "parts": ["022000563", "022000620"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -90199,6 +94904,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -90218,6 +94926,7 @@ module.exports = {
     "name": "Custom Flying Cloud",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 34,
@@ -90251,6 +94960,13 @@ module.exports = {
       }, {
         "id": "00002029",
         "parts": ["022000620", "022000623"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -90410,6 +95126,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -90429,6 +95148,7 @@ module.exports = {
     "name": "xxx50000618",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -90462,6 +95182,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -90621,6 +95348,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -90640,6 +95370,7 @@ module.exports = {
     "name": "xxx50000619",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -90673,6 +95404,13 @@ module.exports = {
       }, {
         "id": "00002123",
         "parts": ["022000471", "022000622"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -90832,6 +95570,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -90851,6 +95592,7 @@ module.exports = {
     "name": "xxx50000620",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -90879,10 +95621,18 @@ module.exports = {
         "id": "00002034",
         "parts": ["022000560", "022000621"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -91042,6 +95792,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -91061,6 +95814,7 @@ module.exports = {
     "name": "xxx50000621",
     "size": "Heavy",
     "purpose": "Trade",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -91089,10 +95843,18 @@ module.exports = {
         "id": "00002034",
         "parts": ["022000560", "022000621"]
       }, {
+        "id": "00002007",
         "parts": ["022000561", "022000690"]
       }, {
         "id": "00002010",
         "parts": ["022000700", "022000413"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -91252,6 +96014,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -91271,6 +96036,7 @@ module.exports = {
     "name": "xxx50000622",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -91304,6 +96070,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -91463,6 +96236,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -91482,6 +96258,7 @@ module.exports = {
     "name": "xxx50000623",
     "size": "Heavy",
     "purpose": "Battle",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -91515,6 +96292,13 @@ module.exports = {
       }, {
         "id": "00002105",
         "parts": ["022000690", "02200073"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -91674,6 +96458,9 @@ module.exports = {
       },
       "result": 0
     },
+    "cargo": {
+      "result": 0
+    },
     "material": {
       "id": "022000800",
       "name": "Beech Paneling"
@@ -91693,6 +96480,7 @@ module.exports = {
     "name": "Special Survey Frigate",
     "size": "Heavy",
     "purpose": "Adventure",
+    "steam": false,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -91726,6 +96514,13 @@ module.exports = {
       }, {
         "id": "00002127",
         "parts": ["022000550", "022002140"]
+      }]
+    },
+    "hulls": {
+      "current": "",
+      "available": [{
+        "id": "",
+        "name": "Empty Hull"
       }]
     },
     "ship_equipment": {
@@ -91883,6 +96678,9 @@ module.exports = {
         "grade": 0,
         "current": 41
       },
+      "result": 0
+    },
+    "cargo": {
       "result": 0
     },
     "material": {

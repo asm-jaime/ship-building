@@ -5,6 +5,7 @@
   "name": "Pinnace",
   "size": "Standard",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 20,
@@ -21,6 +22,7 @@
     "inherit": [],
     "original": "",
     "available": [{
+      "id": "00002007",
       "parts": ["022000561"]
     }, {
       "id": "00002000",
@@ -29,6 +31,10 @@
       "id": "00002014",
       "parts": ["022000564", "022000670"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -185,6 +191,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

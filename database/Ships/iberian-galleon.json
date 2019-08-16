@@ -5,6 +5,7 @@
   "name": "Iberian Galleon",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 45,
@@ -21,6 +22,7 @@
     "inherit": [],
     "original": "",
     "available": [{
+      "id": "00002007",
       "parts": ["022000561"]
     }, {
       "id": "00002000",
@@ -31,6 +33,13 @@
     }, {
       "id": "00002006",
       "parts": ["022000562"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000061",
+      "name": "Large 3-decked Hull"
     }]
   },
   "ship_equipment": {
@@ -188,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

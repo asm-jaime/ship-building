@@ -5,6 +5,7 @@
   "name": "Festive First Class Vaisseau",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 22,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002045",
       "parts": ["022000560", "022000622"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

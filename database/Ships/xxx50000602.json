@@ -5,6 +5,7 @@
   "name": "xxx50000602",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 9,
@@ -47,6 +48,13 @@
     }, {
       "id": "00002129",
       "parts": ["022000690", "022002140"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -204,6 +212,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

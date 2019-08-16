@@ -5,6 +5,7 @@
   "name": "Modified Battle Galley",
   "size": "Standard",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 0,
@@ -29,6 +30,13 @@
     }, {
       "id": "00002062",
       "parts": ["02200040"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -186,6 +194,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

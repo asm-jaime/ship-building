@@ -5,6 +5,7 @@
   "name": "Super Corvette",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 30,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002043",
       "parts": ["022000461", "02200073"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000002",
+      "name": "Large Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

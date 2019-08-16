@@ -5,6 +5,7 @@
   "name": "Dragon Ship C1",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 55,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002017",
       "parts": ["022000561", "022000565"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

@@ -5,6 +5,7 @@
   "name": "Modified Transport Sloop",
   "size": "Light",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 0,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002103",
       "parts": ["02200054", "022000690"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

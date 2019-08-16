@@ -5,6 +5,7 @@
   "name": "Dragon Ship C2",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 33,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002034",
       "parts": ["022000560", "022000621"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

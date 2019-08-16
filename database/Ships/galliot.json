@@ -5,6 +5,7 @@
   "name": "Galliot",
   "size": "Light",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 5,
@@ -26,6 +27,13 @@
     }, {
       "id": "00002002",
       "parts": ["02200044", "022000700"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000095",
+      "name": "General Small Row Boat"
     }]
   },
   "ship_equipment": {
@@ -183,6 +191,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

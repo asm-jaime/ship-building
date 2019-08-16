@@ -5,6 +5,7 @@
   "name": "xxx50000346",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 70,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002011",
       "parts": ["02200037", "02200040"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000061",
+      "name": "Large 3-decked Hull"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

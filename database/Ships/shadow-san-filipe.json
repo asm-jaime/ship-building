@@ -5,6 +5,7 @@
   "name": "Shadow San Filipe",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 24,
@@ -38,6 +39,13 @@
     }, {
       "id": "00002101",
       "parts": ["02200054", "022000560"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -195,6 +203,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

@@ -5,6 +5,7 @@
   "name": "Assault Ottoman Galley",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 32,
@@ -32,6 +33,16 @@
     }, {
       "id": "00002082",
       "parts": ["02200050"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000092",
+      "name": "Large Row Boat"
+    }, {
+      "id": "022000093",
+      "name": "Official Large Row Boat"
     }]
   },
   "ship_equipment": {
@@ -189,6 +200,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

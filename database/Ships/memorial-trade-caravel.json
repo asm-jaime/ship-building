@@ -5,6 +5,7 @@
   "name": "Memorial Trade Caravel",
   "size": "Light",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 0,
@@ -33,6 +34,10 @@
       "id": "00002029",
       "parts": ["022000620", "022000623"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -189,6 +194,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

@@ -5,6 +5,7 @@
   "name": "Refitted Ottoman Galleass",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 15,
@@ -44,6 +45,13 @@
     }, {
       "id": "00002126",
       "parts": ["02200040", "022000569"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -201,6 +209,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

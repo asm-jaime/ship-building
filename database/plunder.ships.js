@@ -4,6 +4,7 @@ const armaments = require('../src/resArmaments');
 const gunports = require('../src/resGunports');
 const panels = require('../src/resPanels');
 const skills = require('../src/resSkills');
+const hulls = require('../src/resHulls');
 
 const fs = require('fs');
 const process = require('child_process');
@@ -11,19 +12,39 @@ const process = require('child_process');
 const link = 'http://www.uwotool.com/ajax/get_ship_detail.php?ship_id';
 const MAX_SHIPS = 452;
 
+const get_clean_name = (name) => {
+  if(name === null) return '';
+  const result = name.toLowerCase().replace(/[^a-z]/g, '');
+  if(result === 'adjutantscabin') {
+    return 'aidescabin';
+  }
+  return result;
+};
+
 const allParts = Object.assign({}, sails, armaments, gunports, panels);
 
 const partsNameId = Object.create(null);
 const allPartsKeys = Object.keys(allParts);
 for (let i = 0; i < allPartsKeys.length; ++i) {
-  partsNameId[allParts[allPartsKeys[i]]['name'].toLowerCase()] = allPartsKeys[i];
+  partsNameId[get_clean_name(allParts[allPartsKeys[i]]['name'])] = allPartsKeys[i];
 }
+partsNameId[""] = "";
+
 
 const skillsNameId = Object.create(null);
 const skillsKeys = Object.keys(skills);
 for (let i = 0; i < skillsKeys.length; ++i) {
-  skillsNameId[skills[skillsKeys[i]]['name'].toLowerCase()] = skillsKeys[i];
+  skillsNameId[get_clean_name(skills[skillsKeys[i]]['name'])] = skillsKeys[i];
 }
+skillsNameId[""] = "";
+
+
+const hullsNameId = Object.create(null);
+const hullsKeys = Object.keys(hulls);
+for (let i = 0; i < hullsKeys.length; ++i) {
+  hullsNameId[get_clean_name(hulls[hullsKeys[i]]['name'])] = hullsKeys[i];
+}
+hullsNameId[""] = "";
 
 const gradeTypeShips = {
   'Adventure': 'Expedition Ship',
@@ -41,6 +62,9 @@ const parse_ship = (raw_ship) => {
   ship['size'] = raw_ship['size_local'];
 
   ship['purpose'] = raw_ship['type1'];
+
+  ship['steam'] = false;
+
   ship['is_nc'] = raw_ship['is_nc'] === '0' ? false : true;
 
   ship['levels'] = {
@@ -59,14 +83,25 @@ const parse_ship = (raw_ship) => {
     },
     'inherit': [],
     'original': '',
-    'available': raw_ship['skills'].map((e, i) => ({
-      'id': skillsNameId[e['title'].toLowerCase()],
-      'parts': raw_ship['skills'][i]['parts'].map(e =>
-        partsNameId[e['title'].toLowerCase()]
-      ),
-    }))
+    'available': raw_ship['skills'].map((e, i) => {
+      return {
+        'id': skillsNameId[get_clean_name(e['title'])],
+        'parts': raw_ship['skills'][i]['parts'].map(e =>
+          partsNameId[get_clean_name(e['title'])]
+        ),
+      };
+    })
   };
 
+  ship['hulls'] = {
+    'current': '',
+    'available': Object.keys(raw_ship['hms']).map((key => ({
+      id: hullsNameId[get_clean_name(raw_ship['hms'][key]['p_title'])],
+      name: hulls[hullsNameId[
+        get_clean_name(raw_ship['hms'][key]['p_title'])
+      ]]['name'],
+    })))
+  };
   ship['ship_equipment'] = {
     'studding_sails': parseInt(raw_ship['studding_sail']),
     'broadsides': parseInt(raw_ship['broadside']),
@@ -237,6 +272,10 @@ const parse_ship = (raw_ship) => {
     'result': 0
   };
 
+  ship['cargo'] = {
+    'result': 0
+  };
+
   ship['material'] = {
     'id': '022000800',
     'name': 'Beech Paneling'
@@ -257,9 +296,9 @@ const getParseName = name => (
   name.replace(/'/g, '').replace(/ /g, '-').toLowerCase()
 );
 
-const get_ships = (len) => {
-  for (let i = 1; i < len + 1; ++i) {
-    setTimeout(() => fetch(`${link}=${i}`)
+const get_ships = (start, len) => {
+  for (let i = 0; i < len; ++i) {
+    setTimeout(() => fetch(`${link}=${i + start}`)
       .then(res => res.json())
       .then(parse_ship)
       .then(ship => {
@@ -272,6 +311,7 @@ const get_ships = (len) => {
             console.log(`>>: ${ship.name}`);
           }
         );
+/* get pictures
         return fetch(`http://www.uwotool.com/images/ship/${ship['img']}`)
           .then(data => ({
             name: ship['img'],
@@ -281,9 +321,10 @@ const get_ships = (len) => {
       .then(res => {
         const fileStream = fs.createWriteStream(`./Ships/${res.name}`);
         res.data.body.pipe(fileStream);
+*/
       })
       .catch(console.log), i * 1000);
   }
 };
 
-get_ships(MAX_SHIPS);
+get_ships(1, MAX_SHIPS);

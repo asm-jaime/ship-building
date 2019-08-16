@@ -5,6 +5,7 @@
   "name": "Ottoman Galleass",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 34,
@@ -38,6 +39,13 @@
     }, {
       "id": "00002121",
       "parts": ["02200020", "02200036"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000122",
+      "name": "Custom Large 2 decked Row Boat"
     }]
   },
   "ship_equipment": {
@@ -195,6 +203,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

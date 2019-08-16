@@ -5,6 +5,7 @@
   "name": "Xebec Frigate",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 32,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002020",
       "parts": ["022000361", "022000470"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000002",
+      "name": "Large Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

@@ -5,6 +5,7 @@
   "name": "Cruise Refitted Xebec",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 36,
@@ -21,6 +22,7 @@
     "inherit": [],
     "original": "",
     "available": [{
+      "id": "00002007",
       "parts": ["022000561"]
     }, {
       "id": "00002000",
@@ -34,6 +36,13 @@
     }, {
       "id": "00002120",
       "parts": ["02200020", "022000413"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000002",
+      "name": "Large Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -191,6 +200,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

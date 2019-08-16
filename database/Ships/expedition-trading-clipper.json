@@ -5,6 +5,7 @@
   "name": "Expedition Trading Clipper",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 4,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002023",
       "parts": ["022000563", "022000620"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

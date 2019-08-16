@@ -5,6 +5,7 @@
   "name": "Expedition Taiwan Ship",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 45,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002027",
       "parts": ["022000680", "02200073"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

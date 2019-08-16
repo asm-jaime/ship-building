@@ -5,6 +5,7 @@
   "name": "Heavy Carrack",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 0,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002128",
       "parts": ["022000550", "022000560"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000006",
+      "name": "General Large Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

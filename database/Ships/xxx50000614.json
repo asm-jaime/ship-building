@@ -5,6 +5,7 @@
   "name": "xxx50000614",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 36,
@@ -38,6 +39,13 @@
     }, {
       "id": "00002011",
       "parts": ["02200037", "02200040"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -195,6 +203,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

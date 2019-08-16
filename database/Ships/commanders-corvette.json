@@ -5,6 +5,7 @@
   "name": "Commander's Corvette",
   "size": "Standard",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 23,
@@ -41,6 +42,13 @@
     }, {
       "id": "00002101",
       "parts": ["02200054", "022000560"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000033",
+      "name": "Commander's Medium 2-decked Hull"
     }]
   },
   "ship_equipment": {
@@ -198,6 +206,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

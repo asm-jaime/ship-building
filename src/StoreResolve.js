@@ -803,3 +803,9 @@ export const calculate_penalty = (ship) => {
     },
   });
 };
+
+// ========== support search comonent
+
+export const get_short_name = name => (
+  name.split(' ').map(e => e[0]).join('').toLowerCase()
+);

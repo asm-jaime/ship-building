@@ -5,6 +5,7 @@
   "name": "Stacked Turtle Ship",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 20,
@@ -33,6 +34,10 @@
       "id": "00002045",
       "parts": ["022000560", "022000622"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 2,
@@ -189,6 +194,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

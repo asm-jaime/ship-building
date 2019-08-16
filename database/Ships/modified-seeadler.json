@@ -5,6 +5,7 @@
   "name": "Modified Seeadler",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 18,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002063",
       "parts": ["022000550", "022000680"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

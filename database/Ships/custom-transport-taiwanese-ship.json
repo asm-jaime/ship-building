@@ -5,6 +5,7 @@
   "name": "Custom Transport Taiwanese Ship",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 15,
@@ -27,6 +28,7 @@
       "id": "00002009",
       "parts": ["02200036", "022000413"]
     }, {
+      "id": "00002007",
       "parts": ["022000561", "022000690"]
     }, {
       "id": "00002027",
@@ -43,6 +45,13 @@
     }, {
       "id": "00002033",
       "parts": ["022000561", "022000621"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -200,6 +209,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

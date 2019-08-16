@@ -5,6 +5,7 @@
   "name": "Augmented Research Frigate",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 37,
@@ -38,6 +39,13 @@
     }, {
       "id": "00002127",
       "parts": ["022000550", "022002140"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -195,6 +203,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

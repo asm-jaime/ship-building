@@ -5,6 +5,7 @@
   "name": "Ketch",
   "size": "Light",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 15,
@@ -29,6 +30,13 @@
     }, {
       "id": "00002060",
       "parts": ["022000680"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000000",
+      "name": "Small Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -186,6 +194,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

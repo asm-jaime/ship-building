@@ -5,6 +5,7 @@
   "name": "Santa Maria",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 10,
@@ -42,11 +43,16 @@
       "id": "00002030",
       "parts": [null, "022000660"]
     }, {
+      "id": "00002016",
       "parts": ["022000560", "022000620"]
     }, {
       "id": "00002017",
       "parts": ["022000561", "022000565"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -203,6 +209,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

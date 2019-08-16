@@ -639,6 +639,27 @@ module.exports = {
     ],
     "description": ""
   },
+  "": {
+    "id": "",
+    "img": "ship_part_empty.png",
+    "name": "Empty Hull",
+    "nc": false,
+    "panel_stats": [1, 1],
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": "no hull here"
+  },
   "022000000": {
     "id": "022000000",
     "img": "02200000.png",

@@ -5,6 +5,7 @@
   "name": "Armed Xebec",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 25,
@@ -36,6 +37,10 @@
       "id": "00002043",
       "parts": ["022000461", "02200073"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -192,6 +197,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

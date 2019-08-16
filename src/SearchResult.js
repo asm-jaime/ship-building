@@ -5,15 +5,15 @@ import { SHIP_SET } from './constants';
 import { Store } from './Store';
 
 const SearchResult = (props) => {
-  const { state , dispatch} = React.useContext(Store);
+  const { state, dispatch } = React.useContext(Store);
   return (
-    <div className="search-result">
-    <div className="component-title">Search result</div>
-    {state.searchResult.map((elem) => (
-      <div className="result-ship" key={elem.name}
-        onClick={() => dispatch({type: SHIP_SET, payload: elem})}>
-        <img src={`./${elem.id}.png`} alt={`${elem.id}`}></img>
-        <div className="result-ship-name">{elem.name}</div>
+    <div className='search-result'>
+    <div className='component-title'>Search result</div>
+    {state.searchResult.map(ship => (
+      <div className='result-ship' key={ship.name}
+        onClick={() => dispatch({type: SHIP_SET, payload: ship})}>
+        <img src={ship.img} alt={ship.id}/>
+        <div className='result-ship-name'>{ship.name}</div>
       </div>
     ))}
     </div>

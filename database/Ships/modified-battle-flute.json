@@ -5,6 +5,7 @@
   "name": "Modified Battle Flute",
   "size": "Light",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 3,
@@ -29,6 +30,13 @@
     }, {
       "id": "00002060",
       "parts": ["022000680"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -186,6 +194,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

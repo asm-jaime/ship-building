@@ -5,6 +5,7 @@
   "name": "Custom Siam",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 5,
@@ -21,6 +22,7 @@
     "inherit": [],
     "original": "",
     "available": [{
+      "id": "00002007",
       "parts": ["022000561", "022000690"]
     }, {
       "id": "00002131",
@@ -31,6 +33,13 @@
     }, {
       "id": "00002044",
       "parts": ["022000460", "02200073"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -188,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

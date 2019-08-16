@@ -5,6 +5,7 @@
   "name": "Transport Small Caravel",
   "size": "Light",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 2,
@@ -27,6 +28,10 @@
       "id": "00002021",
       "parts": ["022000621", "022000623"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 1,
@@ -183,6 +188,9 @@
       "grade": 0,
       "current": 9
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

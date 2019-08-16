@@ -5,6 +5,7 @@
   "name": "Modified Highly Agile Xebec",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 24,
@@ -27,6 +28,7 @@
       "id": "00002005",
       "parts": ["02200036", "022000620"]
     }, {
+      "id": "00002007",
       "parts": ["022000561", "022000690"]
     }, {
       "id": "00002008",
@@ -34,6 +36,13 @@
     }, {
       "id": "00002040",
       "parts": ["022000461", "02200073"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -191,6 +200,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

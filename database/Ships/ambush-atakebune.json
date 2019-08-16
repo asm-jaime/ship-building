@@ -5,6 +5,7 @@
   "name": "Ambush Atakebune",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 15,
@@ -35,6 +36,13 @@
     }, {
       "id": "00002126",
       "parts": ["02200040", "022000569"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022002030",
+      "name": "E. Asian Large Row Boat"
     }]
   },
   "ship_equipment": {
@@ -192,6 +200,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

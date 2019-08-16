@@ -1,6 +1,14 @@
 export const LVL_MIN = 0;
 export const LVL_MAX = 87;
 
+export const SHIP_TYPE_ADVENTURE  = 'Adventure';
+export const SHIP_TYPE_TRADE      = 'Trade';
+export const SHIP_TYPE_BATTLE     = 'Battle';
+
+export const SHIP_SIZE_LIGHT    = 'Light';
+export const SHIP_SIZE_STANDARD = 'Standard';
+export const SHIP_SIZE_HEAVY    = 'Heavy';
+
 export const SHIP_SIZE_POS = {
   'Light' : 0,
   'Standard' : 1,
@@ -247,8 +255,8 @@ export const SKILL_OPTIONAL_SET = 'SKILL_OPTIONAL_SET';
 
 export const PANEL_SET = 'PANEL_SET';
 
-export const SKILL_EMPTY = 'skill_epmty.png';
-export const SHIP_PART_EMPTY = 'ship_part_empty.png';
+export const SKILL_EMPTY = '';
+export const SHIP_PART_EMPTY = '';
 
 export const DISAGREE_ICON  = 'icon_disagree.png';
 export const DISAGREE_GIF   = 'icon_disagree.gif';

@@ -5,6 +5,7 @@
   "name": "Heavy Trading Caravel",
   "size": "Standard",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 10,
@@ -29,6 +30,13 @@
     }, {
       "id": "00002023",
       "parts": ["022000563", "022000620"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000005",
+      "name": "General Medium Hull"
     }]
   },
   "ship_equipment": {
@@ -186,6 +194,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

@@ -1,8 +1,9 @@
 {
   "id": "",
   "img": "ship_part_empty.png",
-  "name": "Empty Part",
+  "name": "Empty Hull",
   "nc": false,
+  "panel_stats": [1.0, 1.0],
   "ship_sizes": [true, true, true],
   "stats_ranges": [
     [0, 0],
@@ -16,5 +17,5 @@
     [0, 0],
     [0, 0]
   ],
-  "description": "no sail here"
+  "description": "no hull here"
 }

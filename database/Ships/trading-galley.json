@@ -5,6 +5,7 @@
   "name": "Trading Galley",
   "size": "Standard",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 3,
@@ -29,6 +30,13 @@
     }, {
       "id": "00002002",
       "parts": ["02200044", "022000700"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000096",
+      "name": "General Medium Row Boat"
     }]
   },
   "ship_equipment": {
@@ -186,6 +194,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

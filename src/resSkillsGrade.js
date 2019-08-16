@@ -95,8 +95,8 @@ module.exports = {
     "name": "Ship Speed Up III",
     "description": "15% increase both acceleration and battle"
   },
-  "skill_epmty.png": {
-    "id": "skill_epmty.png",
+  "": {
+    "id": "",
     "img": "skill_epmty.png",
     "name": "empty skill",
     "description": "this skill does not exist",

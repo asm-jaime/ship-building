@@ -5,6 +5,7 @@
   "name": "Big Trading Clipper",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 24,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002024",
       "parts": ["022000564"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000002",
+      "name": "Large Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

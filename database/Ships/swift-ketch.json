@@ -5,6 +5,7 @@
   "name": "Swift Ketch",
   "size": "Light",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 15,
@@ -29,6 +30,13 @@
     }, {
       "id": "00002004",
       "parts": ["02200054", "022000413"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000000",
+      "name": "Small Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -186,6 +194,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

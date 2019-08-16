@@ -5,6 +5,7 @@
   "name": "Modified Light Clipper",
   "size": "Standard",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 8,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002004",
       "parts": ["02200054", "022000413"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

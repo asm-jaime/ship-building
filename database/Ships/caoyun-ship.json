@@ -5,6 +5,7 @@
   "name": "Caoyun Ship",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 27,
@@ -33,6 +34,10 @@
       "id": "00002029",
       "parts": ["022000620", "022000623"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 2,
@@ -189,6 +194,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

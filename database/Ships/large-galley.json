@@ -5,6 +5,7 @@
   "name": "Large Galley",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 29,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002101",
       "parts": ["02200054", "022000560"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000097",
+      "name": "General Large Row Boat"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

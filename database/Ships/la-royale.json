@@ -5,6 +5,7 @@
   "name": "La Royale",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 10,
@@ -35,6 +36,16 @@
     }, {
       "id": "00002062",
       "parts": ["02200040"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000150",
+      "name": "Large 3-decked Row Boat"
+    }, {
+      "id": "022000151",
+      "name": "Official Large 3-decked Row Boat"
     }]
   },
   "ship_equipment": {
@@ -192,6 +203,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

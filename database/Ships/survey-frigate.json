@@ -5,6 +5,7 @@
   "name": "Survey Frigate",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 73,
@@ -38,6 +39,16 @@
     }, {
       "id": "00002127",
       "parts": ["022000550", "022002140"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000061",
+      "name": "Large 3-decked Hull"
+    }, {
+      "id": "022000062",
+      "name": "Official Large 3-decked Hull"
     }]
   },
   "ship_equipment": {
@@ -195,6 +206,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

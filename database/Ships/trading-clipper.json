@@ -5,6 +5,7 @@
   "name": "Trading Clipper",
   "size": "Heavy",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 16,
@@ -36,6 +37,10 @@
       "id": "00002023",
       "parts": ["022000563", "022000620"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 4,
@@ -192,6 +197,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

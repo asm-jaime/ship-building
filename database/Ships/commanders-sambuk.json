@@ -5,6 +5,7 @@
   "name": "Commander's Sambuk",
   "size": "Standard",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 18,
@@ -38,6 +39,13 @@
     }, {
       "id": "00002020",
       "parts": ["022000361", "022000470"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000003",
+      "name": "Commander's Medium Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -195,6 +203,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

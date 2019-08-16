@@ -5,6 +5,7 @@
   "name": "Cruise Quebec",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 36,
@@ -24,6 +25,7 @@
       "id": "00002001",
       "parts": ["022000212", "022000660"]
     }, {
+      "id": "00002007",
       "parts": ["022000561"]
     }, {
       "id": "00002000",
@@ -34,6 +36,13 @@
     }, {
       "id": "00002014",
       "parts": ["022000564", "022000670"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000002",
+      "name": "Large Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -191,6 +200,9 @@
       "grade": 0,
       "current": 33
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

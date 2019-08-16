@@ -5,6 +5,7 @@
   "name": "Baltic Galley",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 20,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002082",
       "parts": ["02200050"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000150",
+      "name": "Large 3-decked Row Boat"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

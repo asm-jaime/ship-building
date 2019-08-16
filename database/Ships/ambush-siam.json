@@ -5,6 +5,7 @@
   "name": "Ambush Siam",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 29,
@@ -33,6 +34,10 @@
       "id": "00002062",
       "parts": ["02200040", "022000413"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -189,6 +194,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

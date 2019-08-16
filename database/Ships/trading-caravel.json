@@ -5,6 +5,7 @@
   "name": "Trading Caravel",
   "size": "Light",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 3,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002029",
       "parts": ["022000620", "022000623"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000004",
+      "name": "General Small Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

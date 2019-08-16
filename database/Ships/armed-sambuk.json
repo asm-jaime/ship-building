@@ -5,6 +5,7 @@
   "name": "Armed Sambuk",
   "size": "Standard",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 16,
@@ -36,6 +37,10 @@
       "id": "00002060",
       "parts": ["022000680"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -192,6 +197,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

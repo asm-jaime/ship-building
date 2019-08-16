@@ -5,6 +5,7 @@
   "name": "Explorer Barca",
   "size": "Light",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 1,
@@ -26,6 +27,13 @@
     }, {
       "id": "00002000",
       "parts": ["022000700", "02200072"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000004",
+      "name": "General Small Hull"
     }]
   },
   "ship_equipment": {
@@ -183,6 +191,9 @@
       "grade": 0,
       "current": 9
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

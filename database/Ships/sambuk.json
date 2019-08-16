@@ -5,6 +5,7 @@
   "name": "Sambuk",
   "size": "Standard",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 22,
@@ -24,6 +25,7 @@
       "id": "00002001",
       "parts": ["022000211", "022000660"]
     }, {
+      "id": "00002007",
       "parts": ["022000561"]
     }, {
       "id": "00002000",
@@ -32,6 +34,10 @@
       "id": "00002006",
       "parts": ["022000562"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -188,6 +194,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

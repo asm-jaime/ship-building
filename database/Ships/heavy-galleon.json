@@ -5,6 +5,7 @@
   "name": "Heavy Galleon",
   "size": "Heavy",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 20,
@@ -21,6 +22,7 @@
     "inherit": [],
     "original": "",
     "available": [{
+      "id": "00002007",
       "parts": ["022000561", "022000690"]
     }, {
       "id": "00002000",
@@ -32,6 +34,10 @@
       "id": "00002045",
       "parts": ["022000560", "022000622"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 4,
@@ -188,6 +194,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

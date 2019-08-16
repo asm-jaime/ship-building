@@ -5,6 +5,7 @@
   "name": "Trading Sambuk",
   "size": "Standard",
   "purpose": "Trade",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 16,
@@ -33,6 +34,10 @@
       "id": "00002023",
       "parts": ["022000563"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -189,6 +194,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

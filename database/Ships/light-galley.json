@@ -5,6 +5,7 @@
   "name": "Light Galley",
   "size": "Light",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 0,
@@ -26,6 +27,13 @@
     }, {
       "id": "00002080",
       "parts": ["02200040", "02200050"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000095",
+      "name": "General Small Row Boat"
     }]
   },
   "ship_equipment": {
@@ -183,6 +191,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

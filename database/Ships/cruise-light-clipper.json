@@ -5,6 +5,7 @@
   "name": "Cruise Light Clipper",
   "size": "Standard",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 32,
@@ -24,6 +25,7 @@
       "id": "00002001",
       "parts": ["022000211", "022000660"]
     }, {
+      "id": "00002007",
       "parts": ["022000561", "022000690"]
     }, {
       "id": "00002000",
@@ -34,6 +36,13 @@
     }, {
       "id": "00002006",
       "parts": ["022000562"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000001",
+      "name": "Medium Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -191,6 +200,9 @@
       "grade": 0,
       "current": 25
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

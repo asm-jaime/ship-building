@@ -671,8 +671,8 @@ module.exports = {
     ],
     "description": ""
   },
-  "ship_part_empty.png": {
-    "id": "ship_part_empty.png",
+  "": {
+    "id": "",
     "img": "ship_part_empty.png",
     "name": "Empty Paneling",
     "nc": false,

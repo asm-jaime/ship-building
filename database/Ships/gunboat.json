@@ -5,6 +5,7 @@
   "name": "Gunboat",
   "size": "Light",
   "purpose": "Battle",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 10,
@@ -32,6 +33,13 @@
     }, {
       "id": "00002061",
       "parts": ["022000622"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000000",
+      "name": "Small Flush Deck Style Hull"
     }]
   },
   "ship_equipment": {
@@ -189,6 +197,9 @@
       "grade": 0,
       "current": 17
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

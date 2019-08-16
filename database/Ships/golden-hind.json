@@ -5,6 +5,7 @@
   "name": "Golden Hind",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 74,
@@ -41,6 +42,13 @@
     }, {
       "id": "00002123",
       "parts": ["022000471", "022000622"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "022000035",
+      "name": "Special Large 2-decked Hull"
     }]
   },
   "ship_equipment": {
@@ -198,6 +206,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

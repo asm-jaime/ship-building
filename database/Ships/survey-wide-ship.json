@@ -5,6 +5,7 @@
   "name": "Survey Wide Ship",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": false,
   "levels": {
     "advent": 43,
@@ -33,6 +34,10 @@
       "id": "00002130",
       "parts": ["02200038", "022002141"]
     }]
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "ship_equipment": {
     "studding_sails": 3,
@@ -189,6 +194,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {

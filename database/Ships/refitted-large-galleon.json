@@ -5,6 +5,7 @@
   "name": "Refitted Large Galleon",
   "size": "Heavy",
   "purpose": "Adventure",
+  "steam": false,
   "is_nc": true,
   "levels": {
     "advent": 22,
@@ -27,12 +28,21 @@
       "id": "00002013",
       "parts": ["022000690", "022000565"]
     }, {
+      "id": "00002007",
       "parts": ["022000560", "022000561"]
     }, {
+      "id": "00002007",
       "parts": ["022000561", "022000690"]
     }, {
       "id": "00002000",
       "parts": ["022000700", "02200072"]
+    }]
+  },
+  "hulls": {
+    "current": "",
+    "available": [{
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
@@ -190,6 +200,9 @@
       "grade": 0,
       "current": 41
     },
+    "result": 0
+  },
+  "cargo": {
     "result": 0
   },
   "material": {
