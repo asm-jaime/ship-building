@@ -12,6 +12,7 @@ import {
   SEARCH_SET,
   SEARCH_STR_PLACEHOLDER,
   SOUND_CLICK,
+  KEY_ENTER,
 } from './constants';
 
 const BoxLvl = (props) => (<div className='box-lvl'>
@@ -143,7 +144,13 @@ const Search = () => {
     <fieldset className='boxes'>
       <legend>ship/skill</legend>
       <input className='search-str' type='text' placeholder={SEARCH_STR_PLACEHOLDER}
-        value={searchStr} onChange={handleSearchStr} />
+        value={searchStr} onChange={handleSearchStr}
+        onKeyPress={event => {
+          if (event.key === KEY_ENTER) {
+            searchShips();
+          }
+        }}
+      />
     </fieldset>
     <button className='search-button' onClick={searchShips}>search</button>
   </div>;
