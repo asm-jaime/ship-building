@@ -6,6 +6,7 @@
   "size": "Heavy",
   "purpose": "Trade",
   "steam": false,
+  "sail": true,
   "is_nc": false,
   "levels": {
     "advent": 68,

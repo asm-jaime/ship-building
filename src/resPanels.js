@@ -358,7 +358,7 @@ module.exports = {
   },
   "022001580": {
     "id": "022001580",
-    "img": "02200158.png",
+    "img": "02200099.png",
     "name": "Holy Roman Imperial Paneling",
     "nc": true,
     "panel_stats": [1.41, 0.96],

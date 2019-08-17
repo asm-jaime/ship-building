@@ -7,6 +7,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 2,
@@ -214,6 +215,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -421,6 +423,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 4,
@@ -631,6 +634,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 9,
@@ -844,6 +848,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 19,
@@ -1057,6 +1062,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -1267,6 +1273,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -1477,6 +1484,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -1693,6 +1701,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -1909,6 +1918,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 11,
@@ -2119,6 +2129,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -2329,6 +2340,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 9,
@@ -2542,6 +2554,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -2758,6 +2771,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -2971,6 +2985,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -3184,6 +3199,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -3409,6 +3425,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -3628,6 +3645,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 23,
@@ -3853,6 +3871,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -4078,6 +4097,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -4300,6 +4320,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 52,
@@ -4519,6 +4540,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 64,
@@ -4738,6 +4760,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -4948,6 +4971,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -5161,6 +5185,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -5374,6 +5399,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -5584,6 +5610,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -5797,6 +5824,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -6013,6 +6041,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -6235,6 +6264,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -6451,6 +6481,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -6667,6 +6698,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -6880,6 +6912,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -7093,6 +7126,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -7303,6 +7337,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 8,
@@ -7522,6 +7557,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -7732,6 +7768,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -7945,6 +7982,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -8161,6 +8199,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -8377,6 +8416,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -8593,6 +8633,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -8809,6 +8850,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -9025,6 +9067,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -9232,6 +9275,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -9439,6 +9483,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 1,
@@ -9649,6 +9694,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -9856,6 +9902,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 2,
@@ -10066,6 +10113,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -10276,6 +10324,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -10489,6 +10538,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -10696,6 +10746,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -10906,6 +10957,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 7,
@@ -11116,6 +11168,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 6,
@@ -11326,6 +11379,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -11536,6 +11590,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -11749,6 +11804,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 6,
@@ -11962,6 +12018,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 6,
@@ -12175,6 +12232,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 3,
@@ -12388,6 +12446,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -12601,6 +12660,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -12814,6 +12874,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -13024,6 +13085,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -13237,6 +13299,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -13453,6 +13516,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -13669,6 +13733,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -13882,6 +13947,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -14098,6 +14164,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -14314,6 +14381,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -14533,6 +14601,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 5,
@@ -14740,6 +14809,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -14950,6 +15020,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -15160,6 +15231,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -15370,6 +15442,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -15580,6 +15653,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -15793,6 +15867,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -16015,6 +16090,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 4,
@@ -16222,6 +16298,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -16435,6 +16512,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -16648,6 +16726,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 11,
@@ -16861,6 +16940,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -17077,6 +17157,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -17293,6 +17374,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -17509,6 +17591,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 39,
@@ -17725,6 +17808,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -17941,6 +18025,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -18154,6 +18239,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -18367,6 +18453,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 43,
@@ -18580,6 +18667,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -18793,6 +18881,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -19006,6 +19095,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -19219,6 +19309,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 34,
@@ -19435,6 +19526,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 42,
@@ -19648,6 +19740,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 21,
@@ -19861,6 +19954,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 8,
@@ -20074,6 +20168,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -20287,6 +20382,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -20500,6 +20596,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -20713,6 +20810,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -20926,6 +21024,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -21139,6 +21238,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -21355,6 +21455,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -21571,6 +21672,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -21787,6 +21889,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -22000,6 +22103,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -22213,6 +22317,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -22426,6 +22531,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -22642,6 +22748,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -22858,6 +22965,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -23071,6 +23179,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -23284,6 +23393,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -23500,6 +23610,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -23716,6 +23827,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 45,
@@ -23932,6 +24044,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -24145,6 +24258,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -24358,6 +24472,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 45,
@@ -24574,6 +24689,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -24793,6 +24909,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -25012,6 +25129,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -25228,6 +25346,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -25444,6 +25563,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -25657,6 +25777,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -25879,6 +26000,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -26095,6 +26217,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -26311,6 +26434,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -26530,6 +26654,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -26746,6 +26871,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -26962,6 +27088,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -27181,6 +27308,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -27400,6 +27528,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -27622,6 +27751,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -27841,6 +27971,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -28063,6 +28194,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -28279,6 +28411,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -28495,6 +28628,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -28708,6 +28842,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -28924,6 +29059,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -29143,6 +29279,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -29359,6 +29496,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -29575,6 +29713,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -29791,6 +29930,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -30004,6 +30144,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -30223,6 +30364,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -30439,6 +30581,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -30658,6 +30801,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -30874,6 +31018,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -31090,6 +31235,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -31306,6 +31452,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -31522,6 +31669,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -31741,6 +31889,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -31957,6 +32106,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 10,
@@ -32173,6 +32323,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 17,
@@ -32389,6 +32540,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -32602,6 +32754,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -32818,6 +32971,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -33034,6 +33188,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -33250,6 +33405,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -33466,6 +33622,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -33682,6 +33839,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -33901,6 +34059,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -34114,6 +34273,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -34330,6 +34490,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -34546,6 +34707,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -34768,6 +34930,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 48,
@@ -34990,6 +35153,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -35212,6 +35376,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -35431,6 +35596,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 21,
@@ -35641,6 +35807,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -35860,6 +36027,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -36079,6 +36247,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 12,
@@ -36289,6 +36458,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -36505,6 +36675,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 20,
@@ -36721,6 +36892,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -36937,6 +37109,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 38,
@@ -37153,6 +37326,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -37369,6 +37543,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 40,
@@ -37591,6 +37766,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 53,
@@ -37810,6 +37986,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -38026,6 +38203,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -38242,6 +38420,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 19,
@@ -38458,6 +38637,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -38674,6 +38854,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -38893,6 +39074,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -39112,6 +39294,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 15,
@@ -39331,6 +39514,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 18,
@@ -39547,6 +39731,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 23,
@@ -39760,6 +39945,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -39979,6 +40165,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -40195,6 +40382,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -40411,6 +40599,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -40627,6 +40816,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 59,
@@ -40849,6 +41039,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 67,
@@ -41068,6 +41259,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 29,
@@ -41281,6 +41473,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 2,
@@ -41488,6 +41681,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -41704,6 +41898,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -41920,6 +42115,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -42136,6 +42332,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -42355,6 +42552,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -42571,6 +42769,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -42790,6 +42989,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -43009,6 +43209,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -43225,6 +43426,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -43444,6 +43646,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -43663,6 +43866,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -43882,6 +44086,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 38,
@@ -44104,6 +44309,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 43,
@@ -44326,6 +44532,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -44542,6 +44749,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -44761,6 +44969,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -44980,6 +45189,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -45196,6 +45406,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -45409,6 +45620,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -45625,6 +45837,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -45844,6 +46057,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 4,
@@ -46063,6 +46277,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 2,
@@ -46282,6 +46497,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -46495,6 +46711,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -46711,6 +46928,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -46927,6 +47145,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 5,
@@ -47143,6 +47362,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -47356,6 +47576,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 69,
@@ -47575,6 +47796,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 58,
@@ -47794,6 +48016,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -48013,6 +48236,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 41,
@@ -48232,6 +48456,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -48451,6 +48676,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 22,
@@ -48670,6 +48896,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -48886,6 +49113,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -49102,6 +49330,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 45,
@@ -49318,6 +49547,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 45,
@@ -49534,6 +49764,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -49747,6 +49978,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -49963,6 +50195,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 42,
@@ -50182,6 +50415,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -50398,6 +50632,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -50614,6 +50849,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -50854,6 +51090,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 37,
@@ -51073,6 +51310,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 65,
@@ -51292,6 +51530,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -51511,6 +51750,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 34,
@@ -51730,6 +51970,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -51949,6 +52190,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -52168,6 +52410,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -52387,6 +52630,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -52606,6 +52850,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 11,
@@ -52825,6 +53070,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 23,
@@ -53047,6 +53293,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -53266,6 +53513,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -53485,6 +53733,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 35,
@@ -53704,6 +53953,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -53929,6 +54179,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 23,
@@ -54154,6 +54405,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -54379,6 +54631,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -54601,6 +54854,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 32,
@@ -54820,6 +55074,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -55039,6 +55294,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 14,
@@ -55282,6 +55538,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -55501,6 +55758,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 67,
@@ -55720,6 +55978,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 37,
@@ -55939,6 +56198,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 32,
@@ -56158,6 +56418,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -56377,6 +56638,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 48,
@@ -56596,6 +56858,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 39,
@@ -56815,6 +57078,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -57034,6 +57298,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -57253,6 +57518,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -57469,6 +57735,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -57688,6 +57955,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -57907,6 +58175,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -58126,6 +58395,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -58345,6 +58615,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 40,
@@ -58564,6 +58835,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -58786,6 +59058,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -59005,6 +59278,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -59224,6 +59498,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 32,
@@ -59443,6 +59718,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -59659,6 +59935,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -59878,6 +60155,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -60100,6 +60378,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -60310,6 +60589,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -60523,6 +60803,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -60733,6 +61014,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -60943,6 +61225,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -61156,6 +61439,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 0,
@@ -61369,6 +61653,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 23,
@@ -61582,6 +61867,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -61792,6 +62078,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -62005,6 +62292,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 72,
@@ -62227,6 +62515,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 50,
@@ -62446,6 +62735,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 24,
@@ -62668,6 +62958,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 73,
@@ -62893,6 +63184,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 66,
@@ -63112,6 +63404,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -63331,6 +63624,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -63550,6 +63844,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 74,
@@ -63775,6 +64070,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 39,
@@ -64000,6 +64296,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -64219,6 +64516,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 48,
@@ -64438,6 +64736,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 47,
@@ -64660,6 +64959,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -64888,6 +65188,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 34,
@@ -65110,6 +65411,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 66,
@@ -65329,6 +65631,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -65548,6 +65851,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 75,
@@ -65767,6 +66071,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": false,
     "levels": {
       "advent": 34,
@@ -65989,6 +66294,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 42,
@@ -66214,6 +66520,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 49,
@@ -66436,6 +66743,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 36,
@@ -66658,6 +66966,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 35,
@@ -66877,6 +67186,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 16,
@@ -67093,6 +67403,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 61,
@@ -67312,6 +67623,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 42,
@@ -67531,6 +67843,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 52,
@@ -67753,6 +68066,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 27,
@@ -67978,6 +68292,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 73,
@@ -68200,6 +68515,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 68,
@@ -68419,6 +68735,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 50,
@@ -68641,6 +68958,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 25,
@@ -68863,6 +69181,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 44,
@@ -69085,6 +69404,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 70,
@@ -69304,6 +69624,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 28,
@@ -69523,6 +69844,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": false,
     "levels": {
       "advent": 30,
@@ -69745,6 +70067,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -69964,6 +70287,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -70180,6 +70504,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -70396,6 +70721,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 7,
@@ -70609,6 +70935,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -70825,6 +71152,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -71047,6 +71375,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -71266,6 +71595,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -71488,6 +71818,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -71707,6 +72038,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -71923,6 +72255,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 3,
@@ -72139,6 +72472,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -72358,6 +72692,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 40,
@@ -72580,6 +72915,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -72802,6 +73138,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -73024,6 +73361,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -73243,6 +73581,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -73462,6 +73801,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 4,
@@ -73681,6 +74021,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -73900,6 +74241,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -74119,6 +74461,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 11,
@@ -74341,6 +74684,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -74560,6 +74904,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 11,
@@ -74782,6 +75127,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -75001,6 +75347,7 @@ module.exports = {
     "size": "Standard",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -75217,6 +75564,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -75436,6 +75784,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -75652,6 +76001,7 @@ module.exports = {
     "size": "Light",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 0,
@@ -75874,6 +76224,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -76093,6 +76444,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -76312,6 +76664,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -76534,6 +76887,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -76753,6 +77107,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 16,
@@ -76969,6 +77324,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -77191,6 +77547,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -77410,6 +77767,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -77629,6 +77987,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 55,
@@ -77845,6 +78204,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -78061,6 +78421,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -78280,6 +78641,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -78499,6 +78861,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -78721,6 +79084,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 37,
@@ -78943,6 +79307,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -79165,6 +79530,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -79384,6 +79750,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -79606,6 +79973,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -79828,6 +80196,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -80053,6 +80422,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -80272,6 +80642,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -80491,6 +80862,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -80716,6 +81088,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 27,
@@ -80935,6 +81308,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -81154,6 +81528,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -81376,6 +81751,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -81607,6 +81983,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -81829,6 +82206,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -82054,6 +82432,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -82279,6 +82658,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -82510,6 +82890,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -82732,6 +83113,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -82951,6 +83333,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -83176,6 +83559,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 19,
@@ -83395,6 +83779,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -83614,6 +83999,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -83833,6 +84219,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 31,
@@ -84055,6 +84442,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -84277,6 +84665,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -84499,6 +84888,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 14,
@@ -84721,6 +85111,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -84949,6 +85340,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -85177,6 +85569,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 6,
@@ -85408,6 +85801,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -85636,6 +86030,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 10,
@@ -85852,6 +86247,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -86077,6 +86473,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 25,
@@ -86299,6 +86696,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 30,
@@ -86524,6 +86922,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -86743,6 +87142,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -86965,6 +87365,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -87184,6 +87585,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 8,
@@ -87403,6 +87805,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -87625,6 +88028,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -87844,6 +88248,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -88063,6 +88468,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -88282,6 +88688,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -88501,6 +88908,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -88720,6 +89128,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -88942,6 +89351,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 31,
@@ -89164,6 +89574,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 13,
@@ -89389,6 +89800,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -89614,6 +90026,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 27,
@@ -89833,6 +90246,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 24,
@@ -90055,6 +90469,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 27,
@@ -90274,6 +90689,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 21,
@@ -90493,6 +90909,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 31,
@@ -90712,6 +91129,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -90934,6 +91352,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -91159,6 +91578,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 33,
@@ -91381,6 +91801,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -91600,6 +92021,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 9,
@@ -91831,6 +92253,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": false,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -92062,6 +92485,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 35,
@@ -92287,6 +92711,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -92509,6 +92934,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -92731,6 +93157,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 28,
@@ -92950,6 +93377,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 17,
@@ -93169,6 +93597,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 15,
@@ -93388,6 +93817,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 32,
@@ -93607,6 +94037,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 20,
@@ -93826,6 +94257,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 18,
@@ -94045,6 +94477,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -94264,6 +94697,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -94486,6 +94920,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 36,
@@ -94708,6 +95143,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 34,
@@ -94927,6 +95363,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 34,
@@ -95149,6 +95586,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -95371,6 +95809,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 26,
@@ -95593,6 +96032,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -95815,6 +96255,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 12,
@@ -96037,6 +96478,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -96259,6 +96701,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 22,
@@ -96481,6 +96924,7 @@ module.exports = {
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
+    "sail": true,
     "is_nc": true,
     "levels": {
       "advent": 36,

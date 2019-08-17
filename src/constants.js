@@ -356,6 +356,11 @@ export const IMPROVEMENTS_INFO = 'size of approved improvements';
 export const GRADE_SELECT_INFO     = 'select a ship grade type';
 export const GRADE_ADD_BUTTON_INFO = 'add this grade stage to current ship';
 
+
+// ==========
+
+export const SEARCH_STR_PLACEHOLDER = 'Vaisseu, FCV, evade, WMB';
+
 // ========== SHIP PARTS
 
 export const GENERAL_LARGE_OAR        = '022000444';

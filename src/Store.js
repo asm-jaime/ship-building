@@ -382,9 +382,13 @@ function shipbuilder(state, action) {
       ) {
         return {...state, message: 'can not add more optional skill'};
       }
+
       const skill = state.ship.skills.available.find(
         e => e['id'] === action.payload
       );
+      if(skill === undefined) {
+        return {...state, message: 'this skill does not available for this ship'};
+      }
 
       return {
         ...state,

@@ -64,6 +64,7 @@ const parse_ship = (raw_ship) => {
   ship['purpose'] = raw_ship['type1'];
 
   ship['steam'] = false;
+  ship['sail']  = raw_ship['type2'] === 'sail';
 
   ship['is_nc'] = raw_ship['is_nc'] === '0' ? false : true;
 
@@ -102,6 +103,7 @@ const parse_ship = (raw_ship) => {
       ]]['name'],
     })))
   };
+
   ship['ship_equipment'] = {
     'studding_sails': parseInt(raw_ship['studding_sail']),
     'broadsides': parseInt(raw_ship['broadside']),

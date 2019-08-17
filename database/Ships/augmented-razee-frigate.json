@@ -6,6 +6,7 @@
   "size": "Heavy",
   "purpose": "Battle",
   "steam": false,
+  "sail": true,
   "is_nc": true,
   "levels": {
     "advent": 36,

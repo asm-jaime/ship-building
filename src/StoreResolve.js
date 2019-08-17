@@ -26,12 +26,19 @@ import {
   GRADE_SKILL_SLOT_I,
   GRADE_SKILL_SLOT_II,
   GRADE_ROW_IMPROVE,
+  SHIP_TYPE_ADVENTURE,
+  SHIP_TYPE_TRADE,
+  SHIP_TYPE_BATTLE,
+  SHIP_SIZE_LIGHT,
+  SHIP_SIZE_STANDARD,
+  SHIP_SIZE_HEAVY,
 } from './constants';
 
 import Sails from './resSails';
 import Gunports from './resGunports';
 import Armaments from './resArmaments';
 import Panels from './resPanels';
+import Skills from './resSkills';
 
 // ========== get information from stats
 
@@ -538,7 +545,8 @@ export const get_available_optional_skills = (ship) => {
     if(set[i] === SKILL_EMPTY) {
       continue;
     }
-    if(ship.skills.optional.set.find(e => set[i]['id'] === e['id'])) {
+    if(ship.skills.optional.set.length &&
+       ship.skills.optional.set.find(e => set[i]['id'] === e['id'])) {
       continue;
     }
     if(ship.skills.inherit.find(e => set[i]['id'] === e)) {
@@ -804,8 +812,66 @@ export const calculate_penalty = (ship) => {
   });
 };
 
-// ========== support search comonent
+// ========== search
 
 export const get_short_name = name => (
   name.split(' ').map(e => e[0]).join('').toLowerCase()
 );
+
+export const find_ships = (ships, req) => {
+  const result = [];
+  const keys = Object.keys(ships);
+
+  for(let i = 0; i < keys.length; ++i) {
+    const search = req.searchStr.toLowerCase();
+
+    if((
+        (ships[keys[i]]['levels']['advent'] < req.lvlAdvent.from ||
+         ships[keys[i]]['levels']['advent'] > req.lvlAdvent.to) &&
+        (ships[keys[i]]['levels']['trade'] < req.lvlTrade.from ||
+         ships[keys[i]]['levels']['trade'] > req.lvlTrade.to) &&
+        (ships[keys[i]]['levels']['battle'] < req.lvlBattle.from ||
+         ships[keys[i]]['levels']['battle'] > req.lvlBattle.to)
+      ) || (
+        (ships[keys[i]]['purpose'] === SHIP_TYPE_ADVENTURE &&
+         req.adventure === false) ||
+        (ships[keys[i]]['purpose'] === SHIP_TYPE_TRADE &&
+         req.trade === false) ||
+        (ships[keys[i]]['purpose'] === SHIP_TYPE_BATTLE &&
+         req.battle === false)
+      ) || (
+        (ships[keys[i]]['size'] === SHIP_SIZE_LIGHT &&
+         req.light === false) ||
+        (ships[keys[i]]['size'] === SHIP_SIZE_STANDARD &&
+           req.standard === false) ||
+        (ships[keys[i]]['size'] === SHIP_SIZE_HEAVY &&
+           req.heavy === false)
+      ) || (
+        (ships[keys[i]]['is_nc'] === false &&
+         req.nc === true)
+      ) || (
+        (ships[keys[i]]['sail'] === true &&
+         req.sail === false) ||
+        (ships[keys[i]]['row_power']['row'] === true &&
+         req.row === false) ||
+        (ships[keys[i]]['steam'] === true &&
+         req.steam === false)
+      ) || (
+        req.searchStr !== '' &&
+        ships[keys[i]].name.toLowerCase().match(search) === null &&
+        get_short_name(ships[keys[i]].name).match(search) === null &&
+        ships[keys[i]].skills.available.find(skill => (
+          Skills[skill.id]['name'].toLowerCase().match(search) !== null
+        )) === undefined &&
+        ships[keys[i]].skills.available.find(skill => (
+          get_short_name(Skills[skill.id]['name']).match(search) !== null
+        )) === undefined
+      )) {
+      continue;
+    }
+
+    result.push(ships[keys[i]]);
+  }
+
+  return result;
+};

@@ -2,16 +2,11 @@ import React from 'react';
 import './ShipStatus.css';
 import { Store } from './Store';
 
-import SKILLS from './resSkills';
+import skills from './resSkills';
 
 const ShipStatus = (props) => {
   const { state } = React.useContext(Store);
   const ship = state.ship;
-
-  // show nothing, in case empty data
-  if(!ship.id) {
-    return (<div className='ship-status'></div>);
-  }
 
   return (
     <div className='ship-status'>
@@ -22,12 +17,11 @@ const ShipStatus = (props) => {
         </a>
       </div>
       <div className='ship-status-optional-skills'>
-      {ship.skills.available.map( skill => (
-        <img
-          key={skill.id} src={`./${skill.id}.png`} alt={`${ship.id}`}
-          title={SKILLS[skill.id].name}
-        ></img>
-      ))}
+      {state.ship.skills.available.map((skill, key) => <img
+          key={key} src={skills[skill.id]['img']}
+          title={skills[skill.id]['name']} alt={ship.id}
+        />
+      )}
       </div>
       <div className='ship-status-levels'>
         Level: {ship.levels.advent} / {ship.levels.trade} / {ship.levels.battle}

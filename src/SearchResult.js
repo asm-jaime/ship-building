@@ -1,6 +1,6 @@
 import React from 'react';
 import './SearchResult.css';
-import { SHIP_SET } from './constants';
+import { SHIP_SET, SOUND_CLICK } from './constants';
 
 import { Store } from './Store';
 
@@ -11,7 +11,10 @@ const SearchResult = (props) => {
     <div className='component-title'>Search result</div>
     {state.searchResult.map(ship => (
       <div className='result-ship' key={ship.name}
-        onClick={() => dispatch({type: SHIP_SET, payload: ship})}>
+        onClick={() => {
+          dispatch({type: SHIP_SET, payload: ship});
+          SOUND_CLICK.play();
+        }}>
         <img src={ship.img} alt={ship.id}/>
         <div className='result-ship-name'>{ship.name}</div>
       </div>

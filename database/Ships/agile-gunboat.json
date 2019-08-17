@@ -6,6 +6,7 @@
   "size": "Light",
   "purpose": "Adventure",
   "steam": false,
+  "sail": true,
   "is_nc": false,
   "levels": {
     "advent": 17,
