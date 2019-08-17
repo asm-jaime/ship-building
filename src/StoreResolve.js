@@ -352,6 +352,8 @@ export const recalculate = (ship) => {
 export const get_grade = (ship, grades) => {
   const result = [];
   const inherit = [];
+
+  let optional_skill_grade = 0;
   for(let i = 0; i < grades.length; ++i) {
     if(grades[i]['skill']['grade'] &&
        grades[i]['skill']['grade'] !== SKILL_EMPTY
@@ -362,6 +364,17 @@ export const get_grade = (ship, grades) => {
        grades[i]['skill']['inherit'] !== SKILL_EMPTY
     ) {
       inherit.push(grades[i]['skill']['inherit']);
+    }
+
+    if(grades[i]['skill']['grade'] &&
+       grades[i]['skill']['grade'] === GRADE_SKILL_SLOT_I
+      ) {
+      optional_skill_grade = 1;
+    }
+    if(grades[i]['skill']['grade'] &&
+       grades[i]['skill']['grade'] === GRADE_SKILL_SLOT_II
+      ) {
+      optional_skill_grade = 2;
     }
   }
 
@@ -377,13 +390,17 @@ export const get_grade = (ship, grades) => {
     skills: {
       ...ship.skills,
       inherit,
+      optional: {
+        ...ship.skills.optional,
+        grade: optional_skill_grade
+      }
     },
     grade,
   };
 };
 
 export const get_grading = (ship, grade) => {
-  const ship_handling = {
+  const ship_handling_proficiency = {
     ...ship.ship_handling_proficiency,
     grade: 5 * grade.length,
     result: ship.ship_handling_proficiency.base + 5 * grade.length,
@@ -423,7 +440,7 @@ export const get_grading = (ship, grade) => {
     graded[keys[i]] = grading(ship[keys[i]], keys[i], i);
   }
 
-  return recalculate({...ship, ship_handling, ...graded});
+  return recalculate({...ship, ship_handling_proficiency, ...graded});
 };
 
 // ========== material/panel

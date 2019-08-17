@@ -159,7 +159,7 @@ const initialState = {
       { "id": "00002100", "parts": [ "022000560", "022000561" ] },
       { "id": "00002101", "parts": [ "022000560", "022000560" ] }
     ],
-    "optional": { "limit": 2, "grade": 1, "set": [
+    "optional": { "limit": 2, "grade": 0, "set": [
       { "id": "00002045", "parts": [ "022000560", "022000622" ] },
     ]},
     "inherit": ["00002128"],
@@ -240,6 +240,7 @@ const initialState = {
 function shipbuilder(state, action) {
 
   console.log('action: ', action);
+  console.log('ship: ', state.ship);
 
   switch (action.type) {
     case LVL_ADVENTURE_SET: {
@@ -376,7 +377,7 @@ function shipbuilder(state, action) {
       )) {
         return {...state, message: 'can not set the same optional skill'};
       }
-      if(skills.length + 1 >
+      if(skills.length >=
           state.ship.skills.optional.limit +
           state.ship.skills.optional.grade
       ) {
