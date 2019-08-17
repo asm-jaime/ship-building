@@ -4,10 +4,10 @@ import './App.css';
 
 import Search from './Search';
 import SearchResult from './SearchResult';
-import ShipStatus from './ShipStatus';
+import ShipBasicInfo from './ShipBasicInfo';
 import ImproveInfo from './ImproveInfo';
 import ImproveStatus from './ImproveStatus';
-import Skills from './Skills';
+import GeneralSets from './GeneralSets';
 import Grade from './Grade';
 import Improve from './Improve';
 import Info from './Info';
@@ -22,15 +22,15 @@ const App = () => {
 
   return (
     <div className='App'>
-      <Search></Search>
-      <SearchResult></SearchResult>
-      <ShipStatus></ShipStatus>
-      <ImproveInfo></ImproveInfo>
-      <ImproveStatus></ImproveStatus>
-      <Skills></Skills>
-      <Grade></Grade>
-      <Improve></Improve>
-      <Info></Info>
+      <Search/>
+      <SearchResult/>
+      <ShipBasicInfo/>
+      <ImproveInfo/>
+      <ImproveStatus/>
+      <GeneralSets/>
+      <Grade/>
+      <Improve/>
+      <Info/>
     </div>
   );
 }

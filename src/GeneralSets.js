@@ -1,5 +1,5 @@
 import React from 'react';
-import './Skills.css';
+import './GeneralSets.css';
 
 import { Store } from './Store';
 import {
@@ -19,8 +19,9 @@ import Tabs from './Tabs';
 import SkillsShow from './SkillsShow';
 import Skill from './Skill';
 import Panel from './Panel';
+import ComponentTitle from './ComponentTitle';
 
-const Skills = (props) => {
+const GeneralSets = () => {
   const { state, dispatch } = React.useContext(Store);
   const [skillOptional, setSkillOptional] = React.useState(SKILL_EMPTY);
   const [skillOriginal, setSkillOriginal] = React.useState(SKILL_EMPTY);
@@ -30,14 +31,13 @@ const Skills = (props) => {
     state.ship, resSkills
   );
 
-  return (
-    <div className='skills'>
-    <div value={state.ship.skills.inherit}></div>
+  return <div className='general-sets'>
+    <ComponentTitle name='set a panel/hull/skill'/>
     <Tabs>
-      <Panel name='paneling'/>
+      <Panel name='panel'/>
       <Skill skill={skillOptional} name='optional'
         description={resSkills[skillOptional]['name']}
-        set={(skill) =>
+        set={skill =>
           dispatch({ type: SKILL_OPTIONAL_SET, payload: skill })
       }>
         <SkillsShow skill={skillOptional} status={1}
@@ -54,8 +54,7 @@ const Skills = (props) => {
           set={id => setSkillOriginal(id)}/>
       </Skill>
     </Tabs>
-    </div>
-  )
+  </div>;
 }
 
-export default Skills;
+export default GeneralSets;

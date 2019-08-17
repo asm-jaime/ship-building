@@ -1,0 +1,6 @@
+.general-sets{
+  grid-area: general-sets;
+  display: flex;
+  flex-direction: column;
+  background: white;
+}

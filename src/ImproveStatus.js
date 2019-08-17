@@ -9,6 +9,7 @@ import ImproveMaterial from './ImproveStatusMaterial';
 import ImproveLog from './ImproveLog';
 import ImproveLogGrade from './ImproveLogGrade';
 import ImproveCustom from './ImproveCustom';
+import ComponentTitle from './ComponentTitle';
 
 import Tabs from './Tabs';
 
@@ -17,7 +18,8 @@ const ImproveStatus = (props) => {
   const ship = state.ship;
 
   return (
-    <div className="improve-status">
+    <div className='improve-status'>
+    <ComponentTitle name='improve status'/>
     {IMPROVEABLE_PROPERTIES.map(elem => (
       <ImproveProgress key={elem} res={ship[elem]} name={elem}/>
     ))}

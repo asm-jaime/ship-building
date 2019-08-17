@@ -1,0 +1,32 @@
+.component-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.middle{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.middle-img{
+  position: relative;
+  width: 100%;
+  height: 20px;
+  top: 0;
+}
+.middle-text{
+  position: absolute;
+  font-size: medium;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+.edge-img{
+  height: 20px;
+}

@@ -1,32 +1,34 @@
 import React from 'react';
-import './ShipStatus.css';
+import './ShipBasicInfo.css';
 import { Store } from './Store';
+import ComponentTitle from './ComponentTitle';
 
 import skills from './resSkills';
 
-const ShipStatus = (props) => {
+const ShipBasicInfo = (props) => {
   const { state } = React.useContext(Store);
   const ship = state.ship;
 
   return (
-    <div className='ship-status'>
-      <div className='ship-status-name'>
+    <div className='basic-info'>
+      <ComponentTitle name='basic info'/>
+      <div className='basic-info-name'>
         <img src={ship.img} alt={`${ship.id}`}></img>
         <a target='_blank' rel='noopener noreferrer' href={ship.href}>
           {ship.name}({ship.size})
         </a>
       </div>
-      <div className='ship-status-optional-skills'>
+      <div className='basic-info-optional-skills'>
       {state.ship.skills.available.map((skill, key) => <img
           key={key} src={skills[skill.id]['img']}
           title={skills[skill.id]['name']} alt={ship.id}
         />
       )}
       </div>
-      <div className='ship-status-levels'>
+      <div className='basic-info-levels'>
         Level: {ship.levels.advent} / {ship.levels.trade} / {ship.levels.battle}
       </div>
-      <div className='ship-status-parts'>
+      <div className='basic-info-parts'>
         <span className='part-name'>studding sails: </span>
         <span className='part-number'>{ship.ship_equipment.studding_sails}</span>
         <span className='part-name'>broadsides: </span>
@@ -40,7 +42,7 @@ const ShipStatus = (props) => {
         <span className='part-name'>stern turret: </span>
         <span className='part-number'>{ship.ship_equipment.stern_turret}</span>
       </div>
-      <div className='ship-status-general'>
+      <div className='basic-info-general'>
         <span className='part-name'>Sailors Required:</span>
         <span className='part-number'>{ship.cabine_capacity.required}</span>
         <span className='part-name'>No. of Improvements:</span>
@@ -54,4 +56,4 @@ const ShipStatus = (props) => {
   );
 }
 
-export default ShipStatus;
+export default ShipBasicInfo;

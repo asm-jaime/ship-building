@@ -3,12 +3,13 @@ import './SearchResult.css';
 import { SHIP_SET, SOUND_CLICK } from './constants';
 
 import { Store } from './Store';
+import ComponentTitle from './ComponentTitle';
 
 const SearchResult = (props) => {
   const { state, dispatch } = React.useContext(Store);
   return (
     <div className='search-result'>
-    <div className='component-title'>Search result</div>
+    <ComponentTitle name='search result'/>
     {state.searchResult.map(ship => (
       <div className='result-ship' key={ship.name}
         onClick={() => {

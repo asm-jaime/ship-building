@@ -36,8 +36,7 @@ const Tabs = (props) => {
   const current = ['normal', 'bold'];
 
 
-  return (
-    <div>
+  return <div className='tabs'>
     <div className='tab-buttons'>
     {children.map((child, i) => {
         const name = child.props.name;
@@ -57,12 +56,11 @@ const Tabs = (props) => {
     }
     </div>
     {children.map((child, i) =>
-      <div key={i} className='tab-area' style={{display: displays[tabs[i]]}}>
+      <div key={i} style={{display: displays[tabs[i]]}}>
         {child}
       </div>)
     }
-    </div>
-  );
+  </div>;
 }
 
 export default Tabs;

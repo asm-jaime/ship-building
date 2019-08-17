@@ -8,6 +8,7 @@ import {
 } from './StoreResolve';
 
 import SkillsShow from './SkillsShow';
+import ComponentTitle from './ComponentTitle';
 
 import resSkills from './resSkills';
 import resSkillsGrade from './resSkillsGrade';
@@ -50,8 +51,9 @@ const Grade = (props) => {
     return <div className='grade'>{MESSAGE_GRADE_LIMIT}</div>;
   }
 
-  return (
-    <div className='grade'>
+  return <div className='grade'>
+    <ComponentTitle name='add grade'/>
+    <div className='grade-group'>
     <div className='grade-chose-group'>
       <div className='grade-first-group'>
         <select className='select-grade-type' title={GRADE_SELECT_INFO}
@@ -96,7 +98,7 @@ const Grade = (props) => {
         AGREE_SOUND.play();
     }}></button>
     </div>
-  )
+  </div>;
 }
 
 export default Grade;

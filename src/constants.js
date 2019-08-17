@@ -371,3 +371,8 @@ export const SPECIAL_ORDER_LIGHT_OAR  = '02200044';
 // ========== keypress codes
 
 export const KEY_ENTER = 'Enter';
+
+// ========== theme imgs
+export const IMG_TITLE_LEFT   = 'component-title-left.png';
+export const IMG_TITLE_RIGHT  = 'component-title-right.png';
+export const IMG_TITLE_MIDDLE = 'component-title-middle.png';

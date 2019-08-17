@@ -1,28 +1,28 @@
-.ship-status{
-  grid-area: ship-status;
+.basic-info{
+  grid-area: ship-basic-info;
   background: white;
   display: flex;
   flex-direction: column;
 }
 
-.ship-status-name{
+.basic-info-name{
   display: flex;
   align-items: center;
   margin: 1px;
 }
 
-.ship-status-optional-skills{
+.basic-info-optional-skills{
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
 }
 
-.ship-status-levels{
+.basic-info-levels{
   display: flex;
   margin: 5px;
 }
 
-.ship-status-parts{
+.basic-info-parts{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 5px;
@@ -37,7 +37,7 @@
   text-align: center;
 }
 
-.ship-status-general{
+.basic-info-general{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 5px;

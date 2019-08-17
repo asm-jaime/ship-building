@@ -2,7 +2,12 @@
   grid-area: improve;
   background: white;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+}
+
+.improve-section{
+  display: flex;
+  justify-content: flex-end;
 }
 
 .selected-parts{

@@ -1,3 +1,6 @@
+.tabs{
+  max-width: 240px;
+}
 .tab-buttons{
   display: flex;
   flex-wrap: wrap;
@@ -8,7 +11,4 @@
 .tab-button{
   display: flex;
   align-item: center;
-}
-
-.tab-area{
 }

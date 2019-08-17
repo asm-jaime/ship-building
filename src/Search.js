@@ -2,6 +2,7 @@ import React from 'react';
 import './Search.css';
 
 import { Store } from './Store';
+import ComponentTitle from './ComponentTitle';
 
 import resShips from './resShips';
 import { find_ships } from './StoreResolve';
@@ -100,7 +101,7 @@ const Search = () => {
   }
 
   return <div className='search'>
-    <div className='component-title'>Search a ship</div>
+    <ComponentTitle name='search a ship'/>
     <div className='field-section'>
       <fieldset className='boxes'> <legend>level gap</legend>
         <BoxLvl name='advent' from={lvlAdvent.from} to={lvlAdvent.to}

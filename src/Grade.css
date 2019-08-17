@@ -2,7 +2,7 @@
   grid-area: grade;
   background: white;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
 
 .select-skills{
@@ -22,6 +22,10 @@
   justify-content: flex-end;
 }
 
+.grade-group{
+  display: flex;
+  justify-content: flex-end;
+}
 .grade-chose-group{
   display: flex;
   flex-direction: column;

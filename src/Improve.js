@@ -3,6 +3,7 @@ import './Improve.css';
 
 import ImproveStats from './ImproveStats';
 import OnePart from './OnePart';
+import ComponentTitle from './ComponentTitle';
 
 import { Store } from './Store';
 import {
@@ -38,42 +39,42 @@ const Improve = () => {
   const dataSails     = get_available_sails(state.ship, sails);
   const dataGunports  = get_available_gunports(state.ship, gunports);
 
-  return (
-    <div className='improve'>
-    <div className='improve-block'>
-    <div className='selected-parts'>
-      <OnePart name='sails' status={status[0]}
-        resource={sails} data={dataSails}
-        show={() => setStatus(elem => elem[0] ? [0,0,0,0] : [1,0,0,0])}
-        set={setSail} part={sail}/>
-      <OnePart name='gunport' status={status[1]}
-        resource={gunports} data={dataGunports}
-        show={() => setStatus(elem => elem[1] ? [0,0,0,0] : [0,1,0,0])}
-        set={setGunport} part={gunport}/>
-      <OnePart name='armament' status={status[2]}
-        resource={allArmaments} data={dataArmaments}
-        show={() => setStatus(elem => elem[2] ? [0,0,0,0] : [0,0,1,0])}
-        set={setArmament_1}  part={armament_1}/>
-      <OnePart name='armament' status={status[3]}
-        resource={allArmaments} data={dataArmaments}
-        show={() => setStatus(elem => elem[3] ? [0,0,0,0] : [0,0,0,1])}
-        set={setArmament_2} part={armament_2}/>
+  return <div className='improve'>
+    <ComponentTitle name='add improvement'/>
+    <div className='improve-section'>
+      <div className='selected-parts'>
+        <OnePart name='sails' status={status[0]}
+          resource={sails} data={dataSails}
+          show={() => setStatus(elem => elem[0] ? [0,0,0,0] : [1,0,0,0])}
+          set={setSail} part={sail}/>
+        <OnePart name='gunport' status={status[1]}
+          resource={gunports} data={dataGunports}
+          show={() => setStatus(elem => elem[1] ? [0,0,0,0] : [0,1,0,0])}
+          set={setGunport} part={gunport}/>
+        <OnePart name='armament' status={status[2]}
+          resource={allArmaments} data={dataArmaments}
+          show={() => setStatus(elem => elem[2] ? [0,0,0,0] : [0,0,1,0])}
+          set={setArmament_1}  part={armament_1}/>
+        <OnePart name='armament' status={status[3]}
+          resource={allArmaments} data={dataArmaments}
+          show={() => setStatus(elem => elem[3] ? [0,0,0,0] : [0,0,0,1])}
+          set={setArmament_2} part={armament_2}/>
+      </div>
+      <button className='improve-add-button button-agree'
+        onMouseEnter={() => SOUND_HOVER.play()}
+        onClick={() => {
+          dispatch({
+            type: IMPROVE_ADD,
+            payload: {active: true, sail, gunport, armament_1, armament_2}
+          });
+          AGREE_SOUND.play();
+        }}>
+      </button>
     </div>
     <ImproveStats step={
       { active: true, sail, gunport, armament_1, armament_2 }
     }/>
-    </div>
-      <button className='improve-add-button button-agree'
-      onMouseEnter={() => SOUND_HOVER.play()}
-      onClick={()=> {
-        dispatch({
-          type: IMPROVE_ADD,
-          payload: {active: true, sail, gunport, armament_1, armament_2}
-        });
-        AGREE_SOUND.play();
-      }}></button>
-    </div>
-  )
+  </div>;
 }
 
 export default Improve;
