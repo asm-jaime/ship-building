@@ -11,6 +11,10 @@ import {
   SHIP_CABINE_BASE_RANGE_SET,
   SHIP_CANNON_BASE_RANGE_SET,
   SHIP_HOLD_BASE_RANGE_SET,
+  IMPROVE_STEP_SET_SAIL,
+  IMPROVE_STEP_SET_GUNPORT,
+  IMPROVE_STEP_SET_ARMAMENT_1,
+  IMPROVE_STEP_SET_ARMAMENT_2,
   IMPROVE_ACTIVE_TOGGLE,
   IMPROVE_DEL,
   IMPROVE_ADD,
@@ -38,7 +42,6 @@ import {
 } from './StoreResolve.js';
 
 export const Store = React.createContext();
-
 
 const initialState = {
   ship: {
@@ -187,6 +190,12 @@ const initialState = {
   },
   message: 'nothing to report',
   searchResult: [],
+  improve_step: {
+    sail: SHIP_PART_EMPTY,
+    gunport: SHIP_PART_EMPTY,
+    armament_1: SHIP_PART_EMPTY,
+    armament_2: SHIP_PART_EMPTY
+  },
   improvements: [
     {
       active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
@@ -285,6 +294,24 @@ function shipbuilder(state, action) {
       const ship = calculate_penalty({...state.ship, hold_capacity: hold});
       return {...state, ship};
     }
+
+    case IMPROVE_STEP_SET_SAIL: {
+      const improve_step = {...state.improve_step, sail: action.payload};
+      return {...state, improve_step};
+    }
+    case IMPROVE_STEP_SET_GUNPORT: {
+      const improve_step = {...state.improve_step, gunport: action.payload};
+      return {...state, improve_step};
+    }
+    case IMPROVE_STEP_SET_ARMAMENT_1: {
+      const improve_step = {...state.improve_step, armament_1: action.payload};
+      return {...state, improve_step};
+    }
+    case IMPROVE_STEP_SET_ARMAMENT_2: {
+      const improve_step = {...state.improve_step, armament_2: action.payload};
+      return {...state, improve_step};
+    }
+
     case IMPROVE_ACTIVE_TOGGLE: {
       const improvements = state.improvements.map((improve, i) => (
         (i === action.payload)

@@ -18,7 +18,10 @@ import gunports from './resGunports';
 import panels from './resPanels';
 
 import {
-  SHIP_PART_EMPTY,
+  IMPROVE_STEP_SET_SAIL,
+  IMPROVE_STEP_SET_GUNPORT,
+  IMPROVE_STEP_SET_ARMAMENT_1,
+  IMPROVE_STEP_SET_ARMAMENT_2,
   IMPROVE_ADD,
   AGREE_SOUND,
   SOUND_HOVER,
@@ -28,10 +31,6 @@ const allArmaments = {...armaments, ...panels};
 
 const Improve = () => {
   const { state, dispatch } = React.useContext(Store);
-  const [sail, setSail] = React.useState(SHIP_PART_EMPTY);
-  const [gunport, setGunport] = React.useState(SHIP_PART_EMPTY);
-  const [armament_1, setArmament_1] = React.useState(SHIP_PART_EMPTY);
-  const [armament_2, setArmament_2] = React.useState(SHIP_PART_EMPTY);
 
   const [status, setStatus] = React.useState([0,0,0,0]);
 
@@ -46,33 +45,43 @@ const Improve = () => {
         <OnePart name='sails' status={status[0]}
           resource={sails} data={dataSails}
           show={() => setStatus(elem => elem[0] ? [0,0,0,0] : [1,0,0,0])}
-          set={setSail} part={sail}/>
+          set={sail => dispatch({type: IMPROVE_STEP_SET_SAIL, payload: sail})}
+          part={state.improve_step.sail}/>
         <OnePart name='gunport' status={status[1]}
           resource={gunports} data={dataGunports}
           show={() => setStatus(elem => elem[1] ? [0,0,0,0] : [0,1,0,0])}
-          set={setGunport} part={gunport}/>
+          set={gunport => dispatch({
+            type: IMPROVE_STEP_SET_GUNPORT, payload: gunport
+          })}
+          part={state.improve_step.gunport}/>
         <OnePart name='armament' status={status[2]}
           resource={allArmaments} data={dataArmaments}
           show={() => setStatus(elem => elem[2] ? [0,0,0,0] : [0,0,1,0])}
-          set={setArmament_1}  part={armament_1}/>
+          set={armament_1 => dispatch({
+            type: IMPROVE_STEP_SET_ARMAMENT_1, payload: armament_1
+          })}
+          part={state.improve_step.armament_1}/>
         <OnePart name='armament' status={status[3]}
           resource={allArmaments} data={dataArmaments}
           show={() => setStatus(elem => elem[3] ? [0,0,0,0] : [0,0,0,1])}
-          set={setArmament_2} part={armament_2}/>
+          set={armament_2 => dispatch({
+            type: IMPROVE_STEP_SET_ARMAMENT_2, payload: armament_2
+          })}
+          part={state.improve_step.armament_2}/>
       </div>
       <button className='improve-add-button button-agree'
         onMouseEnter={() => SOUND_HOVER.play()}
         onClick={() => {
           dispatch({
             type: IMPROVE_ADD,
-            payload: {active: true, sail, gunport, armament_1, armament_2}
+            payload: { active: true, ...state.improve_step }
           });
           AGREE_SOUND.play();
         }}>
       </button>
     </div>
     <ImproveStats step={
-      { active: true, sail, gunport, armament_1, armament_2 }
+      { active: true, ...state.improve_step }
     }/>
   </div>;
 }
