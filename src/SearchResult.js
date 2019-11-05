@@ -1,6 +1,6 @@
 import React from 'react';
 import './SearchResult.css';
-import { SHIP_SET, SOUND_CLICK } from './constants';
+import { SHIP_SET, SOUND_CLICK, ADD_RESET } from './constants';
 
 import { Store } from './Store';
 import ComponentTitle from './ComponentTitle';
@@ -14,6 +14,7 @@ const SearchResult = (props) => {
       <div className='result-ship' key={ship.name}
         onClick={() => {
           dispatch({type: SHIP_SET, payload: ship});
+          dispatch({type: ADD_RESET});
           SOUND_CLICK.play();
         }}>
         <img src={ship.img} alt={ship.id}/>

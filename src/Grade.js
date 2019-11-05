@@ -14,6 +14,9 @@ import resSkills from './resSkills';
 import resSkillsGrade from './resSkillsGrade';
 
 import {
+  GRADE_STEP_SET_TYPE,
+  GRADE_STEP_SET_SKILLS,
+  GRADE_RESET,
   GRADE_ADD,
   SKILL_EMPTY,
   GRADE_LIMIT,
@@ -34,11 +37,6 @@ import {
 
 const Grade = (props) => {
   const {state, dispatch } = React.useContext(Store);
-  const [gradeType, setGradeType] = React.useState('Generic Ship');
-
-  const [skills, setSkills] = React.useState(
-    {grade: SKILL_EMPTY, inherit: SKILL_EMPTY}
-  );
 
   const skillsData = get_inheritable_skills(
     state.ship, resSkills
@@ -57,11 +55,11 @@ const Grade = (props) => {
     <div className='grade-chose-group'>
       <div className='grade-first-group'>
         <select className='select-grade-type' title={GRADE_SELECT_INFO}
-          value={gradeType}
+          value={state.grade_step.type}
           onMouseDown={() => SOUND_CLICK.play()}
           onMouseUp={() => SOUND_CLICK.play()}
           onChange={event => {
-            setGradeType(event.target.value);
+            dispatch({type: GRADE_STEP_SET_TYPE, payload: event.target.value});
             SOUND_CLICK.play();
           }}>
           {GRADE_TYPES.map((e, i) =>
@@ -71,30 +69,39 @@ const Grade = (props) => {
       <div className='grade-bottom-group'>
       <div>G{state.grades.length}=>G{state.grades.length + 1}</div>
       <div className='skills-frame'>
-        <SkillsShow skill={skills.grade}
+        <SkillsShow skill={state.grade_step.skills.grade}
           data={skillsGradeData} resource={resSkillsGrade}
           status={GRADE_STAGES[state.grades.length]}
-          set={id => setSkills(ids => {
-            if(id === GRADE_MELEE_BATTLE_SHIP_REFIT) {
-              return {grade: id, inherit: SKILL_MELEE_BATTLE_SHIP_REFIT};
-            }
-            if(id === GRADE_ARMOURED_SHIP_REFIT) {
-              return {grade: id, inherit: SKILL_ARMOURED_SHIP_REFIT};
-            }
-            return {grade: id, inherit: SKILL_EMPTY};
-        })}/>
-        <SkillsShow skill={skills.inherit}
+          set={id => {
+            const payload = (() => {
+              if(id === GRADE_MELEE_BATTLE_SHIP_REFIT) {
+                return {grade: id, inherit: SKILL_MELEE_BATTLE_SHIP_REFIT};
+              }
+              if(id === GRADE_ARMOURED_SHIP_REFIT) {
+                return {grade: id, inherit: SKILL_ARMOURED_SHIP_REFIT};
+              }
+              return {grade: id, inherit: SKILL_EMPTY};
+            })();
+            dispatch({ type: GRADE_STEP_SET_SKILLS, payload });
+          }
+        }/>
+        <SkillsShow skill={state.grade_step.skills.inherit}
           data={skillsData} resource={resSkills}
-          status={skills.grade === GRADE_INHERIT? 1 : 0}
-          set={id => setSkills(ids => ({...ids, inherit: id}))}/>
+          status={state.grade_step.skills.grade === GRADE_INHERIT? 1 : 0}
+          set={id => dispatch({
+            type: GRADE_STEP_SET_SKILLS,
+            payload: {...state.grade_step.skills, inherit: id}
+          })}/>
       </div>
       </div>
     </div>
     <button className='grade-add-button button-agree' title={GRADE_ADD_BUTTON_INFO}
       onMouseEnter={() => SOUND_HOVER.play()}
       onClick={() => {
-        dispatch({type: GRADE_ADD, payload: {type: gradeType, skill: skills}});
-        setSkills({grade: SKILL_EMPTY, inherit: SKILL_EMPTY});
+        dispatch({type: GRADE_ADD, payload: {
+          type: state.grade_step.type, skills: {...state.grade_step.skills}
+        }});
+        dispatch({type: GRADE_RESET});
         AGREE_SOUND.play();
     }}></button>
     </div>

@@ -355,24 +355,24 @@ export const get_grade = (ship, grades) => {
 
   let optional_skill_grade = 0;
   for(let i = 0; i < grades.length; ++i) {
-    if(grades[i]['skill']['grade'] &&
-       grades[i]['skill']['grade'] !== SKILL_EMPTY
+    if(grades[i]['skills']['grade'] &&
+       grades[i]['skills']['grade'] !== SKILL_EMPTY
       ) {
-      result.push(grades[i]['skill']['grade']);
+      result.push(grades[i]['skills']['grade']);
     }
-    if(grades[i]['skill'].hasOwnProperty('inherit') &&
-       grades[i]['skill']['inherit'] !== SKILL_EMPTY
+    if(grades[i]['skills'].hasOwnProperty('inherit') &&
+       grades[i]['skills']['inherit'] !== SKILL_EMPTY
     ) {
-      inherit.push(grades[i]['skill']['inherit']);
+      inherit.push(grades[i]['skills']['inherit']);
     }
 
-    if(grades[i]['skill']['grade'] &&
-       grades[i]['skill']['grade'] === GRADE_SKILL_SLOT_I
+    if(grades[i]['skills']['grade'] &&
+       grades[i]['skills']['grade'] === GRADE_SKILL_SLOT_I
       ) {
       optional_skill_grade = 1;
     }
-    if(grades[i]['skill']['grade'] &&
-       grades[i]['skill']['grade'] === GRADE_SKILL_SLOT_II
+    if(grades[i]['skills']['grade'] &&
+       grades[i]['skills']['grade'] === GRADE_SKILL_SLOT_II
       ) {
       optional_skill_grade = 2;
     }

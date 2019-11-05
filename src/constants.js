@@ -24,6 +24,7 @@ export const SSIP = {
 export const GRADE_LIMIT = 8;
 export const GRADE_STAGES = [1, 0, 1, 0, 0, 1, 0, 0];
 
+export const GRADE_TYPE_DEFAULT = 'Generic Ship';
 export const GRADE_TYPES = [
   'Generic Ship',
   'Expedition Ship',
@@ -245,10 +246,18 @@ export const IMPROVE_STEP_SET_GUNPORT    = 'IMPROVE_STEP_SET_GUNPORT';
 export const IMPROVE_STEP_SET_ARMAMENT_1 = 'IMPROVE_STEP_SET_ARMAMENT_1';
 export const IMPROVE_STEP_SET_ARMAMENT_2 = 'IMPROVE_STEP_SET_ARMAMENT_2';
 
+export const ADD_RESET  = 'ADD_RESET';
+
 export const IMPROVE_ACTIVE_TOGGLE = 'IMPROVE_ACTIVE_TOGGLE';
 export const IMPROVE_DEL = 'IMPROVE_DEL';
 export const IMPROVE_ADD = 'IMPROVE_ADD';
 export const IMPROVE_CUSTOM_SET = 'IMPROVE_CUSTOM_SET';
+
+// ========== grade actions
+
+export const GRADE_RESET            = 'GRADE_RESET';
+export const GRADE_STEP_SET_TYPE    = 'GRADE_STEP_SET_TYPE';
+export const GRADE_STEP_SET_SKILLS  = 'GRADE_STEP_SET_SKILLS';
 
 export const GRADE_DEL = 'GRADE_DEL';
 export const GRADE_ADD = 'GRADE_ADD';

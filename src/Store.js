@@ -2,6 +2,7 @@ import React from 'react';
 import {
   MESSAGE_GRADE_SKILL_EMPTY,
   MESSAGE_INHERIT_SKILL_EMPTY,
+  GRADE_TYPE_DEFAULT,
   GRADE_STAGES,
   LVL_MIN,
   LVL_MAX,
@@ -11,6 +12,7 @@ import {
   SHIP_CABINE_BASE_RANGE_SET,
   SHIP_CANNON_BASE_RANGE_SET,
   SHIP_HOLD_BASE_RANGE_SET,
+  ADD_RESET,
   IMPROVE_STEP_SET_SAIL,
   IMPROVE_STEP_SET_GUNPORT,
   IMPROVE_STEP_SET_ARMAMENT_1,
@@ -19,6 +21,9 @@ import {
   IMPROVE_DEL,
   IMPROVE_ADD,
   IMPROVE_CUSTOM_SET,
+  GRADE_RESET,
+  GRADE_STEP_SET_TYPE,
+  GRADE_STEP_SET_SKILLS,
   GRADE_DEL,
   GRADE_ADD,
   RECALCULATE_ALL,
@@ -196,6 +201,10 @@ const initialState = {
     armament_1: SHIP_PART_EMPTY,
     armament_2: SHIP_PART_EMPTY
   },
+  grade_step: {
+    type: GRADE_TYPE_DEFAULT,
+    skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY}
+  },
   improvements: [
     {
       active: true, sail: '022000213', gunport: SHIP_PART_EMPTY,
@@ -236,13 +245,13 @@ const initialState = {
     }
   ],
   grades: [
-    { type: 'Battle Ship', skill: {grade: '00004021', inherit: '00002128'} },
-    { type: 'High Speed Battle Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
-    { type: 'Expedition Ship', skill: {grade: '00004012', inherit: SKILL_EMPTY} },
-    { type: 'High Speed Cargo Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
-    { type: 'Cargo Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
-    { type: 'Armed Merchant Ship', skill: {grade: '00004000', inherit: SKILL_EMPTY} },
-    { type: 'Generic Ship', skill: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
+    { type: 'Battle Ship', skills: {grade: '00004021', inherit: '00002128'} },
+    { type: 'High Speed Battle Ship', skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
+    { type: 'Expedition Ship', skills: {grade: '00004012', inherit: SKILL_EMPTY} },
+    { type: 'High Speed Cargo Ship', skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
+    { type: 'Cargo Ship', skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
+    { type: 'Armed Merchant Ship', skills: {grade: '00004000', inherit: SKILL_EMPTY} },
+    { type: 'Generic Ship', skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY} },
   ]
 };
 
@@ -311,6 +320,28 @@ function shipbuilder(state, action) {
       const improve_step = {...state.improve_step, armament_2: action.payload};
       return {...state, improve_step};
     }
+    case ADD_RESET: {
+      const improve_step = {
+        sail: SHIP_PART_EMPTY,
+        gunport: SHIP_PART_EMPTY,
+        armament_1: SHIP_PART_EMPTY,
+        armament_2: SHIP_PART_EMPTY,
+      };
+      const grade_step = {
+        type: GRADE_TYPE_DEFAULT,
+        skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY}
+      };
+
+      return {...state, improve_step, grade_step};
+    }
+    case GRADE_RESET: {
+      const grade_step = {
+        type: GRADE_TYPE_DEFAULT,
+        skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY}
+      };
+
+      return {...state, grade_step};
+    }
 
     case IMPROVE_ACTIVE_TOGGLE: {
       const improvements = state.improvements.map((improve, i) => (
@@ -361,6 +392,16 @@ function shipbuilder(state, action) {
       );
       return {...state, ship: {...ship, cargo}, improvements};
     }
+
+    case GRADE_STEP_SET_TYPE: {
+      const grade_step = {...state.grade_step, type: action.payload};
+      return {...state, grade_step};
+    }
+    case GRADE_STEP_SET_SKILLS: {
+      const grade_step = {...state.grade_step, skills: action.payload};
+      return {...state, grade_step};
+    }
+
     case GRADE_DEL: {
       const grades = state.grades.splice(0, action.payload);
       const ship_temp = get_grade(state.ship, grades);
@@ -368,12 +409,12 @@ function shipbuilder(state, action) {
       return {...state, ship, grades};
     }
     case GRADE_ADD: {
-      if(action.payload.skill.grade === SKILL_EMPTY &&
+      if(action.payload.skills.grade === SKILL_EMPTY &&
          GRADE_STAGES[state.grades.length]) {
         return {...state, message: MESSAGE_GRADE_SKILL_EMPTY};
       }
-      if(action.payload.skill.grade === GRADE_INHERIT &&
-         action.payload.skill.inherit === SKILL_EMPTY) {
+      if(action.payload.skills.grade === GRADE_INHERIT &&
+         action.payload.skills.inherit === SKILL_EMPTY) {
         return {...state, message: MESSAGE_INHERIT_SKILL_EMPTY};
       }
       const grades = [...state.grades, action.payload];
