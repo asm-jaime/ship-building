@@ -265,10 +265,15 @@ export const GRADE_ADD = 'GRADE_ADD';
 
 export const RECALCULATE_ALL  = 'RECALCULATE_ALL';
 
+// ========== panel original optional skills actions
+
+export const ORIGINAL_STEP_SET = 'ORIGINAL_STEP_SET';
+export const OPTIONAL_STEP_SET = 'OPTIONAL_STEP_SET';
 
 export const SKILL_ORIGINAL_SET = 'SKILL_ORIGINAL_SET';
 export const SKILL_OPTIONAL_SET = 'SKILL_OPTIONAL_SET';
 
+export const PANEL_STEP_SET = 'PANEL_STEP_SET';
 export const PANEL_SET = 'PANEL_SET';
 
 export const SKILL_EMPTY = '';

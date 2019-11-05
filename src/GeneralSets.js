@@ -8,9 +8,10 @@ import {
 } from './StoreResolve';
 
 import {
+  ORIGINAL_STEP_SET,
+  OPTIONAL_STEP_SET,
   SKILL_ORIGINAL_SET,
   SKILL_OPTIONAL_SET,
-  SKILL_EMPTY,
 } from './constants';
 
 import resSkills from './resSkills';
@@ -23,8 +24,6 @@ import ComponentTitle from './ComponentTitle';
 
 const GeneralSets = () => {
   const { state, dispatch } = React.useContext(Store);
-  const [skillOptional, setSkillOptional] = React.useState(SKILL_EMPTY);
-  const [skillOriginal, setSkillOriginal] = React.useState(SKILL_EMPTY);
 
   const skillsOptionalData = get_available_optional_skills(state.ship);
   const skillsOriginalData = get_available_original_skills(
@@ -35,23 +34,23 @@ const GeneralSets = () => {
     <ComponentTitle name='set a panel/hull/skill'/>
     <Tabs>
       <Panel name='panel'/>
-      <Skill skill={skillOptional} name='optional'
-        description={resSkills[skillOptional]['name']}
+      <Skill skill={state.optional_step} name='optional'
+        description={resSkills[state.optional_step]['name']}
         set={skill =>
           dispatch({ type: SKILL_OPTIONAL_SET, payload: skill })
       }>
-        <SkillsShow skill={skillOptional} status={1}
+        <SkillsShow skill={state.optional_step} status={1}
           data={skillsOptionalData} resource={resSkills}
-          set={id => setSkillOptional(id)}/>
+          set={id => dispatch({type: OPTIONAL_STEP_SET, payload: id})}/>
       </Skill>
-      <Skill skill={skillOriginal} name='original'
-        description={resSkills[skillOriginal]['name']}
+      <Skill skill={state.original_step} name='original'
+        description={resSkills[state.original_step]['name']}
         set={(skill) =>
           dispatch({ type: SKILL_ORIGINAL_SET, payload: skill })
       }>
-        <SkillsShow skill={skillOriginal} status={1}
+        <SkillsShow skill={state.original_step} status={1}
           data={skillsOriginalData} resource={resSkills}
-          set={id => setSkillOriginal(id)}/>
+          set={id => dispatch({type: ORIGINAL_STEP_SET, payload: id})}/>
       </Skill>
     </Tabs>
   </div>;

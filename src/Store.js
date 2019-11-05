@@ -27,7 +27,10 @@ import {
   GRADE_DEL,
   GRADE_ADD,
   RECALCULATE_ALL,
+  PANEL_STEP_SET,
   PANEL_SET,
+  ORIGINAL_STEP_SET,
+  OPTIONAL_STEP_SET,
   SKILL_ORIGINAL_SET,
   SKILL_OPTIONAL_SET,
   SKILL_EMPTY,
@@ -177,6 +180,9 @@ const initialState = {
   "grade_type_default": 'Battle Ship',
   "grade": {"rank": 3, "type": "Battle Ship", "skills": ["00004013", "00004018"]}
   },
+  panel_step: SHIP_PART_EMPTY,
+  original_step: SKILL_EMPTY,
+  optional_step: SKILL_EMPTY,
   search_params: {
     lvlAdvent: {from: LVL_MIN, to: LVL_MAX},
     lvlTrade: {from: LVL_MIN, to: LVL_MAX},
@@ -332,7 +338,14 @@ function shipbuilder(state, action) {
         skills: {grade: SKILL_EMPTY, inherit: SKILL_EMPTY}
       };
 
-      return {...state, improve_step, grade_step};
+      const panel_step    = SHIP_PART_EMPTY;
+      const original_step = SKILL_EMPTY;
+      const optional_step = SKILL_EMPTY;
+
+      return { ...state, panel_step,
+        original_step, optional_step,
+        improve_step, grade_step
+      };
     }
     case GRADE_RESET: {
       const grade_step = {
@@ -435,6 +448,14 @@ function shipbuilder(state, action) {
       }
 
     }
+
+    case ORIGINAL_STEP_SET: {
+      return {...state, original_step: action.payload};
+    }
+    case OPTIONAL_STEP_SET: {
+      return {...state, optional_step: action.payload};
+    }
+
     case SKILL_OPTIONAL_SET: {
       const skills = state.ship.skills.optional.set;
       if(action.payload === SKILL_EMPTY) {
@@ -487,6 +508,9 @@ function shipbuilder(state, action) {
           }
         }
       };
+    }
+    case PANEL_STEP_SET: {
+      return {...state, panel_step: action.payload};
     }
     case PANEL_SET: {
       const ship = get_paneling(state.ship, action.payload);

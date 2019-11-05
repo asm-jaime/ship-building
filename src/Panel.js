@@ -10,6 +10,7 @@ import { get_available_panels } from './StoreResolve';
 
 import {
   BEECH_PANELING,
+  PANEL_STEP_SET,
   PANEL_SET,
   SHIP_PART_EMPTY,
   SHIP_PART_EMPTY_NOTE,
@@ -19,14 +20,13 @@ import {
 
 const Panel = (props) => {
   const { state, dispatch } = React.useContext(Store);
-  const [panel, setPanel] = React.useState(SHIP_PART_EMPTY);
   const [status, setStatus] = React.useState(0);
 
   const getPanelName = () => {
-    if(panel === SHIP_PART_EMPTY) {
+    if(state.panel_step === SHIP_PART_EMPTY) {
       return SHIP_PART_EMPTY_NOTE;
     }
-    return panels[panel]['name'];
+    return panels[state.panel_step]['name'];
   };
 
   const dataPanels = get_available_panels(state.ship, panels);
@@ -37,14 +37,15 @@ const Panel = (props) => {
       <div className='panel-right-block'>
       <OnePart name='panel' status={status}
         show={() => setStatus(status => status ? 0 : 1)}
-        set={setPanel} resource={panels} data={dataPanels} part={panel}/>
+        set={panel => dispatch({type: PANEL_STEP_SET, payload: panel})}
+        resource={panels} data={dataPanels} part={state.panel_step}/>
       <button className='panel-set-button button-agree'
       onMouseEnter={() => SOUND_HOVER.play()}
       onClick={() => {
-        if(panel === SHIP_PART_EMPTY) {
+        if(state.panel_step === SHIP_PART_EMPTY) {
           dispatch({ type: PANEL_SET, payload: panels[BEECH_PANELING] });
         } else {
-          dispatch({ type: PANEL_SET, payload: panels[panel] });
+          dispatch({ type: PANEL_SET, payload: panels[state.panel_step] });
         }
         AGREE_SOUND.play();
       }}></button>
