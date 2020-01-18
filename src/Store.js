@@ -42,6 +42,8 @@ import {
   get_cargo,
   get_iranges,
   get_iaverages,
+  get_available_improves,
+  get_available_grades,
   apply_improves,
   get_grading,
   get_grade,
@@ -436,17 +438,15 @@ function shipbuilder(state, action) {
       return {...state, ship, grades};
     }
     case RECALCULATE_ALL: {
-      const improvements = state.improvements;
+      const improvements = get_available_improves(state.ship, state.improvements);
       const averages = get_iaverages(get_iranges(improvements));
       const ship_improved = apply_improves(state.ship, averages);
-
       {
-        const grades = state.grades;
+        const grades = get_available_grades(state.ship, state.grades);
         const ship_temp = get_grade(ship_improved, grades);
         const ship = get_grading(ship_temp, grades);
-        return {...state, ship};
+        return {...state, ship, improvements, grades};
       }
-
     }
 
     case ORIGINAL_STEP_SET: {

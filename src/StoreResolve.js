@@ -20,12 +20,14 @@ import {
   SKILL_RAMMING_TACTICS,
   SKILL_IMPROVED_SEA_MINE,
   SKILL_EVADE_MELEE_BATTLE,
+  GRADE_INHERIT,
   GRADE_SPEEDUP_I,
   GRADE_SPEEDUP_II,
   GRADE_SPEEDUP_III,
   GRADE_SKILL_SLOT_I,
   GRADE_SKILL_SLOT_II,
   GRADE_ROW_IMPROVE,
+  SKILL_DIRECT_HIT_PREVENTION,
   SHIP_TYPE_ADVENTURE,
   SHIP_TYPE_TRADE,
   SHIP_TYPE_BATTLE,
@@ -260,6 +262,48 @@ export const get_cannon_ranges = (cannons) => {
 
 // ========== improvement section
 
+export const get_available_improves = (ship, improvements) => {
+  const AllArmaments = {...Armaments, ...Panels};
+  return improvements.map(improve => {
+    if((improve['sail'] !== SHIP_PART_EMPTY &&
+        Sails[improve['sail']]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false) ||
+       (improve['gunport'] !== SHIP_PART_EMPTY &&
+        Gunports[improve['gunport']]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false) ||
+       (improve['armament_1'] !== SHIP_PART_EMPTY &&
+        (AllArmaments[improve['armament_1']]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false ||
+         ((AllArmaments[improve['armament_1']]['stats_ranges'][3][0] !== 0 ||
+           AllArmaments[improve['armament_1']]['stats_ranges'][3][1] !== 0) &&
+          (ship['row_power']['row'] === false)))) ||
+       (improve['armament_2'] !== SHIP_PART_EMPTY &&
+        (AllArmaments[improve['armament_2']]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false ||
+         ((AllArmaments[improve['armament_2']]['stats_ranges'][3][0] !== 0 ||
+           AllArmaments[improve['armament_2']]['stats_ranges'][3][1] !== 0) &&
+          (ship['row_power']['row'] === false))))
+    ) {
+      // if something wrong with any parts, return inactive improvement
+      return {...improve, active: false};
+    };
+    return {...improve, active: true};
+  });
+};
+
+export const get_available_grades = (ship, grades) => {
+  for(let i = 0; i < grades.length; ++i) {
+    if(grades[i]['skills']['grade'] === GRADE_ROW_IMPROVE &&
+       ship.row_power.row === false) {
+      return [];
+    }
+    if(grades[i]['skills']['grade'] === GRADE_INHERIT &&
+       (grades[i]['skills']['inherit'] === SKILL_ROWING_ASSISTANCE ||
+        grades[i]['skills']['inherit'] === SKILL_EVADE_MELEE_BATTLE ||
+        grades[i]['skills']['inherit'] === SKILL_DIRECT_HIT_PREVENTION)
+    ) {
+      return [];
+    }
+  }
+  return grades;
+}
+
 export const get_improve = (limit, improve) => (
   Math.sign(improve) * Math.min(Math.abs(improve), Math.abs(limit))
 );
@@ -407,15 +451,15 @@ export const get_grading = (ship, grade) => {
   };
 
   const grading = (property, name, pos) => {
-    const skill_improve = ship.grade.skills.filter(
-      e => (e === GRADE_IMPROVES[name])
-    );
-    const property_grade = skill_improve.length
-      ? GRADE_IMPROVE[skill_improve[0]][ship.grade_size]
-      : 0
-      + ship.grade.rank
-      ? GRADE_BONUS[ship.grade.type][ship.grade.rank - 1][pos]
-      : 0;
+    const skill_improve = ship.grade.skills.find(e => e === GRADE_IMPROVES[name]);
+
+    let property_grade = 0;
+    if(skill_improve !== undefined) {
+      property_grade = GRADE_IMPROVE[skill_improve][ship.grade_size - 1];
+    }
+    if(ship.grade.rank > 0) {
+      property_grade = property_grade + GRADE_BONUS[ship.grade.type][ship.grade.rank - 1][pos];
+    }
 
     const grade_limit = ship.grade.rank
         ? GRADE_LIMITS[name](ship.grade.rank)

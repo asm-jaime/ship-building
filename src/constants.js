@@ -35,12 +35,13 @@ export const GRADE_TYPES = [
   'High Speed Battle Ship'
 ];
 
-export const SKILL_ROWING_ASSISTANCE  = '00002002';
-export const SKILL_IMPROVED_RAM       = '00002080';
-export const SKILL_SPECIAL_RAM        = '00002081';
-export const SKILL_RAMMING_TACTICS    = '00002082';
-export const SKILL_IMPROVED_SEA_MINE  = '00002125';
-export const SKILL_EVADE_MELEE_BATTLE = '00002127';
+export const SKILL_ROWING_ASSISTANCE     = '00002002';
+export const SKILL_IMPROVED_RAM          = '00002080';
+export const SKILL_SPECIAL_RAM           = '00002081';
+export const SKILL_RAMMING_TACTICS       = '00002082';
+export const SKILL_IMPROVED_SEA_MINE     = '00002125';
+export const SKILL_EVADE_MELEE_BATTLE    = '00002127';
+export const SKILL_DIRECT_HIT_PREVENTION = '00002004';
 
 export const SKILL_ARMOURED_SHIP_REFIT     = '00002901';
 export const SKILL_MELEE_BATTLE_SHIP_REFIT = '00002902';
