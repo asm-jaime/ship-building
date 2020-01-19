@@ -2,6 +2,8 @@ import React from 'react';
 import {
   MESSAGE_GRADE_SKILL_EMPTY,
   MESSAGE_INHERIT_SKILL_EMPTY,
+  MESSAGE_STATE_SUCCESS_EXPORT,
+  MESSAGE_STATE_SUCCESS_IMPORT,
   GRADE_TYPE_DEFAULT,
   GRADE_STAGES,
   LVL_MIN,
@@ -12,6 +14,7 @@ import {
   SHIP_CABINE_BASE_RANGE_SET,
   SHIP_CANNON_BASE_RANGE_SET,
   SHIP_HOLD_BASE_RANGE_SET,
+  MESSAGE_ADD,
   ADD_RESET,
   IMPROVE_STEP_SET_SAIL,
   IMPROVE_STEP_SET_GUNPORT,
@@ -27,6 +30,8 @@ import {
   GRADE_DEL,
   GRADE_ADD,
   RECALCULATE_ALL,
+  STATE_IMPORT,
+  STATE_EXPORT,
   PANEL_STEP_SET,
   PANEL_SET,
   ORIGINAL_STEP_SET,
@@ -269,6 +274,16 @@ function shipbuilder(state, action) {
   console.log('ship: ', state.ship);
 
   switch (action.type) {
+    case MESSAGE_ADD: {
+      return {...state, message: action.payload};
+    }
+    case STATE_IMPORT: {
+      return {...action.payload, message: MESSAGE_STATE_SUCCESS_IMPORT};
+    }
+    case STATE_EXPORT: {
+      return {...state, message: MESSAGE_STATE_SUCCESS_EXPORT};
+    }
+
     case LVL_ADVENTURE_SET: {
       return {...state, edit_id: action.payload};
     }

@@ -240,6 +240,15 @@ export const DATA_LOAD = 'DATA_LOAD';
 export const IMPROVE_POSITIVE = '#96D677';
 export const IMPROVE_NEGATIVE = '#E88181';
 
+// ========== message actions
+
+export const MESSAGE_ADD = 'MESSAGE_ADD';
+
+// ========== import/export plan actions
+
+export const STATE_EXPORT = 'STATE_EXPORT';
+export const STATE_IMPORT = 'STATE_IMPORT';
+
 // ========== improvement actions
 
 export const IMPROVE_STEP_SET_SAIL       = 'IMPROVE_STEP_SET_SAIL';
@@ -371,6 +380,15 @@ export const DATA_RESOURCE = './resource.json';
 export const MESSAGE_GRADE_LIMIT = 'this ship already got the grade limit';
 export const MESSAGE_GRADE_SKILL_EMPTY = 'please, set a grade skill on this stage';
 export const MESSAGE_INHERIT_SKILL_EMPTY = 'please, set a inherit skill on this grade skill';
+
+export const MESSAGE_STATE_SUCCESS_EXPORT = 'export state is complete, now you can save your plan as an url to your bookmark';
+export const MESSAGE_STATE_SUCCESS_IMPORT = 'import state is successful complete';
+export const MESSAGE_STATE_FAIL_IMPORT = 'import failed, data from your url can not be imported';
+
+// =========== MENU TEXT
+
+export const MENU_TXT_IMPORT_BUTTON = 'Import';
+export const MENU_TXT_EXPORT_BUTTON = 'Get plan as a link';
 
 // =========== INFO
 

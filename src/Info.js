@@ -3,6 +3,7 @@ import './Info.css';
 
 import { Store } from './Store';
 import ComponentTitle from './ComponentTitle';
+import ExportState from './ExportState';
 
 const Info = () => {
   const { state } = React.useContext(Store);
@@ -12,6 +13,7 @@ const Info = () => {
     <div className='info'>
       <ComponentTitle name='info'/>
       <div className={warningSygnal}>{state.message}</div>
+      <ExportState/>
     </div>
   )
 }

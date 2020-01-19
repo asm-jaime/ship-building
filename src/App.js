@@ -13,12 +13,30 @@ import Improve from './Improve';
 import Info from './Info';
 
 import { Store } from './Store';
-import { RECALCULATE_ALL } from './constants';
+import {
+  RECALCULATE_ALL,
+  STATE_IMPORT,
+  MESSAGE_STATE_FAIL_IMPORT,
+  MESSAGE_ADD
+} from './constants';
 
 const App = () => {
   const { dispatch } = React.useContext(Store);
 
-  React.useEffect(() => dispatch({type: RECALCULATE_ALL}), [dispatch]);
+  React.useEffect(() => {
+    console.log(window.location.search);
+    if(window.location.search !== '') {
+      try {
+        const stateString = decodeURI(window.location.search).replace('?state=', '');
+        const stateJson = JSON.parse(stateString);
+        dispatch({type: STATE_IMPORT, payload: stateJson});
+      } catch(e) {
+        dispatch({type: MESSAGE_ADD, payload: MESSAGE_STATE_FAIL_IMPORT});
+      }
+    }
+
+    dispatch({type: RECALCULATE_ALL});
+  }, [dispatch]);
 
   return (
     <div className='App'>
