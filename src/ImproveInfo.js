@@ -77,7 +77,7 @@ const ImproveInfo = (props) => {
         title='optional skills'
       ></img>
       <div className='info-ship-number' title={IMPROVEMENTS_INFO}>
-      {state.improvements.length}/{ship.improvement.limit.current}
+      {state.improvements.length}/{ship.improvement.limit.base+ship.improvement.limit.add.limit}
       </div>
       {ship.skills.optional.set.map(skill => (
         <img key={skill.id} src={resSkills[skill.id]['img']} alt={skill.id}
