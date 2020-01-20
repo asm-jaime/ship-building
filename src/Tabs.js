@@ -27,14 +27,16 @@ const Tabs = (props) => {
     const res = Array
       .apply(null, {length: children.length})
       .map(e => 0);
+    //make one tab active at first
     res[0] = 1;
     return res;
   }
 
+  const newTabs = getStatusTabs(children);
   const [tabs, setTabs] = React.useState(getStatusTabs(children));
+
   const displays = ['none', 'block'];
   const current = ['normal', 'bold'];
-
 
   return <div className='tabs'>
     <div className='tab-buttons'>
@@ -43,7 +45,7 @@ const Tabs = (props) => {
         return (<button key={i}
           className='tab-button' style={{fontWeight: current[tabs[i]]}}
           onClick={() => {
-            setTabs(tabs.map((e, ti) => {
+            setTabs(newTabs.map((e, ti) => {
               SOUND_CLICK.play();
               if(ti === i) {
                 return 1;

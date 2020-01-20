@@ -561,6 +561,7 @@ export const get_available_armaments = (ship, resource) => {
     if(set[i] === SHIP_PART_EMPTY) {
       continue;
     }
+
     if(ship.row_power.row === false && (
        set[i] === GENERAL_LARGE_OAR ||
        set[i] === GENERAL_MEDIUM_OAR ||
@@ -570,6 +571,7 @@ export const get_available_armaments = (ship, resource) => {
     ) {
       continue;
     }
+
     if(resource[set[i]]['ship_sizes'][SHIP_SIZE_POS[ship.size]] === false) {
       continue;
     }
