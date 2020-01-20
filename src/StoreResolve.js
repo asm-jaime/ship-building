@@ -18,7 +18,6 @@ import {
   SKILL_IMPROVED_RAM,
   SKILL_SPECIAL_RAM,
   SKILL_RAMMING_TACTICS,
-  SKILL_IMPROVED_SEA_MINE,
   SKILL_EVADE_MELEE_BATTLE,
   GRADE_INHERIT,
   GRADE_SPEEDUP_I,
@@ -700,18 +699,13 @@ export const get_inheritable_skills = (ship, resource) => {
     if(set[i] === SKILL_EMPTY) {
       continue;
     }
-    if(resource[set[i]]['original'] === false) {
-      continue;
-    }
     if(ship.skills.optional.set.find(e => set[i] === e['id'])) {
-      continue;
-    }
-    if(ship.skills.inherit.find(e => set[i] === e['id'])) {
       continue;
     }
     if(set[i] === ship.skills.original) {
       continue;
     }
+
     if(ship.row_power.row === false && (
       set[i] === SKILL_ROWING_ASSISTANCE ||
       set[i] === SKILL_IMPROVED_RAM ||
@@ -720,7 +714,7 @@ export const get_inheritable_skills = (ship, resource) => {
     ) {
       continue;
     }
-    if(set[i] === SKILL_IMPROVED_SEA_MINE) {
+    if(set[i] === SKILL_DIRECT_HIT_PREVENTION) {
       continue;
     }
     if(set[i] === SKILL_EVADE_MELEE_BATTLE) {
