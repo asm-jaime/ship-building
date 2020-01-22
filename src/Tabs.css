@@ -4,6 +4,10 @@
 .tab-buttons{
   display: flex;
   flex-wrap: wrap;
+  width: 180px;
+  background-color: gainsboro;
+  border-style: solid;
+  border-color: gray;
 }
 .tab-buttons button:hover,
 .tab-buttons button.active{

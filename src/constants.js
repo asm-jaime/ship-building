@@ -388,7 +388,7 @@ export const MESSAGE_STATE_FAIL_IMPORT = 'import failed, data from your url can 
 // =========== MENU TEXT
 
 export const MENU_TXT_IMPORT_BUTTON = 'Import';
-export const MENU_TXT_EXPORT_BUTTON = 'Get plan as a link';
+export const MENU_TXT_EXPORT_BUTTON = 'save plan (adress bar)';
 
 // =========== INFO
 

@@ -10,18 +10,20 @@ const SearchResult = (props) => {
   return (
     <div className='search-result'>
     <ComponentTitle name='search result'/>
-    {state.searchResult.map(ship => (
-      <div className='result-ship' key={ship.name}
-        onClick={() => {
-          dispatch({type: SHIP_SET, payload: ship});
-          dispatch({type: ADD_RESET});
-          dispatch({type: RECALCULATE_ALL});
-          SOUND_CLICK.play();
-        }}>
-        <img src={ship.img} alt={ship.id}/>
-        <div className='result-ship-name'>{ship.name}</div>
-      </div>
-    ))}
+    <div className='search-result-ships'>
+      {state.searchResult.map(ship => (
+        <div className='result-ship' key={ship.name}
+          onClick={() => {
+            dispatch({type: SHIP_SET, payload: ship});
+            dispatch({type: ADD_RESET});
+            dispatch({type: RECALCULATE_ALL});
+            SOUND_CLICK.play();
+          }}>
+          <img src={ship.img} alt={ship.id}/>
+          <div className='result-ship-name'>{ship.name}</div>
+        </div>
+      ))}
+    </div>
     </div>
   )
 }

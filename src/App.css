@@ -1,12 +1,12 @@
 .App {
   text-align: center;
 
-  max-width: 960px;
+  max-width: 970px;
   margin: 0px auto;
   min-height: 100vh;
 
   display: grid;
-  grid-template-rows: minmax(100px, auto) minmax(48px, 120px) minmax(48px, 120px) minmax(50px, 120px);
+  /*grid-template-rows: minmax(100px, auto) minmax(48px, 120px) minmax(48px, 120px) minmax(50px, 120px);*/
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-column-gap: 2px;
   grid-row-gap: 2px;
@@ -18,7 +18,7 @@
 
 @media screen and (max-width: 960px){
   .App{
-  grid-template-rows: minmax(100px, auto) minmax(100px, 120px) minmax(48px, 120px) minmax(50px, auto);
+  /*grid-template-rows: minmax(100px, auto) minmax(100px, 120px) minmax(48px, 120px) minmax(50px, auto);*/
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: "search        ship-basic-info  improve-info"
                          "search-result improve      improve-status"
@@ -29,7 +29,7 @@
 
 @media screen and (max-width: 768px){
   .App{
-  grid-template-rows: minmax(100px, auto) minmax(100px, 300px) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, auto);
+  /*grid-template-rows: minmax(100px, auto) minmax(100px, 300px) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, auto);*/
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "search        improve-info"
                          "search-result ship-basic-info"
@@ -43,7 +43,7 @@
 @media screen and (max-width: 560px){
   .App{
   max-width: 260px;
-  grid-template-rows: minmax(100px, auto) minmax(100px, 300px) minmax(250px, auto) minmax(250px, auto) minmax(250px, auto) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, auto);
+  /*grid-template-rows: minmax(100px, auto) minmax(100px, 300px) minmax(250px, auto) minmax(250px, auto) minmax(250px, auto) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, 120px) minmax(48px, auto);*/
     grid-template-columns: 1fr;
     grid-template-areas: "search"
                          "search-result"

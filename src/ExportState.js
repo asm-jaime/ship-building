@@ -16,7 +16,9 @@ const ExportState = () => {
           window.history.replaceState({}, null, `?state=${JSON.stringify(state)}`);
           dispatch({type: STATE_EXPORT});
         }}
-      >{MENU_TXT_EXPORT_BUTTON}</button>
+      ><div>{MENU_TXT_EXPORT_BUTTON}</div>
+      <img className='icon-stat' src='./i_save_state.png' alt='save_state'></img>
+      </button>
     </div>
   )
 }

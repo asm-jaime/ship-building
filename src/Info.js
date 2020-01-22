@@ -13,7 +13,9 @@ const Info = () => {
     <div className='info'>
       <ComponentTitle name='info'/>
       <div className={warningSygnal}>{state.message}</div>
+      <div>
       <ExportState/>
+      </div>
     </div>
   )
 }

@@ -15,6 +15,11 @@
   min-width: 150px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
+  background-color: gainsboro;
+  border: solid;
+  border-color: gray;
+  max-height: calc(40vh - 100px);
+  overflow-y: auto;
 }
 .selected-part{
   display: flex;

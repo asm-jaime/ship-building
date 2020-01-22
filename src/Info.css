@@ -3,6 +3,7 @@
   background: white;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .info-title{

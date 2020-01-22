@@ -1,7 +1,14 @@
 .search-result{
   grid-area: search-result;
   background: white;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result-ships{
+  max-height: calc(100vh - 306px);
+  overflow-y: auto;
+  overflow-y: overlay;
 }
 
 .result-ship{

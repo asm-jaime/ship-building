@@ -10,32 +10,6 @@
   justify-content: flex-end;
 }
 
-.selected-parts{
-  display: flex;
-}
-
-.select-panel{
-  position: absolute;
-  min-width: 150px;
-}
-.select-item{
-  width: 24px;
-  height: 24px;
-}
-.select-area{
-  position: absolute;
-  min-width: 150px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(24px, 1fr));
-}
-.selected-part{
-  display: flex;
-  flex-direction: column;
-}
-.icon-part{
-  display: flex;
-}
-
 .improve-stats{
   display: flex;
   flex-direction: column;
