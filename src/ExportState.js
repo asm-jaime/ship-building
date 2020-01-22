@@ -13,7 +13,11 @@ const ExportState = () => {
     <div className='export-state'>
       <button className='button-export'
         onClick={() => {
-          window.history.replaceState({}, null, `?state=${JSON.stringify(state)}`);
+          const url = new URL(window.location.href);
+          url.searchParams.set('state', JSON.stringify(
+            {ship: state.ship, improvements: state.improvements, grades: state.grades}
+          ));
+          window.history.replaceState({}, null, url);
           dispatch({type: STATE_EXPORT});
         }}
       ><div>{MENU_TXT_EXPORT_BUTTON}</div>

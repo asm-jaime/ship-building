@@ -27,8 +27,8 @@ const App = () => {
     console.log(window.location.search);
     if(window.location.search !== '') {
       try {
-        const stateString = decodeURI(window.location.search).replace('?state=', '');
-        const stateJson = JSON.parse(stateString);
+        const stateValue = (new URLSearchParams(window.location.search)).get('state');
+        const stateJson = JSON.parse(decodeURI(stateValue));
         dispatch({type: STATE_IMPORT, payload: stateJson});
       } catch(e) {
         dispatch({type: MESSAGE_ADD, payload: MESSAGE_STATE_FAIL_IMPORT});

@@ -6,7 +6,7 @@
 }
 
 .search-result-ships{
-  max-height: calc(100vh - 306px);
+  max-height: calc(100vh - 330px);
   overflow-y: auto;
   overflow-y: overlay;
 }

@@ -278,7 +278,7 @@ function shipbuilder(state, action) {
       return {...state, message: action.payload};
     }
     case STATE_IMPORT: {
-      return {...action.payload, message: MESSAGE_STATE_SUCCESS_IMPORT};
+      return {...state, ...action.payload, message: MESSAGE_STATE_SUCCESS_IMPORT};
     }
     case STATE_EXPORT: {
       return {...state, message: MESSAGE_STATE_SUCCESS_EXPORT};
