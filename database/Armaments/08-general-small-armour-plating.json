@@ -3,7 +3,7 @@
   "img": "02200214.png",
   "name": "General Small Armour Plating",
   "nc": false,
-  "ship_sizes": [true, true, true],
+  "ship_sizes": [true, false, false],
   "stats_ranges": [
     [0, 0],
     [0, 0],

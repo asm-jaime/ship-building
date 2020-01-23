@@ -1,0 +1,20 @@
+{
+  "id": "0220007410",
+  "img": "02200074.png",
+  "name": "Custom Rope",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [20, 40],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 2],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": "A custom-made rope designed to be used for many purposes."
+}

@@ -2,7 +2,7 @@
   "id": "022000414",
   "img": "02200041.png",
   "name": "Augmented Mast",
-  "nc": false,
+  "nc": true,
   "ship_sizes": [true, true, true],
   "stats_ranges": [
     [0, 0],
@@ -16,5 +16,5 @@
     [0, 0],
     [0, 0]
   ],
-  "description": ""
+  "description": "A specially augmented mast. Greatly increases sail performance."
 }

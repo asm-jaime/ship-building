@@ -1,0 +1,20 @@
+{
+  "id": "0220005618",
+  "img": "02200056.png",
+  "name": "Improved Shipside Tank",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [2, 4],
+    [2, 4],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": "An improved tank which is attached to the side of the ship. Aids both security and balance."
+}

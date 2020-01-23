@@ -1,24 +1,4 @@
 module.exports = {
-  "022001020": {
-    "id": "022001020",
-    "img": "02200102.png",
-    "name": "Augmented Skysail",
-    "nc": true,
-    "ship_sizes": [true, true, true],
-    "stats_ranges": [
-      [0, 0],
-      [5, 15],
-      [15, 25],
-      [0, 0],
-      [1, 3],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
   "022000213": {
     "id": "022000213",
     "img": "02200021.png",
@@ -38,6 +18,26 @@ module.exports = {
       [0, 0]
     ],
     "description": ""
+  },
+  "0220002420": {
+    "id": "0220002420",
+    "img": "02200024.png",
+    "name": "Custom Bermuda Sail",
+    "nc": true,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [30, 40],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [1, 3],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": " custom fore-and-aft sail. The foot of the sail is attached to the deck."
   },
   "022000335": {
     "id": "022000335",
@@ -79,12 +79,352 @@ module.exports = {
     ],
     "description": ""
   },
+  "022000334": {
+    "id": "022000334",
+    "img": "02200033.png",
+    "name": "Special Storm Sail",
+    "nc": true,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [25, 35],
+      [0, 0],
+      [0, 0],
+      [2, 4],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000270": {
+    "id": "022000270",
+    "img": "02200027.png",
+    "name": "Special Lug Sail",
+    "nc": true,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [35, 45],
+      [5, 15],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": "Custom-made trapezoid sail to be attached to a yard. Can propel a ship more effectively."
+  },
+  "022001020": {
+    "id": "022001020",
+    "img": "02200102.png",
+    "name": "Augmented Skysail",
+    "nc": true,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [5, 15],
+      [15, 25],
+      [0, 0],
+      [1, 3],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000212": {
+    "id": "022000212",
+    "img": "02200021.png",
+    "name": "Large Gaff Sail",
+    "nc": false,
+    "ship_sizes": [false, false, true],
+    "stats_ranges": [
+      [0, 0],
+      [25, 35],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000211": {
+    "id": "022000211",
+    "img": "02200021.png",
+    "name": "Medium Gaff Sail",
+    "nc": false,
+    "ship_sizes": [false, true, false],
+    "stats_ranges": [
+      [0, 0],
+      [15, 25],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000210": {
+    "id": "022000210",
+    "img": "02200021.png",
+    "name": "Small Gaff Sail",
+    "nc": false,
+    "ship_sizes": [true, false, false],
+    "stats_ranges": [
+      [0, 0],
+      [5, 15],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000242": {
+    "id": "022000242",
+    "img": "02200024.png",
+    "name": "Large Latin Sail",
+    "nc": false,
+    "ship_sizes": [false, false, true],
+    "stats_ranges": [
+      [0, 0],
+      [40, 50],
+      [-10, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000241": {
+    "id": "022000241",
+    "img": "02200024.png",
+    "name": "Medium Latin Sail",
+    "nc": false,
+    "ship_sizes": [false, true, false],
+    "stats_ranges": [
+      [0, 0],
+      [25, 35],
+      [-10, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000240": {
+    "id": "022000240",
+    "img": "02200024.png",
+    "name": "Small Latin Sail",
+    "nc": false,
+    "ship_sizes": [true, false, false],
+    "stats_ranges": [
+      [0, 0],
+      [10, 20],
+      [-10, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000302": {
+    "id": "022000302",
+    "img": "02200030.png",
+    "name": "Large Square Sail",
+    "nc": false,
+    "ship_sizes": [false, false, true],
+    "stats_ranges": [
+      [0, 0],
+      [-10, 0],
+      [40, 50],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000301": {
+    "id": "022000301",
+    "img": "02200030.png",
+    "name": "Medium Square Sail",
+    "nc": false,
+    "ship_sizes": [false, true, false],
+    "stats_ranges": [
+      [0, 0],
+      [-10, 0],
+      [25, 35],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000300": {
+    "id": "022000300",
+    "img": "02200030.png",
+    "name": "Small Square Sail",
+    "nc": false,
+    "ship_sizes": [true, false, false],
+    "stats_ranges": [
+      [0, 0],
+      [-10, 0],
+      [10, 20],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000332": {
+    "id": "022000332",
+    "img": "02200033.png",
+    "name": "Large Storm Sail",
+    "nc": false,
+    "ship_sizes": [false, false, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [15, 25],
+      [0, 0],
+      [0, 0],
+      [3, 5],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000331": {
+    "id": "022000331",
+    "img": "02200033.png",
+    "name": "Medium Storm Sail",
+    "nc": false,
+    "ship_sizes": [false, true, false],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [10, 20],
+      [0, 0],
+      [0, 0],
+      [2, 4],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000330": {
+    "id": "022000330",
+    "img": "02200033.png",
+    "name": "Small Storm Sail",
+    "nc": false,
+    "ship_sizes": [true, false, false],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [5, 15],
+      [0, 0],
+      [0, 0],
+      [1, 3],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
   "022000245": {
     "id": "022000245",
     "img": "02200024.png",
     "name": "General Large Latin Sail",
     "nc": false,
     "ship_sizes": [false, false, true],
+    "stats_ranges": [
+      [0, 0],
+      [5, 15],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000244": {
+    "id": "022000244",
+    "img": "02200024.png",
+    "name": "General Medium Latin Sail",
+    "nc": false,
+    "ship_sizes": [false, true, false],
+    "stats_ranges": [
+      [0, 0],
+      [5, 15],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000243": {
+    "id": "022000243",
+    "img": "02200024.png",
+    "name": "General Small Latin Sail",
+    "nc": false,
+    "ship_sizes": [true, false, false],
     "stats_ranges": [
       [0, 0],
       [5, 15],
@@ -119,26 +459,6 @@ module.exports = {
     ],
     "description": ""
   },
-  "022000244": {
-    "id": "022000244",
-    "img": "02200024.png",
-    "name": "General Medium Latin Sail",
-    "nc": false,
-    "ship_sizes": [false, true, false],
-    "stats_ranges": [
-      [0, 0],
-      [5, 15],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
   "022000304": {
     "id": "022000304",
     "img": "02200030.png",
@@ -149,26 +469,6 @@ module.exports = {
       [0, 0],
       [0, 0],
       [5, 15],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000243": {
-    "id": "022000243",
-    "img": "02200024.png",
-    "name": "General Small Latin Sail",
-    "nc": false,
-    "ship_sizes": [true, false, false],
-    "stats_ranges": [
-      [0, 0],
-      [5, 15],
-      [0, 0],
       [0, 0],
       [0, 0],
       [0, 0],
@@ -199,26 +499,6 @@ module.exports = {
     ],
     "description": ""
   },
-  "022000212": {
-    "id": "022000212",
-    "img": "02200021.png",
-    "name": "Large Gaff Sail",
-    "nc": false,
-    "ship_sizes": [false, false, true],
-    "stats_ranges": [
-      [0, 0],
-      [25, 35],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
   "022002102": {
     "id": "022002102",
     "img": "02200210.png",
@@ -239,146 +519,6 @@ module.exports = {
     ],
     "description": ""
   },
-  "022000242": {
-    "id": "022000242",
-    "img": "02200024.png",
-    "name": "Large Latin Sail",
-    "nc": false,
-    "ship_sizes": [false, false, true],
-    "stats_ranges": [
-      [0, 0],
-      [40, 50],
-      [-10, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000302": {
-    "id": "022000302",
-    "img": "02200030.png",
-    "name": "Large Square Sail",
-    "nc": false,
-    "ship_sizes": [false, false, true],
-    "stats_ranges": [
-      [0, 0],
-      [-10, 0],
-      [40, 50],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000332": {
-    "id": "022000332",
-    "img": "02200033.png",
-    "name": "Large Storm Sail",
-    "nc": false,
-    "ship_sizes": [false, false, true],
-    "stats_ranges": [
-      [0, 0],
-      [0, 0],
-      [15, 25],
-      [0, 0],
-      [0, 0],
-      [3, 5],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000211": {
-    "id": "022000211",
-    "img": "02200021.png",
-    "name": "Medium Gaff Sail",
-    "nc": false,
-    "ship_sizes": [false, true, false],
-    "stats_ranges": [
-      [0, 0],
-      [15, 25],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000241": {
-    "id": "022000241",
-    "img": "02200024.png",
-    "name": "Medium Latin Sail",
-    "nc": false,
-    "ship_sizes": [false, true, false],
-    "stats_ranges": [
-      [0, 0],
-      [25, 35],
-      [-10, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000301": {
-    "id": "022000301",
-    "img": "02200030.png",
-    "name": "Medium Square Sail",
-    "nc": false,
-    "ship_sizes": [false, true, false],
-    "stats_ranges": [
-      [0, 0],
-      [-10, 0],
-      [25, 35],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000331": {
-    "id": "022000331",
-    "img": "02200033.png",
-    "name": "Medium Storm Sail",
-    "nc": false,
-    "ship_sizes": [false, true, false],
-    "stats_ranges": [
-      [0, 0],
-      [0, 0],
-      [10, 20],
-      [0, 0],
-      [0, 0],
-      [2, 4],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
   "022002101": {
     "id": "022002101",
     "img": "02200210.png",
@@ -388,46 +528,6 @@ module.exports = {
     "stats_ranges": [
       [0, 0],
       [15, 25],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "": {
-    "id": "",
-    "img": "ship_part_empty.png",
-    "name": "Empty Part",
-    "nc": false,
-    "ship_sizes": [true, true, true],
-    "stats_ranges": [
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": "no sail here"
-  },
-  "022000210": {
-    "id": "022000210",
-    "img": "02200021.png",
-    "name": "Small Gaff Sail",
-    "nc": false,
-    "ship_sizes": [true, false, false],
-    "stats_ranges": [
-      [0, 0],
-      [5, 15],
       [0, 0],
       [0, 0],
       [0, 0],
@@ -459,84 +559,24 @@ module.exports = {
     ],
     "description": ""
   },
-  "022000240": {
-    "id": "022000240",
-    "img": "02200024.png",
-    "name": "Small Latin Sail",
+  "": {
+    "id": "",
+    "img": "ship_part_empty.png",
+    "name": "Empty Part",
     "nc": false,
-    "ship_sizes": [true, false, false],
-    "stats_ranges": [
-      [0, 0],
-      [10, 20],
-      [-10, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000300": {
-    "id": "022000300",
-    "img": "02200030.png",
-    "name": "Small Square Sail",
-    "nc": false,
-    "ship_sizes": [true, false, false],
-    "stats_ranges": [
-      [0, 0],
-      [-10, 0],
-      [10, 20],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000330": {
-    "id": "022000330",
-    "img": "02200033.png",
-    "name": "Small Storm Sail",
-    "nc": false,
-    "ship_sizes": [true, false, false],
-    "stats_ranges": [
-      [0, 0],
-      [0, 0],
-      [5, 15],
-      [0, 0],
-      [0, 0],
-      [1, 3],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0]
-    ],
-    "description": ""
-  },
-  "022000334": {
-    "id": "022000334",
-    "img": "02200033.png",
-    "name": "Special Storm Sail",
-    "nc": true,
     "ship_sizes": [true, true, true],
     "stats_ranges": [
       [0, 0],
       [0, 0],
-      [25, 35],
       [0, 0],
       [0, 0],
-      [2, 4],
+      [0, 0],
+      [0, 0],
       [0, 0],
       [0, 0],
       [0, 0],
       [0, 0]
     ],
-    "description": ""
+    "description": "no sail here"
   }
 };

@@ -19,6 +19,46 @@ module.exports = {
     ],
     "description": ""
   },
+  "022000518": {
+    "id": "022000518",
+    "img": "02200051.png",
+    "name": "Custom Improved Gunport",
+    "nc": true,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [10, 30],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [8, 12],
+      [0, 0]
+    ],
+    "description": "An Improved custom-made gunport used to point the muzzle outboard"
+  },
+  "022000517": {
+    "id": "022000517",
+    "img": "02200051.png",
+    "name": "Special Improved Gunport",
+    "nc": true,
+    "ship_sizes": [true, true, true],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [10, 14],
+      [0, 0]
+    ],
+    "description": "A greatly improved custom-made gunport for cannon barrells to point outboard."
+  },
   "022000516": {
     "id": "022000516",
     "img": "02200051.png",
@@ -99,26 +139,6 @@ module.exports = {
     ],
     "description": ""
   },
-  "022000510": {
-    "id": "022000510",
-    "img": "02200051.png",
-    "name": "Modified Light Gun Port",
-    "nc": false,
-    "ship_sizes": [true, false, false],
-    "stats_ranges": [
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [0, 0],
-      [2, 6],
-      [0, 0]
-    ],
-    "description": ""
-  },
   "022000511": {
     "id": "022000511",
     "img": "02200051.png",
@@ -135,6 +155,26 @@ module.exports = {
       [0, 0],
       [0, 0],
       [4, 8],
+      [0, 0]
+    ],
+    "description": ""
+  },
+  "022000510": {
+    "id": "022000510",
+    "img": "02200051.png",
+    "name": "Modified Light Gun Port",
+    "nc": false,
+    "ship_sizes": [true, false, false],
+    "stats_ranges": [
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [0, 0],
+      [2, 6],
       [0, 0]
     ],
     "description": ""

@@ -1,0 +1,20 @@
+{
+  "id": "0220005617",
+  "img": "02200056.png",
+  "name": "Augmented Expanded Ship Hold",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [10, 14]
+  ],
+  "description": "A ship hold which provides further expansion. It increases the capacity of the hold, which is effective in reducing any damage from severe shaking."
+}

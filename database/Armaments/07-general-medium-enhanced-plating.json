@@ -1,0 +1,20 @@
+{
+  "id": "022020061",
+  "img": "02202006.png",
+  "name": "General Medium Enhanced Plating",
+  "nc": false,
+  "ship_sizes": [false, true, false],
+  "stats_ranges": [
+    [10, 30],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": "Standard wood plating to improve durability and strengthen hull."
+}

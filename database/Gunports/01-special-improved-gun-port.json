@@ -1,0 +1,20 @@
+{
+  "id": "022000517",
+  "img": "02200051.png",
+  "name": "Special Improved Gunport",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [10, 14],
+    [0, 0]
+  ],
+  "description": "A greatly improved custom-made gunport for cannon barrells to point outboard."
+}

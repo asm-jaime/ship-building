@@ -1,0 +1,20 @@
+{
+  "id": "022001400",
+  "img": "02200140.png",
+  "name": "Planetary Gear Mechanism",
+  "nc": false,
+  "ship_sizes": [false, false, true],
+  "stats_ranges": [
+    [0, 0],
+    [5, 15],
+    [5, 15],
+    [0, 0],
+    [1, 3],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": "A special component used for making a steam engine. Composed of a sun gear and an outer gear."
+}

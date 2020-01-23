@@ -60,7 +60,10 @@ const make_index_resources = (resources) => {
       `module.exports = ${JSON.stringify(result[i][resources[i]])};`,
       'utf8',
       () => {
-        spawn('js-beautify', [ '-r', `../src/res${resources[i]}.js` ]);
+        spawn(
+          '../node_modules/js-beautify/js/bin/js-beautify.js',
+          [ '-r', `../src/res${resources[i]}.js` ]
+        );
         console.log(`>>build res${resources[i]}.js has been completed`);
       }
     );

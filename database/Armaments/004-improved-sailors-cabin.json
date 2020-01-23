@@ -1,0 +1,20 @@
+{
+  "id": "0220005619",
+  "img": "02200056.png",
+  "name": "Improved Sailor's Cabin",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 2],
+    [2, 6],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": "A cabin for sailors. The armouring is improved as protection against attacks."
+}

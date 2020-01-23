@@ -1,0 +1,20 @@
+{
+  "id": "0220005616",
+  "img": "02200056.png",
+  "name": "Augmented Expanded Soldier's Cabin",
+  "nc": true,
+  "ship_sizes": [true, true, true],
+  "stats_ranges": [
+    [20, 40],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [0, 0],
+    [6, 10],
+    [0, 0],
+    [0, 0]
+  ],
+  "description": " A cabin for the soldiers. It is built for battle, combining functionality and strength."
+}
