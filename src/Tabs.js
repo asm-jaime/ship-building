@@ -33,32 +33,27 @@ const Tabs = (props) => {
   }
 
   const newTabs = getStatusTabs(children);
-  const [tabs, setTabs] = React.useState(getStatusTabs(children));
+  const [tabs, setTabs] = React.useState([1,0,0,0,0,0,0,0,0,0,0]);
 
   const displays = ['none', 'block'];
   const current = ['normal', 'bold'];
 
   return <div className='tabs'>
     <div className='tab-buttons'>
-    {children.map((child, i) => {
+      {children.map((child, i) => {
         const name = child.props.name;
         return (<button key={i}
           className='tab-button' style={{fontWeight: current[tabs[i]]}}
           onClick={() => {
-            setTabs(newTabs.map((e, ti) => {
-              SOUND_CLICK.play();
-              if(ti === i) {
-                return 1;
-              } else {
-                return 0;
-              }
-          }));
+            SOUND_CLICK.play();
+            const tempTabs = newTabs.map(e => 0);
+            tempTabs[i] = 1;
+            setTabs(tempTabs);
         }}>{name}</button>)
-      })
-    }
+      })}
     </div>
     {children.map((child, i) =>
-      <div key={i} style={{display: displays[tabs[i]]}}>
+      <div key={i} style={{display: displays[tabs[i]? 1 : 0]}}>
         {child}
       </div>)
     }
