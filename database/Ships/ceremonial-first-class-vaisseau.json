@@ -1,7 +1,7 @@
 {
-  "id": "",
+  "id": "50000613",
   "img": "00000192.png",
-  "href": "",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000613",
   "name": "Ceremonial First Class Vaisseau",
   "size": "Heavy",
   "purpose": "Battle",
@@ -191,11 +191,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 535,
+    "base": 780,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 535,
+    "base_ranged": 780,
     "improve_limit": {
       "base": 41,
       "grade": 0,

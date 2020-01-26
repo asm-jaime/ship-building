@@ -180,11 +180,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 124,
+      "base": 150,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 124,
+      "base_ranged": 150,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -388,11 +388,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 217,
+      "base": 270,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 217,
+      "base_ranged": 270,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -599,11 +599,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 109,
+      "base": 130,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 109,
+      "base_ranged": 130,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -813,11 +813,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 162,
+      "base": 200,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 162,
+      "base_ranged": 200,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -1027,11 +1027,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 322,
+      "base": 420,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 322,
+      "base_ranged": 420,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -1238,11 +1238,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 350,
+      "base": 450,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 350,
+      "base_ranged": 450,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -1449,11 +1449,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 286,
+      "base": 360,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 286,
+      "base_ranged": 360,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -1666,11 +1666,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 419,
+      "base": 540,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 419,
+      "base_ranged": 540,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -1883,11 +1883,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 492,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 492,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -2094,11 +2094,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 190,
+      "base": 240,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 190,
+      "base_ranged": 240,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -2305,11 +2305,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 302,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 302,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -2519,11 +2519,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 256,
+      "base": 310,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 256,
+      "base_ranged": 310,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -2736,11 +2736,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 522,
+      "base": 630,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 522,
+      "base_ranged": 630,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -2950,11 +2950,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 583,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 583,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -3164,11 +3164,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 253,
+      "base": 320,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 253,
+      "base_ranged": 320,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -3390,11 +3390,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 325,
+      "base": 460,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 325,
+      "base_ranged": 460,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -3610,11 +3610,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 500,
+      "base": 680,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 500,
+      "base_ranged": 680,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -3836,11 +3836,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 296,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 296,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -4062,11 +4062,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 390,
+      "base": 530,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 390,
+      "base_ranged": 530,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -4285,11 +4285,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 408,
+      "base": 490,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 408,
+      "base_ranged": 490,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -4505,11 +4505,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 506,
+      "base": 560,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 506,
+      "base_ranged": 560,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -4725,11 +4725,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 652,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 652,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -4936,11 +4936,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 147,
+      "base": 180,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 147,
+      "base_ranged": 180,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -5150,11 +5150,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 350,
+      "base": 400,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 350,
+      "base_ranged": 400,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -5364,11 +5364,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 460,
+      "base": 540,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 460,
+      "base_ranged": 540,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -5575,11 +5575,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 150,
+      "base": 200,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 150,
+      "base_ranged": 200,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -5789,11 +5789,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 296,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 296,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -6006,11 +6006,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 427,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 427,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -6229,11 +6229,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 628,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 628,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -6446,11 +6446,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 192,
+      "base": 230,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 192,
+      "base_ranged": 230,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -6663,11 +6663,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 132,
+      "base": 180,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 132,
+      "base_ranged": 180,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -6877,11 +6877,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 311,
+      "base": 420,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 311,
+      "base_ranged": 420,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -7091,11 +7091,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 322,
+      "base": 400,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 322,
+      "base_ranged": 400,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -7302,11 +7302,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 243,
+      "base": 340,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 243,
+      "base_ranged": 340,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -7522,11 +7522,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 458,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 458,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -7733,11 +7733,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 257,
+      "base": 360,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 257,
+      "base_ranged": 360,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -7947,11 +7947,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 284,
+      "base": 330,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 284,
+      "base_ranged": 330,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -8164,11 +8164,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 580,
+      "base": 680,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 580,
+      "base_ranged": 680,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -8381,11 +8381,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 478,
+      "base": 610,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 478,
+      "base_ranged": 610,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -8598,11 +8598,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 408,
+      "base": 600,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 408,
+      "base_ranged": 600,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -8815,11 +8815,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 584,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 584,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -9032,11 +9032,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 720,
+      "base": 800,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 720,
+      "base_ranged": 800,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -9240,11 +9240,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 57,
+      "base": 65,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 57,
+      "base_ranged": 65,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -9448,11 +9448,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 44,
+      "base": 55,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 44,
+      "base_ranged": 55,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -9659,11 +9659,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 53,
+      "base": 60,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 53,
+      "base_ranged": 60,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -9867,11 +9867,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 54,
+      "base": 70,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 54,
+      "base_ranged": 70,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -10078,11 +10078,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 97,
+      "base": 120,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 97,
+      "base_ranged": 120,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -10289,11 +10289,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 180,
+      "base": 220,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 180,
+      "base_ranged": 220,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -10503,11 +10503,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 210,
+      "base": 250,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 210,
+      "base_ranged": 250,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -10711,11 +10711,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 202,
+      "base": 250,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 202,
+      "base_ranged": 250,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -10922,11 +10922,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 178,
+      "base": 210,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 178,
+      "base_ranged": 210,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -11133,11 +11133,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 130,
+      "base": 170,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 130,
+      "base_ranged": 170,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -11344,11 +11344,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 226,
+      "base": 270,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 226,
+      "base_ranged": 270,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -11555,11 +11555,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 164,
+      "base": 220,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 164,
+      "base_ranged": 220,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -11769,11 +11769,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 240,
+      "base": 280,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 240,
+      "base_ranged": 280,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -11983,11 +11983,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 284,
+      "base": 320,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 284,
+      "base_ranged": 320,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -12197,11 +12197,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 210,
+      "base": 260,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 210,
+      "base_ranged": 260,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -12411,11 +12411,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 344,
+      "base": 430,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 344,
+      "base_ranged": 430,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -12625,11 +12625,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 261,
+      "base": 360,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 261,
+      "base_ranged": 360,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -12839,11 +12839,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 326,
+      "base": 370,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 326,
+      "base_ranged": 370,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -13050,11 +13050,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 342,
+      "base": 420,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 342,
+      "base_ranged": 420,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -13264,11 +13264,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 390,
+      "base": 440,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 390,
+      "base_ranged": 440,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -13481,11 +13481,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 322,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 322,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -13698,11 +13698,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 518,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 518,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -13912,11 +13912,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 506,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 506,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -14129,11 +14129,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 423,
+      "base": 520,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 423,
+      "base_ranged": 520,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -14346,11 +14346,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 614,
+      "base": 770,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 614,
+      "base_ranged": 770,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -14566,11 +14566,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 675,
+      "base": 830,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 675,
+      "base_ranged": 830,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -14774,11 +14774,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 119,
+      "base": 140,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 119,
+      "base_ranged": 140,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -14985,11 +14985,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 316,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 316,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -15196,11 +15196,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 255,
+      "base": 350,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 255,
+      "base_ranged": 350,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -15407,11 +15407,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 396,
+      "base": 570,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 396,
+      "base_ranged": 570,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -15618,11 +15618,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 439,
+      "base": 600,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 439,
+      "base_ranged": 600,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -15832,11 +15832,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 430,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 430,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -16055,11 +16055,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 620,
+      "base": 860,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 620,
+      "base_ranged": 860,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -16263,11 +16263,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 111,
+      "base": 135,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 111,
+      "base_ranged": 135,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -16477,11 +16477,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 340,
+      "base": 440,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 340,
+      "base_ranged": 440,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -16691,11 +16691,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 378,
+      "base": 470,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 378,
+      "base_ranged": 470,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -16905,11 +16905,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 309,
+      "base": 430,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 309,
+      "base_ranged": 430,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -17122,11 +17122,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 456,
+      "base": 560,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 456,
+      "base_ranged": 560,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -17339,11 +17339,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 454,
+      "base": 590,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 454,
+      "base_ranged": 590,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -17556,11 +17556,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 492,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 492,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -17773,11 +17773,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 479,
+      "base": 545,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 479,
+      "base_ranged": 545,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -17990,11 +17990,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 504,
+      "base": 590,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 504,
+      "base_ranged": 590,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -18204,11 +18204,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 430,
+      "base": 540,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 430,
+      "base_ranged": 540,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -18418,11 +18418,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 579,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 579,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -18632,11 +18632,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 637,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 637,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -18846,11 +18846,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 470,
+      "base": 690,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 470,
+      "base_ranged": 690,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -19060,11 +19060,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 500,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 500,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -19274,11 +19274,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 692,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 692,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -19491,11 +19491,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 690,
+      "base": 810,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 690,
+      "base_ranged": 810,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -19705,11 +19705,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 607,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 607,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -19919,11 +19919,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 628,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 628,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -20133,11 +20133,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 402,
+      "base": 510,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 402,
+      "base_ranged": 510,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -20347,11 +20347,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 201,
+      "base": 235,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 201,
+      "base_ranged": 235,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -20561,11 +20561,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 184,
+      "base": 230,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 184,
+      "base_ranged": 230,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -20775,11 +20775,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 186,
+      "base": 230,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 186,
+      "base_ranged": 230,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -20989,11 +20989,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 204,
+      "base": 240,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 204,
+      "base_ranged": 240,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -21203,11 +21203,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 183,
+      "base": 225,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 183,
+      "base_ranged": 225,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -21420,11 +21420,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 171,
+      "base": 220,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 171,
+      "base_ranged": 220,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -21637,11 +21637,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 161,
+      "base": 210,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 161,
+      "base_ranged": 210,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -21854,11 +21854,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 141,
+      "base": 205,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 141,
+      "base_ranged": 205,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -22068,11 +22068,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 256,
+      "base": 300,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 256,
+      "base_ranged": 300,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -22282,11 +22282,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 283,
+      "base": 325,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 283,
+      "base_ranged": 325,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -22496,11 +22496,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 199,
+      "base": 275,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 199,
+      "base_ranged": 275,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -22713,11 +22713,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 204,
+      "base": 280,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 204,
+      "base_ranged": 280,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -22930,11 +22930,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 310,
+      "base": 360,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 310,
+      "base_ranged": 360,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -23144,11 +23144,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 295,
+      "base": 350,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 295,
+      "base_ranged": 350,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -23358,11 +23358,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 318,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 318,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -23575,11 +23575,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 268,
+      "base": 370,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 268,
+      "base_ranged": 370,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -23792,11 +23792,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 259,
+      "base": 365,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 259,
+      "base_ranged": 365,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -24009,11 +24009,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 502,
+      "base": 560,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 502,
+      "base_ranged": 560,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -24223,11 +24223,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 564,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 564,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -24437,11 +24437,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 588,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 588,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -24654,11 +24654,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 598,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 598,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -24874,11 +24874,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 587,
+      "base": 745,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 587,
+      "base_ranged": 745,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -25094,11 +25094,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 740,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 740,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -25311,11 +25311,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 463,
+      "base": 535,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 463,
+      "base_ranged": 535,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -25528,11 +25528,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 465,
+      "base": 545,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 465,
+      "base_ranged": 545,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -25742,11 +25742,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 480,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 480,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -25965,11 +25965,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 494,
+      "base": 590,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 494,
+      "base_ranged": 590,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -26182,11 +26182,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 483,
+      "base": 575,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 483,
+      "base_ranged": 575,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -26399,11 +26399,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 462,
+      "base": 540,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 462,
+      "base_ranged": 540,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -26619,11 +26619,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 442,
+      "base": 520,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 442,
+      "base_ranged": 520,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -26836,11 +26836,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 434,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 434,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -27053,11 +27053,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 418,
+      "base": 630,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 418,
+      "base_ranged": 630,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -27273,11 +27273,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 581,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 581,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -27493,11 +27493,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 618,
+      "base": 840,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 618,
+      "base_ranged": 840,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -27716,11 +27716,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 618,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 618,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -27936,11 +27936,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 634,
+      "base": 870,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 634,
+      "base_ranged": 870,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -28159,11 +28159,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 516,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 516,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -28376,11 +28376,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 201,
+      "base": 235,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 201,
+      "base_ranged": 235,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -28593,11 +28593,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 184,
+      "base": 230,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 184,
+      "base_ranged": 230,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -28807,11 +28807,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 186,
+      "base": 230,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 186,
+      "base_ranged": 230,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -29024,11 +29024,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 204,
+      "base": 240,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 204,
+      "base_ranged": 240,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -29244,11 +29244,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 183,
+      "base": 225,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 183,
+      "base_ranged": 225,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -29461,11 +29461,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 141,
+      "base": 205,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 141,
+      "base_ranged": 205,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -29678,11 +29678,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 256,
+      "base": 300,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 256,
+      "base_ranged": 300,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -29895,11 +29895,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 283,
+      "base": 325,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 283,
+      "base_ranged": 325,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -30109,11 +30109,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 199,
+      "base": 275,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 199,
+      "base_ranged": 275,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -30329,11 +30329,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 310,
+      "base": 360,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 310,
+      "base_ranged": 360,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -30546,11 +30546,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 295,
+      "base": 350,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 295,
+      "base_ranged": 350,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -30766,11 +30766,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 502,
+      "base": 560,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 502,
+      "base_ranged": 560,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -30983,11 +30983,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 588,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 588,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -31200,11 +31200,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 598,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 598,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -31417,11 +31417,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 480,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 480,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -31634,11 +31634,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 494,
+      "base": 590,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 494,
+      "base_ranged": 590,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -31854,11 +31854,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 483,
+      "base": 575,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 483,
+      "base_ranged": 575,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -32071,11 +32071,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 462,
+      "base": 540,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 462,
+      "base_ranged": 540,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -32288,11 +32288,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 318,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 318,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -32505,11 +32505,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 201,
+      "base": 235,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 201,
+      "base_ranged": 235,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -32719,11 +32719,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 199,
+      "base": 275,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 199,
+      "base_ranged": 275,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -32936,11 +32936,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 171,
+      "base": 220,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 171,
+      "base_ranged": 220,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -33153,11 +33153,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 161,
+      "base": 210,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 161,
+      "base_ranged": 210,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -33370,11 +33370,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 408,
+      "base": 600,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 408,
+      "base_ranged": 600,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -33587,11 +33587,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 518,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 518,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -33804,11 +33804,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 564,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 564,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -34024,11 +34024,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 465,
+      "base": 545,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 465,
+      "base_ranged": 545,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -34238,11 +34238,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 261,
+      "base": 360,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 261,
+      "base_ranged": 360,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -34455,11 +34455,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 350,
+      "base": 400,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 350,
+      "base_ranged": 400,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -34672,11 +34672,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 390,
+      "base": 440,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 390,
+      "base_ranged": 440,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -34895,11 +34895,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 322,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 322,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -35118,11 +35118,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 557,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 557,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -35341,11 +35341,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 481,
+      "base": 600,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 481,
+      "base_ranged": 600,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -35561,11 +35561,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 508,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 508,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -35772,11 +35772,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 202,
+      "base": 240,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 202,
+      "base_ranged": 240,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -35992,11 +35992,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 508,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 508,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -36212,11 +36212,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 508,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 508,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -36423,11 +36423,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 154,
+      "base": 190,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 154,
+      "base_ranged": 190,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -36640,11 +36640,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 653,
+      "base": 770,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 653,
+      "base_ranged": 770,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -36857,11 +36857,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 498,
+      "base": 710,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 498,
+      "base_ranged": 710,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -37074,11 +37074,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 810,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 810,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -37291,11 +37291,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 457,
+      "base": 550,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 457,
+      "base_ranged": 550,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -37508,11 +37508,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 668,
+      "base": 740,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 668,
+      "base_ranged": 740,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -37731,11 +37731,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 545,
+      "base": 780,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 545,
+      "base_ranged": 780,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -37951,11 +37951,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 660,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 660,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -38168,11 +38168,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 516,
+      "base": 590,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 516,
+      "base_ranged": 590,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -38385,11 +38385,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 610,
+      "base": 740,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 610,
+      "base_ranged": 740,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -38602,11 +38602,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 588,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 588,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -38819,11 +38819,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 494,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 494,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -39039,11 +39039,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 707,
+      "base": 810,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 707,
+      "base_ranged": 810,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -39259,11 +39259,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 680,
+      "base": 840,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 680,
+      "base_ranged": 840,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -39479,11 +39479,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 556,
+      "base": 780,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 556,
+      "base_ranged": 780,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -39696,11 +39696,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 194,
+      "base": 240,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 194,
+      "base_ranged": 240,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -39910,11 +39910,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 200,
+      "base": 240,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 200,
+      "base_ranged": 240,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -40130,11 +40130,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 626,
+      "base": 710,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 626,
+      "base_ranged": 710,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -40347,11 +40347,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 534,
+      "base": 610,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 534,
+      "base_ranged": 610,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -40564,11 +40564,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 486,
+      "base": 570,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 486,
+      "base_ranged": 570,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -40781,11 +40781,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 586,
+      "base": 710,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 586,
+      "base_ranged": 710,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -41004,11 +41004,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 648,
+      "base": 800,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 648,
+      "base_ranged": 800,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -41224,11 +41224,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 628,
+      "base": 710,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 628,
+      "base_ranged": 710,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -41438,11 +41438,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 555,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 555,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -41646,11 +41646,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 126,
+      "base": 150,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 126,
+      "base_ranged": 150,
       "improve_limit": {
         "base": 9,
         "grade": 0,
@@ -41863,11 +41863,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 470,
+      "base": 690,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 470,
+      "base_ranged": 690,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -42080,11 +42080,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 643,
+      "base": 855,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 643,
+      "base_ranged": 855,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -42297,11 +42297,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 500,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 500,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -42517,11 +42517,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 660,
+      "base": 864,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 660,
+      "base_ranged": 864,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -42734,11 +42734,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 508,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 508,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -42954,11 +42954,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 842,
+      "base": 945,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 842,
+      "base_ranged": 945,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -43174,11 +43174,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 816,
+      "base": 976,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 816,
+      "base_ranged": 976,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -43391,11 +43391,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 588,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 588,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -43611,11 +43611,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 668,
+      "base": 903,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 668,
+      "base_ranged": 903,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -43831,11 +43831,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 456,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 456,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -44051,11 +44051,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 410,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 410,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -44274,11 +44274,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 915,
+      "base": 1085,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 915,
+      "base_ranged": 1085,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -44497,11 +44497,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 607,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 607,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -44714,11 +44714,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 805,
+      "base": 877,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 805,
+      "base_ranged": 877,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -44934,11 +44934,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 617,
+      "base": 746,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 617,
+      "base_ranged": 746,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -45154,11 +45154,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 618,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 618,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -45371,11 +45371,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 827,
+      "base": 895,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 827,
+      "base_ranged": 895,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -45585,11 +45585,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 256,
+      "base": 300,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 256,
+      "base_ranged": 300,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -45802,11 +45802,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 579,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 579,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -46022,11 +46022,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 660,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 660,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -46242,11 +46242,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 556,
+      "base": 780,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 556,
+      "base_ranged": 780,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -46462,11 +46462,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 508,
+      "base": 600,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 508,
+      "base_ranged": 600,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -46676,11 +46676,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 439,
+      "base": 600,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 439,
+      "base_ranged": 600,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -46893,11 +46893,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 253,
+      "base": 320,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 253,
+      "base_ranged": 320,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -47110,11 +47110,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 310,
+      "base": 360,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 310,
+      "base_ranged": 360,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -47327,11 +47327,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 810,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 810,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -47541,11 +47541,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 251,
+      "base": 350,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 251,
+      "base_ranged": 350,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -47761,11 +47761,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -47981,11 +47981,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -48201,11 +48201,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 614,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 614,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -48421,11 +48421,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 556,
+      "base": 680,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 556,
+      "base_ranged": 680,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -48641,11 +48641,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 386,
+      "base": 510,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 386,
+      "base_ranged": 510,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -48861,11 +48861,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 652,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 652,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -49078,11 +49078,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 456,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 456,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -49295,11 +49295,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 500,
+      "base": 710,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 500,
+      "base_ranged": 710,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -49512,11 +49512,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 896,
+      "base": 1050,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 896,
+      "base_ranged": 1050,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -49729,11 +49729,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 627,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 627,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -49943,11 +49943,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 184,
+      "base": 240,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 184,
+      "base_ranged": 240,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -50160,11 +50160,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 820,
+      "base": 900,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 820,
+      "base_ranged": 900,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -50380,11 +50380,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 516,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 516,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -50597,11 +50597,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 386,
+      "base": 520,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 386,
+      "base_ranged": 520,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -50814,11 +50814,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 432,
+      "base": 550,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 432,
+      "base_ranged": 550,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -51055,11 +51055,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 523,
+      "base": 610,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 523,
+      "base_ranged": 610,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -51275,11 +51275,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 478,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 478,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -51495,11 +51495,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 592,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 592,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -51715,11 +51715,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 627,
+      "base": 690,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 627,
+      "base_ranged": 690,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -51935,11 +51935,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -52155,11 +52155,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -52375,11 +52375,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 714,
+      "base": 830,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 714,
+      "base_ranged": 830,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -52595,11 +52595,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 556,
+      "base": 680,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 556,
+      "base_ranged": 680,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -52815,11 +52815,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 386,
+      "base": 510,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 386,
+      "base_ranged": 510,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -53035,11 +53035,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 752,
+      "base": 820,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 752,
+      "base_ranged": 820,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -53258,11 +53258,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 915,
+      "base": 1085,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 915,
+      "base_ranged": 1085,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -53478,11 +53478,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 410,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 410,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -53698,11 +53698,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 800,
+      "base": 890,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 800,
+      "base_ranged": 890,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -53918,11 +53918,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 628,
+      "base": 710,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 628,
+      "base_ranged": 710,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -54144,11 +54144,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 325,
+      "base": 460,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 325,
+      "base_ranged": 460,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -54370,11 +54370,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 296,
+      "base": 380,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 296,
+      "base_ranged": 380,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -54596,11 +54596,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 390,
+      "base": 530,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 390,
+      "base_ranged": 530,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -54819,11 +54819,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 408,
+      "base": 490,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 408,
+      "base_ranged": 490,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -55039,11 +55039,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 652,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 652,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -55259,11 +55259,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 557,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 557,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -55503,11 +55503,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 533,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 533,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -55723,11 +55723,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 478,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 478,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -55943,11 +55943,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 592,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 592,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -56163,11 +56163,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 707,
+      "base": 770,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 707,
+      "base_ranged": 770,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -56383,11 +56383,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 452,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 452,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -56603,11 +56603,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 180,
+      "base": 270,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 180,
+      "base_ranged": 270,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -56823,11 +56823,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 526,
+      "base": 610,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 526,
+      "base_ranged": 610,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -57043,11 +57043,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 732,
+      "base": 860,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 732,
+      "base_ranged": 860,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -57263,11 +57263,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 592,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 592,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -57483,11 +57483,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 667,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 667,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -57700,11 +57700,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 452,
+      "base": 580,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 452,
+      "base_ranged": 580,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -57920,11 +57920,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 186,
+      "base": 208,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 186,
+      "base_ranged": 208,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -58140,11 +58140,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 526,
+      "base": 610,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 526,
+      "base_ranged": 610,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -58360,11 +58360,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 777,
+      "base": 905,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 777,
+      "base_ranged": 905,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -58580,11 +58580,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 410,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 410,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -58800,11 +58800,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -59023,11 +59023,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 966,
+      "base": 1120,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 966,
+      "base_ranged": 1120,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -59243,11 +59243,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 545,
+      "base": 780,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 545,
+      "base_ranged": 780,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -59463,11 +59463,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 618,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 618,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -59683,11 +59683,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 652,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 652,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -59900,11 +59900,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 900,
+      "base": 980,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 900,
+      "base_ranged": 980,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -60120,11 +60120,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 752,
+      "base": 868,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 752,
+      "base_ranged": 868,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -60343,11 +60343,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 535,
+      "base": 780,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 535,
+      "base_ranged": 780,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -60554,11 +60554,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 162,
+      "base": 200,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 162,
+      "base_ranged": 200,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -60768,11 +60768,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 232,
+      "base": 270,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 232,
+      "base_ranged": 270,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -60979,11 +60979,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 130,
+      "base": 180,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 130,
+      "base_ranged": 180,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -61190,11 +61190,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 184,
+      "base": 230,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 184,
+      "base_ranged": 230,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -61404,11 +61404,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 246,
+      "base": 280,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 246,
+      "base_ranged": 280,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -61618,11 +61618,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 160,
+      "base": 230,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 160,
+      "base_ranged": 230,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -61832,11 +61832,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 350,
+      "base": 400,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 350,
+      "base_ranged": 400,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -62043,11 +62043,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 368,
+      "base": 430,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 368,
+      "base_ranged": 430,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -62257,11 +62257,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 230,
+      "base": 320,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 230,
+      "base_ranged": 320,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -62480,11 +62480,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 394,
+      "base": 520,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 394,
+      "base_ranged": 520,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -62700,11 +62700,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 622,
+      "base": 780,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 622,
+      "base_ranged": 780,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -62923,11 +62923,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 596,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 596,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -63149,11 +63149,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 452,
+      "base": 615,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 452,
+      "base_ranged": 615,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -63369,11 +63369,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 770,
+      "base": 845,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 770,
+      "base_ranged": 845,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -63589,11 +63589,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 488,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 488,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -63809,11 +63809,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 504,
+      "base": 740,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 504,
+      "base_ranged": 740,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -64035,11 +64035,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 428,
+      "base": 590,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 428,
+      "base_ranged": 590,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -64261,11 +64261,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 598,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 598,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -64481,11 +64481,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 593,
+      "base": 825,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 593,
+      "base_ranged": 825,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -64701,11 +64701,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 567,
+      "base": 765,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 567,
+      "base_ranged": 765,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -64924,11 +64924,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 447,
+      "base": 645,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 447,
+      "base_ranged": 645,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -65153,11 +65153,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 440,
+      "base": 540,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 440,
+      "base_ranged": 540,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -65376,11 +65376,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 514,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 514,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -65596,11 +65596,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 804,
+      "base": 900,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 804,
+      "base_ranged": 900,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -65816,11 +65816,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 605,
+      "base": 695,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 605,
+      "base_ranged": 695,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -66036,11 +66036,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 708,
+      "base": 790,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 708,
+      "base_ranged": 790,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -66259,11 +66259,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 642,
+      "base": 890,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 642,
+      "base_ranged": 890,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -66485,11 +66485,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 536,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 536,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -66708,11 +66708,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 560,
+      "base": 800,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 560,
+      "base_ranged": 800,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -66931,11 +66931,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 468,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 468,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -67151,11 +67151,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 684,
+      "base": 790,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 684,
+      "base_ranged": 790,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -67368,11 +67368,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 478,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 478,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -67588,11 +67588,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 546,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 546,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -67808,11 +67808,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 520,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 520,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -68031,11 +68031,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 394,
+      "base": 550,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 394,
+      "base_ranged": 550,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -68257,11 +68257,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 900,
+      "base": 1090,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 900,
+      "base_ranged": 1090,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -68480,11 +68480,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 489,
+      "base": 645,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 489,
+      "base_ranged": 645,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -68700,11 +68700,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 836,
+      "base": 925,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 836,
+      "base_ranged": 925,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -68923,11 +68923,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 484,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 484,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -69146,11 +69146,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 711,
+      "base": 800,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 711,
+      "base_ranged": 800,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -69369,11 +69369,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 460,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 460,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -69400,7 +69400,7 @@ module.exports = {
     "id": "50000346",
     "img": "00000346.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000346",
-    "name": "xxx50000346",
+    "name": "Endeavour",
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
@@ -69589,11 +69589,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 536,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 536,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -69620,7 +69620,7 @@ module.exports = {
     "id": "50000347",
     "img": "00000347.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000347",
-    "name": "xxx50000347",
+    "name": "Prins Willem",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -69809,11 +69809,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 711,
+      "base": 840,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 711,
+      "base_ranged": 840,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -69840,7 +69840,7 @@ module.exports = {
     "id": "50000348",
     "img": "00000348.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000348",
-    "name": "xxx50000348",
+    "name": "Soleil Royal",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -70032,11 +70032,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 404,
+      "base": 630,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 404,
+      "base_ranged": 630,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -70252,11 +70252,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 492,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 492,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -70469,11 +70469,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 536,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 536,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -70686,11 +70686,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 430,
+      "base": 510,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 430,
+      "base_ranged": 510,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -71117,11 +71117,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 230,
+      "base": 264,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 230,
+      "base_ranged": 264,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -71340,11 +71340,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 620,
+      "base": 860,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 620,
+      "base_ranged": 860,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -71560,11 +71560,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 740,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 740,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -71783,11 +71783,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 750,
+      "base": 905,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 750,
+      "base_ranged": 905,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -72003,11 +72003,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 634,
+      "base": 870,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 634,
+      "base_ranged": 870,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -72437,11 +72437,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 259,
+      "base": 365,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 259,
+      "base_ranged": 365,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -72657,11 +72657,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 645,
+      "base": 880,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 645,
+      "base_ranged": 880,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -72880,11 +72880,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 530,
+      "base": 735,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 530,
+      "base_ranged": 735,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -73103,11 +73103,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 498,
+      "base": 550,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 498,
+      "base_ranged": 550,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -73546,11 +73546,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 664,
+      "base": 720,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 664,
+      "base_ranged": 720,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -73766,11 +73766,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 604,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 604,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -73986,11 +73986,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 714,
+      "base": 770,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 714,
+      "base_ranged": 770,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -74206,11 +74206,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 506,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 506,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -74426,11 +74426,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 496,
+      "base": 680,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 496,
+      "base_ranged": 680,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -74649,11 +74649,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 837,
+      "base": 940,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 837,
+      "base_ranged": 940,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -74869,11 +74869,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 822,
+      "base": 890,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 822,
+      "base_ranged": 890,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -75092,11 +75092,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 798,
+      "base": 870,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 798,
+      "base_ranged": 870,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -75312,11 +75312,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 850,
+      "base": 930,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 850,
+      "base_ranged": 930,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -75529,11 +75529,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 624,
+      "base": 710,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 624,
+      "base_ranged": 710,
       "improve_limit": {
         "base": 25,
         "grade": 0,
@@ -75749,11 +75749,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 586,
+      "base": 890,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 586,
+      "base_ranged": 890,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -75966,11 +75966,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 516,
+      "base": 590,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 516,
+      "base_ranged": 590,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -76189,11 +76189,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 180,
+      "base": 270,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 180,
+      "base_ranged": 270,
       "improve_limit": {
         "base": 17,
         "grade": 0,
@@ -76409,11 +76409,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 576,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 576,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -76629,11 +76629,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 500,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 500,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -76852,11 +76852,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 450,
+      "base": 680,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 450,
+      "base_ranged": 680,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -77072,11 +77072,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 560,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 560,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -77289,11 +77289,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 920,
+      "base": 1000,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 920,
+      "base_ranged": 1000,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -77512,11 +77512,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 660,
+      "base": 900,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 660,
+      "base_ranged": 900,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -77732,11 +77732,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 674,
+      "base": 910,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 674,
+      "base_ranged": 910,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -77952,11 +77952,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 764,
+      "base": 860,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 764,
+      "base_ranged": 860,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -78169,11 +78169,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 520,
+      "base": 634,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 520,
+      "base_ranged": 634,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -78386,11 +78386,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 750,
+      "base": 862,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 750,
+      "base_ranged": 862,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -78606,11 +78606,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 480,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 480,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -78826,11 +78826,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 658,
+      "base": 816,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 658,
+      "base_ranged": 816,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -79049,11 +79049,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 596,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 596,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -79272,11 +79272,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 452,
+      "base": 610,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 452,
+      "base_ranged": 610,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -79495,11 +79495,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 805,
+      "base": 880,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 805,
+      "base_ranged": 880,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -79715,11 +79715,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 488,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 488,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -79938,11 +79938,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 504,
+      "base": 734,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 504,
+      "base_ranged": 734,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -80161,11 +80161,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 504,
+      "base": 740,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 504,
+      "base_ranged": 740,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -80387,11 +80387,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 504,
+      "base": 740,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 504,
+      "base_ranged": 740,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -80607,11 +80607,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 593,
+      "base": 825,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 593,
+      "base_ranged": 825,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -80827,11 +80827,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 593,
+      "base": 825,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 593,
+      "base_ranged": 825,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -81053,11 +81053,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 593,
+      "base": 825,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 593,
+      "base_ranged": 825,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -81273,11 +81273,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 447,
+      "base": 645,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 447,
+      "base_ranged": 645,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -81493,11 +81493,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 447,
+      "base": 645,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 447,
+      "base_ranged": 645,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -81716,11 +81716,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 447,
+      "base": 645,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 447,
+      "base_ranged": 645,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -81948,11 +81948,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 350,
+      "base": 446,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 350,
+      "base_ranged": 446,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -82171,11 +82171,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 590,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 590,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -82397,11 +82397,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 310,
+      "base": 472,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 310,
+      "base_ranged": 472,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -82623,11 +82623,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 450,
+      "base": 640,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 450,
+      "base_ranged": 640,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -82855,11 +82855,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 480,
+      "base": 545,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 480,
+      "base_ranged": 545,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -83078,11 +83078,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 500,
+      "base": 730,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 500,
+      "base_ranged": 730,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -83298,11 +83298,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 581,
+      "base": 766,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 581,
+      "base_ranged": 766,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -83524,11 +83524,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 400,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 400,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -83744,11 +83744,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 581,
+      "base": 761,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 581,
+      "base_ranged": 761,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -83964,11 +83964,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 488,
+      "base": 708,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 488,
+      "base_ranged": 708,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -84184,11 +84184,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 468,
+      "base": 698,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 468,
+      "base_ranged": 698,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -84407,11 +84407,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 394,
+      "base": 554,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 394,
+      "base_ranged": 554,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -84630,11 +84630,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 610,
+      "base": 870,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 610,
+      "base_ranged": 870,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -84853,11 +84853,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 790,
+      "base": 830,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 790,
+      "base_ranged": 830,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -85076,11 +85076,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 560,
+      "base": 810,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 560,
+      "base_ranged": 810,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -85305,11 +85305,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 420,
+      "base": 662,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 420,
+      "base_ranged": 662,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -85534,11 +85534,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 582,
+      "base": 900,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 582,
+      "base_ranged": 900,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -85766,11 +85766,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 618,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 618,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -85995,11 +85995,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 627,
+      "base": 750,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 627,
+      "base_ranged": 750,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -86212,11 +86212,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 459,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 459,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -86661,11 +86661,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 410,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 410,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -86887,11 +86887,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 708,
+      "base": 790,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 708,
+      "base_ranged": 790,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -87107,11 +87107,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 563,
+      "base": 765,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 563,
+      "base_ranged": 765,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -87330,11 +87330,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 514,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 514,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -87550,11 +87550,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 904,
+      "base": 1000,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 904,
+      "base_ranged": 1000,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -87770,11 +87770,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 635,
+      "base": 725,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 635,
+      "base_ranged": 725,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -87993,11 +87993,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 532,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 532,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -88213,11 +88213,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 560,
+      "base": 800,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 560,
+      "base_ranged": 800,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -88433,11 +88433,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 448,
+      "base": 650,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 448,
+      "base_ranged": 650,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -88653,11 +88653,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 753,
+      "base": 855,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 753,
+      "base_ranged": 855,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -88873,11 +88873,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 510,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 510,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -89093,11 +89093,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 506,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 506,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -89316,11 +89316,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 394,
+      "base": 550,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 394,
+      "base_ranged": 550,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -89539,11 +89539,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 380,
+      "base": 550,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 380,
+      "base_ranged": 550,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -89765,11 +89765,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 938,
+      "base": 1120,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 938,
+      "base_ranged": 1120,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -89991,11 +89991,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 990,
+      "base": 1170,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 990,
+      "base_ranged": 1170,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -90211,11 +90211,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 563,
+      "base": 765,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 563,
+      "base_ranged": 765,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -90434,11 +90434,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 528,
+      "base": 760,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 528,
+      "base_ranged": 760,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -90654,11 +90654,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 552,
+      "base": 800,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 552,
+      "base_ranged": 800,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -90874,11 +90874,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 460,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 460,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -90905,7 +90905,7 @@ module.exports = {
     "id": "50000597",
     "img": "00000337.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000597",
-    "name": "xxx50000597",
+    "name": "Ceremonial Ingermanland",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -91094,11 +91094,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 504,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 504,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -91125,7 +91125,7 @@ module.exports = {
     "id": "50000598",
     "img": "00000338.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000598",
-    "name": "xxx50000598",
+    "name": "Augmented Razee Frigate",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -91317,11 +91317,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 372,
+      "base": 550,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 372,
+      "base_ranged": 550,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -91348,7 +91348,7 @@ module.exports = {
     "id": "50000599",
     "img": "00000339.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000599",
-    "name": "xxx50000599",
+    "name": "Transport Gran Fluyt",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -91543,11 +91543,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 1002,
+      "base": 1180,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 1002,
+      "base_ranged": 1180,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -91574,7 +91574,7 @@ module.exports = {
     "id": "50000600",
     "img": "00000193.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000600",
-    "name": "xxx50000600",
+    "name": "Custom Cargo Clipper",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -91766,11 +91766,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 805,
+      "base": 880,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 805,
+      "base_ranged": 880,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -91797,7 +91797,7 @@ module.exports = {
     "id": "50000601",
     "img": "00000245.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000601",
-    "name": "xxx50000601",
+    "name": "Celebratory Dutch Indiaman",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -91986,11 +91986,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 782,
+      "base": 880,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 782,
+      "base_ranged": 880,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -92017,7 +92017,7 @@ module.exports = {
     "id": "50000602",
     "img": "00000133.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000602",
-    "name": "xxx50000602",
+    "name": "Ambush La Royale",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -92218,11 +92218,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 618,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 618,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -92249,7 +92249,7 @@ module.exports = {
     "id": "50000603",
     "img": "00000320.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000603",
-    "name": "xxx50000603",
+    "name": "Shadow Neapolitan Galleass",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -92450,11 +92450,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 588,
+      "base": 850,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 588,
+      "base_ranged": 850,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -92676,11 +92676,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 301,
+      "base": 465,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 301,
+      "base_ranged": 465,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -92707,7 +92707,7 @@ module.exports = {
     "id": "50000605",
     "img": "00000247.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000605",
-    "name": "xxx50000605",
+    "name": "Augmented Patrol Corvette",
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
@@ -92899,11 +92899,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 368,
+      "base": 520,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 368,
+      "base_ranged": 520,
       "improve_limit": {
         "base": 33,
         "grade": 0,
@@ -92930,7 +92930,7 @@ module.exports = {
     "id": "50000606",
     "img": "00000169.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000606",
-    "name": "xxx50000606",
+    "name": "Special Survey Frigate",
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
@@ -93122,11 +93122,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 437,
+      "base": 610,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 437,
+      "base_ranged": 610,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -93342,11 +93342,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 506,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 506,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -93562,11 +93562,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 793,
+      "base": 905,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 793,
+      "base_ranged": 905,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -93782,11 +93782,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 440,
+      "base": 660,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 440,
+      "base_ranged": 660,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -93813,7 +93813,7 @@ module.exports = {
     "id": "50000610",
     "img": "00000330.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000610",
-    "name": "xxx50000610",
+    "name": "Custom Dragon Ship C1",
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
@@ -94002,11 +94002,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 506,
+      "base": 620,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 506,
+      "base_ranged": 620,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -94033,7 +94033,7 @@ module.exports = {
     "id": "50000611",
     "img": "00000330.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000611",
-    "name": "xxx50000611",
+    "name": "Refitted Dragon Ship C2",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -94222,11 +94222,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 836,
+      "base": 948,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 836,
+      "base_ranged": 948,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -94253,7 +94253,7 @@ module.exports = {
     "id": "50000612",
     "img": "00000330.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000612",
-    "name": "xxx50000612",
+    "name": "Ambush Dragon Ship C3",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -94442,11 +94442,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 365,
+      "base": 600,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 365,
+      "base_ranged": 600,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -94473,7 +94473,7 @@ module.exports = {
     "id": "50000613",
     "img": "00000192.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000613",
-    "name": "xxx50000613",
+    "name": "Ceremonial First Class Vaisseau",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -94662,11 +94662,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 535,
+      "base": 780,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 535,
+      "base_ranged": 780,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -94693,7 +94693,7 @@ module.exports = {
     "id": "50000614",
     "img": "00000341.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000614",
-    "name": "xxx50000614",
+    "name": "Modified Halve Maen",
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
@@ -94885,11 +94885,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 489,
+      "base": 645,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 489,
+      "base_ranged": 645,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -94916,7 +94916,7 @@ module.exports = {
     "id": "50000615",
     "img": "00000341.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000615",
-    "name": "xxx50000615",
+    "name": "Custom Halve Maen",
     "size": "Heavy",
     "purpose": "Adventure",
     "steam": false,
@@ -95108,11 +95108,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 489,
+      "base": 645,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 489,
+      "base_ranged": 645,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -95139,7 +95139,7 @@ module.exports = {
     "id": "50000616",
     "img": "00000342.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000616",
-    "name": "xxx50000616",
+    "name": "Modified Flying Cloud",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -95328,11 +95328,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 911,
+      "base": 1000,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 911,
+      "base_ranged": 1000,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -95551,11 +95551,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 911,
+      "base": 1000,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 911,
+      "base_ranged": 1000,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -95582,7 +95582,7 @@ module.exports = {
     "id": "50000618",
     "img": "00000343.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000618",
-    "name": "xxx50000618",
+    "name": "Modified Bermuda Sloop",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -95774,11 +95774,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 470,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 470,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -95805,7 +95805,7 @@ module.exports = {
     "id": "50000619",
     "img": "00000343.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000619",
-    "name": "xxx50000619",
+    "name": "Custom Bermuda Sloop",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -95997,11 +95997,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 484,
+      "base": 670,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 484,
+      "base_ranged": 670,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -96028,7 +96028,7 @@ module.exports = {
     "id": "50000620",
     "img": "00000344.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000620",
-    "name": "xxx50000620",
+    "name": "Modified Ghanjah Dhow",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -96220,11 +96220,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 759,
+      "base": 840,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 759,
+      "base_ranged": 840,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -96251,7 +96251,7 @@ module.exports = {
     "id": "50000621",
     "img": "00000344.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000621",
-    "name": "xxx50000621",
+    "name": "Refitted Ghanjah Dhow",
     "size": "Heavy",
     "purpose": "Trade",
     "steam": false,
@@ -96443,11 +96443,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 711,
+      "base": 800,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 711,
+      "base_ranged": 800,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -96474,7 +96474,7 @@ module.exports = {
     "id": "50000622",
     "img": "00000345.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000622",
-    "name": "xxx50000622",
+    "name": "Modified Victory",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -96666,11 +96666,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 460,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 460,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -96697,7 +96697,7 @@ module.exports = {
     "id": "50000623",
     "img": "00000345.png",
     "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000623",
-    "name": "xxx50000623",
+    "name": "Ambush Victory",
     "size": "Heavy",
     "purpose": "Battle",
     "steam": false,
@@ -96889,11 +96889,11 @@ module.exports = {
       "result": 0
     },
     "hold_capacity": {
-      "base": 456,
+      "base": 700,
       "improve": 0,
       "grade": 0,
       "custom": 0,
-      "base_ranged": 456,
+      "base_ranged": 700,
       "improve_limit": {
         "base": 41,
         "grade": 0,
@@ -96913,229 +96913,6 @@ module.exports = {
     "grade": {
       "rank": 0,
       "type": "Battle Ship",
-      "skills": []
-    }
-  },
-  "": {
-    "id": "",
-    "img": "00000169.png",
-    "href": "",
-    "name": "Special Survey Frigate",
-    "size": "Heavy",
-    "purpose": "Adventure",
-    "steam": false,
-    "sail": true,
-    "is_nc": true,
-    "levels": {
-      "advent": 36,
-      "trade": 20,
-      "battle": 30
-    },
-    "days": 33,
-    "skills": {
-      "optional": {
-        "limit": 2,
-        "grade": 0,
-        "set": []
-      },
-      "inherit": [],
-      "original": "",
-      "available": [{
-        "id": "00002001",
-        "parts": ["022000212", "022000660"]
-      }, {
-        "id": "00002010",
-        "parts": ["022000700", "022000413"]
-      }, {
-        "id": "00002046",
-        "parts": ["022000560", "022000622"]
-      }, {
-        "id": "00002121",
-        "parts": ["02200020", "02200036"]
-      }, {
-        "id": "00002122",
-        "parts": ["022000470", "022000623"]
-      }, {
-        "id": "00002127",
-        "parts": ["022000550", "022002140"]
-      }]
-    },
-    "hulls": {
-      "current": "",
-      "available": [{
-        "id": "",
-        "name": "Empty Hull"
-      }]
-    },
-    "ship_equipment": {
-      "studding_sails": 3,
-      "broadsides": 5,
-      "special_equipment": 2,
-      "bow_turret": 1,
-      "extra_armouring": 3,
-      "stern_turret": 1
-    },
-    "improvement": {
-      "result": 0,
-      "limit": {
-        "base": 6,
-        "add": {
-          "limit": 2,
-          "current": 0
-        },
-        "current": 0
-      }
-    },
-    "ship_handling_proficiency": {
-      "base": 200,
-      "grade": 0,
-      "result": 200
-    },
-    "durability": {
-      "base": 1064,
-      "improve": 0,
-      "material": 0,
-      "grade": 0,
-      "custom": 0,
-      "improve_limit": {
-        "base": 250,
-        "grade": 0,
-        "current": 250
-      },
-      "result": 0
-    },
-    "vertical_sail": {
-      "base": 171,
-      "improve": 0,
-      "material": 0,
-      "grade": 0,
-      "custom": 0,
-      "penalty": 0,
-      "improve_limit": {
-        "base": 110,
-        "grade": 0,
-        "current": 110
-      },
-      "result": 0
-    },
-    "horizontal_sail": {
-      "base": 274,
-      "improve": 0,
-      "material": 0,
-      "grade": 0,
-      "custom": 0,
-      "penalty": 0,
-      "improve_limit": {
-        "base": 110,
-        "grade": 0,
-        "current": 110
-      },
-      "result": 0
-    },
-    "row_power": {
-      "row": false,
-      "base": 0,
-      "improve": 0,
-      "grade": 0,
-      "custom": 0,
-      "penalty": 0,
-      "improve_limit": {
-        "base": 21,
-        "grade": 0,
-        "current": 21
-      },
-      "result": 0
-    },
-    "turning_performance": {
-      "base": 12,
-      "improve": 0,
-      "grade": 0,
-      "custom": 0,
-      "penalty": 0,
-      "improve_limit": {
-        "base": 22,
-        "grade": 0,
-        "current": 22
-      },
-      "result": 0
-    },
-    "wave_resistance": {
-      "base": 10,
-      "improve": 0,
-      "grade": 0,
-      "custom": 0,
-      "penalty": 0,
-      "improve_limit": {
-        "base": 21,
-        "grade": 0,
-        "current": 21
-      },
-      "result": 0
-    },
-    "armouring_value": {
-      "base": 36,
-      "improve": 0,
-      "grade": 0,
-      "custom": 0,
-      "improve_limit": {
-        "base": 21,
-        "grade": 0,
-        "current": 21
-      },
-      "result": 0
-    },
-    "cabine_capacity": {
-      "base": 95,
-      "improve": 0,
-      "grade": 0,
-      "custom": 0,
-      "base_ranged": 95,
-      "improve_limit": {
-        "base": 40,
-        "grade": 0,
-        "current": 40
-      },
-      "required": 35,
-      "result": 0
-    },
-    "cannon_chambers_capacity": {
-      "base": 78,
-      "improve": 0,
-      "grade": 0,
-      "custom": 0,
-      "base_ranged": 78,
-      "improve_limit": {
-        "base": 40,
-        "grade": 0,
-        "current": 40
-      },
-      "result": 0
-    },
-    "hold_capacity": {
-      "base": 437,
-      "improve": 0,
-      "grade": 0,
-      "custom": 0,
-      "base_ranged": 437,
-      "improve_limit": {
-        "base": 41,
-        "grade": 0,
-        "current": 41
-      },
-      "result": 0
-    },
-    "cargo": {
-      "result": 0
-    },
-    "material": {
-      "id": "022000800",
-      "name": "Beech Paneling"
-    },
-    "grade_size": 5,
-    "grade_type_default": "Expedition Ship",
-    "grade": {
-      "rank": 0,
-      "type": "Expedition Ship",
       "skills": []
     }
   }

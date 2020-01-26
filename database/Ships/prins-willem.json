@@ -1,19 +1,19 @@
 {
-  "id": "50000612",
-  "img": "00000330.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000612",
-  "name": "xxx50000612",
+  "id": "50000347",
+  "img": "00000347.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000347",
+  "name": "Prins Willem",
   "size": "Heavy",
-  "purpose": "Battle",
+  "purpose": "Trade",
   "steam": false,
   "sail": true,
-  "is_nc": true,
+  "is_nc": false,
   "levels": {
-    "advent": 18,
-    "trade": 15,
-    "battle": 36
+    "advent": 28,
+    "trade": 70,
+    "battle": 51
   },
-  "days": 25,
+  "days": 42,
   "skills": {
     "optional": {
       "limit": 2,
@@ -26,29 +26,29 @@
       "id": "00002064",
       "parts": ["02200036", "022000560"]
     }, {
+      "id": "00002007",
+      "parts": ["022000561", "022000690"]
+    }, {
       "id": "00002123",
       "parts": ["022000471", "022000622"]
     }, {
-      "id": "00002004",
-      "parts": ["02200054", "022000413"]
+      "id": "00002027",
+      "parts": ["022000680", "02200073"]
     }, {
-      "id": "00002101",
-      "parts": ["02200054", "022000560"]
-    }, {
-      "id": "00002105",
-      "parts": ["022000690", "02200073"]
+      "id": "00002033",
+      "parts": ["022000561", "022000621"]
     }]
   },
   "hulls": {
     "current": "",
     "available": [{
-      "id": "",
-      "name": "Empty Hull"
+      "id": "022000061",
+      "name": "Large 3-decked Hull"
     }]
   },
   "ship_equipment": {
-    "studding_sails": 4,
-    "broadsides": 5,
+    "studding_sails": 3,
+    "broadsides": 4,
     "special_equipment": 2,
     "bow_turret": 1,
     "extra_armouring": 3,
@@ -57,9 +57,9 @@
   "improvement": {
     "result": 0,
     "limit": {
-      "base": 6,
+      "base": 5,
       "add": {
-        "limit": 2,
+        "limit": 0,
         "current": 0
       },
       "current": 0
@@ -71,7 +71,7 @@
     "result": 200
   },
   "durability": {
-    "base": 1120,
+    "base": 780,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -84,7 +84,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 285,
+    "base": 195,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -98,7 +98,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 156,
+    "base": 265,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -126,7 +126,7 @@
     "result": 0
   },
   "turning_performance": {
-    "base": 5,
+    "base": 9,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -139,7 +139,7 @@
     "result": 0
   },
   "wave_resistance": {
-    "base": 8,
+    "base": 10,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -152,7 +152,7 @@
     "result": 0
   },
   "armouring_value": {
-    "base": 48,
+    "base": 36,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -164,25 +164,25 @@
     "result": 0
   },
   "cabine_capacity": {
-    "base": 135,
+    "base": 65,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 135,
+    "base_ranged": 65,
     "improve_limit": {
       "base": 40,
       "grade": 0,
       "current": 40
     },
-    "required": 90,
+    "required": 40,
     "result": 0
   },
   "cannon_chambers_capacity": {
-    "base": 100,
+    "base": 64,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 100,
+    "base_ranged": 64,
     "improve_limit": {
       "base": 40,
       "grade": 0,
@@ -191,11 +191,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 365,
+    "base": 840,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 365,
+    "base_ranged": 840,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -211,10 +211,10 @@
     "name": "Beech Paneling"
   },
   "grade_size": 5,
-  "grade_type_default": "Battle Ship",
+  "grade_type_default": "Cargo Ship",
   "grade": {
     "rank": 0,
-    "type": "Battle Ship",
+    "type": "Cargo Ship",
     "skills": []
   }
 }

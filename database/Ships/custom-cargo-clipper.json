@@ -2,7 +2,7 @@
   "id": "50000600",
   "img": "00000193.png",
   "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000600",
-  "name": "xxx50000600",
+  "name": "Custom Cargo Clipper",
   "size": "Heavy",
   "purpose": "Trade",
   "steam": false,
@@ -194,11 +194,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 805,
+    "base": 880,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 805,
+    "base_ranged": 880,
     "improve_limit": {
       "base": 41,
       "grade": 0,

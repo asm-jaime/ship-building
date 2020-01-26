@@ -1,19 +1,19 @@
 {
-  "id": "50000599",
-  "img": "00000339.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000599",
-  "name": "xxx50000599",
+  "id": "50000611",
+  "img": "00000330.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000611",
+  "name": "Refitted Dragon Ship C2",
   "size": "Heavy",
   "purpose": "Trade",
   "steam": false,
   "sail": true,
   "is_nc": true,
   "levels": {
-    "advent": 26,
-    "trade": 49,
-    "battle": 41
+    "advent": 20,
+    "trade": 32,
+    "battle": 15
   },
-  "days": 41,
+  "days": 25,
   "skills": {
     "optional": {
       "limit": 2,
@@ -23,26 +23,20 @@
     "inherit": [],
     "original": "",
     "available": [{
-      "id": "00002046",
-      "parts": ["022000560", "022000622"]
-    }, {
-      "id": "00002064",
-      "parts": ["02200036", "022000560"]
-    }, {
-      "id": "00002021",
-      "parts": ["022000621", "022000623"]
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
     }, {
       "id": "00002036",
       "parts": ["022000563", "022000621"]
     }, {
-      "id": "00002032",
-      "parts": ["022000564", "022000621"]
-    }, {
       "id": "00002030",
       "parts": [null, "022000660"]
     }, {
-      "id": "00002010",
-      "parts": ["022000700", "022000413"]
+      "id": "00002034",
+      "parts": ["022000560", "022000621"]
+    }, {
+      "id": "00002033",
+      "parts": ["022000561", "022000621"]
     }]
   },
   "hulls": {
@@ -53,8 +47,8 @@
     }]
   },
   "ship_equipment": {
-    "studding_sails": 3,
-    "broadsides": 4,
+    "studding_sails": 4,
+    "broadsides": 3,
     "special_equipment": 2,
     "bow_turret": 1,
     "extra_armouring": 3,
@@ -77,7 +71,7 @@
     "result": 200
   },
   "durability": {
-    "base": 1092,
+    "base": 1008,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -90,7 +84,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 99,
+    "base": 332,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -104,7 +98,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 232,
+    "base": 179,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -145,7 +139,7 @@
     "result": 0
   },
   "wave_resistance": {
-    "base": 6,
+    "base": 9,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -158,7 +152,7 @@
     "result": 0
   },
   "armouring_value": {
-    "base": 36,
+    "base": 33,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -170,25 +164,25 @@
     "result": 0
   },
   "cabine_capacity": {
-    "base": 110,
+    "base": 72,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 110,
+    "base_ranged": 72,
     "improve_limit": {
       "base": 40,
       "grade": 0,
       "current": 40
     },
-    "required": 46,
+    "required": 38,
     "result": 0
   },
   "cannon_chambers_capacity": {
-    "base": 68,
+    "base": 40,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 68,
+    "base_ranged": 40,
     "improve_limit": {
       "base": 40,
       "grade": 0,
@@ -197,11 +191,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 1002,
+    "base": 948,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 1002,
+    "base_ranged": 948,
     "improve_limit": {
       "base": 41,
       "grade": 0,

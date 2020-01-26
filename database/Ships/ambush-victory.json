@@ -1,8 +1,8 @@
 {
-  "id": "50000622",
+  "id": "50000623",
   "img": "00000345.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000622",
-  "name": "xxx50000622",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000623",
+  "name": "Ambush Victory",
   "size": "Heavy",
   "purpose": "Battle",
   "steam": false,
@@ -74,7 +74,7 @@
     "result": 200
   },
   "durability": {
-    "base": 1134,
+    "base": 1204,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -87,7 +87,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 190,
+    "base": 185,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -101,7 +101,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 303,
+    "base": 265,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -129,7 +129,7 @@
     "result": 0
   },
   "turning_performance": {
-    "base": 8,
+    "base": 7,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -142,7 +142,7 @@
     "result": 0
   },
   "wave_resistance": {
-    "base": 10,
+    "base": 8,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -155,7 +155,7 @@
     "result": 0
   },
   "armouring_value": {
-    "base": 40,
+    "base": 44,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -167,11 +167,11 @@
     "result": 0
   },
   "cabine_capacity": {
-    "base": 136,
+    "base": 140,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 136,
+    "base_ranged": 140,
     "improve_limit": {
       "base": 40,
       "grade": 0,
@@ -194,11 +194,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 460,
+    "base": 700,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 460,
+    "base_ranged": 700,
     "improve_limit": {
       "base": 41,
       "grade": 0,

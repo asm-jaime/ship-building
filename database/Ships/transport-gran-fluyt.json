@@ -1,19 +1,19 @@
 {
-  "id": "50000348",
-  "img": "00000348.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000348",
-  "name": "xxx50000348",
+  "id": "50000599",
+  "img": "00000339.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000599",
+  "name": "Transport Gran Fluyt",
   "size": "Heavy",
-  "purpose": "Battle",
+  "purpose": "Trade",
   "steam": false,
   "sail": true,
-  "is_nc": false,
+  "is_nc": true,
   "levels": {
-    "advent": 30,
-    "trade": 38,
-    "battle": 76
+    "advent": 26,
+    "trade": 49,
+    "battle": 41
   },
-  "days": 45,
+  "days": 41,
   "skills": {
     "optional": {
       "limit": 2,
@@ -23,35 +23,38 @@
     "inherit": [],
     "original": "",
     "available": [{
-      "id": "00002064",
-      "parts": ["02200036", "022000560"]
-    }, {
-      "id": "00002101",
-      "parts": ["02200054", "022000560"]
-    }, {
-      "id": "00002105",
-      "parts": ["022000690", "02200073"]
-    }, {
       "id": "00002046",
       "parts": ["022000560", "022000622"]
     }, {
-      "id": "00002040",
-      "parts": ["022000461", "02200073"]
+      "id": "00002064",
+      "parts": ["02200036", "022000560"]
     }, {
-      "id": "00002063",
-      "parts": ["022000550", "022000680"]
+      "id": "00002021",
+      "parts": ["022000621", "022000623"]
+    }, {
+      "id": "00002036",
+      "parts": ["022000563", "022000621"]
+    }, {
+      "id": "00002032",
+      "parts": ["022000564", "022000621"]
+    }, {
+      "id": "00002030",
+      "parts": [null, "022000660"]
+    }, {
+      "id": "00002010",
+      "parts": ["022000700", "022000413"]
     }]
   },
   "hulls": {
     "current": "",
     "available": [{
-      "id": "022000061",
-      "name": "Large 3-decked Hull"
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
     "studding_sails": 3,
-    "broadsides": 5,
+    "broadsides": 4,
     "special_equipment": 2,
     "bow_turret": 1,
     "extra_armouring": 3,
@@ -60,9 +63,9 @@
   "improvement": {
     "result": 0,
     "limit": {
-      "base": 4,
+      "base": 6,
       "add": {
-        "limit": 0,
+        "limit": 2,
         "current": 0
       },
       "current": 0
@@ -74,7 +77,7 @@
     "result": 200
   },
   "durability": {
-    "base": 805,
+    "base": 1092,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -87,7 +90,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 190,
+    "base": 99,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -101,7 +104,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 275,
+    "base": 232,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -129,7 +132,7 @@
     "result": 0
   },
   "turning_performance": {
-    "base": 7,
+    "base": 6,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -142,7 +145,7 @@
     "result": 0
   },
   "wave_resistance": {
-    "base": 9,
+    "base": 6,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -155,7 +158,7 @@
     "result": 0
   },
   "armouring_value": {
-    "base": 42,
+    "base": 36,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -167,25 +170,25 @@
     "result": 0
   },
   "cabine_capacity": {
-    "base": 130,
+    "base": 110,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 130,
+    "base_ranged": 110,
     "improve_limit": {
       "base": 40,
       "grade": 0,
       "current": 40
     },
-    "required": 64,
+    "required": 46,
     "result": 0
   },
   "cannon_chambers_capacity": {
-    "base": 96,
+    "base": 68,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 96,
+    "base_ranged": 68,
     "improve_limit": {
       "base": 40,
       "grade": 0,
@@ -194,11 +197,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 404,
+    "base": 1180,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 404,
+    "base_ranged": 1180,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -214,10 +217,10 @@
     "name": "Beech Paneling"
   },
   "grade_size": 5,
-  "grade_type_default": "Battle Ship",
+  "grade_type_default": "Cargo Ship",
   "grade": {
     "rank": 0,
-    "type": "Battle Ship",
+    "type": "Cargo Ship",
     "skills": []
   }
 }

@@ -1,19 +1,19 @@
 {
-  "id": "50000346",
-  "img": "00000346.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000346",
-  "name": "xxx50000346",
+  "id": "50000602",
+  "img": "00000133.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000602",
+  "name": "Ambush La Royale",
   "size": "Heavy",
-  "purpose": "Adventure",
+  "purpose": "Battle",
   "steam": false,
-  "sail": true,
-  "is_nc": false,
+  "sail": false,
+  "is_nc": true,
   "levels": {
-    "advent": 70,
-    "trade": 33,
-    "battle": 29
+    "advent": 9,
+    "trade": 18,
+    "battle": 23
   },
-  "days": 30,
+  "days": 16,
   "skills": {
     "optional": {
       "limit": 2,
@@ -23,183 +23,195 @@
     "inherit": [],
     "original": "",
     "available": [{
-      "id": "00002001",
-      "parts": ["022000212", "022000660"]
+      "id": "00002122",
+      "parts": ["022000470", "022000623"]
     }, {
-      "id": "00002010",
-      "parts": ["022000700", "022000413"]
+      "id": "00002002",
+      "parts": ["02200044", "022000700"]
     }, {
-      "id": "00002005",
-      "parts": ["02200036", "022000620"]
+      "id": "00002080",
+      "parts": ["02200040", "02200050"]
     }, {
-      "id": "00002036",
-      "parts": ["022000563", "022000621"]
+      "id": "00002083",
+      "parts": ["02200054", "022000622"]
     }, {
-      "id": "00002011",
-      "parts": ["02200037", "02200040"]
+      "id": "00002062",
+      "parts": ["02200040", "022000413"]
+    }, {
+      "id": "00002123",
+      "parts": ["022000471", "022000622"]
+    }, {
+      "id": "00002128",
+      "parts": ["022000550", "022000560"]
+    }, {
+      "id": "00002126",
+      "parts": ["02200040", "022000569"]
+    }, {
+      "id": "00002129",
+      "parts": ["022000690", "022002140"]
     }]
   },
   "hulls": {
     "current": "",
     "available": [{
-      "id": "022000061",
-      "name": "Large 3-decked Hull"
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
     "studding_sails": 3,
-    "broadsides": 3,
+    "broadsides": 5,
     "special_equipment": 2,
-    "bow_turret": 0,
+    "bow_turret": 1,
     "extra_armouring": 3,
-    "stern_turret": 0
+    "stern_turret": 1
   },
   "improvement": {
     "result": 0,
     "limit": {
-      "base": 5,
+      "base": 6,
       "add": {
-        "limit": 0,
+        "limit": 2,
         "current": 0
       },
       "current": 0
     }
   },
   "ship_handling_proficiency": {
-    "base": 160,
+    "base": 200,
     "grade": 0,
-    "result": 160
+    "result": 200
   },
   "durability": {
-    "base": 730,
+    "base": 1162,
     "improve": 0,
     "material": 0,
     "grade": 0,
     "custom": 0,
     "improve_limit": {
-      "base": 210,
+      "base": 250,
       "grade": 0,
-      "current": 210
+      "current": 250
     },
     "result": 0
   },
   "vertical_sail": {
-    "base": 225,
+    "base": 222,
     "improve": 0,
     "material": 0,
     "grade": 0,
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 90,
+      "base": 110,
       "grade": 0,
-      "current": 90
+      "current": 110
     },
     "result": 0
   },
   "horizontal_sail": {
-    "base": 290,
+    "base": 114,
     "improve": 0,
     "material": 0,
     "grade": 0,
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 90,
+      "base": 110,
       "grade": 0,
-      "current": 90
+      "current": 110
     },
     "result": 0
   },
   "row_power": {
-    "row": false,
-    "base": 0,
+    "row": true,
+    "base": 100,
     "improve": 0,
     "grade": 0,
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 17,
+      "base": 21,
       "grade": 0,
-      "current": 17
+      "current": 21
     },
     "result": 0
   },
   "turning_performance": {
-    "base": 11,
+    "base": 12,
     "improve": 0,
     "grade": 0,
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 18,
+      "base": 22,
       "grade": 0,
-      "current": 18
+      "current": 22
     },
     "result": 0
   },
   "wave_resistance": {
-    "base": 13,
+    "base": 1,
     "improve": 0,
     "grade": 0,
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 17,
+      "base": 21,
       "grade": 0,
-      "current": 17
+      "current": 21
     },
     "result": 0
   },
   "armouring_value": {
-    "base": 28,
+    "base": 26,
     "improve": 0,
     "grade": 0,
     "custom": 0,
     "improve_limit": {
-      "base": 17,
+      "base": 21,
       "grade": 0,
-      "current": 17
+      "current": 21
     },
     "result": 0
   },
   "cabine_capacity": {
-    "base": 98,
+    "base": 156,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 98,
+    "base_ranged": 156,
     "improve_limit": {
-      "base": 32,
+      "base": 40,
       "grade": 0,
-      "current": 32
+      "current": 40
     },
-    "required": 34,
+    "required": 90,
     "result": 0
   },
   "cannon_chambers_capacity": {
-    "base": 36,
+    "base": 76,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 36,
+    "base_ranged": 76,
     "improve_limit": {
-      "base": 32,
+      "base": 40,
       "grade": 0,
-      "current": 32
+      "current": 40
     },
     "result": 0
   },
   "hold_capacity": {
-    "base": 536,
+    "base": 850,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 536,
+    "base_ranged": 850,
     "improve_limit": {
-      "base": 33,
+      "base": 41,
       "grade": 0,
-      "current": 33
+      "current": 41
     },
     "result": 0
   },
@@ -210,11 +222,11 @@
     "id": "022000800",
     "name": "Beech Paneling"
   },
-  "grade_size": 4,
-  "grade_type_default": "Expedition Ship",
+  "grade_size": 5,
+  "grade_type_default": "Battle Ship",
   "grade": {
     "rank": 0,
-    "type": "Expedition Ship",
+    "type": "Battle Ship",
     "skills": []
   }
 }

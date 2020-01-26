@@ -156,7 +156,8 @@ const initialState = {
     "result": 0
   },
   "hold_capacity": {
-    "base": 780, "improve": 0,
+    "base": 780,
+    "improve": 0,
     "base_ranged": 780,
     "grade": 0,
     "custom": 0,

@@ -1,19 +1,19 @@
 {
-  "id": "50000347",
-  "img": "00000347.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000347",
-  "name": "xxx50000347",
+  "id": "50000614",
+  "img": "00000341.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000614",
+  "name": "Modified Halve Maen",
   "size": "Heavy",
-  "purpose": "Trade",
+  "purpose": "Adventure",
   "steam": false,
   "sail": true,
-  "is_nc": false,
+  "is_nc": true,
   "levels": {
-    "advent": 28,
-    "trade": 70,
-    "battle": 51
+    "advent": 36,
+    "trade": 24,
+    "battle": 16
   },
-  "days": 42,
+  "days": 39,
   "skills": {
     "optional": {
       "limit": 2,
@@ -23,43 +23,46 @@
     "inherit": [],
     "original": "",
     "available": [{
-      "id": "00002064",
-      "parts": ["02200036", "022000560"]
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
     }, {
-      "id": "00002007",
-      "parts": ["022000561", "022000690"]
+      "id": "00002009",
+      "parts": ["02200036", "022000413"]
     }, {
-      "id": "00002123",
-      "parts": ["022000471", "022000622"]
+      "id": "00002025",
+      "parts": ["022000412", "022000690"]
     }, {
-      "id": "00002027",
-      "parts": ["022000680", "02200073"]
+      "id": "00002005",
+      "parts": ["02200036", "022000620"]
     }, {
-      "id": "00002033",
-      "parts": ["022000561", "022000621"]
+      "id": "00002010",
+      "parts": ["022000700", "022000413"]
+    }, {
+      "id": "00002011",
+      "parts": ["02200037", "02200040"]
     }]
   },
   "hulls": {
     "current": "",
     "available": [{
-      "id": "022000061",
-      "name": "Large 3-decked Hull"
+      "id": "",
+      "name": "Empty Hull"
     }]
   },
   "ship_equipment": {
     "studding_sails": 3,
     "broadsides": 4,
     "special_equipment": 2,
-    "bow_turret": 1,
+    "bow_turret": 0,
     "extra_armouring": 3,
     "stern_turret": 1
   },
   "improvement": {
     "result": 0,
     "limit": {
-      "base": 5,
+      "base": 6,
       "add": {
-        "limit": 0,
+        "limit": 2,
         "current": 0
       },
       "current": 0
@@ -71,7 +74,7 @@
     "result": 200
   },
   "durability": {
-    "base": 780,
+    "base": 750,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -84,7 +87,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 195,
+    "base": 250,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -98,7 +101,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 265,
+    "base": 270,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -126,7 +129,7 @@
     "result": 0
   },
   "turning_performance": {
-    "base": 9,
+    "base": 10,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -139,7 +142,7 @@
     "result": 0
   },
   "wave_resistance": {
-    "base": 10,
+    "base": 11,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -152,7 +155,7 @@
     "result": 0
   },
   "armouring_value": {
-    "base": 36,
+    "base": 29,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -164,17 +167,17 @@
     "result": 0
   },
   "cabine_capacity": {
-    "base": 65,
+    "base": 92,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 65,
+    "base_ranged": 92,
     "improve_limit": {
       "base": 40,
       "grade": 0,
       "current": 40
     },
-    "required": 40,
+    "required": 38,
     "result": 0
   },
   "cannon_chambers_capacity": {
@@ -191,11 +194,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 711,
+    "base": 645,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 711,
+    "base_ranged": 645,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -211,10 +214,10 @@
     "name": "Beech Paneling"
   },
   "grade_size": 5,
-  "grade_type_default": "Cargo Ship",
+  "grade_type_default": "Expedition Ship",
   "grade": {
     "rank": 0,
-    "type": "Cargo Ship",
+    "type": "Expedition Ship",
     "skills": []
   }
 }

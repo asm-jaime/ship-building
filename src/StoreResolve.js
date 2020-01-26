@@ -163,8 +163,7 @@ const hold = (hold) => ({
 export const get_cargo = (cargo, hold, cabine, chambers) => ({
   ...cargo,
   result: hold.base_ranged + hold.result -
-          cabine.base_ranged - cabine.result -
-          chambers.base_ranged - chambers.result,
+          cabine.base_ranged - chambers.base_ranged,
 });
 
 export const resolve = {

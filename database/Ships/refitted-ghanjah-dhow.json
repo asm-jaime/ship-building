@@ -1,19 +1,19 @@
 {
-  "id": "50000613",
-  "img": "00000192.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000613",
-  "name": "xxx50000613",
+  "id": "50000621",
+  "img": "00000344.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000621",
+  "name": "Refitted Ghanjah Dhow",
   "size": "Heavy",
-  "purpose": "Battle",
+  "purpose": "Trade",
   "steam": false,
   "sail": true,
   "is_nc": true,
   "levels": {
-    "advent": 22,
-    "trade": 19,
-    "battle": 35
+    "advent": 12,
+    "trade": 24,
+    "battle": 8
   },
-  "days": 30,
+  "days": 25,
   "skills": {
     "optional": {
       "limit": 2,
@@ -23,20 +23,23 @@
     "inherit": [],
     "original": "",
     "available": [{
-      "id": "00002064",
-      "parts": ["02200036", "022000560"]
+      "id": "00002023",
+      "parts": ["022000563", "022000620"]
     }, {
-      "id": "00002100",
-      "parts": ["022000560", "022000561"]
+      "id": "00002027",
+      "parts": ["022000680", "02200073"]
     }, {
-      "id": "00002101",
-      "parts": ["02200054", "022000560"]
+      "id": "00002029",
+      "parts": ["022000620", "022000623"]
     }, {
-      "id": "00002063",
-      "parts": ["022000550", "022000680"]
+      "id": "00002034",
+      "parts": ["022000560", "022000621"]
     }, {
-      "id": "00002045",
-      "parts": ["022000560", "022000622"]
+      "id": "00002007",
+      "parts": ["022000561", "022000690"]
+    }, {
+      "id": "00002010",
+      "parts": ["022000700", "022000413"]
     }]
   },
   "hulls": {
@@ -47,12 +50,12 @@
     }]
   },
   "ship_equipment": {
-    "studding_sails": 3,
-    "broadsides": 5,
+    "studding_sails": 2,
+    "broadsides": 3,
     "special_equipment": 2,
-    "bow_turret": 1,
+    "bow_turret": 0,
     "extra_armouring": 3,
-    "stern_turret": 1
+    "stern_turret": 0
   },
   "improvement": {
     "result": 0,
@@ -71,7 +74,7 @@
     "result": 200
   },
   "durability": {
-    "base": 1113,
+    "base": 601,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -84,7 +87,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 156,
+    "base": 353,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -98,7 +101,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 251,
+    "base": 104,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -126,7 +129,7 @@
     "result": 0
   },
   "turning_performance": {
-    "base": 4,
+    "base": 11,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -139,7 +142,7 @@
     "result": 0
   },
   "wave_resistance": {
-    "base": 7,
+    "base": 12,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -152,7 +155,7 @@
     "result": 0
   },
   "armouring_value": {
-    "base": 46,
+    "base": 13,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -164,25 +167,25 @@
     "result": 0
   },
   "cabine_capacity": {
-    "base": 145,
+    "base": 65,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 145,
+    "base_ranged": 65,
     "improve_limit": {
       "base": 40,
       "grade": 0,
       "current": 40
     },
-    "required": 72,
+    "required": 30,
     "result": 0
   },
   "cannon_chambers_capacity": {
-    "base": 100,
+    "base": 24,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 100,
+    "base_ranged": 24,
     "improve_limit": {
       "base": 40,
       "grade": 0,
@@ -191,11 +194,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 535,
+    "base": 800,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 535,
+    "base_ranged": 800,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -211,10 +214,10 @@
     "name": "Beech Paneling"
   },
   "grade_size": 5,
-  "grade_type_default": "Battle Ship",
+  "grade_type_default": "Cargo Ship",
   "grade": {
     "rank": 0,
-    "type": "Battle Ship",
+    "type": "Cargo Ship",
     "skills": []
   }
 }

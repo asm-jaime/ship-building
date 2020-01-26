@@ -1,17 +1,17 @@
 {
-  "id": "50000614",
-  "img": "00000341.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000614",
-  "name": "xxx50000614",
+  "id": "50000597",
+  "img": "00000337.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000597",
+  "name": "Ceremonial Ingermanland",
   "size": "Heavy",
-  "purpose": "Adventure",
+  "purpose": "Battle",
   "steam": false,
   "sail": true,
   "is_nc": true,
   "levels": {
-    "advent": 36,
-    "trade": 24,
-    "battle": 16
+    "advent": 31,
+    "trade": 26,
+    "battle": 49
   },
   "days": 39,
   "skills": {
@@ -23,23 +23,20 @@
     "inherit": [],
     "original": "",
     "available": [{
-      "id": "00002001",
-      "parts": ["022000212", "022000660"]
+      "id": "00002064",
+      "parts": ["02200036", "022000560"]
     }, {
-      "id": "00002009",
-      "parts": ["02200036", "022000413"]
+      "id": "00002105",
+      "parts": ["022000690", "02200073"]
     }, {
-      "id": "00002025",
-      "parts": ["022000412", "022000690"]
+      "id": "00002042",
+      "parts": ["022000460", "02200073"]
     }, {
-      "id": "00002005",
-      "parts": ["02200036", "022000620"]
+      "id": "00002102",
+      "parts": ["022000564", "022000690"]
     }, {
-      "id": "00002010",
-      "parts": ["022000700", "022000413"]
-    }, {
-      "id": "00002011",
-      "parts": ["02200037", "02200040"]
+      "id": "00002120",
+      "parts": ["02200020", "022000413"]
     }]
   },
   "hulls": {
@@ -51,9 +48,9 @@
   },
   "ship_equipment": {
     "studding_sails": 3,
-    "broadsides": 4,
+    "broadsides": 5,
     "special_equipment": 2,
-    "bow_turret": 0,
+    "bow_turret": 1,
     "extra_armouring": 3,
     "stern_turret": 1
   },
@@ -74,7 +71,7 @@
     "result": 200
   },
   "durability": {
-    "base": 750,
+    "base": 1134,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -87,7 +84,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 250,
+    "base": 104,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -101,7 +98,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 270,
+    "base": 227,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -129,7 +126,7 @@
     "result": 0
   },
   "turning_performance": {
-    "base": 10,
+    "base": 8,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -142,7 +139,7 @@
     "result": 0
   },
   "wave_resistance": {
-    "base": 11,
+    "base": 7,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -155,7 +152,7 @@
     "result": 0
   },
   "armouring_value": {
-    "base": 29,
+    "base": 50,
     "improve": 0,
     "grade": 0,
     "custom": 0,
@@ -167,25 +164,25 @@
     "result": 0
   },
   "cabine_capacity": {
-    "base": 92,
+    "base": 116,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 92,
+    "base_ranged": 116,
     "improve_limit": {
       "base": 40,
       "grade": 0,
       "current": 40
     },
-    "required": 38,
+    "required": 40,
     "result": 0
   },
   "cannon_chambers_capacity": {
-    "base": 64,
+    "base": 80,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 64,
+    "base_ranged": 80,
     "improve_limit": {
       "base": 40,
       "grade": 0,
@@ -194,11 +191,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 489,
+    "base": 700,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 489,
+    "base_ranged": 700,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -214,10 +211,10 @@
     "name": "Beech Paneling"
   },
   "grade_size": 5,
-  "grade_type_default": "Expedition Ship",
+  "grade_type_default": "Battle Ship",
   "grade": {
     "rank": 0,
-    "type": "Expedition Ship",
+    "type": "Battle Ship",
     "skills": []
   }
 }

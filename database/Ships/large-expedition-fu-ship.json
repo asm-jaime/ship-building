@@ -188,11 +188,11 @@
     "result": 0
   },
   "hold_capacity": {
-    "base": 896,
+    "base": 1050,
     "improve": 0,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 896,
+    "base_ranged": 1050,
     "improve_limit": {
       "base": 41,
       "grade": 0,
