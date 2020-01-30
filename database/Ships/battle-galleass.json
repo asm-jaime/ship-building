@@ -5,47 +5,15 @@
   "name": "Battle Galleass",
   "size": "Heavy",
   "purpose": "Battle",
-  "steam": false,
-  "sail": false,
-  "is_nc": false,
   "levels": {
     "advent": 16,
     "trade": 28,
     "battle": 60
   },
   "days": 16,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002002",
-      "parts": ["02200044"]
-    }, {
-      "id": "00002081",
-      "parts": ["02200038", "02200050"]
-    }, {
-      "id": "00002060",
-      "parts": ["022000680"]
-    }, {
-      "id": "00002083",
-      "parts": ["02200054", "022000622"]
-    }, {
-      "id": "00002062",
-      "parts": ["02200040", "022000413"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "022000150",
-      "name": "Large 3-decked Row Boat"
-    }]
-  },
+  "sail": false,
+  "steam": false,
+  "is_nc": false,
   "ship_equipment": {
     "studding_sails": 3,
     "broadsides": 4,
@@ -62,7 +30,7 @@
         "limit": 1,
         "current": 0
       },
-      "current": 0
+      "current": 5
     }
   },
   "ship_handling_proficiency": {
@@ -193,9 +161,9 @@
   "hold_capacity": {
     "base": 840,
     "improve": 0,
+    "base_ranged": 840,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 840,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -209,6 +177,35 @@
   "material": {
     "id": "022000800",
     "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002002",
+      "parts": ["02200044"]
+    }, {
+      "id": "00002060",
+      "parts": ["022000680"]
+    }, {
+      "id": "00002062",
+      "parts": ["02200040", "022000413"]
+    }, {
+      "id": "00002081",
+      "parts": ["02200050", "02200038"]
+    }, {
+      "id": "00002083",
+      "parts": ["02200054", "022000622"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "grade_size": 5,
   "grade_type_default": "Battle Ship",

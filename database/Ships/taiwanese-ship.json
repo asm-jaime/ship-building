@@ -5,50 +5,15 @@
   "name": "Taiwanese Ship",
   "size": "Heavy",
   "purpose": "Adventure",
-  "steam": false,
-  "sail": true,
-  "is_nc": true,
   "levels": {
     "advent": 43,
     "trade": 41,
     "battle": 18
   },
   "days": 22,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002001",
-      "parts": ["022000212", "022000660"]
-    }, {
-      "id": "00002009",
-      "parts": ["02200036", "022000413"]
-    }, {
-      "id": "00002007",
-      "parts": ["022000561", "022000690"]
-    }, {
-      "id": "00002027",
-      "parts": ["022000680", "02200073"]
-    }, {
-      "id": "00002125",
-      "parts": ["022000470", "022000622"]
-    }, {
-      "id": "00002131",
-      "parts": ["022000620", "022000624"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "",
-      "name": "Empty Hull"
-    }]
-  },
+  "sail": true,
+  "steam": false,
+  "is_nc": true,
   "ship_equipment": {
     "studding_sails": 3,
     "broadsides": 5,
@@ -62,10 +27,10 @@
     "limit": {
       "base": 5,
       "add": {
-        "limit": 2,
+        "limit": 0,
         "current": 0
       },
-      "current": 0
+      "current": 5
     }
   },
   "ship_handling_proficiency": {
@@ -122,9 +87,9 @@
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 21,
+      "base": 0,
       "grade": 0,
-      "current": 21
+      "current": 0
     },
     "result": 0
   },
@@ -196,9 +161,9 @@
   "hold_capacity": {
     "base": 750,
     "improve": 0,
+    "base_ranged": 750,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 750,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -212,6 +177,38 @@
   "material": {
     "id": "022000800",
     "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
+    }, {
+      "id": "00002007",
+      "parts": ["022000561", "022000690"]
+    }, {
+      "id": "00002009",
+      "parts": ["02200036", "022000413"]
+    }, {
+      "id": "00002027",
+      "parts": ["02200073", "022000680"]
+    }, {
+      "id": "00002125",
+      "parts": ["022000470", "022000622"]
+    }, {
+      "id": "00002131",
+      "parts": ["022000620", "022000624"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "grade_size": 5,
   "grade_type_default": "Expedition Ship",

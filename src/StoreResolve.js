@@ -903,8 +903,7 @@ export const find_ships = (ships, req) => {
         (ships[keys[i]]['size'] === SHIP_SIZE_HEAVY &&
            req.heavy === false)
       ) || (
-        (ships[keys[i]]['is_nc'] === false &&
-         req.nc === true)
+        (ships[keys[i]]['is_nc'] === true && req.nc === false)
       ) || (
         (ships[keys[i]]['sail'] === true &&
          req.sail === false) ||

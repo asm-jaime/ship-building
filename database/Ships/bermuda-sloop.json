@@ -4,51 +4,16 @@
   "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000343",
   "name": "Bermuda Sloop",
   "size": "Heavy",
-  "purpose": "Adventure",
-  "steam": false,
-  "sail": true,
-  "is_nc": false,
+  "purpose": "Battle",
   "levels": {
     "advent": 50,
     "trade": 33,
     "battle": 70
   },
   "days": 42,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002064",
-      "parts": ["02200036", "022000560"]
-    }, {
-      "id": "00002046",
-      "parts": ["022000560", "022000622"]
-    }, {
-      "id": "00002100",
-      "parts": ["022000560", "022000561"]
-    }, {
-      "id": "00002044",
-      "parts": ["022000460", "02200073"]
-    }, {
-      "id": "00002040",
-      "parts": ["022000461", "02200073"]
-    }, {
-      "id": "00002123",
-      "parts": ["022000471", "022000622"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "022000002",
-      "name": "Large Flush Deck Style Hull"
-    }]
-  },
+  "sail": true,
+  "steam": false,
+  "is_nc": false,
   "ship_equipment": {
     "studding_sails": 1,
     "broadsides": 5,
@@ -65,7 +30,7 @@
         "limit": 0,
         "current": 0
       },
-      "current": 0
+      "current": 5
     }
   },
   "ship_handling_proficiency": {
@@ -196,9 +161,9 @@
   "hold_capacity": {
     "base": 670,
     "improve": 0,
+    "base_ranged": 670,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 670,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -213,11 +178,43 @@
     "id": "022000800",
     "name": "Beech Paneling"
   },
+  "skills": {
+    "available": [{
+      "id": "00002046",
+      "parts": ["022000560", "022000622"]
+    }, {
+      "id": "00002040",
+      "parts": ["02200073", "022000461"]
+    }, {
+      "id": "00002064",
+      "parts": ["022000560", "02200036"]
+    }, {
+      "id": "00002044",
+      "parts": ["02200073", "022000460"]
+    }, {
+      "id": "00002123",
+      "parts": ["022000471", "022000622"]
+    }, {
+      "id": "00002100",
+      "parts": ["022000560", "022000561"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
+  },
   "grade_size": 5,
-  "grade_type_default": "Expedition Ship",
+  "grade_type_default": "Battle Ship",
   "grade": {
     "rank": 0,
-    "type": "Expedition Ship",
+    "type": "Battle Ship",
     "skills": []
   }
 }

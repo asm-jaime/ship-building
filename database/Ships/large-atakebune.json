@@ -5,47 +5,15 @@
   "name": "Large Atakebune",
   "size": "Heavy",
   "purpose": "Battle",
-  "steam": false,
-  "sail": false,
-  "is_nc": true,
   "levels": {
     "advent": 21,
     "trade": 16,
     "battle": 61
   },
   "days": 28,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002004",
-      "parts": ["02200054", "022000413"]
-    }, {
-      "id": "00002101",
-      "parts": ["02200054", "022000560"]
-    }, {
-      "id": "00002061",
-      "parts": ["022000622", "022000623"]
-    }, {
-      "id": "00002045",
-      "parts": ["022000560", "022000622"]
-    }, {
-      "id": "00002126",
-      "parts": ["02200040", "022000569"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "",
-      "name": "Empty Hull"
-    }]
-  },
+  "sail": false,
+  "steam": false,
+  "is_nc": true,
   "ship_equipment": {
     "studding_sails": 1,
     "broadsides": 5,
@@ -62,7 +30,7 @@
         "limit": 0,
         "current": 0
       },
-      "current": 0
+      "current": 5
     }
   },
   "ship_handling_proficiency": {
@@ -71,7 +39,7 @@
     "result": 200
   },
   "durability": {
-    "base": 937,
+    "base": 927,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -193,9 +161,9 @@
   "hold_capacity": {
     "base": 760,
     "improve": 0,
+    "base_ranged": 760,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 760,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -209,6 +177,20 @@
   "material": {
     "id": "022000800",
     "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "grade_size": 5,
   "grade_type_default": "Battle Ship",

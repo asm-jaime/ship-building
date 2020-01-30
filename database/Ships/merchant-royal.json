@@ -1,0 +1,220 @@
+{
+  "id": "50000384",
+  "img": "00000384.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000384",
+  "name": "Merchant Royal",
+  "size": "Heavy",
+  "purpose": "Adventure",
+  "levels": {
+    "advent": 78,
+    "trade": 45,
+    "battle": 30
+  },
+  "days": 45,
+  "sail": true,
+  "steam": false,
+  "is_nc": false,
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 4,
+    "special_equipment": 2,
+    "bow_turret": 1,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 6,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 6
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 700,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 270,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 320,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 0,
+      "grade": 0,
+      "current": 0
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 13,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 14,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 38,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 80,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 80,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 35,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 60,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 60,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 600,
+    "improve": 0,
+    "base_ranged": 600,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "cargo": {
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
+    }, {
+      "id": "00002010",
+      "parts": ["022000413", "022000700"]
+    }, {
+      "id": "00002016",
+      "parts": ["022000560", "022000620"]
+    }, {
+      "id": "00002017",
+      "parts": ["022000561", "022000565"]
+    }, {
+      "id": "00002009",
+      "parts": ["02200036", "022000413"]
+    }, {
+      "id": "00002005",
+      "parts": ["02200036"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
+  },
+  "grade_size": 5,
+  "grade_type_default": "Expedition Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Expedition Ship",
+    "skills": []
+  }
+}

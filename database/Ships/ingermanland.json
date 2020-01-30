@@ -5,47 +5,15 @@
   "name": "Ingermanland",
   "size": "Heavy",
   "purpose": "Battle",
-  "steam": false,
-  "sail": true,
-  "is_nc": false,
   "levels": {
     "advent": 42,
     "trade": 33,
     "battle": 78
   },
   "days": 39,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002064",
-      "parts": ["02200036", "022000560"]
-    }, {
-      "id": "00002105",
-      "parts": ["022000690", "02200073"]
-    }, {
-      "id": "00002042",
-      "parts": ["022000460", "02200073"]
-    }, {
-      "id": "00002102",
-      "parts": ["022000564", "022000690"]
-    }, {
-      "id": "00002120",
-      "parts": ["02200020", "022000413"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "022000035",
-      "name": "Special Large 2-decked Hull"
-    }]
-  },
+  "sail": true,
+  "steam": false,
+  "is_nc": false,
   "ship_equipment": {
     "studding_sails": 3,
     "broadsides": 5,
@@ -62,7 +30,7 @@
         "limit": 0,
         "current": 0
       },
-      "current": 0
+      "current": 4
     }
   },
   "ship_handling_proficiency": {
@@ -119,9 +87,9 @@
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 21,
+      "base": 0,
       "grade": 0,
-      "current": 21
+      "current": 0
     },
     "result": 0
   },
@@ -193,9 +161,9 @@
   "hold_capacity": {
     "base": 700,
     "improve": 0,
+    "base_ranged": 700,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 700,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -209,6 +177,35 @@
   "material": {
     "id": "022000800",
     "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002105",
+      "parts": ["02200073", "022000690"]
+    }, {
+      "id": "00002064",
+      "parts": ["022000560", "02200036"]
+    }, {
+      "id": "00002042",
+      "parts": ["02200073", "022000460"]
+    }, {
+      "id": "00002102",
+      "parts": ["022000564", "022000690"]
+    }, {
+      "id": "00002120",
+      "parts": ["02200020", "022000413"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "grade_size": 5,
   "grade_type_default": "Battle Ship",

@@ -48,14 +48,12 @@ const fix_ship_names = () => {
   for(let i = 0; i < files.length; ++i) {
     if(path.extname(files[i]) === '.json') {
       const ship = JSON.parse(fs.readFileSync(`${resource}/${files[i]}`, 'utf8'));
-      if(ship.name.search('xxx') > -1) {
-        get_ship_name(ship.href)
-          .then((shipName) => {
-            ship.name = shipName;
-            save_ship_to_file(ship);
-          })
-          .catch(console.log);
-      }
+      setTimeout(() => (get_ship_name(ship.href)
+        .then((shipName) => {
+          ship.name = shipName;
+          save_ship_to_file(ship);
+        })
+        .catch(console.log)), 1000*i);
     }
   }
 };

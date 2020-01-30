@@ -1,65 +1,36 @@
 {
-  "id": "50000528",
+  "id": "50000218",
   "img": "00000194.png",
-  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000528",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000218",
   "name": "Custom Sagyeonseon",
   "size": "Heavy",
   "purpose": "Adventure",
-  "steam": false,
-  "sail": true,
-  "is_nc": true,
   "levels": {
     "advent": 12,
     "trade": 6,
     "battle": 3
   },
-  "days": 23,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002001",
-      "parts": ["022000212", "022000660"]
-    }, {
-      "id": "00002025",
-      "parts": ["022000412", "022000690"]
-    }, {
-      "id": "00002007",
-      "parts": ["022000561", "022000690"]
-    }, {
-      "id": "00002131",
-      "parts": ["022000620", "022000624"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "",
-      "name": "Empty Hull"
-    }]
-  },
+  "days": 22,
+  "sail": true,
+  "steam": false,
+  "is_nc": true,
   "ship_equipment": {
     "studding_sails": 2,
     "broadsides": 3,
     "special_equipment": 2,
     "bow_turret": 0,
-    "extra_armouring": 0,
+    "extra_armouring": 3,
     "stern_turret": 0
   },
   "improvement": {
     "result": 0,
     "limit": {
-      "base": 6,
+      "base": 5,
       "add": {
-        "limit": 2,
+        "limit": 0,
         "current": 0
       },
-      "current": 0
+      "current": 5
     }
   },
   "ship_handling_proficiency": {
@@ -68,7 +39,7 @@
     "result": 160
   },
   "durability": {
-    "base": 605,
+    "base": 517,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -81,7 +52,7 @@
     "result": 0
   },
   "vertical_sail": {
-    "base": 273,
+    "base": 269,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -95,7 +66,7 @@
     "result": 0
   },
   "horizontal_sail": {
-    "base": 147,
+    "base": 145,
     "improve": 0,
     "material": 0,
     "grade": 0,
@@ -116,9 +87,9 @@
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 17,
+      "base": 0,
       "grade": 0,
-      "current": 17
+      "current": 0
     },
     "result": 0
   },
@@ -190,9 +161,9 @@
   "hold_capacity": {
     "base": 590,
     "improve": 0,
+    "base_ranged": 590,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 590,
     "improve_limit": {
       "base": 33,
       "grade": 0,
@@ -206,6 +177,35 @@
   "material": {
     "id": "022000800",
     "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
+    }, {
+      "id": "00002007",
+      "parts": ["022000561", "022000690"]
+    }, {
+      "id": "00002025",
+      "parts": ["022000690", "022000412"]
+    }, {
+      "id": "00002131",
+      "parts": ["022000620", "022000624"]
+    }, {
+      "id": "00002027",
+      "parts": ["02200073", "022000680"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "grade_size": 4,
   "grade_type_default": "Expedition Ship",

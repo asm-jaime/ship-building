@@ -1,0 +1,223 @@
+{
+  "id": "50000684",
+  "img": "00000330.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000684",
+  "name": "Superior Dragon Ship C2",
+  "size": "Heavy",
+  "purpose": "Trade",
+  "levels": {
+    "advent": 15,
+    "trade": 30,
+    "battle": 10
+  },
+  "days": 32,
+  "sail": true,
+  "steam": false,
+  "is_nc": true,
+  "ship_equipment": {
+    "studding_sails": 4,
+    "broadsides": 3,
+    "special_equipment": 2,
+    "bow_turret": 1,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 5
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 820,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 130,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 260,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 0,
+      "grade": 0,
+      "current": 0
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 7,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 9,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 38,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 100,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 100,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 50,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 70,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 70,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 1190,
+    "improve": 0,
+    "base_ranged": 1190,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "cargo": {
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002046",
+      "parts": ["022000560", "022000622"]
+    }, {
+      "id": "00002032",
+      "parts": ["022000564", "022000621"]
+    }, {
+      "id": "00002064",
+      "parts": ["022000560", "02200036"]
+    }, {
+      "id": "00002030",
+      "parts": ["022000660"]
+    }, {
+      "id": "00002021",
+      "parts": ["022000621", "022000623"]
+    }, {
+      "id": "00002010",
+      "parts": ["022000413", "022000700"]
+    }, {
+      "id": "00002036",
+      "parts": ["022000621", "022000563"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
+  },
+  "grade_size": 5,
+  "grade_type_default": "Cargo Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Cargo Ship",
+    "skills": []
+  }
+}

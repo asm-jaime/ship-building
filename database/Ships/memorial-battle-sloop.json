@@ -5,41 +5,15 @@
   "name": "Memorial Battle Sloop",
   "size": "Light",
   "purpose": "Battle",
-  "steam": false,
-  "sail": true,
-  "is_nc": false,
   "levels": {
-    "advent": 0,
-    "trade": 0,
-    "battle": 15
+    "advent": null,
+    "trade": null,
+    "battle": 11
   },
-  "days": 0,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002121",
-      "parts": ["02200020", "02200036"]
-    }, {
-      "id": "00002000",
-      "parts": ["022000700", "02200072"]
-    }, {
-      "id": "00002004",
-      "parts": ["02200054", "022000413"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "",
-      "name": "Empty Hull"
-    }]
-  },
+  "days": 28,
+  "sail": true,
+  "steam": false,
+  "is_nc": true,
   "ship_equipment": {
     "studding_sails": 2,
     "broadsides": 3,
@@ -51,12 +25,12 @@
   "improvement": {
     "result": 0,
     "limit": {
-      "base": 2,
+      "base": 5,
       "add": {
-        "limit": 1,
+        "limit": 0,
         "current": 0
       },
-      "current": 0
+      "current": 5
     }
   },
   "ship_handling_proficiency": {
@@ -113,9 +87,9 @@
     "custom": 0,
     "penalty": 0,
     "improve_limit": {
-      "base": 9,
+      "base": 21,
       "grade": 0,
-      "current": 9
+      "current": 21
     },
     "result": 0
   },
@@ -187,9 +161,9 @@
   "hold_capacity": {
     "base": 230,
     "improve": 0,
+    "base_ranged": 230,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 230,
     "improve_limit": {
       "base": 17,
       "grade": 0,
@@ -203,6 +177,29 @@
   "material": {
     "id": "022000800",
     "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002000",
+      "parts": ["02200072", "022000700"]
+    }, {
+      "id": "00002004",
+      "parts": ["02200054", "022000413"]
+    }, {
+      "id": "00002121",
+      "parts": ["02200036", "02200020"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "grade_size": 2,
   "grade_type_default": "Battle Ship",

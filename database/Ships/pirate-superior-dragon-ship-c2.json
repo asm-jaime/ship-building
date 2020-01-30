@@ -1,0 +1,202 @@
+{
+  "id": "50000767",
+  "img": "00000330.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000767",
+  "name": "Pirate Superior Dragon Ship C2",
+  "size": "Heavy",
+  "purpose": "Battle",
+  "levels": {
+    "advent": 20,
+    "trade": 20,
+    "battle": 45
+  },
+  "days": 28,
+  "sail": true,
+  "steam": false,
+  "is_nc": true,
+  "ship_equipment": {
+    "studding_sails": 0,
+    "broadsides": 0,
+    "special_equipment": 0,
+    "bow_turret": 0,
+    "extra_armouring": 0,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 5
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 1200,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 275,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 345,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 15,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 40,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 50,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 50,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 0,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 0,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 1100,
+    "improve": 0,
+    "base_ranged": 1100,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "cargo": {
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
+  },
+  "grade_size": 5,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

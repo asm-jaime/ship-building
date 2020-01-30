@@ -1,0 +1,217 @@
+{
+  "id": "50000654",
+  "img": "00000363.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000654",
+  "name": "Advanced Surprise",
+  "size": "Heavy",
+  "purpose": "Battle",
+  "levels": {
+    "advent": 20,
+    "trade": 20,
+    "battle": 36
+  },
+  "days": 28,
+  "sail": true,
+  "steam": false,
+  "is_nc": true,
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 5,
+    "special_equipment": 2,
+    "bow_turret": 1,
+    "extra_armouring": 3,
+    "stern_turret": 1
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 5
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 200,
+    "grade": 0,
+    "result": 200
+  },
+  "durability": {
+    "base": 1183,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 250,
+      "grade": 0,
+      "current": 250
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 161,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 199,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 110,
+      "grade": 0,
+      "current": 110
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 9,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 22,
+      "grade": 0,
+      "current": 22
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 40,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 21,
+      "grade": 0,
+      "current": 21
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 135,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 135,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "required": 70,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 100,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 100,
+    "improve_limit": {
+      "base": 40,
+      "grade": 0,
+      "current": 40
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 750,
+    "improve": 0,
+    "base_ranged": 750,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 41,
+      "grade": 0,
+      "current": 41
+    },
+    "result": 0
+  },
+  "cargo": {
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002046",
+      "parts": ["022000560", "022000622", "022000512"]
+    }, {
+      "id": "00002007",
+      "parts": ["022000561", "022000690"]
+    }, {
+      "id": "00002000",
+      "parts": ["02200072", "022000700"]
+    }, {
+      "id": "00002040",
+      "parts": ["022000460", "022000461"]
+    }, {
+      "id": "00002064",
+      "parts": ["022000560", "02200036"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
+  },
+  "grade_size": 5,
+  "grade_type_default": "Battle Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Battle Ship",
+    "skills": []
+  }
+}

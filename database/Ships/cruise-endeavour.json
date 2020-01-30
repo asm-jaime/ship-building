@@ -1,0 +1,220 @@
+{
+  "id": "50000624",
+  "img": "00000346.png",
+  "href": "http://uwodbmirror.ivyro.net/eg/main.php?id=50000624",
+  "name": "Cruise Endeavour",
+  "size": "Heavy",
+  "purpose": "Adventure",
+  "levels": {
+    "advent": 35,
+    "trade": 16,
+    "battle": 15
+  },
+  "days": 22,
+  "sail": true,
+  "steam": false,
+  "is_nc": true,
+  "ship_equipment": {
+    "studding_sails": 3,
+    "broadsides": 3,
+    "special_equipment": 2,
+    "bow_turret": 0,
+    "extra_armouring": 3,
+    "stern_turret": 0
+  },
+  "improvement": {
+    "result": 0,
+    "limit": {
+      "base": 5,
+      "add": {
+        "limit": 0,
+        "current": 0
+      },
+      "current": 5
+    }
+  },
+  "ship_handling_proficiency": {
+    "base": 160,
+    "grade": 0,
+    "result": 160
+  },
+  "durability": {
+    "base": 730,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 210,
+      "grade": 0,
+      "current": 210
+    },
+    "result": 0
+  },
+  "vertical_sail": {
+    "base": 250,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "horizontal_sail": {
+    "base": 310,
+    "improve": 0,
+    "material": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 90,
+      "grade": 0,
+      "current": 90
+    },
+    "result": 0
+  },
+  "row_power": {
+    "row": false,
+    "base": 0,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 0,
+      "grade": 0,
+      "current": 0
+    },
+    "result": 0
+  },
+  "turning_performance": {
+    "base": 12,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 18,
+      "grade": 0,
+      "current": 18
+    },
+    "result": 0
+  },
+  "wave_resistance": {
+    "base": 13,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "penalty": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "armouring_value": {
+    "base": 28,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 17,
+      "grade": 0,
+      "current": 17
+    },
+    "result": 0
+  },
+  "cabine_capacity": {
+    "base": 98,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 98,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "required": 32,
+    "result": 0
+  },
+  "cannon_chambers_capacity": {
+    "base": 36,
+    "improve": 0,
+    "grade": 0,
+    "custom": 0,
+    "base_ranged": 36,
+    "improve_limit": {
+      "base": 32,
+      "grade": 0,
+      "current": 32
+    },
+    "result": 0
+  },
+  "hold_capacity": {
+    "base": 670,
+    "improve": 0,
+    "base_ranged": 670,
+    "grade": 0,
+    "custom": 0,
+    "improve_limit": {
+      "base": 33,
+      "grade": 0,
+      "current": 33
+    },
+    "result": 0
+  },
+  "cargo": {
+    "result": 0
+  },
+  "material": {
+    "id": "022000800",
+    "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002001",
+      "parts": ["022000212", "022000660"]
+    }, {
+      "id": "00002005",
+      "parts": ["02200036", "022000620"]
+    }, {
+      "id": "00002011",
+      "parts": ["02200037", "02200040"]
+    }, {
+      "id": "00002010",
+      "parts": ["022000413", "022000700"]
+    }, {
+      "id": "00002036",
+      "parts": ["022000621", "022000563"]
+    }, {
+      "id": "00002064",
+      "parts": ["022000560", "02200036"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
+  },
+  "grade_size": 4,
+  "grade_type_default": "Expedition Ship",
+  "grade": {
+    "rank": 0,
+    "type": "Expedition Ship",
+    "skills": []
+  }
+}

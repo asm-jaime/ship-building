@@ -5,50 +5,15 @@
   "name": "Ottoman Galleass",
   "size": "Heavy",
   "purpose": "Battle",
-  "steam": false,
-  "sail": false,
-  "is_nc": false,
   "levels": {
     "advent": 34,
     "trade": 27,
     "battle": 75
   },
   "days": 43,
-  "skills": {
-    "optional": {
-      "limit": 2,
-      "grade": 0,
-      "set": []
-    },
-    "inherit": [],
-    "original": "",
-    "available": [{
-      "id": "00002002",
-      "parts": ["02200044", "022000700"]
-    }, {
-      "id": "00002004",
-      "parts": ["02200054", "022000413"]
-    }, {
-      "id": "00002044",
-      "parts": ["022000460", "02200073"]
-    }, {
-      "id": "00002046",
-      "parts": ["022000560", "022000622"]
-    }, {
-      "id": "00002061",
-      "parts": ["022000622", "022000623"]
-    }, {
-      "id": "00002121",
-      "parts": ["02200020", "02200036"]
-    }]
-  },
-  "hulls": {
-    "current": "",
-    "available": [{
-      "id": "022000122",
-      "name": "Custom Large 2 decked Row Boat"
-    }]
-  },
+  "sail": false,
+  "steam": false,
+  "is_nc": false,
   "ship_equipment": {
     "studding_sails": 4,
     "broadsides": 5,
@@ -65,7 +30,7 @@
         "limit": 0,
         "current": 0
       },
-      "current": 0
+      "current": 4
     }
   },
   "ship_handling_proficiency": {
@@ -196,9 +161,9 @@
   "hold_capacity": {
     "base": 890,
     "improve": 0,
+    "base_ranged": 890,
     "grade": 0,
     "custom": 0,
-    "base_ranged": 890,
     "improve_limit": {
       "base": 41,
       "grade": 0,
@@ -212,6 +177,38 @@
   "material": {
     "id": "022000800",
     "name": "Beech Paneling"
+  },
+  "skills": {
+    "available": [{
+      "id": "00002002",
+      "parts": ["022000700", "02200044"]
+    }, {
+      "id": "00002004",
+      "parts": ["02200054", "022000413"]
+    }, {
+      "id": "00002044",
+      "parts": ["02200073", "022000460"]
+    }, {
+      "id": "00002046",
+      "parts": ["022000560", "022000622"]
+    }, {
+      "id": "00002061",
+      "parts": ["022000623", "022000622"]
+    }, {
+      "id": "00002121",
+      "parts": ["02200036", "02200020"]
+    }],
+    "optional": {
+      "limit": 2,
+      "grade": 0,
+      "set": []
+    },
+    "inherit": [],
+    "original": ""
+  },
+  "hulls": {
+    "current": "",
+    "available": []
   },
   "grade_size": 5,
   "grade_type_default": "Battle Ship",
